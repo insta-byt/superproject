@@ -1,0 +1,4456 @@
+[submodule "accessories/manifest"]
+	branch = master
+	path = accessories/manifest
+	url = ../../accessories/manifest
+[submodule "brillo/manifest"]
+	branch = master
+	path = brillo/manifest
+	url = ../../brillo/manifest
+[submodule "device/asus/deb"]
+	branch = master
+	path = device/asus/deb
+	url = ../../device/asus/deb
+[submodule "device/asus/flo-kernel"]
+	branch = master
+	path = device/asus/flo-kernel
+	url = ../../device/asus/flo-kernel
+[submodule "device/asus/flo"]
+	branch = master
+	path = device/asus/flo
+	url = ../../device/asus/flo
+[submodule "device/asus/fugu-kernel"]
+	branch = master
+	path = device/asus/fugu-kernel
+	url = ../../device/asus/fugu-kernel
+[submodule "device/asus/fugu"]
+	branch = master
+	path = device/asus/fugu
+	url = ../../device/asus/fugu
+[submodule "device/asus/grouper"]
+	branch = master
+	path = device/asus/grouper
+	url = ../../device/asus/grouper
+[submodule "device/asus/tilapia"]
+	branch = master
+	path = device/asus/tilapia
+	url = ../../device/asus/tilapia
+[submodule "device/casio/koi-uboot"]
+	branch = master
+	path = device/casio/koi-uboot
+	url = ../../device/casio/koi-uboot
+[submodule "device/common"]
+	branch = master
+	path = device/common
+	url = ../../device/common
+[submodule "device/freescale/picoimx"]
+	branch = master
+	path = device/freescale/picoimx
+	url = ../../device/freescale/picoimx
+[submodule "device/generic/arm64"]
+	branch = master
+	path = device/generic/arm64
+	url = ../../device/generic/arm64
+[submodule "device/generic/armv7-a-neon"]
+	branch = master
+	path = device/generic/armv7-a-neon
+	url = ../../device/generic/armv7-a-neon
+[submodule "device/generic/armv7-a"]
+	branch = master
+	path = device/generic/armv7-a
+	url = ../../device/generic/armv7-a
+[submodule "device/generic/art"]
+	branch = master
+	path = device/generic/art
+	url = ../../device/generic/art
+[submodule "device/generic/brillo"]
+	branch = master
+	path = device/generic/brillo
+	url = ../../device/generic/brillo
+[submodule "device/generic/common"]
+	branch = master
+	path = device/generic/common
+	url = ../../device/generic/common
+[submodule "device/generic/goldfish-opengl"]
+	branch = master
+	path = device/generic/goldfish-opengl
+	url = ../../device/generic/goldfish-opengl
+[submodule "device/generic/goldfish"]
+	branch = master
+	path = device/generic/goldfish
+	url = ../../device/generic/goldfish
+[submodule "device/generic/mini-emulator-arm64"]
+	branch = master
+	path = device/generic/mini-emulator-arm64
+	url = ../../device/generic/mini-emulator-arm64
+[submodule "device/generic/mini-emulator-armv7-a-neon"]
+	branch = master
+	path = device/generic/mini-emulator-armv7-a-neon
+	url = ../../device/generic/mini-emulator-armv7-a-neon
+[submodule "device/generic/mini-emulator-mips"]
+	branch = master
+	path = device/generic/mini-emulator-mips
+	url = ../../device/generic/mini-emulator-mips
+[submodule "device/generic/mini-emulator-mips64"]
+	branch = master
+	path = device/generic/mini-emulator-mips64
+	url = ../../device/generic/mini-emulator-mips64
+[submodule "device/generic/mini-emulator-x86"]
+	branch = master
+	path = device/generic/mini-emulator-x86
+	url = ../../device/generic/mini-emulator-x86
+[submodule "device/generic/mini-emulator-x86_64"]
+	branch = master
+	path = device/generic/mini-emulator-x86_64
+	url = ../../device/generic/mini-emulator-x86_64
+[submodule "device/generic/mips"]
+	branch = master
+	path = device/generic/mips
+	url = ../../device/generic/mips
+[submodule "device/generic/mips64"]
+	branch = master
+	path = device/generic/mips64
+	url = ../../device/generic/mips64
+[submodule "device/generic/qemu"]
+	branch = master
+	path = device/generic/qemu
+	url = ../../device/generic/qemu
+[submodule "device/generic/x86"]
+	branch = master
+	path = device/generic/x86
+	url = ../../device/generic/x86
+[submodule "device/generic/x86_64"]
+	branch = master
+	path = device/generic/x86_64
+	url = ../../device/generic/x86_64
+[submodule "device/google/accessory/adk2012"]
+	branch = master
+	path = device/google/accessory/adk2012
+	url = ../../device/google/accessory/adk2012
+[submodule "device/google/accessory/adk2012_demo"]
+	branch = master
+	path = device/google/accessory/adk2012_demo
+	url = ../../device/google/accessory/adk2012_demo
+[submodule "device/google/accessory/arduino"]
+	branch = master
+	path = device/google/accessory/arduino
+	url = ../../device/google/accessory/arduino
+[submodule "device/google/accessory/demokit"]
+	branch = master
+	path = device/google/accessory/demokit
+	url = ../../device/google/accessory/demokit
+[submodule "device/google/atv"]
+	branch = master
+	path = device/google/atv
+	url = ../../device/google/atv
+[submodule "device/google/contexthub"]
+	branch = master
+	path = device/google/contexthub
+	url = ../../device/google/contexthub
+[submodule "device/google/cuttlefish_common"]
+	branch = master
+	path = device/google/cuttlefish_common
+	url = ../../device/google/cuttlefish_common
+[submodule "device/google/debugcable"]
+	branch = master
+	path = device/google/debugcable
+	url = ../../device/google/debugcable
+[submodule "device/google/dragon-kernel"]
+	branch = master
+	path = device/google/dragon-kernel
+	url = ../../device/google/dragon-kernel
+[submodule "device/google/dragon"]
+	branch = master
+	path = device/google/dragon
+	url = ../../device/google/dragon
+[submodule "device/google/marlin-kernel"]
+	branch = master
+	path = device/google/marlin-kernel
+	url = ../../device/google/marlin-kernel
+[submodule "device/google/marlin"]
+	branch = master
+	path = device/google/marlin
+	url = ../../device/google/marlin
+[submodule "device/google/phantasm"]
+	branch = master
+	path = device/google/phantasm
+	url = ../../device/google/phantasm
+[submodule "device/htc/common"]
+	branch = master
+	path = device/htc/common
+	url = ../../device/htc/common
+[submodule "device/htc/dream-sapphire"]
+	branch = master
+	path = device/htc/dream-sapphire
+	url = ../../device/htc/dream-sapphire
+[submodule "device/htc/dream"]
+	branch = master
+	path = device/htc/dream
+	url = ../../device/htc/dream
+[submodule "device/htc/flounder-kernel"]
+	branch = master
+	path = device/htc/flounder-kernel
+	url = ../../device/htc/flounder-kernel
+[submodule "device/htc/flounder"]
+	branch = master
+	path = device/htc/flounder
+	url = ../../device/htc/flounder
+[submodule "device/htc/passion-common"]
+	branch = master
+	path = device/htc/passion-common
+	url = ../../device/htc/passion-common
+[submodule "device/htc/passion"]
+	branch = master
+	path = device/htc/passion
+	url = ../../device/htc/passion
+[submodule "device/htc/sapphire"]
+	branch = master
+	path = device/htc/sapphire
+	url = ../../device/htc/sapphire
+[submodule "device/huawei/angler-kernel"]
+	branch = master
+	path = device/huawei/angler-kernel
+	url = ../../device/huawei/angler-kernel
+[submodule "device/huawei/angler"]
+	branch = master
+	path = device/huawei/angler
+	url = ../../device/huawei/angler
+[submodule "device/imagination/creatorci41"]
+	branch = master
+	path = device/imagination/creatorci41
+	url = ../../device/imagination/creatorci41
+[submodule "device/intel/edison"]
+	branch = master
+	path = device/intel/edison
+	url = ../../device/intel/edison
+[submodule "device/intel/minnowboard"]
+	branch = master
+	path = device/intel/minnowboard
+	url = ../../device/intel/minnowboard
+[submodule "device/lge/bullhead-kernel"]
+	branch = master
+	path = device/lge/bullhead-kernel
+	url = ../../device/lge/bullhead-kernel
+[submodule "device/lge/bullhead"]
+	branch = master
+	path = device/lge/bullhead
+	url = ../../device/lge/bullhead
+[submodule "device/lge/hammerhead-kernel"]
+	branch = master
+	path = device/lge/hammerhead-kernel
+	url = ../../device/lge/hammerhead-kernel
+[submodule "device/lge/hammerhead"]
+	branch = master
+	path = device/lge/hammerhead
+	url = ../../device/lge/hammerhead
+[submodule "device/lge/mako-kernel"]
+	branch = master
+	path = device/lge/mako-kernel
+	url = ../../device/lge/mako-kernel
+[submodule "device/lge/mako"]
+	branch = master
+	path = device/lge/mako
+	url = ../../device/lge/mako
+[submodule "device/linaro/bootloader/OpenPlatformPkg"]
+	branch = master
+	path = device/linaro/bootloader/OpenPlatformPkg
+	url = ../../device/linaro/bootloader/OpenPlatformPkg
+[submodule "device/linaro/bootloader/arm-trusted-firmware"]
+	branch = master
+	path = device/linaro/bootloader/arm-trusted-firmware
+	url = ../../device/linaro/bootloader/arm-trusted-firmware
+[submodule "device/linaro/bootloader/edk2"]
+	branch = master
+	path = device/linaro/bootloader/edk2
+	url = ../../device/linaro/bootloader/edk2
+[submodule "device/linaro/hikey-kernel"]
+	branch = master
+	path = device/linaro/hikey-kernel
+	url = ../../device/linaro/hikey-kernel
+[submodule "device/linaro/hikey"]
+	branch = master
+	path = device/linaro/hikey
+	url = ../../device/linaro/hikey
+[submodule "device/moto/common"]
+	branch = master
+	path = device/moto/common
+	url = ../../device/moto/common
+[submodule "device/moto/shamu-kernel"]
+	branch = master
+	path = device/moto/shamu-kernel
+	url = ../../device/moto/shamu-kernel
+[submodule "device/moto/shamu"]
+	branch = master
+	path = device/moto/shamu
+	url = ../../device/moto/shamu
+[submodule "device/moto/stingray"]
+	branch = master
+	path = device/moto/stingray
+	url = ../../device/moto/stingray
+[submodule "device/moto/wingray"]
+	branch = master
+	path = device/moto/wingray
+	url = ../../device/moto/wingray
+[submodule "device/pifoundation/rpi3"]
+	branch = master
+	path = device/pifoundation/rpi3
+	url = ../../device/pifoundation/rpi3
+[submodule "device/qcom/dragonboard"]
+	branch = master
+	path = device/qcom/dragonboard
+	url = ../../device/qcom/dragonboard
+[submodule "device/rockchip/kylin"]
+	branch = master
+	path = device/rockchip/kylin
+	url = ../../device/rockchip/kylin
+[submodule "device/sample"]
+	branch = master
+	path = device/sample
+	url = ../../device/sample
+[submodule "device/samsung/crespo"]
+	branch = master
+	path = device/samsung/crespo
+	url = ../../device/samsung/crespo
+[submodule "device/samsung/crespo4g"]
+	branch = master
+	path = device/samsung/crespo4g
+	url = ../../device/samsung/crespo4g
+[submodule "device/samsung/maguro"]
+	branch = master
+	path = device/samsung/maguro
+	url = ../../device/samsung/maguro
+[submodule "device/samsung/manta"]
+	branch = master
+	path = device/samsung/manta
+	url = ../../device/samsung/manta
+[submodule "device/samsung/toro"]
+	branch = master
+	path = device/samsung/toro
+	url = ../../device/samsung/toro
+[submodule "device/samsung/toroplus"]
+	branch = master
+	path = device/samsung/toroplus
+	url = ../../device/samsung/toroplus
+[submodule "device/samsung/torospr"]
+	branch = master
+	path = device/samsung/torospr
+	url = ../../device/samsung/torospr
+[submodule "device/samsung/tuna"]
+	branch = master
+	path = device/samsung/tuna
+	url = ../../device/samsung/tuna
+[submodule "device/samsung_slsi/arndale"]
+	branch = master
+	path = device/samsung_slsi/arndale
+	url = ../../device/samsung_slsi/arndale
+[submodule "device/sony/lt26"]
+	branch = master
+	path = device/sony/lt26
+	url = ../../device/sony/lt26
+[submodule "device/ti/bootloader/uboot"]
+	branch = master
+	path = device/ti/bootloader/uboot
+	url = ../../device/ti/bootloader/uboot
+[submodule "device/ti/panda"]
+	branch = master
+	path = device/ti/panda
+	url = ../../device/ti/panda
+[submodule "kernel/build"]
+	branch = master
+	path = kernel/build
+	url = ../../kernel/build
+[submodule "kernel/common"]
+	branch = master
+	path = kernel/common
+	url = ../../kernel/common
+[submodule "kernel/exynos"]
+	branch = master
+	path = kernel/exynos
+	url = ../../kernel/exynos
+[submodule "kernel/goldfish"]
+	branch = master
+	path = kernel/goldfish
+	url = ../../kernel/goldfish
+[submodule "kernel/hikey-linaro"]
+	branch = master
+	path = kernel/hikey-linaro
+	url = ../../kernel/hikey-linaro
+[submodule "kernel/lk"]
+	branch = master
+	path = kernel/lk
+	url = ../../kernel/lk
+[submodule "kernel/manifest"]
+	branch = master
+	path = kernel/manifest
+	url = ../../kernel/manifest
+[submodule "kernel/mediatek"]
+	branch = master
+	path = kernel/mediatek
+	url = ../../kernel/mediatek
+[submodule "kernel/msm"]
+	branch = master
+	path = kernel/msm
+	url = ../../kernel/msm
+[submodule "kernel/omap"]
+	branch = master
+	path = kernel/omap
+	url = ../../kernel/omap
+[submodule "kernel/samsung"]
+	branch = master
+	path = kernel/samsung
+	url = ../../kernel/samsung
+[submodule "kernel/tegra"]
+	branch = master
+	path = kernel/tegra
+	url = ../../kernel/tegra
+[submodule "kernel/tests"]
+	branch = master
+	path = kernel/tests
+	url = ../../kernel/tests
+[submodule "kernel/x86"]
+	branch = master
+	path = kernel/x86
+	url = ../../kernel/x86
+[submodule "kernel/x86_64"]
+	branch = master
+	path = kernel/x86_64
+	url = ../../kernel/x86_64
+[submodule "mirror/manifest"]
+	branch = master
+	path = mirror/manifest
+	url = ../manifest
+[submodule "platform/abi/cpp"]
+	branch = master
+	path = platform/abi/cpp
+	url = ../../platform/abi/cpp
+[submodule "platform/art"]
+	branch = master
+	path = platform/art
+	url = ../../platform/art
+[submodule "platform/bbuildbot_config"]
+	branch = master
+	path = platform/bbuildbot_config
+	url = ../../platform/bbuildbot_config
+[submodule "platform/bionic"]
+	branch = master
+	path = platform/bionic
+	url = ../../platform/bionic
+[submodule "platform/bootable/bootloader/legacy"]
+	branch = master
+	path = platform/bootable/bootloader/legacy
+	url = ../../platform/bootable/bootloader/legacy
+[submodule "platform/bootable/diskinstaller"]
+	branch = master
+	path = platform/bootable/diskinstaller
+	url = ../../platform/bootable/diskinstaller
+[submodule "platform/bootable/recovery"]
+	branch = master
+	path = platform/bootable/recovery
+	url = ../../platform/bootable/recovery
+[submodule "platform/build"]
+	branch = master
+	path = platform/build
+	url = ../../platform/build
+[submodule "platform/compatibility/cdd"]
+	branch = master
+	path = platform/compatibility/cdd
+	url = ../../platform/compatibility/cdd
+[submodule "platform/cts"]
+	branch = master
+	path = platform/cts
+	url = ../../platform/cts
+[submodule "platform/dalvik-snapshot"]
+	branch = master
+	path = platform/dalvik-snapshot
+	url = ../../platform/dalvik-snapshot
+[submodule "platform/dalvik"]
+	branch = master
+	path = platform/dalvik
+	url = ../../platform/dalvik
+[submodule "platform/dalvik2"]
+	branch = master
+	path = platform/dalvik2
+	url = ../../platform/dalvik2
+[submodule "platform/developers/build"]
+	branch = master
+	path = platform/developers/build
+	url = ../../platform/developers/build
+[submodule "platform/developers/demos"]
+	branch = master
+	path = platform/developers/demos
+	url = ../../platform/developers/demos
+[submodule "platform/developers/docs"]
+	branch = master
+	path = platform/developers/docs
+	url = ../../platform/developers/docs
+[submodule "platform/developers/samples/android"]
+	branch = master
+	path = platform/developers/samples/android
+	url = ../../platform/developers/samples/android
+[submodule "platform/development"]
+	branch = master
+	path = platform/development
+	url = ../../platform/development
+[submodule "platform/docs/source.android.com"]
+	branch = master
+	path = platform/docs/source.android.com
+	url = ../../platform/docs/source.android.com
+[submodule "platform/external/AntennaPod/AntennaPod"]
+	branch = master
+	path = platform/external/AntennaPod/AntennaPod
+	url = ../../platform/external/AntennaPod/AntennaPod
+[submodule "platform/external/AntennaPod/AudioPlayer"]
+	branch = master
+	path = platform/external/AntennaPod/AudioPlayer
+	url = ../../platform/external/AntennaPod/AudioPlayer
+[submodule "platform/external/AntennaPod/afollestad"]
+	branch = master
+	path = platform/external/AntennaPod/afollestad
+	url = ../../platform/external/AntennaPod/afollestad
+[submodule "platform/external/ImageMagick"]
+	branch = master
+	path = platform/external/ImageMagick
+	url = ../../platform/external/ImageMagick
+[submodule "platform/external/Mako"]
+	branch = master
+	path = platform/external/Mako
+	url = ../../platform/external/Mako
+[submodule "platform/external/Microsoft-GSL"]
+	branch = master
+	path = platform/external/Microsoft-GSL
+	url = ../../platform/external/Microsoft-GSL
+[submodule "platform/external/Microsoft-unittest-cpp"]
+	branch = master
+	path = platform/external/Microsoft-unittest-cpp
+	url = ../../platform/external/Microsoft-unittest-cpp
+[submodule "platform/external/aac"]
+	branch = master
+	path = platform/external/aac
+	url = ../../platform/external/aac
+[submodule "platform/external/abi-compliance-checker"]
+	branch = master
+	path = platform/external/abi-compliance-checker
+	url = ../../platform/external/abi-compliance-checker
+[submodule "platform/external/abi-dumper"]
+	branch = master
+	path = platform/external/abi-dumper
+	url = ../../platform/external/abi-dumper
+[submodule "platform/external/actionbarsherlock"]
+	branch = master
+	path = platform/external/actionbarsherlock
+	url = ../../platform/external/actionbarsherlock
+[submodule "platform/external/adt-infra"]
+	branch = master
+	path = platform/external/adt-infra
+	url = ../../platform/external/adt-infra
+[submodule "platform/external/aes"]
+	branch = master
+	path = platform/external/aes
+	url = ../../platform/external/aes
+[submodule "platform/external/alac"]
+	branch = master
+	path = platform/external/alac
+	url = ../../platform/external/alac
+[submodule "platform/external/alsa-lib"]
+	branch = master
+	path = platform/external/alsa-lib
+	url = ../../platform/external/alsa-lib
+[submodule "platform/external/android-clat"]
+	branch = master
+	path = platform/external/android-clat
+	url = ../../platform/external/android-clat
+[submodule "platform/external/android-cmake"]
+	branch = master
+	path = platform/external/android-cmake
+	url = ../../platform/external/android-cmake
+[submodule "platform/external/android-mock"]
+	branch = master
+	path = platform/external/android-mock
+	url = ../../platform/external/android-mock
+[submodule "platform/external/android-studio-gradle-test"]
+	branch = master
+	path = platform/external/android-studio-gradle-test
+	url = ../../platform/external/android-studio-gradle-test
+[submodule "platform/external/androidplot"]
+	branch = master
+	path = platform/external/androidplot
+	url = ../../platform/external/androidplot
+[submodule "platform/external/ant-glob"]
+	branch = master
+	path = platform/external/ant-glob
+	url = ../../platform/external/ant-glob
+[submodule "platform/external/antlr"]
+	branch = master
+	path = platform/external/antlr
+	url = ../../platform/external/antlr
+[submodule "platform/external/apache-apr-util"]
+	branch = master
+	path = platform/external/apache-apr-util
+	url = ../../platform/external/apache-apr-util
+[submodule "platform/external/apache-apr"]
+	branch = master
+	path = platform/external/apache-apr
+	url = ../../platform/external/apache-apr
+[submodule "platform/external/apache-commons-math"]
+	branch = master
+	path = platform/external/apache-commons-math
+	url = ../../platform/external/apache-commons-math
+[submodule "platform/external/apache-harmony"]
+	branch = master
+	path = platform/external/apache-harmony
+	url = ../../platform/external/apache-harmony
+[submodule "platform/external/apache-http"]
+	branch = master
+	path = platform/external/apache-http
+	url = ../../platform/external/apache-http
+[submodule "platform/external/apache-log4cxx"]
+	branch = master
+	path = platform/external/apache-log4cxx
+	url = ../../platform/external/apache-log4cxx
+[submodule "platform/external/apache-qp"]
+	branch = master
+	path = platform/external/apache-qp
+	url = ../../platform/external/apache-qp
+[submodule "platform/external/apache-xml"]
+	branch = master
+	path = platform/external/apache-xml
+	url = ../../platform/external/apache-xml
+[submodule "platform/external/apple-coreaudiosamples"]
+	branch = master
+	path = platform/external/apple-coreaudiosamples
+	url = ../../platform/external/apple-coreaudiosamples
+[submodule "platform/external/archive-patcher"]
+	branch = master
+	path = platform/external/archive-patcher
+	url = ../../platform/external/archive-patcher
+[submodule "platform/external/arduino-ide"]
+	branch = master
+	path = platform/external/arduino-ide
+	url = ../../platform/external/arduino-ide
+[submodule "platform/external/arduino"]
+	branch = master
+	path = platform/external/arduino
+	url = ../../platform/external/arduino
+[submodule "platform/external/astl"]
+	branch = master
+	path = platform/external/astl
+	url = ../../platform/external/astl
+[submodule "platform/external/autotest"]
+	branch = master
+	path = platform/external/autotest
+	url = ../../platform/external/autotest
+[submodule "platform/external/avahi"]
+	branch = master
+	path = platform/external/avahi
+	url = ../../platform/external/avahi
+[submodule "platform/external/avb"]
+	branch = master
+	path = platform/external/avb
+	url = ../../platform/external/avb
+[submodule "platform/external/bison"]
+	branch = master
+	path = platform/external/bison
+	url = ../../platform/external/bison
+[submodule "platform/external/blktrace"]
+	branch = master
+	path = platform/external/blktrace
+	url = ../../platform/external/blktrace
+[submodule "platform/external/bluetooth/bluedroid"]
+	branch = master
+	path = platform/external/bluetooth/bluedroid
+	url = ../../platform/external/bluetooth/bluedroid
+[submodule "platform/external/bluetooth/bluez"]
+	branch = master
+	path = platform/external/bluetooth/bluez
+	url = ../../platform/external/bluetooth/bluez
+[submodule "platform/external/bluetooth/glib"]
+	branch = master
+	path = platform/external/bluetooth/glib
+	url = ../../platform/external/bluetooth/glib
+[submodule "platform/external/bluetooth/hcidump"]
+	branch = master
+	path = platform/external/bluetooth/hcidump
+	url = ../../platform/external/bluetooth/hcidump
+[submodule "platform/external/bluez"]
+	branch = master
+	path = platform/external/bluez
+	url = ../../platform/external/bluez
+[submodule "platform/external/boost"]
+	branch = master
+	path = platform/external/boost
+	url = ../../platform/external/boost
+[submodule "platform/external/boringssl"]
+	branch = master
+	path = platform/external/boringssl
+	url = ../../platform/external/boringssl
+[submodule "platform/external/bouncycastle"]
+	branch = master
+	path = platform/external/bouncycastle
+	url = ../../platform/external/bouncycastle
+[submodule "platform/external/bsdiff"]
+	branch = master
+	path = platform/external/bsdiff
+	url = ../../platform/external/bsdiff
+[submodule "platform/external/bvb"]
+	branch = master
+	path = platform/external/bvb
+	url = ../../platform/external/bvb
+[submodule "platform/external/bzip2"]
+	branch = master
+	path = platform/external/bzip2
+	url = ../../platform/external/bzip2
+[submodule "platform/external/c-ares"]
+	branch = master
+	path = platform/external/c-ares
+	url = ../../platform/external/c-ares
+[submodule "platform/external/caliper"]
+	branch = master
+	path = platform/external/caliper
+	url = ../../platform/external/caliper
+[submodule "platform/external/cblas"]
+	branch = master
+	path = platform/external/cblas
+	url = ../../platform/external/cblas
+[submodule "platform/external/ceres-solver"]
+	branch = master
+	path = platform/external/ceres-solver
+	url = ../../platform/external/ceres-solver
+[submodule "platform/external/checkpolicy"]
+	branch = master
+	path = platform/external/checkpolicy
+	url = ../../platform/external/checkpolicy
+[submodule "platform/external/checkstyle"]
+	branch = master
+	path = platform/external/checkstyle
+	url = ../../platform/external/checkstyle
+[submodule "platform/external/cherry"]
+	branch = master
+	path = platform/external/cherry
+	url = ../../platform/external/cherry
+[submodule "platform/external/chromite"]
+	branch = master
+	path = platform/external/chromite
+	url = ../../platform/external/chromite
+[submodule "platform/external/chromium-libpac"]
+	branch = master
+	path = platform/external/chromium-libpac
+	url = ../../platform/external/chromium-libpac
+[submodule "platform/external/chromium-trace"]
+	branch = master
+	path = platform/external/chromium-trace
+	url = ../../platform/external/chromium-trace
+[submodule "platform/external/chromium-webview"]
+	branch = master
+	path = platform/external/chromium-webview
+	url = ../../platform/external/chromium-webview
+[submodule "platform/external/chromium"]
+	branch = master
+	path = platform/external/chromium
+	url = ../../platform/external/chromium
+[submodule "platform/external/chromium_org"]
+	branch = master
+	path = platform/external/chromium_org
+	url = ../../platform/external/chromium_org
+[submodule "platform/external/cibu-fonts"]
+	branch = master
+	path = platform/external/cibu-fonts
+	url = ../../platform/external/cibu-fonts
+[submodule "platform/external/clang-tools-extra"]
+	branch = master
+	path = platform/external/clang-tools-extra
+	url = ../../platform/external/clang-tools-extra
+[submodule "platform/external/clang"]
+	branch = master
+	path = platform/external/clang
+	url = ../../platform/external/clang
+[submodule "platform/external/clang_35a"]
+	branch = master
+	path = platform/external/clang_35a
+	url = ../../platform/external/clang_35a
+[submodule "platform/external/clearsilver"]
+	branch = master
+	path = platform/external/clearsilver
+	url = ../../platform/external/clearsilver
+[submodule "platform/external/cmake"]
+	branch = master
+	path = platform/external/cmake
+	url = ../../platform/external/cmake
+[submodule "platform/external/cmockery"]
+	branch = master
+	path = platform/external/cmockery
+	url = ../../platform/external/cmockery
+[submodule "platform/external/codesourcery"]
+	branch = master
+	path = platform/external/codesourcery
+	url = ../../platform/external/codesourcery
+[submodule "platform/external/collada"]
+	branch = master
+	path = platform/external/collada
+	url = ../../platform/external/collada
+[submodule "platform/external/compiler-rt"]
+	branch = master
+	path = platform/external/compiler-rt
+	url = ../../platform/external/compiler-rt
+[submodule "platform/external/compiler-rt_35a"]
+	branch = master
+	path = platform/external/compiler-rt_35a
+	url = ../../platform/external/compiler-rt_35a
+[submodule "platform/external/conscrypt"]
+	branch = master
+	path = platform/external/conscrypt
+	url = ../../platform/external/conscrypt
+[submodule "platform/external/crcalc"]
+	branch = master
+	path = platform/external/crcalc
+	url = ../../platform/external/crcalc
+[submodule "platform/external/cros/system_api"]
+	branch = master
+	path = platform/external/cros/system_api
+	url = ../../platform/external/cros/system_api
+[submodule "platform/external/cryptsetup"]
+	branch = master
+	path = platform/external/cryptsetup
+	url = ../../platform/external/cryptsetup
+[submodule "platform/external/curl"]
+	branch = master
+	path = platform/external/curl
+	url = ../../platform/external/curl
+[submodule "platform/external/dagger2"]
+	branch = master
+	path = platform/external/dagger2
+	url = ../../platform/external/dagger2
+[submodule "platform/external/dbus-binding-generator"]
+	branch = master
+	path = platform/external/dbus-binding-generator
+	url = ../../platform/external/dbus-binding-generator
+[submodule "platform/external/dbus"]
+	branch = master
+	path = platform/external/dbus
+	url = ../../platform/external/dbus
+[submodule "platform/external/deqp"]
+	branch = master
+	path = platform/external/deqp
+	url = ../../platform/external/deqp
+[submodule "platform/external/desugar"]
+	branch = master
+	path = platform/external/desugar
+	url = ../../platform/external/desugar
+[submodule "platform/external/dexmaker"]
+	branch = master
+	path = platform/external/dexmaker
+	url = ../../platform/external/dexmaker
+[submodule "platform/external/dhcpcd-6.8.2"]
+	branch = master
+	path = platform/external/dhcpcd-6.8.2
+	url = ../../platform/external/dhcpcd-6.8.2
+[submodule "platform/external/dhcpcd"]
+	branch = master
+	path = platform/external/dhcpcd
+	url = ../../platform/external/dhcpcd
+[submodule "platform/external/dlmalloc"]
+	branch = master
+	path = platform/external/dlmalloc
+	url = ../../platform/external/dlmalloc
+[submodule "platform/external/dng_sdk"]
+	branch = master
+	path = platform/external/dng_sdk
+	url = ../../platform/external/dng_sdk
+[submodule "platform/external/dnsmasq"]
+	branch = master
+	path = platform/external/dnsmasq
+	url = ../../platform/external/dnsmasq
+[submodule "platform/external/doclava"]
+	branch = master
+	path = platform/external/doclava
+	url = ../../platform/external/doclava
+[submodule "platform/external/donuts"]
+	branch = master
+	path = platform/external/donuts
+	url = ../../platform/external/donuts
+[submodule "platform/external/dosfstools"]
+	branch = master
+	path = platform/external/dosfstools
+	url = ../../platform/external/dosfstools
+[submodule "platform/external/drm_gralloc"]
+	branch = master
+	path = platform/external/drm_gralloc
+	url = ../../platform/external/drm_gralloc
+[submodule "platform/external/drm_hwcomposer"]
+	branch = master
+	path = platform/external/drm_hwcomposer
+	url = ../../platform/external/drm_hwcomposer
+[submodule "platform/external/droiddriver"]
+	branch = master
+	path = platform/external/droiddriver
+	url = ../../platform/external/droiddriver
+[submodule "platform/external/dropbear"]
+	branch = master
+	path = platform/external/dropbear
+	url = ../../platform/external/dropbear
+[submodule "platform/external/dtc"]
+	branch = master
+	path = platform/external/dtc
+	url = ../../platform/external/dtc
+[submodule "platform/external/e2fsprogs"]
+	branch = master
+	path = platform/external/e2fsprogs
+	url = ../../platform/external/e2fsprogs
+[submodule "platform/external/easymock"]
+	branch = master
+	path = platform/external/easymock
+	url = ../../platform/external/easymock
+[submodule "platform/external/eclipse-basebuilder"]
+	branch = master
+	path = platform/external/eclipse-basebuilder
+	url = ../../platform/external/eclipse-basebuilder
+[submodule "platform/external/eclipse-windowbuilder"]
+	branch = master
+	path = platform/external/eclipse-windowbuilder
+	url = ../../platform/external/eclipse-windowbuilder
+[submodule "platform/external/eglib"]
+	branch = master
+	path = platform/external/eglib
+	url = ../../platform/external/eglib
+[submodule "platform/external/eigen"]
+	branch = master
+	path = platform/external/eigen
+	url = ../../platform/external/eigen
+[submodule "platform/external/elfcopy"]
+	branch = master
+	path = platform/external/elfcopy
+	url = ../../platform/external/elfcopy
+[submodule "platform/external/elfutils"]
+	branch = master
+	path = platform/external/elfutils
+	url = ../../platform/external/elfutils
+[submodule "platform/external/embunit"]
+	branch = master
+	path = platform/external/embunit
+	url = ../../platform/external/embunit
+[submodule "platform/external/emma"]
+	branch = master
+	path = platform/external/emma
+	url = ../../platform/external/emma
+[submodule "platform/external/esd"]
+	branch = master
+	path = platform/external/esd
+	url = ../../platform/external/esd
+[submodule "platform/external/expat"]
+	branch = master
+	path = platform/external/expat
+	url = ../../platform/external/expat
+[submodule "platform/external/eyes-free"]
+	branch = master
+	path = platform/external/eyes-free
+	url = ../../platform/external/eyes-free
+[submodule "platform/external/f2fs-tools"]
+	branch = master
+	path = platform/external/f2fs-tools
+	url = ../../platform/external/f2fs-tools
+[submodule "platform/external/faad"]
+	branch = master
+	path = platform/external/faad
+	url = ../../platform/external/faad
+[submodule "platform/external/fat32lib"]
+	branch = master
+	path = platform/external/fat32lib
+	url = ../../platform/external/fat32lib
+[submodule "platform/external/fdlibm"]
+	branch = master
+	path = platform/external/fdlibm
+	url = ../../platform/external/fdlibm
+[submodule "platform/external/fec"]
+	branch = master
+	path = platform/external/fec
+	url = ../../platform/external/fec
+[submodule "platform/external/fio"]
+	branch = master
+	path = platform/external/fio
+	url = ../../platform/external/fio
+[submodule "platform/external/flac"]
+	branch = master
+	path = platform/external/flac
+	url = ../../platform/external/flac
+[submodule "platform/external/flashbench"]
+	branch = master
+	path = platform/external/flashbench
+	url = ../../platform/external/flashbench
+[submodule "platform/external/flatbuffers"]
+	branch = master
+	path = platform/external/flatbuffers
+	url = ../../platform/external/flatbuffers
+[submodule "platform/external/fmtlib"]
+	branch = master
+	path = platform/external/fmtlib
+	url = ../../platform/external/fmtlib
+[submodule "platform/external/fonttools"]
+	branch = master
+	path = platform/external/fonttools
+	url = ../../platform/external/fonttools
+[submodule "platform/external/free-image"]
+	branch = master
+	path = platform/external/free-image
+	url = ../../platform/external/free-image
+[submodule "platform/external/freetype"]
+	branch = master
+	path = platform/external/freetype
+	url = ../../platform/external/freetype
+[submodule "platform/external/fsck_msdos"]
+	branch = master
+	path = platform/external/fsck_msdos
+	url = ../../platform/external/fsck_msdos
+[submodule "platform/external/ganymed-ssh2"]
+	branch = master
+	path = platform/external/ganymed-ssh2
+	url = ../../platform/external/ganymed-ssh2
+[submodule "platform/external/gcc-demangle"]
+	branch = master
+	path = platform/external/gcc-demangle
+	url = ../../platform/external/gcc-demangle
+[submodule "platform/external/gdata"]
+	branch = master
+	path = platform/external/gdata
+	url = ../../platform/external/gdata
+[submodule "platform/external/gemmlowp"]
+	branch = master
+	path = platform/external/gemmlowp
+	url = ../../platform/external/gemmlowp
+[submodule "platform/external/genext2fs"]
+	branch = master
+	path = platform/external/genext2fs
+	url = ../../platform/external/genext2fs
+[submodule "platform/external/gentoo/integration"]
+	branch = master
+	path = platform/external/gentoo/integration
+	url = ../../platform/external/gentoo/integration
+[submodule "platform/external/gentoo/overlays/gentoo"]
+	branch = master
+	path = platform/external/gentoo/overlays/gentoo
+	url = ../../platform/external/gentoo/overlays/gentoo
+[submodule "platform/external/gentoo/portage"]
+	branch = master
+	path = platform/external/gentoo/portage
+	url = ../../platform/external/gentoo/portage
+[submodule "platform/external/giflib"]
+	branch = master
+	path = platform/external/giflib
+	url = ../../platform/external/giflib
+[submodule "platform/external/glide"]
+	branch = master
+	path = platform/external/glide
+	url = ../../platform/external/glide
+[submodule "platform/external/gmock"]
+	branch = master
+	path = platform/external/gmock
+	url = ../../platform/external/gmock
+[submodule "platform/external/google-benchmark"]
+	branch = master
+	path = platform/external/google-benchmark
+	url = ../../platform/external/google-benchmark
+[submodule "platform/external/google-breakpad"]
+	branch = master
+	path = platform/external/google-breakpad
+	url = ../../platform/external/google-breakpad
+[submodule "platform/external/google-diff-match-patch"]
+	branch = master
+	path = platform/external/google-diff-match-patch
+	url = ../../platform/external/google-diff-match-patch
+[submodule "platform/external/google-fonts/carrois-gothic-sc"]
+	branch = master
+	path = platform/external/google-fonts/carrois-gothic-sc
+	url = ../../platform/external/google-fonts/carrois-gothic-sc
+[submodule "platform/external/google-fonts/coming-soon"]
+	branch = master
+	path = platform/external/google-fonts/coming-soon
+	url = ../../platform/external/google-fonts/coming-soon
+[submodule "platform/external/google-fonts/cutive-mono"]
+	branch = master
+	path = platform/external/google-fonts/cutive-mono
+	url = ../../platform/external/google-fonts/cutive-mono
+[submodule "platform/external/google-fonts/dancing-script"]
+	branch = master
+	path = platform/external/google-fonts/dancing-script
+	url = ../../platform/external/google-fonts/dancing-script
+[submodule "platform/external/google-tv-pairing-protocol"]
+	branch = master
+	path = platform/external/google-tv-pairing-protocol
+	url = ../../platform/external/google-tv-pairing-protocol
+[submodule "platform/external/googleclient"]
+	branch = master
+	path = platform/external/googleclient
+	url = ../../platform/external/googleclient
+[submodule "platform/external/googletest"]
+	branch = master
+	path = platform/external/googletest
+	url = ../../platform/external/googletest
+[submodule "platform/external/gptfdisk"]
+	branch = master
+	path = platform/external/gptfdisk
+	url = ../../platform/external/gptfdisk
+[submodule "platform/external/gradle-perf-android-large"]
+	branch = master
+	path = platform/external/gradle-perf-android-large
+	url = ../../platform/external/gradle-perf-android-large
+[submodule "platform/external/gradle-perf-android-medium"]
+	branch = master
+	path = platform/external/gradle-perf-android-medium
+	url = ../../platform/external/gradle-perf-android-medium
+[submodule "platform/external/grpc-grpc"]
+	branch = master
+	path = platform/external/grpc-grpc
+	url = ../../platform/external/grpc-grpc
+[submodule "platform/external/grub"]
+	branch = master
+	path = platform/external/grub
+	url = ../../platform/external/grub
+[submodule "platform/external/gsoap"]
+	branch = master
+	path = platform/external/gsoap
+	url = ../../platform/external/gsoap
+[submodule "platform/external/gtest"]
+	branch = master
+	path = platform/external/gtest
+	url = ../../platform/external/gtest
+[submodule "platform/external/guava"]
+	branch = master
+	path = platform/external/guava
+	url = ../../platform/external/guava
+[submodule "platform/external/guice"]
+	branch = master
+	path = platform/external/guice
+	url = ../../platform/external/guice
+[submodule "platform/external/hamcrest"]
+	branch = master
+	path = platform/external/hamcrest
+	url = ../../platform/external/hamcrest
+[submodule "platform/external/harfbuzz"]
+	branch = master
+	path = platform/external/harfbuzz
+	url = ../../platform/external/harfbuzz
+[submodule "platform/external/harfbuzz_ng"]
+	branch = master
+	path = platform/external/harfbuzz_ng
+	url = ../../platform/external/harfbuzz_ng
+[submodule "platform/external/hcidump"]
+	branch = master
+	path = platform/external/hcidump
+	url = ../../platform/external/hcidump
+[submodule "platform/external/hsqldb"]
+	branch = master
+	path = platform/external/hsqldb
+	url = ../../platform/external/hsqldb
+[submodule "platform/external/hyphenation-patterns"]
+	branch = master
+	path = platform/external/hyphenation-patterns
+	url = ../../platform/external/hyphenation-patterns
+[submodule "platform/external/hyphenation"]
+	branch = master
+	path = platform/external/hyphenation
+	url = ../../platform/external/hyphenation
+[submodule "platform/external/icu"]
+	branch = master
+	path = platform/external/icu
+	url = ../../platform/external/icu
+[submodule "platform/external/icu4c"]
+	branch = master
+	path = platform/external/icu4c
+	url = ../../platform/external/icu4c
+[submodule "platform/external/id3lib"]
+	branch = master
+	path = platform/external/id3lib
+	url = ../../platform/external/id3lib
+[submodule "platform/external/ims"]
+	branch = master
+	path = platform/external/ims
+	url = ../../platform/external/ims
+[submodule "platform/external/iosched"]
+	branch = master
+	path = platform/external/iosched
+	url = ../../platform/external/iosched
+[submodule "platform/external/iproute2"]
+	branch = master
+	path = platform/external/iproute2
+	url = ../../platform/external/iproute2
+[submodule "platform/external/ipsec-tools"]
+	branch = master
+	path = platform/external/ipsec-tools
+	url = ../../platform/external/ipsec-tools
+[submodule "platform/external/iptables"]
+	branch = master
+	path = platform/external/iptables
+	url = ../../platform/external/iptables
+[submodule "platform/external/iputils"]
+	branch = master
+	path = platform/external/iputils
+	url = ../../platform/external/iputils
+[submodule "platform/external/iw"]
+	branch = master
+	path = platform/external/iw
+	url = ../../platform/external/iw
+[submodule "platform/external/jack"]
+	branch = master
+	path = platform/external/jack
+	url = ../../platform/external/jack
+[submodule "platform/external/jacoco"]
+	branch = master
+	path = platform/external/jacoco
+	url = ../../platform/external/jacoco
+[submodule "platform/external/jarjar"]
+	branch = master
+	path = platform/external/jarjar
+	url = ../../platform/external/jarjar
+[submodule "platform/external/javasqlite"]
+	branch = master
+	path = platform/external/javasqlite
+	url = ../../platform/external/javasqlite
+[submodule "platform/external/javassist"]
+	branch = master
+	path = platform/external/javassist
+	url = ../../platform/external/javassist
+[submodule "platform/external/jcommander"]
+	branch = master
+	path = platform/external/jcommander
+	url = ../../platform/external/jcommander
+[submodule "platform/external/jdiff"]
+	branch = master
+	path = platform/external/jdiff
+	url = ../../platform/external/jdiff
+[submodule "platform/external/jemalloc"]
+	branch = master
+	path = platform/external/jemalloc
+	url = ../../platform/external/jemalloc
+[submodule "platform/external/jenkins-hash"]
+	branch = master
+	path = platform/external/jenkins-hash
+	url = ../../platform/external/jenkins-hash
+[submodule "platform/external/jetbrains/jdk8u"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u
+	url = ../../platform/external/jetbrains/jdk8u
+[submodule "platform/external/jetbrains/jdk8u_corba"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_corba
+	url = ../../platform/external/jetbrains/jdk8u_corba
+[submodule "platform/external/jetbrains/jdk8u_hotspot"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_hotspot
+	url = ../../platform/external/jetbrains/jdk8u_hotspot
+[submodule "platform/external/jetbrains/jdk8u_jaxp"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_jaxp
+	url = ../../platform/external/jetbrains/jdk8u_jaxp
+[submodule "platform/external/jetbrains/jdk8u_jaxws"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_jaxws
+	url = ../../platform/external/jetbrains/jdk8u_jaxws
+[submodule "platform/external/jetbrains/jdk8u_jdk"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_jdk
+	url = ../../platform/external/jetbrains/jdk8u_jdk
+[submodule "platform/external/jetbrains/jdk8u_langtools"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_langtools
+	url = ../../platform/external/jetbrains/jdk8u_langtools
+[submodule "platform/external/jetbrains/jdk8u_nashorn"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_nashorn
+	url = ../../platform/external/jetbrains/jdk8u_nashorn
+[submodule "platform/external/jetty"]
+	branch = master
+	path = platform/external/jetty
+	url = ../../platform/external/jetty
+[submodule "platform/external/jhead"]
+	branch = master
+	path = platform/external/jhead
+	url = ../../platform/external/jhead
+[submodule "platform/external/jline"]
+	branch = master
+	path = platform/external/jline
+	url = ../../platform/external/jline
+[submodule "platform/external/jmdns"]
+	branch = master
+	path = platform/external/jmdns
+	url = ../../platform/external/jmdns
+[submodule "platform/external/jmonkeyengine"]
+	branch = master
+	path = platform/external/jmonkeyengine
+	url = ../../platform/external/jmonkeyengine
+[submodule "platform/external/jpeg"]
+	branch = master
+	path = platform/external/jpeg
+	url = ../../platform/external/jpeg
+[submodule "platform/external/jsilver"]
+	branch = master
+	path = platform/external/jsilver
+	url = ../../platform/external/jsilver
+[submodule "platform/external/jsmn"]
+	branch = master
+	path = platform/external/jsmn
+	url = ../../platform/external/jsmn
+[submodule "platform/external/jsoncpp"]
+	branch = master
+	path = platform/external/jsoncpp
+	url = ../../platform/external/jsoncpp
+[submodule "platform/external/jsr305"]
+	branch = master
+	path = platform/external/jsr305
+	url = ../../platform/external/jsr305
+[submodule "platform/external/jsr330"]
+	branch = master
+	path = platform/external/jsr330
+	url = ../../platform/external/jsr330
+[submodule "platform/external/junit-params"]
+	branch = master
+	path = platform/external/junit-params
+	url = ../../platform/external/junit-params
+[submodule "platform/external/junit"]
+	branch = master
+	path = platform/external/junit
+	url = ../../platform/external/junit
+[submodule "platform/external/kernel-headers"]
+	branch = master
+	path = platform/external/kernel-headers
+	url = ../../platform/external/kernel-headers
+[submodule "platform/external/kmod"]
+	branch = master
+	path = platform/external/kmod
+	url = ../../platform/external/kmod
+[submodule "platform/external/ksoap2"]
+	branch = master
+	path = platform/external/ksoap2
+	url = ../../platform/external/ksoap2
+[submodule "platform/external/lame"]
+	branch = master
+	path = platform/external/lame
+	url = ../../platform/external/lame
+[submodule "platform/external/lcc"]
+	branch = master
+	path = platform/external/lcc
+	url = ../../platform/external/lcc
+[submodule "platform/external/libavc"]
+	branch = master
+	path = platform/external/libavc
+	url = ../../platform/external/libavc
+[submodule "platform/external/libbackup"]
+	branch = master
+	path = platform/external/libbackup
+	url = ../../platform/external/libbackup
+[submodule "platform/external/libbrillo"]
+	branch = master
+	path = platform/external/libbrillo
+	url = ../../platform/external/libbrillo
+[submodule "platform/external/libc-test"]
+	branch = master
+	path = platform/external/libc-test
+	url = ../../platform/external/libc-test
+[submodule "platform/external/libcap-ng"]
+	branch = master
+	path = platform/external/libcap-ng
+	url = ../../platform/external/libcap-ng
+[submodule "platform/external/libcap"]
+	branch = master
+	path = platform/external/libcap
+	url = ../../platform/external/libcap
+[submodule "platform/external/libchrome"]
+	branch = master
+	path = platform/external/libchrome
+	url = ../../platform/external/libchrome
+[submodule "platform/external/libchromeos"]
+	branch = master
+	path = platform/external/libchromeos
+	url = ../../platform/external/libchromeos
+[submodule "platform/external/libconstrainedcrypto"]
+	branch = master
+	path = platform/external/libconstrainedcrypto
+	url = ../../platform/external/libconstrainedcrypto
+[submodule "platform/external/libcups"]
+	branch = master
+	path = platform/external/libcups
+	url = ../../platform/external/libcups
+[submodule "platform/external/libcxx"]
+	branch = master
+	path = platform/external/libcxx
+	url = ../../platform/external/libcxx
+[submodule "platform/external/libcxx_35a"]
+	branch = master
+	path = platform/external/libcxx_35a
+	url = ../../platform/external/libcxx_35a
+[submodule "platform/external/libcxxabi"]
+	branch = master
+	path = platform/external/libcxxabi
+	url = ../../platform/external/libcxxabi
+[submodule "platform/external/libcxxabi_35a"]
+	branch = master
+	path = platform/external/libcxxabi_35a
+	url = ../../platform/external/libcxxabi_35a
+[submodule "platform/external/libcxxrt"]
+	branch = master
+	path = platform/external/libcxxrt
+	url = ../../platform/external/libcxxrt
+[submodule "platform/external/libdaemon"]
+	branch = master
+	path = platform/external/libdaemon
+	url = ../../platform/external/libdaemon
+[submodule "platform/external/libdivsufsort"]
+	branch = master
+	path = platform/external/libdivsufsort
+	url = ../../platform/external/libdivsufsort
+[submodule "platform/external/libdrm"]
+	branch = master
+	path = platform/external/libdrm
+	url = ../../platform/external/libdrm
+[submodule "platform/external/libedit"]
+	branch = master
+	path = platform/external/libedit
+	url = ../../platform/external/libedit
+[submodule "platform/external/libese"]
+	branch = master
+	path = platform/external/libese
+	url = ../../platform/external/libese
+[submodule "platform/external/libevent"]
+	branch = master
+	path = platform/external/libevent
+	url = ../../platform/external/libevent
+[submodule "platform/external/libexif"]
+	branch = master
+	path = platform/external/libexif
+	url = ../../platform/external/libexif
+[submodule "platform/external/libffi"]
+	branch = master
+	path = platform/external/libffi
+	url = ../../platform/external/libffi
+[submodule "platform/external/libgdx"]
+	branch = master
+	path = platform/external/libgdx
+	url = ../../platform/external/libgdx
+[submodule "platform/external/libgsm"]
+	branch = master
+	path = platform/external/libgsm
+	url = ../../platform/external/libgsm
+[submodule "platform/external/libhevc"]
+	branch = master
+	path = platform/external/libhevc
+	url = ../../platform/external/libhevc
+[submodule "platform/external/libiota"]
+	branch = master
+	path = platform/external/libiota
+	url = ../../platform/external/libiota
+[submodule "platform/external/libjpeg-turbo"]
+	branch = master
+	path = platform/external/libjpeg-turbo
+	url = ../../platform/external/libjpeg-turbo
+[submodule "platform/external/libldac"]
+	branch = master
+	path = platform/external/libldac
+	url = ../../platform/external/libldac
+[submodule "platform/external/liblzf"]
+	branch = master
+	path = platform/external/liblzf
+	url = ../../platform/external/liblzf
+[submodule "platform/external/libmicrohttpd"]
+	branch = master
+	path = platform/external/libmicrohttpd
+	url = ../../platform/external/libmicrohttpd
+[submodule "platform/external/libmojo"]
+	branch = master
+	path = platform/external/libmojo
+	url = ../../platform/external/libmojo
+[submodule "platform/external/libmpeg2"]
+	branch = master
+	path = platform/external/libmpeg2
+	url = ../../platform/external/libmpeg2
+[submodule "platform/external/libmtp"]
+	branch = master
+	path = platform/external/libmtp
+	url = ../../platform/external/libmtp
+[submodule "platform/external/libnetfilter_conntrack"]
+	branch = master
+	path = platform/external/libnetfilter_conntrack
+	url = ../../platform/external/libnetfilter_conntrack
+[submodule "platform/external/libnfc-nci"]
+	branch = master
+	path = platform/external/libnfc-nci
+	url = ../../platform/external/libnfc-nci
+[submodule "platform/external/libnfc-nxp"]
+	branch = master
+	path = platform/external/libnfc-nxp
+	url = ../../platform/external/libnfc-nxp
+[submodule "platform/external/libnfnetlink"]
+	branch = master
+	path = platform/external/libnfnetlink
+	url = ../../platform/external/libnfnetlink
+[submodule "platform/external/libnl-headers"]
+	branch = master
+	path = platform/external/libnl-headers
+	url = ../../platform/external/libnl-headers
+[submodule "platform/external/libnl"]
+	branch = master
+	path = platform/external/libnl
+	url = ../../platform/external/libnl
+[submodule "platform/external/libogg"]
+	branch = master
+	path = platform/external/libogg
+	url = ../../platform/external/libogg
+[submodule "platform/external/libopus"]
+	branch = master
+	path = platform/external/libopus
+	url = ../../platform/external/libopus
+[submodule "platform/external/libpcap"]
+	branch = master
+	path = platform/external/libpcap
+	url = ../../platform/external/libpcap
+[submodule "platform/external/libphonenumber"]
+	branch = master
+	path = platform/external/libphonenumber
+	url = ../../platform/external/libphonenumber
+[submodule "platform/external/libpng"]
+	branch = master
+	path = platform/external/libpng
+	url = ../../platform/external/libpng
+[submodule "platform/external/libppp"]
+	branch = master
+	path = platform/external/libppp
+	url = ../../platform/external/libppp
+[submodule "platform/external/libseccomp-helper"]
+	branch = master
+	path = platform/external/libseccomp-helper
+	url = ../../platform/external/libseccomp-helper
+[submodule "platform/external/libselinux"]
+	branch = master
+	path = platform/external/libselinux
+	url = ../../platform/external/libselinux
+[submodule "platform/external/libsepol"]
+	branch = master
+	path = platform/external/libsepol
+	url = ../../platform/external/libsepol
+[submodule "platform/external/libssh2"]
+	branch = master
+	path = platform/external/libssh2
+	url = ../../platform/external/libssh2
+[submodule "platform/external/libunwind"]
+	branch = master
+	path = platform/external/libunwind
+	url = ../../platform/external/libunwind
+[submodule "platform/external/libunwind_llvm"]
+	branch = master
+	path = platform/external/libunwind_llvm
+	url = ../../platform/external/libunwind_llvm
+[submodule "platform/external/libusb-compat"]
+	branch = master
+	path = platform/external/libusb-compat
+	url = ../../platform/external/libusb-compat
+[submodule "platform/external/libusb"]
+	branch = master
+	path = platform/external/libusb
+	url = ../../platform/external/libusb
+[submodule "platform/external/libusb_aah"]
+	branch = master
+	path = platform/external/libusb_aah
+	url = ../../platform/external/libusb_aah
+[submodule "platform/external/libutf"]
+	branch = master
+	path = platform/external/libutf
+	url = ../../platform/external/libutf
+[submodule "platform/external/libvncserver"]
+	branch = master
+	path = platform/external/libvncserver
+	url = ../../platform/external/libvncserver
+[submodule "platform/external/libvorbis"]
+	branch = master
+	path = platform/external/libvorbis
+	url = ../../platform/external/libvorbis
+[submodule "platform/external/libvpx"]
+	branch = master
+	path = platform/external/libvpx
+	url = ../../platform/external/libvpx
+[submodule "platform/external/libvterm"]
+	branch = master
+	path = platform/external/libvterm
+	url = ../../platform/external/libvterm
+[submodule "platform/external/libweave"]
+	branch = master
+	path = platform/external/libweave
+	url = ../../platform/external/libweave
+[submodule "platform/external/libxml2"]
+	branch = master
+	path = platform/external/libxml2
+	url = ../../platform/external/libxml2
+[submodule "platform/external/libxslt"]
+	branch = master
+	path = platform/external/libxslt
+	url = ../../platform/external/libxslt
+[submodule "platform/external/libyuv"]
+	branch = master
+	path = platform/external/libyuv
+	url = ../../platform/external/libyuv
+[submodule "platform/external/linux-kselftest"]
+	branch = master
+	path = platform/external/linux-kselftest
+	url = ../../platform/external/linux-kselftest
+[submodule "platform/external/linux-tools-perf"]
+	branch = master
+	path = platform/external/linux-tools-perf
+	url = ../../platform/external/linux-tools-perf
+[submodule "platform/external/littlemock"]
+	branch = master
+	path = platform/external/littlemock
+	url = ../../platform/external/littlemock
+[submodule "platform/external/lld"]
+	branch = master
+	path = platform/external/lld
+	url = ../../platform/external/lld
+[submodule "platform/external/lldb-utils"]
+	branch = master
+	path = platform/external/lldb-utils
+	url = ../../platform/external/lldb-utils
+[submodule "platform/external/lldb"]
+	branch = master
+	path = platform/external/lldb
+	url = ../../platform/external/lldb
+[submodule "platform/external/llvm"]
+	branch = master
+	path = platform/external/llvm
+	url = ../../platform/external/llvm
+[submodule "platform/external/llvm_35a"]
+	branch = master
+	path = platform/external/llvm_35a
+	url = ../../platform/external/llvm_35a
+[submodule "platform/external/login-items-ae"]
+	branch = master
+	path = platform/external/login-items-ae
+	url = ../../platform/external/login-items-ae
+[submodule "platform/external/lohit-fonts"]
+	branch = master
+	path = platform/external/lohit-fonts
+	url = ../../platform/external/lohit-fonts
+[submodule "platform/external/ltp"]
+	branch = master
+	path = platform/external/ltp
+	url = ../../platform/external/ltp
+[submodule "platform/external/ltrace"]
+	branch = master
+	path = platform/external/ltrace
+	url = ../../platform/external/ltrace
+[submodule "platform/external/lvm2"]
+	branch = master
+	path = platform/external/lvm2
+	url = ../../platform/external/lvm2
+[submodule "platform/external/lz4"]
+	branch = master
+	path = platform/external/lz4
+	url = ../../platform/external/lz4
+[submodule "platform/external/lzma"]
+	branch = master
+	path = platform/external/lzma
+	url = ../../platform/external/lzma
+[submodule "platform/external/lzop"]
+	branch = master
+	path = platform/external/lzop
+	url = ../../platform/external/lzop
+[submodule "platform/external/marisa-trie"]
+	branch = master
+	path = platform/external/marisa-trie
+	url = ../../platform/external/marisa-trie
+[submodule "platform/external/markdown"]
+	branch = master
+	path = platform/external/markdown
+	url = ../../platform/external/markdown
+[submodule "platform/external/mdnsresponder"]
+	branch = master
+	path = platform/external/mdnsresponder
+	url = ../../platform/external/mdnsresponder
+[submodule "platform/external/mesa3d"]
+	branch = master
+	path = platform/external/mesa3d
+	url = ../../platform/external/mesa3d
+[submodule "platform/external/messageformat"]
+	branch = master
+	path = platform/external/messageformat
+	url = ../../platform/external/messageformat
+[submodule "platform/external/minijail"]
+	branch = master
+	path = platform/external/minijail
+	url = ../../platform/external/minijail
+[submodule "platform/external/mksh"]
+	branch = master
+	path = platform/external/mksh
+	url = ../../platform/external/mksh
+[submodule "platform/external/mmc-utils"]
+	branch = master
+	path = platform/external/mmc-utils
+	url = ../../platform/external/mmc-utils
+[submodule "platform/external/mock"]
+	branch = master
+	path = platform/external/mock
+	url = ../../platform/external/mock
+[submodule "platform/external/mockftpserver"]
+	branch = master
+	path = platform/external/mockftpserver
+	url = ../../platform/external/mockftpserver
+[submodule "platform/external/mockito"]
+	branch = master
+	path = platform/external/mockito
+	url = ../../platform/external/mockito
+[submodule "platform/external/mockwebserver"]
+	branch = master
+	path = platform/external/mockwebserver
+	url = ../../platform/external/mockwebserver
+[submodule "platform/external/modp_b64"]
+	branch = master
+	path = platform/external/modp_b64
+	url = ../../platform/external/modp_b64
+[submodule "platform/external/mp4parser"]
+	branch = master
+	path = platform/external/mp4parser
+	url = ../../platform/external/mp4parser
+[submodule "platform/external/mp4v2"]
+	branch = master
+	path = platform/external/mp4v2
+	url = ../../platform/external/mp4v2
+[submodule "platform/external/mpg123"]
+	branch = master
+	path = platform/external/mpg123
+	url = ../../platform/external/mpg123
+[submodule "platform/external/mtpd"]
+	branch = master
+	path = platform/external/mtpd
+	url = ../../platform/external/mtpd
+[submodule "platform/external/nanohttpd"]
+	branch = master
+	path = platform/external/nanohttpd
+	url = ../../platform/external/nanohttpd
+[submodule "platform/external/nanopb-c"]
+	branch = master
+	path = platform/external/nanopb-c
+	url = ../../platform/external/nanopb-c
+[submodule "platform/external/nasm"]
+	branch = master
+	path = platform/external/nasm
+	url = ../../platform/external/nasm
+[submodule "platform/external/naver-fonts"]
+	branch = master
+	path = platform/external/naver-fonts
+	url = ../../platform/external/naver-fonts
+[submodule "platform/external/netcat"]
+	branch = master
+	path = platform/external/netcat
+	url = ../../platform/external/netcat
+[submodule "platform/external/netperf"]
+	branch = master
+	path = platform/external/netperf
+	url = ../../platform/external/netperf
+[submodule "platform/external/neven"]
+	branch = master
+	path = platform/external/neven
+	url = ../../platform/external/neven
+[submodule "platform/external/nfacct"]
+	branch = master
+	path = platform/external/nfacct
+	url = ../../platform/external/nfacct
+[submodule "platform/external/ninja"]
+	branch = master
+	path = platform/external/ninja
+	url = ../../platform/external/ninja
+[submodule "platform/external/nist-pkits"]
+	branch = master
+	path = platform/external/nist-pkits
+	url = ../../platform/external/nist-pkits
+[submodule "platform/external/nist-sip"]
+	branch = master
+	path = platform/external/nist-sip
+	url = ../../platform/external/nist-sip
+[submodule "platform/external/noto-fonts"]
+	branch = master
+	path = platform/external/noto-fonts
+	url = ../../platform/external/noto-fonts
+[submodule "platform/external/oauth"]
+	branch = master
+	path = platform/external/oauth
+	url = ../../platform/external/oauth
+[submodule "platform/external/objenesis"]
+	branch = master
+	path = platform/external/objenesis
+	url = ../../platform/external/objenesis
+[submodule "platform/external/okhttp"]
+	branch = master
+	path = platform/external/okhttp
+	url = ../../platform/external/okhttp
+[submodule "platform/external/open-vcdiff"]
+	branch = master
+	path = platform/external/open-vcdiff
+	url = ../../platform/external/open-vcdiff
+[submodule "platform/external/opencore"]
+	branch = master
+	path = platform/external/opencore
+	url = ../../platform/external/opencore
+[submodule "platform/external/opencv"]
+	branch = master
+	path = platform/external/opencv
+	url = ../../platform/external/opencv
+[submodule "platform/external/opencv3"]
+	branch = master
+	path = platform/external/opencv3
+	url = ../../platform/external/opencv3
+[submodule "platform/external/openfst"]
+	branch = master
+	path = platform/external/openfst
+	url = ../../platform/external/openfst
+[submodule "platform/external/openmp_llvm"]
+	branch = master
+	path = platform/external/openmp_llvm
+	url = ../../platform/external/openmp_llvm
+[submodule "platform/external/openssh"]
+	branch = master
+	path = platform/external/openssh
+	url = ../../platform/external/openssh
+[submodule "platform/external/openssl"]
+	branch = master
+	path = platform/external/openssl
+	url = ../../platform/external/openssl
+[submodule "platform/external/openthread"]
+	branch = master
+	path = platform/external/openthread
+	url = ../../platform/external/openthread
+[submodule "platform/external/openvpn"]
+	branch = master
+	path = platform/external/openvpn
+	url = ../../platform/external/openvpn
+[submodule "platform/external/oprofile"]
+	branch = master
+	path = platform/external/oprofile
+	url = ../../platform/external/oprofile
+[submodule "platform/external/owasp/sanitizer"]
+	branch = master
+	path = platform/external/owasp/sanitizer
+	url = ../../platform/external/owasp/sanitizer
+[submodule "platform/external/parameter-framework"]
+	branch = master
+	path = platform/external/parameter-framework
+	url = ../../platform/external/parameter-framework
+[submodule "platform/external/pcre"]
+	branch = master
+	path = platform/external/pcre
+	url = ../../platform/external/pcre
+[submodule "platform/external/pdfium"]
+	branch = master
+	path = platform/external/pdfium
+	url = ../../platform/external/pdfium
+[submodule "platform/external/piex"]
+	branch = master
+	path = platform/external/piex
+	url = ../../platform/external/piex
+[submodule "platform/external/ping"]
+	branch = master
+	path = platform/external/ping
+	url = ../../platform/external/ping
+[submodule "platform/external/ping6"]
+	branch = master
+	path = platform/external/ping6
+	url = ../../platform/external/ping6
+[submodule "platform/external/pixman"]
+	branch = master
+	path = platform/external/pixman
+	url = ../../platform/external/pixman
+[submodule "platform/external/ppp"]
+	branch = master
+	path = platform/external/ppp
+	url = ../../platform/external/ppp
+[submodule "platform/external/proguard"]
+	branch = master
+	path = platform/external/proguard
+	url = ../../platform/external/proguard
+[submodule "platform/external/protobuf"]
+	branch = master
+	path = platform/external/protobuf
+	url = ../../platform/external/protobuf
+[submodule "platform/external/protobuf2.5"]
+	branch = master
+	path = platform/external/protobuf2.5
+	url = ../../platform/external/protobuf2.5
+[submodule "platform/external/pthreads"]
+	branch = master
+	path = platform/external/pthreads
+	url = ../../platform/external/pthreads
+[submodule "platform/external/python"]
+	branch = master
+	path = platform/external/python
+	url = ../../platform/external/python
+[submodule "platform/external/qemu-android"]
+	branch = master
+	path = platform/external/qemu-android
+	url = ../../platform/external/qemu-android
+[submodule "platform/external/qemu-pc-bios"]
+	branch = master
+	path = platform/external/qemu-pc-bios
+	url = ../../platform/external/qemu-pc-bios
+[submodule "platform/external/qemu"]
+	branch = master
+	path = platform/external/qemu
+	url = ../../platform/external/qemu
+[submodule "platform/external/qt"]
+	branch = master
+	path = platform/external/qt
+	url = ../../platform/external/qt
+[submodule "platform/external/quake"]
+	branch = master
+	path = platform/external/quake
+	url = ../../platform/external/quake
+[submodule "platform/external/regex-re2"]
+	branch = master
+	path = platform/external/regex-re2
+	url = ../../platform/external/regex-re2
+[submodule "platform/external/replicaisland"]
+	branch = master
+	path = platform/external/replicaisland
+	url = ../../platform/external/replicaisland
+[submodule "platform/external/rmi4utils"]
+	branch = master
+	path = platform/external/rmi4utils
+	url = ../../platform/external/rmi4utils
+[submodule "platform/external/robolectric"]
+	branch = master
+	path = platform/external/robolectric
+	url = ../../platform/external/robolectric
+[submodule "platform/external/roboto-fonts"]
+	branch = master
+	path = platform/external/roboto-fonts
+	url = ../../platform/external/roboto-fonts
+[submodule "platform/external/rootdev"]
+	branch = master
+	path = platform/external/rootdev
+	url = ../../platform/external/rootdev
+[submodule "platform/external/safe-iop"]
+	branch = master
+	path = platform/external/safe-iop
+	url = ../../platform/external/safe-iop
+[submodule "platform/external/scrypt"]
+	branch = master
+	path = platform/external/scrypt
+	url = ../../platform/external/scrypt
+[submodule "platform/external/sdl2"]
+	branch = master
+	path = platform/external/sdl2
+	url = ../../platform/external/sdl2
+[submodule "platform/external/sdl2_ttf"]
+	branch = master
+	path = platform/external/sdl2_ttf
+	url = ../../platform/external/sdl2_ttf
+[submodule "platform/external/seccomp-tests"]
+	branch = master
+	path = platform/external/seccomp-tests
+	url = ../../platform/external/seccomp-tests
+[submodule "platform/external/selinux"]
+	branch = master
+	path = platform/external/selinux
+	url = ../../platform/external/selinux
+[submodule "platform/external/sepolicy"]
+	branch = master
+	path = platform/external/sepolicy
+	url = ../../platform/external/sepolicy
+[submodule "platform/external/sfntly"]
+	branch = master
+	path = platform/external/sfntly
+	url = ../../platform/external/sfntly
+[submodule "platform/external/shaderc/glslang"]
+	branch = master
+	path = platform/external/shaderc/glslang
+	url = ../../platform/external/shaderc/glslang
+[submodule "platform/external/shaderc/shaderc"]
+	branch = master
+	path = platform/external/shaderc/shaderc
+	url = ../../platform/external/shaderc/shaderc
+[submodule "platform/external/shaderc/spirv-headers"]
+	branch = master
+	path = platform/external/shaderc/spirv-headers
+	url = ../../platform/external/shaderc/spirv-headers
+[submodule "platform/external/shaderc/spirv-tools"]
+	branch = master
+	path = platform/external/shaderc/spirv-tools
+	url = ../../platform/external/shaderc/spirv-tools
+[submodule "platform/external/shflags"]
+	branch = master
+	path = platform/external/shflags
+	url = ../../platform/external/shflags
+[submodule "platform/external/sil-fonts"]
+	branch = master
+	path = platform/external/sil-fonts
+	url = ../../platform/external/sil-fonts
+[submodule "platform/external/skia"]
+	branch = master
+	path = platform/external/skia
+	url = ../../platform/external/skia
+[submodule "platform/external/sl4a"]
+	branch = master
+	path = platform/external/sl4a
+	url = ../../platform/external/sl4a
+[submodule "platform/external/slf4j"]
+	branch = master
+	path = platform/external/slf4j
+	url = ../../platform/external/slf4j
+[submodule "platform/external/smack"]
+	branch = master
+	path = platform/external/smack
+	url = ../../platform/external/smack
+[submodule "platform/external/smali"]
+	branch = master
+	path = platform/external/smali
+	url = ../../platform/external/smali
+[submodule "platform/external/snakeyaml"]
+	branch = master
+	path = platform/external/snakeyaml
+	url = ../../platform/external/snakeyaml
+[submodule "platform/external/sonic"]
+	branch = master
+	path = platform/external/sonic
+	url = ../../platform/external/sonic
+[submodule "platform/external/sonivox"]
+	branch = master
+	path = platform/external/sonivox
+	url = ../../platform/external/sonivox
+[submodule "platform/external/speex"]
+	branch = master
+	path = platform/external/speex
+	url = ../../platform/external/speex
+[submodule "platform/external/spirv-llvm"]
+	branch = master
+	path = platform/external/spirv-llvm
+	url = ../../platform/external/spirv-llvm
+[submodule "platform/external/sqlite"]
+	branch = master
+	path = platform/external/sqlite
+	url = ../../platform/external/sqlite
+[submodule "platform/external/squashfs-tools"]
+	branch = master
+	path = platform/external/squashfs-tools
+	url = ../../platform/external/squashfs-tools
+[submodule "platform/external/srec"]
+	branch = master
+	path = platform/external/srec
+	url = ../../platform/external/srec
+[submodule "platform/external/srtp"]
+	branch = master
+	path = platform/external/srtp
+	url = ../../platform/external/srtp
+[submodule "platform/external/stlport"]
+	branch = master
+	path = platform/external/stlport
+	url = ../../platform/external/stlport
+[submodule "platform/external/strace"]
+	branch = master
+	path = platform/external/strace
+	url = ../../platform/external/strace
+[submodule "platform/external/stressapptest"]
+	branch = master
+	path = platform/external/stressapptest
+	url = ../../platform/external/stressapptest
+[submodule "platform/external/svox"]
+	branch = master
+	path = platform/external/svox
+	url = ../../platform/external/svox
+[submodule "platform/external/swiftshader"]
+	branch = master
+	path = platform/external/swiftshader
+	url = ../../platform/external/swiftshader
+[submodule "platform/external/swig"]
+	branch = master
+	path = platform/external/swig
+	url = ../../platform/external/swig
+[submodule "platform/external/syspatch"]
+	branch = master
+	path = platform/external/syspatch
+	url = ../../platform/external/syspatch
+[submodule "platform/external/tagsoup"]
+	branch = master
+	path = platform/external/tagsoup
+	url = ../../platform/external/tagsoup
+[submodule "platform/external/tcpdump"]
+	branch = master
+	path = platform/external/tcpdump
+	url = ../../platform/external/tcpdump
+[submodule "platform/external/tesseract"]
+	branch = master
+	path = platform/external/tesseract
+	url = ../../platform/external/tesseract
+[submodule "platform/external/testng"]
+	branch = master
+	path = platform/external/testng
+	url = ../../platform/external/testng
+[submodule "platform/external/timezonepicker-support"]
+	branch = master
+	path = platform/external/timezonepicker-support
+	url = ../../platform/external/timezonepicker-support
+[submodule "platform/external/tinyalsa"]
+	branch = master
+	path = platform/external/tinyalsa
+	url = ../../platform/external/tinyalsa
+[submodule "platform/external/tinycompress"]
+	branch = master
+	path = platform/external/tinycompress
+	url = ../../platform/external/tinycompress
+[submodule "platform/external/tinyxml"]
+	branch = master
+	path = platform/external/tinyxml
+	url = ../../platform/external/tinyxml
+[submodule "platform/external/tinyxml2"]
+	branch = master
+	path = platform/external/tinyxml2
+	url = ../../platform/external/tinyxml2
+[submodule "platform/external/tlsdate"]
+	branch = master
+	path = platform/external/tlsdate
+	url = ../../platform/external/tlsdate
+[submodule "platform/external/toolchain-utils"]
+	branch = master
+	path = platform/external/toolchain-utils
+	url = ../../platform/external/toolchain-utils
+[submodule "platform/external/toybox"]
+	branch = master
+	path = platform/external/toybox
+	url = ../../platform/external/toybox
+[submodule "platform/external/tpm2"]
+	branch = master
+	path = platform/external/tpm2
+	url = ../../platform/external/tpm2
+[submodule "platform/external/tremolo"]
+	branch = master
+	path = platform/external/tremolo
+	url = ../../platform/external/tremolo
+[submodule "platform/external/tremor"]
+	branch = master
+	path = platform/external/tremor
+	url = ../../platform/external/tremor
+[submodule "platform/external/u-boot"]
+	branch = master
+	path = platform/external/u-boot
+	url = ../../platform/external/u-boot
+[submodule "platform/external/unicode"]
+	branch = master
+	path = platform/external/unicode
+	url = ../../platform/external/unicode
+[submodule "platform/external/universal-tween-engine"]
+	branch = master
+	path = platform/external/universal-tween-engine
+	url = ../../platform/external/universal-tween-engine
+[submodule "platform/external/utf8proc"]
+	branch = master
+	path = platform/external/utf8proc
+	url = ../../platform/external/utf8proc
+[submodule "platform/external/v8"]
+	branch = master
+	path = platform/external/v8
+	url = ../../platform/external/v8
+[submodule "platform/external/valgrind"]
+	branch = master
+	path = platform/external/valgrind
+	url = ../../platform/external/valgrind
+[submodule "platform/external/vboot_reference"]
+	branch = master
+	path = platform/external/vboot_reference
+	url = ../../platform/external/vboot_reference
+[submodule "platform/external/vixl"]
+	branch = master
+	path = platform/external/vixl
+	url = ../../platform/external/vixl
+[submodule "platform/external/vogar"]
+	branch = master
+	path = platform/external/vogar
+	url = ../../platform/external/vogar
+[submodule "platform/external/volley"]
+	branch = master
+	path = platform/external/volley
+	url = ../../platform/external/volley
+[submodule "platform/external/vulkan-validation-layers"]
+	branch = master
+	path = platform/external/vulkan-validation-layers
+	url = ../../platform/external/vulkan-validation-layers
+[submodule "platform/external/weave-common"]
+	branch = master
+	path = platform/external/weave-common
+	url = ../../platform/external/weave-common
+[submodule "platform/external/webkit"]
+	branch = master
+	path = platform/external/webkit
+	url = ../../platform/external/webkit
+[submodule "platform/external/webp"]
+	branch = master
+	path = platform/external/webp
+	url = ../../platform/external/webp
+[submodule "platform/external/webrtc"]
+	branch = master
+	path = platform/external/webrtc
+	url = ../../platform/external/webrtc
+[submodule "platform/external/wpa_supplicant"]
+	branch = master
+	path = platform/external/wpa_supplicant
+	url = ../../platform/external/wpa_supplicant
+[submodule "platform/external/wpa_supplicant_6"]
+	branch = master
+	path = platform/external/wpa_supplicant_6
+	url = ../../platform/external/wpa_supplicant_6
+[submodule "platform/external/wpa_supplicant_8"]
+	branch = master
+	path = platform/external/wpa_supplicant_8
+	url = ../../platform/external/wpa_supplicant_8
+[submodule "platform/external/wpantund"]
+	branch = master
+	path = platform/external/wpantund
+	url = ../../platform/external/wpantund
+[submodule "platform/external/wycheproof"]
+	branch = master
+	path = platform/external/wycheproof
+	url = ../../platform/external/wycheproof
+[submodule "platform/external/xdelta3"]
+	branch = master
+	path = platform/external/xdelta3
+	url = ../../platform/external/xdelta3
+[submodule "platform/external/xerces-cpp"]
+	branch = master
+	path = platform/external/xerces-cpp
+	url = ../../platform/external/xerces-cpp
+[submodule "platform/external/xmlrpcpp"]
+	branch = master
+	path = platform/external/xmlrpcpp
+	url = ../../platform/external/xmlrpcpp
+[submodule "platform/external/xmlwriter"]
+	branch = master
+	path = platform/external/xmlwriter
+	url = ../../platform/external/xmlwriter
+[submodule "platform/external/xmp_toolkit"]
+	branch = master
+	path = platform/external/xmp_toolkit
+	url = ../../platform/external/xmp_toolkit
+[submodule "platform/external/yaffs2"]
+	branch = master
+	path = platform/external/yaffs2
+	url = ../../platform/external/yaffs2
+[submodule "platform/external/zlib"]
+	branch = master
+	path = platform/external/zlib
+	url = ../../platform/external/zlib
+[submodule "platform/external/zopfli"]
+	branch = master
+	path = platform/external/zopfli
+	url = ../../platform/external/zopfli
+[submodule "platform/external/zxing"]
+	branch = master
+	path = platform/external/zxing
+	url = ../../platform/external/zxing
+[submodule "platform/frameworks/av"]
+	branch = master
+	path = platform/frameworks/av
+	url = ../../platform/frameworks/av
+[submodule "platform/frameworks/base"]
+	branch = master
+	path = platform/frameworks/base
+	url = ../../platform/frameworks/base
+[submodule "platform/frameworks/compile/libbcc"]
+	branch = master
+	path = platform/frameworks/compile/libbcc
+	url = ../../platform/frameworks/compile/libbcc
+[submodule "platform/frameworks/compile/linkloader"]
+	branch = master
+	path = platform/frameworks/compile/linkloader
+	url = ../../platform/frameworks/compile/linkloader
+[submodule "platform/frameworks/compile/llvm-ndk-cc"]
+	branch = master
+	path = platform/frameworks/compile/llvm-ndk-cc
+	url = ../../platform/frameworks/compile/llvm-ndk-cc
+[submodule "platform/frameworks/compile/mclinker"]
+	branch = master
+	path = platform/frameworks/compile/mclinker
+	url = ../../platform/frameworks/compile/mclinker
+[submodule "platform/frameworks/compile/slang"]
+	branch = master
+	path = platform/frameworks/compile/slang
+	url = ../../platform/frameworks/compile/slang
+[submodule "platform/frameworks/data-binding"]
+	branch = master
+	path = platform/frameworks/data-binding
+	url = ../../platform/frameworks/data-binding
+[submodule "platform/frameworks/data"]
+	branch = master
+	path = platform/frameworks/data
+	url = ../../platform/frameworks/data
+[submodule "platform/frameworks/ex"]
+	branch = master
+	path = platform/frameworks/ex
+	url = ../../platform/frameworks/ex
+[submodule "platform/frameworks/hardware/interfaces"]
+	branch = master
+	path = platform/frameworks/hardware/interfaces
+	url = ../../platform/frameworks/hardware/interfaces
+[submodule "platform/frameworks/janktesthelper"]
+	branch = master
+	path = platform/frameworks/janktesthelper
+	url = ../../platform/frameworks/janktesthelper
+[submodule "platform/frameworks/media/libvideoeditor"]
+	branch = master
+	path = platform/frameworks/media/libvideoeditor
+	url = ../../platform/frameworks/media/libvideoeditor
+[submodule "platform/frameworks/mff"]
+	branch = master
+	path = platform/frameworks/mff
+	url = ../../platform/frameworks/mff
+[submodule "platform/frameworks/minikin"]
+	branch = master
+	path = platform/frameworks/minikin
+	url = ../../platform/frameworks/minikin
+[submodule "platform/frameworks/ml"]
+	branch = master
+	path = platform/frameworks/ml
+	url = ../../platform/frameworks/ml
+[submodule "platform/frameworks/multidex"]
+	branch = master
+	path = platform/frameworks/multidex
+	url = ../../platform/frameworks/multidex
+[submodule "platform/frameworks/native"]
+	branch = master
+	path = platform/frameworks/native
+	url = ../../platform/frameworks/native
+[submodule "platform/frameworks/opt/bitmap"]
+	branch = master
+	path = platform/frameworks/opt/bitmap
+	url = ../../platform/frameworks/opt/bitmap
+[submodule "platform/frameworks/opt/bluetooth"]
+	branch = master
+	path = platform/frameworks/opt/bluetooth
+	url = ../../platform/frameworks/opt/bluetooth
+[submodule "platform/frameworks/opt/calendar"]
+	branch = master
+	path = platform/frameworks/opt/calendar
+	url = ../../platform/frameworks/opt/calendar
+[submodule "platform/frameworks/opt/carddav"]
+	branch = master
+	path = platform/frameworks/opt/carddav
+	url = ../../platform/frameworks/opt/carddav
+[submodule "platform/frameworks/opt/chips"]
+	branch = master
+	path = platform/frameworks/opt/chips
+	url = ../../platform/frameworks/opt/chips
+[submodule "platform/frameworks/opt/colorpicker"]
+	branch = master
+	path = platform/frameworks/opt/colorpicker
+	url = ../../platform/frameworks/opt/colorpicker
+[submodule "platform/frameworks/opt/com.google.android.googlelogin"]
+	branch = master
+	path = platform/frameworks/opt/com.google.android.googlelogin
+	url = ../../platform/frameworks/opt/com.google.android.googlelogin
+[submodule "platform/frameworks/opt/com.google.android"]
+	branch = master
+	path = platform/frameworks/opt/com.google.android
+	url = ../../platform/frameworks/opt/com.google.android
+[submodule "platform/frameworks/opt/datetimepicker"]
+	branch = master
+	path = platform/frameworks/opt/datetimepicker
+	url = ../../platform/frameworks/opt/datetimepicker
+[submodule "platform/frameworks/opt/emoji"]
+	branch = master
+	path = platform/frameworks/opt/emoji
+	url = ../../platform/frameworks/opt/emoji
+[submodule "platform/frameworks/opt/inputconnectioncommon"]
+	branch = master
+	path = platform/frameworks/opt/inputconnectioncommon
+	url = ../../platform/frameworks/opt/inputconnectioncommon
+[submodule "platform/frameworks/opt/inputmethodcommon"]
+	branch = master
+	path = platform/frameworks/opt/inputmethodcommon
+	url = ../../platform/frameworks/opt/inputmethodcommon
+[submodule "platform/frameworks/opt/mailcommon"]
+	branch = master
+	path = platform/frameworks/opt/mailcommon
+	url = ../../platform/frameworks/opt/mailcommon
+[submodule "platform/frameworks/opt/mms"]
+	branch = master
+	path = platform/frameworks/opt/mms
+	url = ../../platform/frameworks/opt/mms
+[submodule "platform/frameworks/opt/net/ethernet"]
+	branch = master
+	path = platform/frameworks/opt/net/ethernet
+	url = ../../platform/frameworks/opt/net/ethernet
+[submodule "platform/frameworks/opt/net/ims"]
+	branch = master
+	path = platform/frameworks/opt/net/ims
+	url = ../../platform/frameworks/opt/net/ims
+[submodule "platform/frameworks/opt/net/lowpan"]
+	branch = master
+	path = platform/frameworks/opt/net/lowpan
+	url = ../../platform/frameworks/opt/net/lowpan
+[submodule "platform/frameworks/opt/net/voip"]
+	branch = master
+	path = platform/frameworks/opt/net/voip
+	url = ../../platform/frameworks/opt/net/voip
+[submodule "platform/frameworks/opt/net/wifi"]
+	branch = master
+	path = platform/frameworks/opt/net/wifi
+	url = ../../platform/frameworks/opt/net/wifi
+[submodule "platform/frameworks/opt/photoviewer"]
+	branch = master
+	path = platform/frameworks/opt/photoviewer
+	url = ../../platform/frameworks/opt/photoviewer
+[submodule "platform/frameworks/opt/setupwizard"]
+	branch = master
+	path = platform/frameworks/opt/setupwizard
+	url = ../../platform/frameworks/opt/setupwizard
+[submodule "platform/frameworks/opt/sherpa"]
+	branch = master
+	path = platform/frameworks/opt/sherpa
+	url = ../../platform/frameworks/opt/sherpa
+[submodule "platform/frameworks/opt/telephony"]
+	branch = master
+	path = platform/frameworks/opt/telephony
+	url = ../../platform/frameworks/opt/telephony
+[submodule "platform/frameworks/opt/timezonepicker"]
+	branch = master
+	path = platform/frameworks/opt/timezonepicker
+	url = ../../platform/frameworks/opt/timezonepicker
+[submodule "platform/frameworks/opt/vcard"]
+	branch = master
+	path = platform/frameworks/opt/vcard
+	url = ../../platform/frameworks/opt/vcard
+[submodule "platform/frameworks/opt/widget"]
+	branch = master
+	path = platform/frameworks/opt/widget
+	url = ../../platform/frameworks/opt/widget
+[submodule "platform/frameworks/policies/base"]
+	branch = master
+	path = platform/frameworks/policies/base
+	url = ../../platform/frameworks/policies/base
+[submodule "platform/frameworks/rs"]
+	branch = master
+	path = platform/frameworks/rs
+	url = ../../platform/frameworks/rs
+[submodule "platform/frameworks/support"]
+	branch = master
+	path = platform/frameworks/support
+	url = ../../platform/frameworks/support
+[submodule "platform/frameworks/testing"]
+	branch = master
+	path = platform/frameworks/testing
+	url = ../../platform/frameworks/testing
+[submodule "platform/frameworks/uiautomator"]
+	branch = master
+	path = platform/frameworks/uiautomator
+	url = ../../platform/frameworks/uiautomator
+[submodule "platform/frameworks/volley"]
+	branch = master
+	path = platform/frameworks/volley
+	url = ../../platform/frameworks/volley
+[submodule "platform/frameworks/webview"]
+	branch = master
+	path = platform/frameworks/webview
+	url = ../../platform/frameworks/webview
+[submodule "platform/frameworks/wilhelm"]
+	branch = master
+	path = platform/frameworks/wilhelm
+	url = ../../platform/frameworks/wilhelm
+[submodule "platform/gdk"]
+	branch = master
+	path = platform/gdk
+	url = ../../platform/gdk
+[submodule "platform/hardware/akm"]
+	branch = master
+	path = platform/hardware/akm
+	url = ../../platform/hardware/akm
+[submodule "platform/hardware/broadcom/libbt"]
+	branch = master
+	path = platform/hardware/broadcom/libbt
+	url = ../../platform/hardware/broadcom/libbt
+[submodule "platform/hardware/broadcom/wlan"]
+	branch = master
+	path = platform/hardware/broadcom/wlan
+	url = ../../platform/hardware/broadcom/wlan
+[submodule "platform/hardware/bsp/bootloader/intel/edison-u-boot"]
+	branch = master
+	path = platform/hardware/bsp/bootloader/intel/edison-u-boot
+	url = ../../platform/hardware/bsp/bootloader/intel/edison-u-boot
+[submodule "platform/hardware/bsp/bootloader/nxp/uboot-imx"]
+	branch = master
+	path = platform/hardware/bsp/bootloader/nxp/uboot-imx
+	url = ../../platform/hardware/bsp/bootloader/nxp/uboot-imx
+[submodule "platform/hardware/bsp/broadcom"]
+	branch = master
+	path = platform/hardware/bsp/broadcom
+	url = ../../platform/hardware/bsp/broadcom
+[submodule "platform/hardware/bsp/freescale"]
+	branch = master
+	path = platform/hardware/bsp/freescale
+	url = ../../platform/hardware/bsp/freescale
+[submodule "platform/hardware/bsp/imagination"]
+	branch = master
+	path = platform/hardware/bsp/imagination
+	url = ../../platform/hardware/bsp/imagination
+[submodule "platform/hardware/bsp/intel"]
+	branch = master
+	path = platform/hardware/bsp/intel
+	url = ../../platform/hardware/bsp/intel
+[submodule "platform/hardware/bsp/kernel/common/v4.1"]
+	branch = master
+	path = platform/hardware/bsp/kernel/common/v4.1
+	url = ../../platform/hardware/bsp/kernel/common/v4.1
+[submodule "platform/hardware/bsp/kernel/common/v4.4"]
+	branch = master
+	path = platform/hardware/bsp/kernel/common/v4.4
+	url = ../../platform/hardware/bsp/kernel/common/v4.4
+[submodule "platform/hardware/bsp/kernel/freescale"]
+	branch = master
+	path = platform/hardware/bsp/kernel/freescale
+	url = ../../platform/hardware/bsp/kernel/freescale
+[submodule "platform/hardware/bsp/kernel/imagination/v4.1"]
+	branch = master
+	path = platform/hardware/bsp/kernel/imagination/v4.1
+	url = ../../platform/hardware/bsp/kernel/imagination/v4.1
+[submodule "platform/hardware/bsp/kernel/intel"]
+	branch = master
+	path = platform/hardware/bsp/kernel/intel
+	url = ../../platform/hardware/bsp/kernel/intel
+[submodule "platform/hardware/bsp/kernel/marvell/pxa-v3.14"]
+	branch = master
+	path = platform/hardware/bsp/kernel/marvell/pxa-v3.14
+	url = ../../platform/hardware/bsp/kernel/marvell/pxa-v3.14
+[submodule "platform/hardware/bsp/kernel/nxp/imx-v4.1"]
+	branch = master
+	path = platform/hardware/bsp/kernel/nxp/imx-v4.1
+	url = ../../platform/hardware/bsp/kernel/nxp/imx-v4.1
+[submodule "platform/hardware/bsp/kernel/qcom"]
+	branch = master
+	path = platform/hardware/bsp/kernel/qcom
+	url = ../../platform/hardware/bsp/kernel/qcom
+[submodule "platform/hardware/bsp/kernel/raspberrypi/pi-v4.1"]
+	branch = master
+	path = platform/hardware/bsp/kernel/raspberrypi/pi-v4.1
+	url = ../../platform/hardware/bsp/kernel/raspberrypi/pi-v4.1
+[submodule "platform/hardware/bsp/kernel/raspberrypi/pi-v4.4"]
+	branch = master
+	path = platform/hardware/bsp/kernel/raspberrypi/pi-v4.4
+	url = ../../platform/hardware/bsp/kernel/raspberrypi/pi-v4.4
+[submodule "platform/hardware/bsp/kernel/rockchip"]
+	branch = master
+	path = platform/hardware/bsp/kernel/rockchip
+	url = ../../platform/hardware/bsp/kernel/rockchip
+[submodule "platform/hardware/bsp/qcom"]
+	branch = master
+	path = platform/hardware/bsp/qcom
+	url = ../../platform/hardware/bsp/qcom
+[submodule "platform/hardware/bsp/rockchip"]
+	branch = master
+	path = platform/hardware/bsp/rockchip
+	url = ../../platform/hardware/bsp/rockchip
+[submodule "platform/hardware/google"]
+	branch = master
+	path = platform/hardware/google
+	url = ../../platform/hardware/google
+[submodule "platform/hardware/intel/audio_media"]
+	branch = master
+	path = platform/hardware/intel/audio_media
+	url = ../../platform/hardware/intel/audio_media
+[submodule "platform/hardware/intel/bootstub"]
+	branch = master
+	path = platform/hardware/intel/bootstub
+	url = ../../platform/hardware/intel/bootstub
+[submodule "platform/hardware/intel/common/bd_prov"]
+	branch = master
+	path = platform/hardware/intel/common/bd_prov
+	url = ../../platform/hardware/intel/common/bd_prov
+[submodule "platform/hardware/intel/common/libmix"]
+	branch = master
+	path = platform/hardware/intel/common/libmix
+	url = ../../platform/hardware/intel/common/libmix
+[submodule "platform/hardware/intel/common/libstagefrighthw"]
+	branch = master
+	path = platform/hardware/intel/common/libstagefrighthw
+	url = ../../platform/hardware/intel/common/libstagefrighthw
+[submodule "platform/hardware/intel/common/libva"]
+	branch = master
+	path = platform/hardware/intel/common/libva
+	url = ../../platform/hardware/intel/common/libva
+[submodule "platform/hardware/intel/common/libwsbm"]
+	branch = master
+	path = platform/hardware/intel/common/libwsbm
+	url = ../../platform/hardware/intel/common/libwsbm
+[submodule "platform/hardware/intel/common/omx-components"]
+	branch = master
+	path = platform/hardware/intel/common/omx-components
+	url = ../../platform/hardware/intel/common/omx-components
+[submodule "platform/hardware/intel/common/utils"]
+	branch = master
+	path = platform/hardware/intel/common/utils
+	url = ../../platform/hardware/intel/common/utils
+[submodule "platform/hardware/intel/common/wrs_omxil_core"]
+	branch = master
+	path = platform/hardware/intel/common/wrs_omxil_core
+	url = ../../platform/hardware/intel/common/wrs_omxil_core
+[submodule "platform/hardware/intel/img/hwcomposer"]
+	branch = master
+	path = platform/hardware/intel/img/hwcomposer
+	url = ../../platform/hardware/intel/img/hwcomposer
+[submodule "platform/hardware/intel/img/libdrm"]
+	branch = master
+	path = platform/hardware/intel/img/libdrm
+	url = ../../platform/hardware/intel/img/libdrm
+[submodule "platform/hardware/intel/img/psb_headers"]
+	branch = master
+	path = platform/hardware/intel/img/psb_headers
+	url = ../../platform/hardware/intel/img/psb_headers
+[submodule "platform/hardware/intel/img/psb_video"]
+	branch = master
+	path = platform/hardware/intel/img/psb_video
+	url = ../../platform/hardware/intel/img/psb_video
+[submodule "platform/hardware/intel/sensors"]
+	branch = master
+	path = platform/hardware/intel/sensors
+	url = ../../platform/hardware/intel/sensors
+[submodule "platform/hardware/interfaces"]
+	branch = master
+	path = platform/hardware/interfaces
+	url = ../../platform/hardware/interfaces
+[submodule "platform/hardware/invensense"]
+	branch = master
+	path = platform/hardware/invensense
+	url = ../../platform/hardware/invensense
+[submodule "platform/hardware/libhardware"]
+	branch = master
+	path = platform/hardware/libhardware
+	url = ../../platform/hardware/libhardware
+[submodule "platform/hardware/libhardware_legacy"]
+	branch = master
+	path = platform/hardware/libhardware_legacy
+	url = ../../platform/hardware/libhardware_legacy
+[submodule "platform/hardware/marvell/bt"]
+	branch = master
+	path = platform/hardware/marvell/bt
+	url = ../../platform/hardware/marvell/bt
+[submodule "platform/hardware/mediatek"]
+	branch = master
+	path = platform/hardware/mediatek
+	url = ../../platform/hardware/mediatek
+[submodule "platform/hardware/msm7k"]
+	branch = master
+	path = platform/hardware/msm7k
+	url = ../../platform/hardware/msm7k
+[submodule "platform/hardware/nvidia/audio"]
+	branch = master
+	path = platform/hardware/nvidia/audio
+	url = ../../platform/hardware/nvidia/audio
+[submodule "platform/hardware/nvidia/tegra124"]
+	branch = master
+	path = platform/hardware/nvidia/tegra124
+	url = ../../platform/hardware/nvidia/tegra124
+[submodule "platform/hardware/qcom/audio"]
+	branch = master
+	path = platform/hardware/qcom/audio
+	url = ../../platform/hardware/qcom/audio
+[submodule "platform/hardware/qcom/bootctrl"]
+	branch = master
+	path = platform/hardware/qcom/bootctrl
+	url = ../../platform/hardware/qcom/bootctrl
+[submodule "platform/hardware/qcom/bt"]
+	branch = master
+	path = platform/hardware/qcom/bt
+	url = ../../platform/hardware/qcom/bt
+[submodule "platform/hardware/qcom/camera"]
+	branch = master
+	path = platform/hardware/qcom/camera
+	url = ../../platform/hardware/qcom/camera
+[submodule "platform/hardware/qcom/data/ipacfg-mgr"]
+	branch = master
+	path = platform/hardware/qcom/data/ipacfg-mgr
+	url = ../../platform/hardware/qcom/data/ipacfg-mgr
+[submodule "platform/hardware/qcom/display"]
+	branch = master
+	path = platform/hardware/qcom/display
+	url = ../../platform/hardware/qcom/display
+[submodule "platform/hardware/qcom/gps"]
+	branch = master
+	path = platform/hardware/qcom/gps
+	url = ../../platform/hardware/qcom/gps
+[submodule "platform/hardware/qcom/keymaster"]
+	branch = master
+	path = platform/hardware/qcom/keymaster
+	url = ../../platform/hardware/qcom/keymaster
+[submodule "platform/hardware/qcom/media"]
+	branch = master
+	path = platform/hardware/qcom/media
+	url = ../../platform/hardware/qcom/media
+[submodule "platform/hardware/qcom/msm8960"]
+	branch = master
+	path = platform/hardware/qcom/msm8960
+	url = ../../platform/hardware/qcom/msm8960
+[submodule "platform/hardware/qcom/msm8994"]
+	branch = master
+	path = platform/hardware/qcom/msm8994
+	url = ../../platform/hardware/qcom/msm8994
+[submodule "platform/hardware/qcom/msm8996"]
+	branch = master
+	path = platform/hardware/qcom/msm8996
+	url = ../../platform/hardware/qcom/msm8996
+[submodule "platform/hardware/qcom/msm8x26"]
+	branch = master
+	path = platform/hardware/qcom/msm8x26
+	url = ../../platform/hardware/qcom/msm8x26
+[submodule "platform/hardware/qcom/msm8x27"]
+	branch = master
+	path = platform/hardware/qcom/msm8x27
+	url = ../../platform/hardware/qcom/msm8x27
+[submodule "platform/hardware/qcom/msm8x74"]
+	branch = master
+	path = platform/hardware/qcom/msm8x74
+	url = ../../platform/hardware/qcom/msm8x74
+[submodule "platform/hardware/qcom/msm8x84"]
+	branch = master
+	path = platform/hardware/qcom/msm8x84
+	url = ../../platform/hardware/qcom/msm8x84
+[submodule "platform/hardware/qcom/power"]
+	branch = master
+	path = platform/hardware/qcom/power
+	url = ../../platform/hardware/qcom/power
+[submodule "platform/hardware/qcom/sensors"]
+	branch = master
+	path = platform/hardware/qcom/sensors
+	url = ../../platform/hardware/qcom/sensors
+[submodule "platform/hardware/qcom/wlan"]
+	branch = master
+	path = platform/hardware/qcom/wlan
+	url = ../../platform/hardware/qcom/wlan
+[submodule "platform/hardware/ril"]
+	branch = master
+	path = platform/hardware/ril
+	url = ../../platform/hardware/ril
+[submodule "platform/hardware/samsung_slsi/exynos5"]
+	branch = master
+	path = platform/hardware/samsung_slsi/exynos5
+	url = ../../platform/hardware/samsung_slsi/exynos5
+[submodule "platform/hardware/ti/omap3"]
+	branch = master
+	path = platform/hardware/ti/omap3
+	url = ../../platform/hardware/ti/omap3
+[submodule "platform/hardware/ti/omap4-aah"]
+	branch = master
+	path = platform/hardware/ti/omap4-aah
+	url = ../../platform/hardware/ti/omap4-aah
+[submodule "platform/hardware/ti/omap4xxx"]
+	branch = master
+	path = platform/hardware/ti/omap4xxx
+	url = ../../platform/hardware/ti/omap4xxx
+[submodule "platform/hardware/ti/wlan"]
+	branch = master
+	path = platform/hardware/ti/wlan
+	url = ../../platform/hardware/ti/wlan
+[submodule "platform/hardware/ti/wpan"]
+	branch = master
+	path = platform/hardware/ti/wpan
+	url = ../../platform/hardware/ti/wpan
+[submodule "platform/libcore-snapshot"]
+	branch = master
+	path = platform/libcore-snapshot
+	url = ../../platform/libcore-snapshot
+[submodule "platform/libcore"]
+	branch = master
+	path = platform/libcore
+	url = ../../platform/libcore
+[submodule "platform/libcore2"]
+	branch = master
+	path = platform/libcore2
+	url = ../../platform/libcore2
+[submodule "platform/libnativehelper"]
+	branch = master
+	path = platform/libnativehelper
+	url = ../../platform/libnativehelper
+[submodule "platform/manifest"]
+	branch = master
+	path = platform/manifest
+	url = ../../platform/manifest
+[submodule "platform/motodev"]
+	branch = master
+	path = platform/motodev
+	url = ../../platform/motodev
+[submodule "platform/ndk"]
+	branch = master
+	path = platform/ndk
+	url = ../../platform/ndk
+[submodule "platform/packages/apps/AccountsAndSyncSettings"]
+	branch = master
+	path = platform/packages/apps/AccountsAndSyncSettings
+	url = ../../platform/packages/apps/AccountsAndSyncSettings
+[submodule "platform/packages/apps/AlarmClock"]
+	branch = master
+	path = platform/packages/apps/AlarmClock
+	url = ../../platform/packages/apps/AlarmClock
+[submodule "platform/packages/apps/BasicSmsReceiver"]
+	branch = master
+	path = platform/packages/apps/BasicSmsReceiver
+	url = ../../platform/packages/apps/BasicSmsReceiver
+[submodule "platform/packages/apps/Benchmark"]
+	branch = master
+	path = platform/packages/apps/Benchmark
+	url = ../../platform/packages/apps/Benchmark
+[submodule "platform/packages/apps/Bluetooth"]
+	branch = master
+	path = platform/packages/apps/Bluetooth
+	url = ../../platform/packages/apps/Bluetooth
+[submodule "platform/packages/apps/Browser"]
+	branch = master
+	path = platform/packages/apps/Browser
+	url = ../../platform/packages/apps/Browser
+[submodule "platform/packages/apps/Browser2"]
+	branch = master
+	path = platform/packages/apps/Browser2
+	url = ../../platform/packages/apps/Browser2
+[submodule "platform/packages/apps/Calculator"]
+	branch = master
+	path = platform/packages/apps/Calculator
+	url = ../../platform/packages/apps/Calculator
+[submodule "platform/packages/apps/Calendar"]
+	branch = master
+	path = platform/packages/apps/Calendar
+	url = ../../platform/packages/apps/Calendar
+[submodule "platform/packages/apps/Camera"]
+	branch = master
+	path = platform/packages/apps/Camera
+	url = ../../platform/packages/apps/Camera
+[submodule "platform/packages/apps/Camera2"]
+	branch = master
+	path = platform/packages/apps/Camera2
+	url = ../../platform/packages/apps/Camera2
+[submodule "platform/packages/apps/CarrierConfig"]
+	branch = master
+	path = platform/packages/apps/CarrierConfig
+	url = ../../platform/packages/apps/CarrierConfig
+[submodule "platform/packages/apps/CellBroadcastReceiver"]
+	branch = master
+	path = platform/packages/apps/CellBroadcastReceiver
+	url = ../../platform/packages/apps/CellBroadcastReceiver
+[submodule "platform/packages/apps/CertInstaller"]
+	branch = master
+	path = platform/packages/apps/CertInstaller
+	url = ../../platform/packages/apps/CertInstaller
+[submodule "platform/packages/apps/Contacts"]
+	branch = master
+	path = platform/packages/apps/Contacts
+	url = ../../platform/packages/apps/Contacts
+[submodule "platform/packages/apps/ContactsCommon"]
+	branch = master
+	path = platform/packages/apps/ContactsCommon
+	url = ../../platform/packages/apps/ContactsCommon
+[submodule "platform/packages/apps/DeskClock"]
+	branch = master
+	path = platform/packages/apps/DeskClock
+	url = ../../platform/packages/apps/DeskClock
+[submodule "platform/packages/apps/DevCamera"]
+	branch = master
+	path = platform/packages/apps/DevCamera
+	url = ../../platform/packages/apps/DevCamera
+[submodule "platform/packages/apps/Dialer"]
+	branch = master
+	path = platform/packages/apps/Dialer
+	url = ../../platform/packages/apps/Dialer
+[submodule "platform/packages/apps/Email"]
+	branch = master
+	path = platform/packages/apps/Email
+	url = ../../platform/packages/apps/Email
+[submodule "platform/packages/apps/EmergencyInfo"]
+	branch = master
+	path = platform/packages/apps/EmergencyInfo
+	url = ../../platform/packages/apps/EmergencyInfo
+[submodule "platform/packages/apps/ExactCalculator"]
+	branch = master
+	path = platform/packages/apps/ExactCalculator
+	url = ../../platform/packages/apps/ExactCalculator
+[submodule "platform/packages/apps/Exchange"]
+	branch = master
+	path = platform/packages/apps/Exchange
+	url = ../../platform/packages/apps/Exchange
+[submodule "platform/packages/apps/FMRadio"]
+	branch = master
+	path = platform/packages/apps/FMRadio
+	url = ../../platform/packages/apps/FMRadio
+[submodule "platform/packages/apps/Gallery"]
+	branch = master
+	path = platform/packages/apps/Gallery
+	url = ../../platform/packages/apps/Gallery
+[submodule "platform/packages/apps/Gallery2"]
+	branch = master
+	path = platform/packages/apps/Gallery2
+	url = ../../platform/packages/apps/Gallery2
+[submodule "platform/packages/apps/Gallery3D"]
+	branch = master
+	path = platform/packages/apps/Gallery3D
+	url = ../../platform/packages/apps/Gallery3D
+[submodule "platform/packages/apps/GlobalSearch"]
+	branch = master
+	path = platform/packages/apps/GlobalSearch
+	url = ../../platform/packages/apps/GlobalSearch
+[submodule "platform/packages/apps/GoogleSearch"]
+	branch = master
+	path = platform/packages/apps/GoogleSearch
+	url = ../../platform/packages/apps/GoogleSearch
+[submodule "platform/packages/apps/HTMLViewer"]
+	branch = master
+	path = platform/packages/apps/HTMLViewer
+	url = ../../platform/packages/apps/HTMLViewer
+[submodule "platform/packages/apps/IM"]
+	branch = master
+	path = platform/packages/apps/IM
+	url = ../../platform/packages/apps/IM
+[submodule "platform/packages/apps/InCallUI"]
+	branch = master
+	path = platform/packages/apps/InCallUI
+	url = ../../platform/packages/apps/InCallUI
+[submodule "platform/packages/apps/KeyChain"]
+	branch = master
+	path = platform/packages/apps/KeyChain
+	url = ../../platform/packages/apps/KeyChain
+[submodule "platform/packages/apps/Launcher"]
+	branch = master
+	path = platform/packages/apps/Launcher
+	url = ../../platform/packages/apps/Launcher
+[submodule "platform/packages/apps/Launcher2"]
+	branch = master
+	path = platform/packages/apps/Launcher2
+	url = ../../platform/packages/apps/Launcher2
+[submodule "platform/packages/apps/Launcher3"]
+	branch = master
+	path = platform/packages/apps/Launcher3
+	url = ../../platform/packages/apps/Launcher3
+[submodule "platform/packages/apps/LegacyCamera"]
+	branch = master
+	path = platform/packages/apps/LegacyCamera
+	url = ../../platform/packages/apps/LegacyCamera
+[submodule "platform/packages/apps/ManagedProvisioning"]
+	branch = master
+	path = platform/packages/apps/ManagedProvisioning
+	url = ../../platform/packages/apps/ManagedProvisioning
+[submodule "platform/packages/apps/McLauncher"]
+	branch = master
+	path = platform/packages/apps/McLauncher
+	url = ../../platform/packages/apps/McLauncher
+[submodule "platform/packages/apps/Messaging"]
+	branch = master
+	path = platform/packages/apps/Messaging
+	url = ../../platform/packages/apps/Messaging
+[submodule "platform/packages/apps/Mms"]
+	branch = master
+	path = platform/packages/apps/Mms
+	url = ../../platform/packages/apps/Mms
+[submodule "platform/packages/apps/Music"]
+	branch = master
+	path = platform/packages/apps/Music
+	url = ../../platform/packages/apps/Music
+[submodule "platform/packages/apps/MusicFX"]
+	branch = master
+	path = platform/packages/apps/MusicFX
+	url = ../../platform/packages/apps/MusicFX
+[submodule "platform/packages/apps/Nfc"]
+	branch = master
+	path = platform/packages/apps/Nfc
+	url = ../../platform/packages/apps/Nfc
+[submodule "platform/packages/apps/OneTimeInitializer"]
+	branch = master
+	path = platform/packages/apps/OneTimeInitializer
+	url = ../../platform/packages/apps/OneTimeInitializer
+[submodule "platform/packages/apps/PackageInstaller"]
+	branch = master
+	path = platform/packages/apps/PackageInstaller
+	url = ../../platform/packages/apps/PackageInstaller
+[submodule "platform/packages/apps/Phone"]
+	branch = master
+	path = platform/packages/apps/Phone
+	url = ../../platform/packages/apps/Phone
+[submodule "platform/packages/apps/PhoneCommon"]
+	branch = master
+	path = platform/packages/apps/PhoneCommon
+	url = ../../platform/packages/apps/PhoneCommon
+[submodule "platform/packages/apps/Protips"]
+	branch = master
+	path = platform/packages/apps/Protips
+	url = ../../platform/packages/apps/Protips
+[submodule "platform/packages/apps/Provision"]
+	branch = master
+	path = platform/packages/apps/Provision
+	url = ../../platform/packages/apps/Provision
+[submodule "platform/packages/apps/QuickSearchBox"]
+	branch = master
+	path = platform/packages/apps/QuickSearchBox
+	url = ../../platform/packages/apps/QuickSearchBox
+[submodule "platform/packages/apps/RetailDemo"]
+	branch = master
+	path = platform/packages/apps/RetailDemo
+	url = ../../platform/packages/apps/RetailDemo
+[submodule "platform/packages/apps/SafetyRegulatoryInfo"]
+	branch = master
+	path = platform/packages/apps/SafetyRegulatoryInfo
+	url = ../../platform/packages/apps/SafetyRegulatoryInfo
+[submodule "platform/packages/apps/Settings"]
+	branch = master
+	path = platform/packages/apps/Settings
+	url = ../../platform/packages/apps/Settings
+[submodule "platform/packages/apps/SmartCardService"]
+	branch = master
+	path = platform/packages/apps/SmartCardService
+	url = ../../platform/packages/apps/SmartCardService
+[submodule "platform/packages/apps/SoundRecorder"]
+	branch = master
+	path = platform/packages/apps/SoundRecorder
+	url = ../../platform/packages/apps/SoundRecorder
+[submodule "platform/packages/apps/SpareParts"]
+	branch = master
+	path = platform/packages/apps/SpareParts
+	url = ../../platform/packages/apps/SpareParts
+[submodule "platform/packages/apps/SpeechRecorder"]
+	branch = master
+	path = platform/packages/apps/SpeechRecorder
+	url = ../../platform/packages/apps/SpeechRecorder
+[submodule "platform/packages/apps/Stk"]
+	branch = master
+	path = platform/packages/apps/Stk
+	url = ../../platform/packages/apps/Stk
+[submodule "platform/packages/apps/StorageManager"]
+	branch = master
+	path = platform/packages/apps/StorageManager
+	url = ../../platform/packages/apps/StorageManager
+[submodule "platform/packages/apps/Sync"]
+	branch = master
+	path = platform/packages/apps/Sync
+	url = ../../platform/packages/apps/Sync
+[submodule "platform/packages/apps/TV"]
+	branch = master
+	path = platform/packages/apps/TV
+	url = ../../platform/packages/apps/TV
+[submodule "platform/packages/apps/Tag"]
+	branch = master
+	path = platform/packages/apps/Tag
+	url = ../../platform/packages/apps/Tag
+[submodule "platform/packages/apps/Terminal"]
+	branch = master
+	path = platform/packages/apps/Terminal
+	url = ../../platform/packages/apps/Terminal
+[submodule "platform/packages/apps/Test/connectivity"]
+	branch = master
+	path = platform/packages/apps/Test/connectivity
+	url = ../../platform/packages/apps/Test/connectivity
+[submodule "platform/packages/apps/TvSettings"]
+	branch = master
+	path = platform/packages/apps/TvSettings
+	url = ../../platform/packages/apps/TvSettings
+[submodule "platform/packages/apps/UnifiedEmail"]
+	branch = master
+	path = platform/packages/apps/UnifiedEmail
+	url = ../../platform/packages/apps/UnifiedEmail
+[submodule "platform/packages/apps/Updater"]
+	branch = master
+	path = platform/packages/apps/Updater
+	url = ../../platform/packages/apps/Updater
+[submodule "platform/packages/apps/VideoEditor"]
+	branch = master
+	path = platform/packages/apps/VideoEditor
+	url = ../../platform/packages/apps/VideoEditor
+[submodule "platform/packages/apps/VoiceDialer"]
+	branch = master
+	path = platform/packages/apps/VoiceDialer
+	url = ../../platform/packages/apps/VoiceDialer
+[submodule "platform/packages/apps/WallpaperPicker"]
+	branch = master
+	path = platform/packages/apps/WallpaperPicker
+	url = ../../platform/packages/apps/WallpaperPicker
+[submodule "platform/packages/experimental"]
+	branch = master
+	path = platform/packages/experimental
+	url = ../../platform/packages/experimental
+[submodule "platform/packages/inputmethods/LatinIME"]
+	branch = master
+	path = platform/packages/inputmethods/LatinIME
+	url = ../../platform/packages/inputmethods/LatinIME
+[submodule "platform/packages/inputmethods/OpenWnn"]
+	branch = master
+	path = platform/packages/inputmethods/OpenWnn
+	url = ../../platform/packages/inputmethods/OpenWnn
+[submodule "platform/packages/inputmethods/PinyinIME"]
+	branch = master
+	path = platform/packages/inputmethods/PinyinIME
+	url = ../../platform/packages/inputmethods/PinyinIME
+[submodule "platform/packages/providers/ApplicationsProvider"]
+	branch = master
+	path = platform/packages/providers/ApplicationsProvider
+	url = ../../platform/packages/providers/ApplicationsProvider
+[submodule "platform/packages/providers/BlockedNumberProvider"]
+	branch = master
+	path = platform/packages/providers/BlockedNumberProvider
+	url = ../../platform/packages/providers/BlockedNumberProvider
+[submodule "platform/packages/providers/BookmarkProvider"]
+	branch = master
+	path = platform/packages/providers/BookmarkProvider
+	url = ../../platform/packages/providers/BookmarkProvider
+[submodule "platform/packages/providers/CalendarProvider"]
+	branch = master
+	path = platform/packages/providers/CalendarProvider
+	url = ../../platform/packages/providers/CalendarProvider
+[submodule "platform/packages/providers/CallLogProvider"]
+	branch = master
+	path = platform/packages/providers/CallLogProvider
+	url = ../../platform/packages/providers/CallLogProvider
+[submodule "platform/packages/providers/ContactsProvider"]
+	branch = master
+	path = platform/packages/providers/ContactsProvider
+	url = ../../platform/packages/providers/ContactsProvider
+[submodule "platform/packages/providers/DownloadProvider"]
+	branch = master
+	path = platform/packages/providers/DownloadProvider
+	url = ../../platform/packages/providers/DownloadProvider
+[submodule "platform/packages/providers/DrmProvider"]
+	branch = master
+	path = platform/packages/providers/DrmProvider
+	url = ../../platform/packages/providers/DrmProvider
+[submodule "platform/packages/providers/GoogleContactsProvider"]
+	branch = master
+	path = platform/packages/providers/GoogleContactsProvider
+	url = ../../platform/packages/providers/GoogleContactsProvider
+[submodule "platform/packages/providers/GoogleSubscribedFeedsProvider"]
+	branch = master
+	path = platform/packages/providers/GoogleSubscribedFeedsProvider
+	url = ../../platform/packages/providers/GoogleSubscribedFeedsProvider
+[submodule "platform/packages/providers/ImProvider"]
+	branch = master
+	path = platform/packages/providers/ImProvider
+	url = ../../platform/packages/providers/ImProvider
+[submodule "platform/packages/providers/ManagementProvider"]
+	branch = master
+	path = platform/packages/providers/ManagementProvider
+	url = ../../platform/packages/providers/ManagementProvider
+[submodule "platform/packages/providers/MediaProvider"]
+	branch = master
+	path = platform/packages/providers/MediaProvider
+	url = ../../platform/packages/providers/MediaProvider
+[submodule "platform/packages/providers/PartnerBookmarksProvider"]
+	branch = master
+	path = platform/packages/providers/PartnerBookmarksProvider
+	url = ../../platform/packages/providers/PartnerBookmarksProvider
+[submodule "platform/packages/providers/TelephonyProvider"]
+	branch = master
+	path = platform/packages/providers/TelephonyProvider
+	url = ../../platform/packages/providers/TelephonyProvider
+[submodule "platform/packages/providers/TvProvider"]
+	branch = master
+	path = platform/packages/providers/TvProvider
+	url = ../../platform/packages/providers/TvProvider
+[submodule "platform/packages/providers/UserDictionaryProvider"]
+	branch = master
+	path = platform/packages/providers/UserDictionaryProvider
+	url = ../../platform/packages/providers/UserDictionaryProvider
+[submodule "platform/packages/providers/WebSearchProvider"]
+	branch = master
+	path = platform/packages/providers/WebSearchProvider
+	url = ../../platform/packages/providers/WebSearchProvider
+[submodule "platform/packages/screensavers/Basic"]
+	branch = master
+	path = platform/packages/screensavers/Basic
+	url = ../../platform/packages/screensavers/Basic
+[submodule "platform/packages/screensavers/PhotoTable"]
+	branch = master
+	path = platform/packages/screensavers/PhotoTable
+	url = ../../platform/packages/screensavers/PhotoTable
+[submodule "platform/packages/screensavers/WebView"]
+	branch = master
+	path = platform/packages/screensavers/WebView
+	url = ../../platform/packages/screensavers/WebView
+[submodule "platform/packages/services/BuiltInPrintService"]
+	branch = master
+	path = platform/packages/services/BuiltInPrintService
+	url = ../../platform/packages/services/BuiltInPrintService
+[submodule "platform/packages/services/Car"]
+	branch = master
+	path = platform/packages/services/Car
+	url = ../../platform/packages/services/Car
+[submodule "platform/packages/services/EasService"]
+	branch = master
+	path = platform/packages/services/EasService
+	url = ../../platform/packages/services/EasService
+[submodule "platform/packages/services/LockAndWipe"]
+	branch = master
+	path = platform/packages/services/LockAndWipe
+	url = ../../platform/packages/services/LockAndWipe
+[submodule "platform/packages/services/Mms"]
+	branch = master
+	path = platform/packages/services/Mms
+	url = ../../platform/packages/services/Mms
+[submodule "platform/packages/services/NetworkRecommendation"]
+	branch = master
+	path = platform/packages/services/NetworkRecommendation
+	url = ../../platform/packages/services/NetworkRecommendation
+[submodule "platform/packages/services/Telecomm"]
+	branch = master
+	path = platform/packages/services/Telecomm
+	url = ../../platform/packages/services/Telecomm
+[submodule "platform/packages/services/Telephony"]
+	branch = master
+	path = platform/packages/services/Telephony
+	url = ../../platform/packages/services/Telephony
+[submodule "platform/packages/wallpapers/Basic"]
+	branch = master
+	path = platform/packages/wallpapers/Basic
+	url = ../../platform/packages/wallpapers/Basic
+[submodule "platform/packages/wallpapers/Galaxy4"]
+	branch = master
+	path = platform/packages/wallpapers/Galaxy4
+	url = ../../platform/packages/wallpapers/Galaxy4
+[submodule "platform/packages/wallpapers/HoloSpiral"]
+	branch = master
+	path = platform/packages/wallpapers/HoloSpiral
+	url = ../../platform/packages/wallpapers/HoloSpiral
+[submodule "platform/packages/wallpapers/LivePicker"]
+	branch = master
+	path = platform/packages/wallpapers/LivePicker
+	url = ../../platform/packages/wallpapers/LivePicker
+[submodule "platform/packages/wallpapers/MagicSmoke"]
+	branch = master
+	path = platform/packages/wallpapers/MagicSmoke
+	url = ../../platform/packages/wallpapers/MagicSmoke
+[submodule "platform/packages/wallpapers/MusicVisualization"]
+	branch = master
+	path = platform/packages/wallpapers/MusicVisualization
+	url = ../../platform/packages/wallpapers/MusicVisualization
+[submodule "platform/packages/wallpapers/NoiseField"]
+	branch = master
+	path = platform/packages/wallpapers/NoiseField
+	url = ../../platform/packages/wallpapers/NoiseField
+[submodule "platform/packages/wallpapers/PhaseBeam"]
+	branch = master
+	path = platform/packages/wallpapers/PhaseBeam
+	url = ../../platform/packages/wallpapers/PhaseBeam
+[submodule "platform/pdk"]
+	branch = master
+	path = platform/pdk
+	url = ../../platform/pdk
+[submodule "platform/platform_testing"]
+	branch = master
+	path = platform/platform_testing
+	url = ../../platform/platform_testing
+[submodule "platform/prebuilt"]
+	branch = master
+	path = platform/prebuilt
+	url = ../../platform/prebuilt
+[submodule "platform/prebuilts/abi-dumps/ndk"]
+	branch = master
+	path = platform/prebuilts/abi-dumps/ndk
+	url = ../../platform/prebuilts/abi-dumps/ndk
+[submodule "platform/prebuilts/abi-dumps/vndk"]
+	branch = master
+	path = platform/prebuilts/abi-dumps/vndk
+	url = ../../platform/prebuilts/abi-dumps/vndk
+[submodule "platform/prebuilts/android-emulator-build/archive"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/archive
+	url = ../../platform/prebuilts/android-emulator-build/archive
+[submodule "platform/prebuilts/android-emulator-build/common"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/common
+	url = ../../platform/prebuilts/android-emulator-build/common
+[submodule "platform/prebuilts/android-emulator-build/curl"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/curl
+	url = ../../platform/prebuilts/android-emulator-build/curl
+[submodule "platform/prebuilts/android-emulator-build/mesa-deps"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/mesa-deps
+	url = ../../platform/prebuilts/android-emulator-build/mesa-deps
+[submodule "platform/prebuilts/android-emulator-build/mesa"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/mesa
+	url = ../../platform/prebuilts/android-emulator-build/mesa
+[submodule "platform/prebuilts/android-emulator-build/protobuf"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/protobuf
+	url = ../../platform/prebuilts/android-emulator-build/protobuf
+[submodule "platform/prebuilts/android-emulator-build/qemu-android-deps"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/qemu-android-deps
+	url = ../../platform/prebuilts/android-emulator-build/qemu-android-deps
+[submodule "platform/prebuilts/android-emulator-build/qt"]
+	branch = master
+	path = platform/prebuilts/android-emulator-build/qt
+	url = ../../platform/prebuilts/android-emulator-build/qt
+[submodule "platform/prebuilts/android-emulator"]
+	branch = master
+	path = platform/prebuilts/android-emulator
+	url = ../../platform/prebuilts/android-emulator
+[submodule "platform/prebuilts/au-generator"]
+	branch = master
+	path = platform/prebuilts/au-generator
+	url = ../../platform/prebuilts/au-generator
+[submodule "platform/prebuilts/build-tools"]
+	branch = master
+	path = platform/prebuilts/build-tools
+	url = ../../platform/prebuilts/build-tools
+[submodule "platform/prebuilts/checkcolor"]
+	branch = master
+	path = platform/prebuilts/checkcolor
+	url = ../../platform/prebuilts/checkcolor
+[submodule "platform/prebuilts/checkstyle"]
+	branch = master
+	path = platform/prebuilts/checkstyle
+	url = ../../platform/prebuilts/checkstyle
+[submodule "platform/prebuilts/clang/darwin-x86/3.1"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/3.1
+	url = ../../platform/prebuilts/clang/darwin-x86/3.1
+[submodule "platform/prebuilts/clang/darwin-x86/3.2"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/3.2
+	url = ../../platform/prebuilts/clang/darwin-x86/3.2
+[submodule "platform/prebuilts/clang/darwin-x86/arm/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/arm/3.3
+	url = ../../platform/prebuilts/clang/darwin-x86/arm/3.3
+[submodule "platform/prebuilts/clang/darwin-x86/host/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/host/3.3
+	url = ../../platform/prebuilts/clang/darwin-x86/host/3.3
+[submodule "platform/prebuilts/clang/darwin-x86/host/3.4"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/host/3.4
+	url = ../../platform/prebuilts/clang/darwin-x86/host/3.4
+[submodule "platform/prebuilts/clang/darwin-x86/host/3.5"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/host/3.5
+	url = ../../platform/prebuilts/clang/darwin-x86/host/3.5
+[submodule "platform/prebuilts/clang/darwin-x86/host/3.6"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/host/3.6
+	url = ../../platform/prebuilts/clang/darwin-x86/host/3.6
+[submodule "platform/prebuilts/clang/darwin-x86/mips/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/mips/3.3
+	url = ../../platform/prebuilts/clang/darwin-x86/mips/3.3
+[submodule "platform/prebuilts/clang/darwin-x86/sdk/3.5"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/sdk/3.5
+	url = ../../platform/prebuilts/clang/darwin-x86/sdk/3.5
+[submodule "platform/prebuilts/clang/darwin-x86/x86/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/darwin-x86/x86/3.3
+	url = ../../platform/prebuilts/clang/darwin-x86/x86/3.3
+[submodule "platform/prebuilts/clang/host/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/clang/host/darwin-x86
+	url = ../../platform/prebuilts/clang/host/darwin-x86
+[submodule "platform/prebuilts/clang/host/linux-x86"]
+	branch = master
+	path = platform/prebuilts/clang/host/linux-x86
+	url = ../../platform/prebuilts/clang/host/linux-x86
+[submodule "platform/prebuilts/clang/host/windows-x86"]
+	branch = master
+	path = platform/prebuilts/clang/host/windows-x86
+	url = ../../platform/prebuilts/clang/host/windows-x86
+[submodule "platform/prebuilts/clang/linux-x86/3.1"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/3.1
+	url = ../../platform/prebuilts/clang/linux-x86/3.1
+[submodule "platform/prebuilts/clang/linux-x86/3.2"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/3.2
+	url = ../../platform/prebuilts/clang/linux-x86/3.2
+[submodule "platform/prebuilts/clang/linux-x86/arm/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/arm/3.3
+	url = ../../platform/prebuilts/clang/linux-x86/arm/3.3
+[submodule "platform/prebuilts/clang/linux-x86/host/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/host/3.3
+	url = ../../platform/prebuilts/clang/linux-x86/host/3.3
+[submodule "platform/prebuilts/clang/linux-x86/host/3.4"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/host/3.4
+	url = ../../platform/prebuilts/clang/linux-x86/host/3.4
+[submodule "platform/prebuilts/clang/linux-x86/host/3.5"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/host/3.5
+	url = ../../platform/prebuilts/clang/linux-x86/host/3.5
+[submodule "platform/prebuilts/clang/linux-x86/host/3.6"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/host/3.6
+	url = ../../platform/prebuilts/clang/linux-x86/host/3.6
+[submodule "platform/prebuilts/clang/linux-x86/mips/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/mips/3.3
+	url = ../../platform/prebuilts/clang/linux-x86/mips/3.3
+[submodule "platform/prebuilts/clang/linux-x86/x86/3.3"]
+	branch = master
+	path = platform/prebuilts/clang/linux-x86/x86/3.3
+	url = ../../platform/prebuilts/clang/linux-x86/x86/3.3
+[submodule "platform/prebuilts/cmake/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/cmake/darwin-x86
+	url = ../../platform/prebuilts/cmake/darwin-x86
+[submodule "platform/prebuilts/cmake/linux-x86"]
+	branch = master
+	path = platform/prebuilts/cmake/linux-x86
+	url = ../../platform/prebuilts/cmake/linux-x86
+[submodule "platform/prebuilts/cmake/windows-x86"]
+	branch = master
+	path = platform/prebuilts/cmake/windows-x86
+	url = ../../platform/prebuilts/cmake/windows-x86
+[submodule "platform/prebuilts/deqp"]
+	branch = master
+	path = platform/prebuilts/deqp
+	url = ../../platform/prebuilts/deqp
+[submodule "platform/prebuilts/devtools"]
+	branch = master
+	path = platform/prebuilts/devtools
+	url = ../../platform/prebuilts/devtools
+[submodule "platform/prebuilts/eclipse-build-deps-sources"]
+	branch = master
+	path = platform/prebuilts/eclipse-build-deps-sources
+	url = ../../platform/prebuilts/eclipse-build-deps-sources
+[submodule "platform/prebuilts/eclipse-build-deps"]
+	branch = master
+	path = platform/prebuilts/eclipse-build-deps
+	url = ../../platform/prebuilts/eclipse-build-deps
+[submodule "platform/prebuilts/eclipse"]
+	branch = master
+	path = platform/prebuilts/eclipse
+	url = ../../platform/prebuilts/eclipse
+[submodule "platform/prebuilts/fullsdk/build-tools/21-darwin"]
+	branch = master
+	path = platform/prebuilts/fullsdk/build-tools/21-darwin
+	url = ../../platform/prebuilts/fullsdk/build-tools/21-darwin
+[submodule "platform/prebuilts/fullsdk/build-tools/21-linux"]
+	branch = master
+	path = platform/prebuilts/fullsdk/build-tools/21-linux
+	url = ../../platform/prebuilts/fullsdk/build-tools/21-linux
+[submodule "platform/prebuilts/fullsdk/build-tools/22-darwin"]
+	branch = master
+	path = platform/prebuilts/fullsdk/build-tools/22-darwin
+	url = ../../platform/prebuilts/fullsdk/build-tools/22-darwin
+[submodule "platform/prebuilts/fullsdk/build-tools/22-linux"]
+	branch = master
+	path = platform/prebuilts/fullsdk/build-tools/22-linux
+	url = ../../platform/prebuilts/fullsdk/build-tools/22-linux
+[submodule "platform/prebuilts/fullsdk/build-tools/22-windows"]
+	branch = master
+	path = platform/prebuilts/fullsdk/build-tools/22-windows
+	url = ../../platform/prebuilts/fullsdk/build-tools/22-windows
+[submodule "platform/prebuilts/fullsdk/platforms/android-21"]
+	branch = master
+	path = platform/prebuilts/fullsdk/platforms/android-21
+	url = ../../platform/prebuilts/fullsdk/platforms/android-21
+[submodule "platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8
+[submodule "platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
+[submodule "platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6
+	url = ../../platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6
+[submodule "platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7
+	url = ../../platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7
+[submodule "platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
+	url = ../../platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
+[submodule "platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6
+	url = ../../platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6
+[submodule "platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7
+	url = ../../platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7
+[submodule "platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8
+	url = ../../platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8
+[submodule "platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
+	url = ../../platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
+[submodule "platform/prebuilts/gcc/darwin-x86/host/headers"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/host/headers
+	url = ../../platform/prebuilts/gcc/darwin-x86/host/headers
+[submodule "platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1
+	url = ../../platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1
+[submodule "platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8
+[submodule "platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9
+[submodule "platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3
+	url = ../../platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3
+[submodule "platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6
+	url = ../../platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6
+[submodule "platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7
+	url = ../../platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7
+[submodule "platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8
+[submodule "platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
+	url = ../../platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
+[submodule "platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.6
+	url = ../../platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.6
+[submodule "platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6
+	url = ../../platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6
+[submodule "platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7
+	url = ../../platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7
+[submodule "platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7
+	url = ../../platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7
+[submodule "platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8
+[submodule "platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9
+[submodule "platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+	url = ../../platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+[submodule "platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3
+	url = ../../platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3
+[submodule "platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9
+[submodule "platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3
+	url = ../../platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3
+[submodule "platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7
+	url = ../../platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7
+[submodule "platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3
+[submodule "platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6
+[submodule "platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7
+[submodule "platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7
+[submodule "platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8
+[submodule "platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"]
+	branch = master
+	path = platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
+	url = ../../platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
+[submodule "platform/prebuilts/gdb/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/gdb/darwin-x86
+	url = ../../platform/prebuilts/gdb/darwin-x86
+[submodule "platform/prebuilts/gdb/linux-x86"]
+	branch = master
+	path = platform/prebuilts/gdb/linux-x86
+	url = ../../platform/prebuilts/gdb/linux-x86
+[submodule "platform/prebuilts/go/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/go/darwin-x86
+	url = ../../platform/prebuilts/go/darwin-x86
+[submodule "platform/prebuilts/go/linux-x86"]
+	branch = master
+	path = platform/prebuilts/go/linux-x86
+	url = ../../platform/prebuilts/go/linux-x86
+[submodule "platform/prebuilts/go/windows-x86"]
+	branch = master
+	path = platform/prebuilts/go/windows-x86
+	url = ../../platform/prebuilts/go/windows-x86
+[submodule "platform/prebuilts/google-breakpad/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/google-breakpad/darwin-x86
+	url = ../../platform/prebuilts/google-breakpad/darwin-x86
+[submodule "platform/prebuilts/google-breakpad/linux-x86"]
+	branch = master
+	path = platform/prebuilts/google-breakpad/linux-x86
+	url = ../../platform/prebuilts/google-breakpad/linux-x86
+[submodule "platform/prebuilts/google-breakpad/windows-x86"]
+	branch = master
+	path = platform/prebuilts/google-breakpad/windows-x86
+	url = ../../platform/prebuilts/google-breakpad/windows-x86
+[submodule "platform/prebuilts/gradle-plugin"]
+	branch = master
+	path = platform/prebuilts/gradle-plugin
+	url = ../../platform/prebuilts/gradle-plugin
+[submodule "platform/prebuilts/libedit/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/libedit/darwin-x86
+	url = ../../platform/prebuilts/libedit/darwin-x86
+[submodule "platform/prebuilts/libedit/linux-x86"]
+	branch = master
+	path = platform/prebuilts/libedit/linux-x86
+	url = ../../platform/prebuilts/libedit/linux-x86
+[submodule "platform/prebuilts/libglog/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/libglog/darwin-x86
+	url = ../../platform/prebuilts/libglog/darwin-x86
+[submodule "platform/prebuilts/libglog/linux-x86"]
+	branch = master
+	path = platform/prebuilts/libglog/linux-x86
+	url = ../../platform/prebuilts/libglog/linux-x86
+[submodule "platform/prebuilts/libglog/windows-x86"]
+	branch = master
+	path = platform/prebuilts/libglog/windows-x86
+	url = ../../platform/prebuilts/libglog/windows-x86
+[submodule "platform/prebuilts/libprotobuf/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/libprotobuf/darwin-x86
+	url = ../../platform/prebuilts/libprotobuf/darwin-x86
+[submodule "platform/prebuilts/libprotobuf/darwin"]
+	branch = master
+	path = platform/prebuilts/libprotobuf/darwin
+	url = ../../platform/prebuilts/libprotobuf/darwin
+[submodule "platform/prebuilts/libprotobuf/linux-x86"]
+	branch = master
+	path = platform/prebuilts/libprotobuf/linux-x86
+	url = ../../platform/prebuilts/libprotobuf/linux-x86
+[submodule "platform/prebuilts/libprotobuf/linux"]
+	branch = master
+	path = platform/prebuilts/libprotobuf/linux
+	url = ../../platform/prebuilts/libprotobuf/linux
+[submodule "platform/prebuilts/libprotobuf/windows-x86"]
+	branch = master
+	path = platform/prebuilts/libprotobuf/windows-x86
+	url = ../../platform/prebuilts/libprotobuf/windows-x86
+[submodule "platform/prebuilts/libprotobuf/windows"]
+	branch = master
+	path = platform/prebuilts/libprotobuf/windows
+	url = ../../platform/prebuilts/libprotobuf/windows
+[submodule "platform/prebuilts/libs/libedit"]
+	branch = master
+	path = platform/prebuilts/libs/libedit
+	url = ../../platform/prebuilts/libs/libedit
+[submodule "platform/prebuilts/maven_repo/android"]
+	branch = master
+	path = platform/prebuilts/maven_repo/android
+	url = ../../platform/prebuilts/maven_repo/android
+[submodule "platform/prebuilts/misc"]
+	branch = master
+	path = platform/prebuilts/misc
+	url = ../../platform/prebuilts/misc
+[submodule "platform/prebuilts/ndk"]
+	branch = master
+	path = platform/prebuilts/ndk
+	url = ../../platform/prebuilts/ndk
+[submodule "platform/prebuilts/ninja/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/ninja/darwin-x86
+	url = ../../platform/prebuilts/ninja/darwin-x86
+[submodule "platform/prebuilts/ninja/linux-x86"]
+	branch = master
+	path = platform/prebuilts/ninja/linux-x86
+	url = ../../platform/prebuilts/ninja/linux-x86
+[submodule "platform/prebuilts/ninja/windows-x86"]
+	branch = master
+	path = platform/prebuilts/ninja/windows-x86
+	url = ../../platform/prebuilts/ninja/windows-x86
+[submodule "platform/prebuilts/python/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/python/darwin-x86
+	url = ../../platform/prebuilts/python/darwin-x86
+[submodule "platform/prebuilts/python/linux-x86"]
+	branch = master
+	path = platform/prebuilts/python/linux-x86
+	url = ../../platform/prebuilts/python/linux-x86
+[submodule "platform/prebuilts/python/windows-x86"]
+	branch = master
+	path = platform/prebuilts/python/windows-x86
+	url = ../../platform/prebuilts/python/windows-x86
+[submodule "platform/prebuilts/qemu-kernel"]
+	branch = master
+	path = platform/prebuilts/qemu-kernel
+	url = ../../platform/prebuilts/qemu-kernel
+[submodule "platform/prebuilts/renderscript/host/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/renderscript/host/darwin-x86
+	url = ../../platform/prebuilts/renderscript/host/darwin-x86
+[submodule "platform/prebuilts/renderscript/host/linux-x86"]
+	branch = master
+	path = platform/prebuilts/renderscript/host/linux-x86
+	url = ../../platform/prebuilts/renderscript/host/linux-x86
+[submodule "platform/prebuilts/renderscript/host/windows-x86"]
+	branch = master
+	path = platform/prebuilts/renderscript/host/windows-x86
+	url = ../../platform/prebuilts/renderscript/host/windows-x86
+[submodule "platform/prebuilts/runtime"]
+	branch = master
+	path = platform/prebuilts/runtime
+	url = ../../platform/prebuilts/runtime
+[submodule "platform/prebuilts/sdk"]
+	branch = master
+	path = platform/prebuilts/sdk
+	url = ../../platform/prebuilts/sdk
+[submodule "platform/prebuilts/simpleperf"]
+	branch = master
+	path = platform/prebuilts/simpleperf
+	url = ../../platform/prebuilts/simpleperf
+[submodule "platform/prebuilts/studio/jdk"]
+	branch = master
+	path = platform/prebuilts/studio/jdk
+	url = ../../platform/prebuilts/studio/jdk
+[submodule "platform/prebuilts/studio/layoutlib"]
+	branch = master
+	path = platform/prebuilts/studio/layoutlib
+	url = ../../platform/prebuilts/studio/layoutlib
+[submodule "platform/prebuilts/swig/darwin-x86"]
+	branch = master
+	path = platform/prebuilts/swig/darwin-x86
+	url = ../../platform/prebuilts/swig/darwin-x86
+[submodule "platform/prebuilts/swig/linux-x86"]
+	branch = master
+	path = platform/prebuilts/swig/linux-x86
+	url = ../../platform/prebuilts/swig/linux-x86
+[submodule "platform/prebuilts/swig/windows-x86"]
+	branch = master
+	path = platform/prebuilts/swig/windows-x86
+	url = ../../platform/prebuilts/swig/windows-x86
+[submodule "platform/prebuilts/tools"]
+	branch = master
+	path = platform/prebuilts/tools
+	url = ../../platform/prebuilts/tools
+[submodule "platform/sdk"]
+	branch = master
+	path = platform/sdk
+	url = ../../platform/sdk
+[submodule "platform/superproject"]
+	branch = master
+	path = platform/superproject
+	url = ../../platform/superproject
+[submodule "platform/system/attestation"]
+	branch = master
+	path = platform/system/attestation
+	url = ../../platform/system/attestation
+[submodule "platform/system/bluetooth"]
+	branch = master
+	path = platform/system/bluetooth
+	url = ../../platform/system/bluetooth
+[submodule "platform/system/bt"]
+	branch = master
+	path = platform/system/bt
+	url = ../../platform/system/bt
+[submodule "platform/system/bvb"]
+	branch = master
+	path = platform/system/bvb
+	url = ../../platform/system/bvb
+[submodule "platform/system/ca-certificates"]
+	branch = master
+	path = platform/system/ca-certificates
+	url = ../../platform/system/ca-certificates
+[submodule "platform/system/chre"]
+	branch = master
+	path = platform/system/chre
+	url = ../../platform/system/chre
+[submodule "platform/system/connectivity/apmanager"]
+	branch = master
+	path = platform/system/connectivity/apmanager
+	url = ../../platform/system/connectivity/apmanager
+[submodule "platform/system/connectivity/dhcp_client"]
+	branch = master
+	path = platform/system/connectivity/dhcp_client
+	url = ../../platform/system/connectivity/dhcp_client
+[submodule "platform/system/connectivity/shill"]
+	branch = master
+	path = platform/system/connectivity/shill
+	url = ../../platform/system/connectivity/shill
+[submodule "platform/system/connectivity/wificond"]
+	branch = master
+	path = platform/system/connectivity/wificond
+	url = ../../platform/system/connectivity/wificond
+[submodule "platform/system/connectivity/wifilogd"]
+	branch = master
+	path = platform/system/connectivity/wifilogd
+	url = ../../platform/system/connectivity/wifilogd
+[submodule "platform/system/core"]
+	branch = master
+	path = platform/system/core
+	url = ../../platform/system/core
+[submodule "platform/system/crash_reporter"]
+	branch = master
+	path = platform/system/crash_reporter
+	url = ../../platform/system/crash_reporter
+[submodule "platform/system/extras"]
+	branch = master
+	path = platform/system/extras
+	url = ../../platform/system/extras
+[submodule "platform/system/firewalld"]
+	branch = master
+	path = platform/system/firewalld
+	url = ../../platform/system/firewalld
+[submodule "platform/system/gatekeeper"]
+	branch = master
+	path = platform/system/gatekeeper
+	url = ../../platform/system/gatekeeper
+[submodule "platform/system/hardware/interfaces"]
+	branch = master
+	path = platform/system/hardware/interfaces
+	url = ../../platform/system/hardware/interfaces
+[submodule "platform/system/hwservicemanager"]
+	branch = master
+	path = platform/system/hwservicemanager
+	url = ../../platform/system/hwservicemanager
+[submodule "platform/system/iot/mtdutils"]
+	branch = master
+	path = platform/system/iot/mtdutils
+	url = ../../platform/system/iot/mtdutils
+[submodule "platform/system/keyguard"]
+	branch = master
+	path = platform/system/keyguard
+	url = ../../platform/system/keyguard
+[submodule "platform/system/keymaster"]
+	branch = master
+	path = platform/system/keymaster
+	url = ../../platform/system/keymaster
+[submodule "platform/system/libfmq"]
+	branch = master
+	path = platform/system/libfmq
+	url = ../../platform/system/libfmq
+[submodule "platform/system/libhidl"]
+	branch = master
+	path = platform/system/libhidl
+	url = ../../platform/system/libhidl
+[submodule "platform/system/libhwbinder"]
+	branch = master
+	path = platform/system/libhwbinder
+	url = ../../platform/system/libhwbinder
+[submodule "platform/system/libufdt"]
+	branch = master
+	path = platform/system/libufdt
+	url = ../../platform/system/libufdt
+[submodule "platform/system/libvintf"]
+	branch = master
+	path = platform/system/libvintf
+	url = ../../platform/system/libvintf
+[submodule "platform/system/media"]
+	branch = master
+	path = platform/system/media
+	url = ../../platform/system/media
+[submodule "platform/system/metricsd"]
+	branch = master
+	path = platform/system/metricsd
+	url = ../../platform/system/metricsd
+[submodule "platform/system/nativepower"]
+	branch = master
+	path = platform/system/nativepower
+	url = ../../platform/system/nativepower
+[submodule "platform/system/netd"]
+	branch = master
+	path = platform/system/netd
+	url = ../../platform/system/netd
+[submodule "platform/system/nfc"]
+	branch = master
+	path = platform/system/nfc
+	url = ../../platform/system/nfc
+[submodule "platform/system/nvram"]
+	branch = master
+	path = platform/system/nvram
+	url = ../../platform/system/nvram
+[submodule "platform/system/peripheralmanager"]
+	branch = master
+	path = platform/system/peripheralmanager
+	url = ../../platform/system/peripheralmanager
+[submodule "platform/system/security"]
+	branch = master
+	path = platform/system/security
+	url = ../../platform/system/security
+[submodule "platform/system/sepolicy"]
+	branch = master
+	path = platform/system/sepolicy
+	url = ../../platform/system/sepolicy
+[submodule "platform/system/tools/aidl"]
+	branch = master
+	path = platform/system/tools/aidl
+	url = ../../platform/system/tools/aidl
+[submodule "platform/system/tools/bpt"]
+	branch = master
+	path = platform/system/tools/bpt
+	url = ../../platform/system/tools/bpt
+[submodule "platform/system/tools/hidl"]
+	branch = master
+	path = platform/system/tools/hidl
+	url = ../../platform/system/tools/hidl
+[submodule "platform/system/tpm"]
+	branch = master
+	path = platform/system/tpm
+	url = ../../platform/system/tpm
+[submodule "platform/system/tpm_manager"]
+	branch = master
+	path = platform/system/tpm_manager
+	url = ../../platform/system/tpm_manager
+[submodule "platform/system/trunks"]
+	branch = master
+	path = platform/system/trunks
+	url = ../../platform/system/trunks
+[submodule "platform/system/update_engine"]
+	branch = master
+	path = platform/system/update_engine
+	url = ../../platform/system/update_engine
+[submodule "platform/system/vold"]
+	branch = master
+	path = platform/system/vold
+	url = ../../platform/system/vold
+[submodule "platform/system/weaved"]
+	branch = master
+	path = platform/system/weaved
+	url = ../../platform/system/weaved
+[submodule "platform/system/webservd"]
+	branch = master
+	path = platform/system/webservd
+	url = ../../platform/system/webservd
+[submodule "platform/system/wifi"]
+	branch = master
+	path = platform/system/wifi
+	url = ../../platform/system/wifi
+[submodule "platform/system/wlan/ti"]
+	branch = master
+	path = platform/system/wlan/ti
+	url = ../../platform/system/wlan/ti
+[submodule "platform/test/AfwTestHarness"]
+	branch = master
+	path = platform/test/AfwTestHarness
+	url = ../../platform/test/AfwTestHarness
+[submodule "platform/test/vti/dashboard"]
+	branch = master
+	path = platform/test/vti/dashboard
+	url = ../../platform/test/vti/dashboard
+[submodule "platform/test/vts-testcase/fuzz"]
+	branch = master
+	path = platform/test/vts-testcase/fuzz
+	url = ../../platform/test/vts-testcase/fuzz
+[submodule "platform/test/vts-testcase/hal-trace"]
+	branch = master
+	path = platform/test/vts-testcase/hal-trace
+	url = ../../platform/test/vts-testcase/hal-trace
+[submodule "platform/test/vts-testcase/hal"]
+	branch = master
+	path = platform/test/vts-testcase/hal
+	url = ../../platform/test/vts-testcase/hal
+[submodule "platform/test/vts-testcase/kernel"]
+	branch = master
+	path = platform/test/vts-testcase/kernel
+	url = ../../platform/test/vts-testcase/kernel
+[submodule "platform/test/vts-testcase/performance"]
+	branch = master
+	path = platform/test/vts-testcase/performance
+	url = ../../platform/test/vts-testcase/performance
+[submodule "platform/test/vts-testcase/security"]
+	branch = master
+	path = platform/test/vts-testcase/security
+	url = ../../platform/test/vts-testcase/security
+[submodule "platform/test/vts-testcase/vndk"]
+	branch = master
+	path = platform/test/vts-testcase/vndk
+	url = ../../platform/test/vts-testcase/vndk
+[submodule "platform/test/vts"]
+	branch = master
+	path = platform/test/vts
+	url = ../../platform/test/vts
+[submodule "platform/tools/adt/eclipse"]
+	branch = master
+	path = platform/tools/adt/eclipse
+	url = ../../platform/tools/adt/eclipse
+[submodule "platform/tools/adt/idea"]
+	branch = master
+	path = platform/tools/adt/idea
+	url = ../../platform/tools/adt/idea
+[submodule "platform/tools/analytics-library"]
+	branch = master
+	path = platform/tools/analytics-library
+	url = ../../platform/tools/analytics-library
+[submodule "platform/tools/apksig"]
+	branch = master
+	path = platform/tools/apksig
+	url = ../../platform/tools/apksig
+[submodule "platform/tools/base"]
+	branch = master
+	path = platform/tools/base
+	url = ../../platform/tools/base
+[submodule "platform/tools/bdk"]
+	branch = master
+	path = platform/tools/bdk
+	url = ../../platform/tools/bdk
+[submodule "platform/tools/build"]
+	branch = master
+	path = platform/tools/build
+	url = ../../platform/tools/build
+[submodule "platform/tools/buildSrc"]
+	branch = master
+	path = platform/tools/buildSrc
+	url = ../../platform/tools/buildSrc
+[submodule "platform/tools/cmake-utils"]
+	branch = master
+	path = platform/tools/cmake-utils
+	url = ../../platform/tools/cmake-utils
+[submodule "platform/tools/emulator"]
+	branch = master
+	path = platform/tools/emulator
+	url = ../../platform/tools/emulator
+[submodule "platform/tools/external/fat32lib"]
+	branch = master
+	path = platform/tools/external/fat32lib
+	url = ../../platform/tools/external/fat32lib
+[submodule "platform/tools/external/go/src/github.com/go-gl-legacy/gl"]
+	branch = master
+	path = platform/tools/external/go/src/github.com/go-gl-legacy/gl
+	url = ../../platform/tools/external/go/src/github.com/go-gl-legacy/gl
+[submodule "platform/tools/external/go/src/github.com/go-gl/glfw"]
+	branch = master
+	path = platform/tools/external/go/src/github.com/go-gl/glfw
+	url = ../../platform/tools/external/go/src/github.com/go-gl/glfw
+[submodule "platform/tools/external/go/src/github.com/golang/protobuf"]
+	branch = master
+	path = platform/tools/external/go/src/github.com/golang/protobuf
+	url = ../../platform/tools/external/go/src/github.com/golang/protobuf
+[submodule "platform/tools/external/go/src/golang.org/x/net"]
+	branch = master
+	path = platform/tools/external/go/src/golang.org/x/net
+	url = ../../platform/tools/external/go/src/golang.org/x/net
+[submodule "platform/tools/external/go/src/golang.org/x/tools"]
+	branch = master
+	path = platform/tools/external/go/src/golang.org/x/tools
+	url = ../../platform/tools/external/go/src/golang.org/x/tools
+[submodule "platform/tools/external/gradle"]
+	branch = master
+	path = platform/tools/external/gradle
+	url = ../../platform/tools/external/gradle
+[submodule "platform/tools/gpu"]
+	branch = master
+	path = platform/tools/gpu
+	url = ../../platform/tools/gpu
+[submodule "platform/tools/gradle"]
+	branch = master
+	path = platform/tools/gradle
+	url = ../../platform/tools/gradle
+[submodule "platform/tools/idea"]
+	branch = master
+	path = platform/tools/idea
+	url = ../../platform/tools/idea
+[submodule "platform/tools/loganalysis"]
+	branch = master
+	path = platform/tools/loganalysis
+	url = ../../platform/tools/loganalysis
+[submodule "platform/tools/motodev"]
+	branch = master
+	path = platform/tools/motodev
+	url = ../../platform/tools/motodev
+[submodule "platform/tools/repohooks-trampoline"]
+	branch = master
+	path = platform/tools/repohooks-trampoline
+	url = ../../platform/tools/repohooks-trampoline
+[submodule "platform/tools/repohooks"]
+	branch = master
+	path = platform/tools/repohooks
+	url = ../../platform/tools/repohooks
+[submodule "platform/tools/studio/cloud"]
+	branch = master
+	path = platform/tools/studio/cloud
+	url = ../../platform/tools/studio/cloud
+[submodule "platform/tools/studio/google/appindexing"]
+	branch = master
+	path = platform/tools/studio/google/appindexing
+	url = ../../platform/tools/studio/google/appindexing
+[submodule "platform/tools/studio/google/cloud/testing"]
+	branch = master
+	path = platform/tools/studio/google/cloud/testing
+	url = ../../platform/tools/studio/google/cloud/testing
+[submodule "platform/tools/studio/google/cloud/tools"]
+	branch = master
+	path = platform/tools/studio/google/cloud/tools
+	url = ../../platform/tools/studio/google/cloud/tools
+[submodule "platform/tools/studio/google/login"]
+	branch = master
+	path = platform/tools/studio/google/login
+	url = ../../platform/tools/studio/google/login
+[submodule "platform/tools/studio/google/play"]
+	branch = master
+	path = platform/tools/studio/google/play
+	url = ../../platform/tools/studio/google/play
+[submodule "platform/tools/studio/google/samples"]
+	branch = master
+	path = platform/tools/studio/google/samples
+	url = ../../platform/tools/studio/google/samples
+[submodule "platform/tools/studio/google/services"]
+	branch = master
+	path = platform/tools/studio/google/services
+	url = ../../platform/tools/studio/google/services
+[submodule "platform/tools/studio/translation"]
+	branch = master
+	path = platform/tools/studio/translation
+	url = ../../platform/tools/studio/translation
+[submodule "platform/tools/swing-testing"]
+	branch = master
+	path = platform/tools/swing-testing
+	url = ../../platform/tools/swing-testing
+[submodule "platform/tools/swt"]
+	branch = master
+	path = platform/tools/swt
+	url = ../../platform/tools/swt
+[submodule "platform/tools/test/connectivity"]
+	branch = master
+	path = platform/tools/test/connectivity
+	url = ../../platform/tools/test/connectivity
+[submodule "platform/tools/tradefederation"]
+	branch = master
+	path = platform/tools/tradefederation
+	url = ../../platform/tools/tradefederation
+[submodule "platform/vendor/htc/dream-open"]
+	branch = master
+	path = platform/vendor/htc/dream-open
+	url = ../../platform/vendor/htc/dream-open
+[submodule "platform/vendor/invensense"]
+	branch = master
+	path = platform/vendor/invensense
+	url = ../../platform/vendor/invensense
+[submodule "platform/vendor/sample"]
+	branch = master
+	path = platform/vendor/sample
+	url = ../../platform/vendor/sample
+[submodule "product/google/common"]
+	branch = master
+	path = product/google/common
+	url = ../../product/google/common
+[submodule "product/google/example-ledflasher"]
+	branch = master
+	path = product/google/example-ledflasher
+	url = ../../product/google/example-ledflasher
+[submodule "toolchain/avr-libc"]
+	branch = master
+	path = toolchain/avr-libc
+	url = ../../toolchain/avr-libc
+[submodule "toolchain/benchmark"]
+	branch = master
+	path = toolchain/benchmark
+	url = ../../toolchain/benchmark
+[submodule "toolchain/binutils"]
+	branch = master
+	path = toolchain/binutils
+	url = ../../toolchain/binutils
+[submodule "toolchain/build"]
+	branch = master
+	path = toolchain/build
+	url = ../../toolchain/build
+[submodule "toolchain/ccache"]
+	branch = master
+	path = toolchain/ccache
+	url = ../../toolchain/ccache
+[submodule "toolchain/clang-tools-extra"]
+	branch = master
+	path = toolchain/clang-tools-extra
+	url = ../../toolchain/clang-tools-extra
+[submodule "toolchain/clang"]
+	branch = master
+	path = toolchain/clang
+	url = ../../toolchain/clang
+[submodule "toolchain/cloog"]
+	branch = master
+	path = toolchain/cloog
+	url = ../../toolchain/cloog
+[submodule "toolchain/compiler-rt"]
+	branch = master
+	path = toolchain/compiler-rt
+	url = ../../toolchain/compiler-rt
+[submodule "toolchain/expat"]
+	branch = master
+	path = toolchain/expat
+	url = ../../toolchain/expat
+[submodule "toolchain/gcc"]
+	branch = master
+	path = toolchain/gcc
+	url = ../../toolchain/gcc
+[submodule "toolchain/gdb"]
+	branch = master
+	path = toolchain/gdb
+	url = ../../toolchain/gdb
+[submodule "toolchain/gmp"]
+	branch = master
+	path = toolchain/gmp
+	url = ../../toolchain/gmp
+[submodule "toolchain/gold"]
+	branch = master
+	path = toolchain/gold
+	url = ../../toolchain/gold
+[submodule "toolchain/isl"]
+	branch = master
+	path = toolchain/isl
+	url = ../../toolchain/isl
+[submodule "toolchain/jack-server"]
+	branch = master
+	path = toolchain/jack-server
+	url = ../../toolchain/jack-server
+[submodule "toolchain/jack"]
+	branch = master
+	path = toolchain/jack
+	url = ../../toolchain/jack
+[submodule "toolchain/jill"]
+	branch = master
+	path = toolchain/jill
+	url = ../../toolchain/jill
+[submodule "toolchain/libcxx"]
+	branch = master
+	path = toolchain/libcxx
+	url = ../../toolchain/libcxx
+[submodule "toolchain/libcxxabi"]
+	branch = master
+	path = toolchain/libcxxabi
+	url = ../../toolchain/libcxxabi
+[submodule "toolchain/llvm"]
+	branch = master
+	path = toolchain/llvm
+	url = ../../toolchain/llvm
+[submodule "toolchain/manifest"]
+	branch = master
+	path = toolchain/manifest
+	url = ../../toolchain/manifest
+[submodule "toolchain/mclinker"]
+	branch = master
+	path = toolchain/mclinker
+	url = ../../toolchain/mclinker
+[submodule "toolchain/mingw"]
+	branch = master
+	path = toolchain/mingw
+	url = ../../toolchain/mingw
+[submodule "toolchain/mpc"]
+	branch = master
+	path = toolchain/mpc
+	url = ../../toolchain/mpc
+[submodule "toolchain/mpfr"]
+	branch = master
+	path = toolchain/mpfr
+	url = ../../toolchain/mpfr
+[submodule "toolchain/ndk_chromite_config"]
+	branch = master
+	path = toolchain/ndk_chromite_config
+	url = ../../toolchain/ndk_chromite_config
+[submodule "toolchain/openmp_llvm"]
+	branch = master
+	path = toolchain/openmp_llvm
+	url = ../../toolchain/openmp_llvm
+[submodule "toolchain/perl"]
+	branch = master
+	path = toolchain/perl
+	url = ../../toolchain/perl
+[submodule "toolchain/polly"]
+	branch = master
+	path = toolchain/polly
+	url = ../../toolchain/polly
+[submodule "toolchain/ppl"]
+	branch = master
+	path = toolchain/ppl
+	url = ../../toolchain/ppl
+[submodule "toolchain/prebuilts/ndk/r13"]
+	branch = master
+	path = toolchain/prebuilts/ndk/r13
+	url = ../../toolchain/prebuilts/ndk/r13
+[submodule "toolchain/prebuilts/ndk/r14"]
+	branch = master
+	path = toolchain/prebuilts/ndk/r14
+	url = ../../toolchain/prebuilts/ndk/r14
+[submodule "toolchain/python"]
+	branch = master
+	path = toolchain/python
+	url = ../../toolchain/python
+[submodule "toolchain/sed"]
+	branch = master
+	path = toolchain/sed
+	url = ../../toolchain/sed
+[submodule "toolchain/valgrind"]
+	branch = master
+	path = toolchain/valgrind
+	url = ../../toolchain/valgrind
+[submodule "toolchain/xz"]
+	branch = master
+	path = toolchain/xz
+	url = ../../toolchain/xz
+[submodule "toolchain/yasm"]
+	branch = master
+	path = toolchain/yasm
+	url = ../../toolchain/yasm
+[submodule "tools/aospstats"]
+	branch = master
+	path = tools/aospstats
+	url = ../../tools/aospstats
+[submodule "tools/repo"]
+	branch = master
+	path = tools/repo
+	url = ../../tools/repo
+[submodule "trusty/app/avb"]
+	branch = master
+	path = trusty/app/avb
+	url = ../../trusty/app/avb
+[submodule "trusty/app/gatekeeper"]
+	branch = master
+	path = trusty/app/gatekeeper
+	url = ../../trusty/app/gatekeeper
+[submodule "trusty/app/keymaster"]
+	branch = master
+	path = trusty/app/keymaster
+	url = ../../trusty/app/keymaster
+[submodule "trusty/app/nvram"]
+	branch = master
+	path = trusty/app/nvram
+	url = ../../trusty/app/nvram
+[submodule "trusty/app/sample"]
+	branch = master
+	path = trusty/app/sample
+	url = ../../trusty/app/sample
+[submodule "trusty/app/storage"]
+	branch = master
+	path = trusty/app/storage
+	url = ../../trusty/app/storage
+[submodule "trusty/device/arm/generic-arm64"]
+	branch = master
+	path = trusty/device/arm/generic-arm64
+	url = ../../trusty/device/arm/generic-arm64
+[submodule "trusty/device/arm/vexpress-a15"]
+	branch = master
+	path = trusty/device/arm/vexpress-a15
+	url = ../../trusty/device/arm/vexpress-a15
+[submodule "trusty/device/nxp/imx6ul"]
+	branch = master
+	path = trusty/device/nxp/imx6ul
+	url = ../../trusty/device/nxp/imx6ul
+[submodule "trusty/device/nxp/imx7d"]
+	branch = master
+	path = trusty/device/nxp/imx7d
+	url = ../../trusty/device/nxp/imx7d
+[submodule "trusty/external/headers"]
+	branch = master
+	path = trusty/external/headers
+	url = ../../trusty/external/headers
+[submodule "trusty/external/qemu"]
+	branch = master
+	path = trusty/external/qemu
+	url = ../../trusty/external/qemu
+[submodule "trusty/external/trusty"]
+	branch = master
+	path = trusty/external/trusty
+	url = ../../trusty/external/trusty
+[submodule "trusty/lib"]
+	branch = master
+	path = trusty/lib
+	url = ../../trusty/lib
+[submodule "trusty/lk/common"]
+	branch = master
+	path = trusty/lk/common
+	url = ../../trusty/lk/common
+[submodule "trusty/lk/nxp"]
+	branch = master
+	path = trusty/lk/nxp
+	url = ../../trusty/lk/nxp
+[submodule "trusty/lk/trusty"]
+	branch = master
+	path = trusty/lk/trusty
+	url = ../../trusty/lk/trusty
+[submodule "trusty/manifest"]
+	branch = master
+	path = trusty/manifest
+	url = ../../trusty/manifest
+[submodule "trusty/vendor/google/aosp"]
+	branch = master
+	path = trusty/vendor/google/aosp
+	url = ../../trusty/vendor/google/aosp
