@@ -4206,6 +4206,10 @@
 	branch = master
 	path = platform/tools/tradefederation
 	url = ../../platform/tools/tradefederation
+[submodule "platform/vendor/google_devices/cuttlefish_common"]
+	branch = master
+	path = platform/vendor/google_devices/cuttlefish_common
+	url = ../../platform/vendor/google_devices/cuttlefish_common
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
