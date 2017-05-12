@@ -146,18 +146,6 @@
 	branch = master
 	path = device/google/contexthub
 	url = ../../device/google/contexthub
-[submodule "device/google/cuttlefish"]
-	branch = master
-	path = device/google/cuttlefish
-	url = ../../device/google/cuttlefish
-[submodule "device/google/cuttlefish_common"]
-	branch = master
-	path = device/google/cuttlefish_common
-	url = ../../device/google/cuttlefish_common
-[submodule "device/google/cuttlefish_kernel"]
-	branch = master
-	path = device/google/cuttlefish_kernel
-	url = ../../device/google/cuttlefish_kernel
 [submodule "device/google/debugcable"]
 	branch = master
 	path = device/google/debugcable
@@ -554,10 +542,6 @@
 	branch = master
 	path = platform/external/aes
 	url = ../../platform/external/aes
-[submodule "platform/external/alac"]
-	branch = master
-	path = platform/external/alac
-	url = ../../platform/external/alac
 [submodule "platform/external/alsa-lib"]
 	branch = master
 	path = platform/external/alsa-lib
@@ -2926,10 +2910,6 @@
 	branch = master
 	path = platform/packages/apps/ManagedProvisioning
 	url = ../../platform/packages/apps/ManagedProvisioning
-[submodule "platform/packages/apps/McLauncher"]
-	branch = master
-	path = platform/packages/apps/McLauncher
-	url = ../../platform/packages/apps/McLauncher
 [submodule "platform/packages/apps/Messaging"]
 	branch = master
 	path = platform/packages/apps/Messaging
@@ -4206,10 +4186,6 @@
 	branch = master
 	path = platform/tools/tradefederation
 	url = ../../platform/tools/tradefederation
-[submodule "platform/vendor/google_devices/cuttlefish_common"]
-	branch = master
-	path = platform/vendor/google_devices/cuttlefish_common
-	url = ../../platform/vendor/google_devices/cuttlefish_common
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
