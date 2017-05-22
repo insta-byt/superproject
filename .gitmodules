@@ -678,6 +678,10 @@
 	branch = master
 	path = platform/external/bouncycastle
 	url = ../../platform/external/bouncycastle
+[submodule "platform/external/brotli"]
+	branch = master
+	path = platform/external/brotli
+	url = ../../platform/external/brotli
 [submodule "platform/external/bsdiff"]
 	branch = master
 	path = platform/external/bsdiff
