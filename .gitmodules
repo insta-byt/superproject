@@ -2194,6 +2194,10 @@
 	branch = master
 	path = platform/external/wycheproof
 	url = ../../platform/external/wycheproof
+[submodule "platform/external/x264"]
+	branch = master
+	path = platform/external/x264
+	url = ../../platform/external/x264
 [submodule "platform/external/xdelta3"]
 	branch = master
 	path = platform/external/xdelta3
