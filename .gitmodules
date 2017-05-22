@@ -2046,6 +2046,10 @@
 	branch = master
 	path = platform/external/swig
 	url = ../../platform/external/swig
+[submodule "platform/external/syslinux"]
+	branch = master
+	path = platform/external/syslinux
+	url = ../../platform/external/syslinux
 [submodule "platform/external/syspatch"]
 	branch = master
 	path = platform/external/syspatch
