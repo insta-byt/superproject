@@ -4018,6 +4018,10 @@
 	branch = master
 	path = platform/test/vti/dashboard
 	url = ../../platform/test/vti/dashboard
+[submodule "platform/test/vti/test_serving"]
+	branch = master
+	path = platform/test/vti/test_serving
+	url = ../../platform/test/vti/test_serving
 [submodule "platform/test/vts-testcase/fuzz"]
 	branch = master
 	path = platform/test/vts-testcase/fuzz
