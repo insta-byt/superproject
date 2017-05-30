@@ -1890,6 +1890,10 @@
 	branch = master
 	path = platform/external/quake
 	url = ../../platform/external/quake
+[submodule "platform/external/r8"]
+	branch = master
+	path = platform/external/r8
+	url = ../../platform/external/r8
 [submodule "platform/external/regex-re2"]
 	branch = master
 	path = platform/external/regex-re2
