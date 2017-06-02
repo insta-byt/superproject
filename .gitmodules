@@ -3030,6 +3030,10 @@
 	branch = master
 	path = platform/packages/apps/Test/connectivity
 	url = ../../platform/packages/apps/Test/connectivity
+[submodule "platform/packages/apps/TimeZoneData"]
+	branch = master
+	path = platform/packages/apps/TimeZoneData
+	url = ../../platform/packages/apps/TimeZoneData
 [submodule "platform/packages/apps/TvSettings"]
 	branch = master
 	path = platform/packages/apps/TvSettings
