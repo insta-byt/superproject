@@ -882,6 +882,10 @@
 	branch = master
 	path = platform/external/dropbear
 	url = ../../platform/external/dropbear
+[submodule "platform/external/drrickorang"]
+	branch = master
+	path = platform/external/drrickorang
+	url = ../../platform/external/drrickorang
 [submodule "platform/external/dtc"]
 	branch = master
 	path = platform/external/dtc
@@ -958,6 +962,10 @@
 	branch = master
 	path = platform/external/fec
 	url = ../../platform/external/fec
+[submodule "platform/external/ffmpeg"]
+	branch = master
+	path = platform/external/ffmpeg
+	url = ../../platform/external/ffmpeg
 [submodule "platform/external/fio"]
 	branch = master
 	path = platform/external/fio
@@ -3970,6 +3978,10 @@
 	branch = master
 	path = platform/system/sepolicy
 	url = ../../platform/system/sepolicy
+[submodule "platform/system/timezone"]
+	branch = master
+	path = platform/system/timezone
+	url = ../../platform/system/timezone
 [submodule "platform/system/tools/aidl"]
 	branch = master
 	path = platform/system/tools/aidl
@@ -4214,10 +4226,6 @@
 	branch = master
 	path = platform/tools/tradefederation
 	url = ../../platform/tools/tradefederation
-[submodule "platform/vendor/google/apps/TimeZoneDataGoogle"]
-	branch = master
-	path = platform/vendor/google/apps/TimeZoneDataGoogle
-	url = ../../platform/vendor/google/apps/TimeZoneDataGoogle
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
