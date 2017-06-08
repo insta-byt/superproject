@@ -1670,6 +1670,10 @@
 	branch = master
 	path = platform/external/messageformat
 	url = ../../platform/external/messageformat
+[submodule "platform/external/minigbm"]
+	branch = master
+	path = platform/external/minigbm
+	url = ../../platform/external/minigbm
 [submodule "platform/external/minijail"]
 	branch = master
 	path = platform/external/minijail
