@@ -2238,6 +2238,10 @@
 	branch = master
 	path = platform/external/xmp_toolkit
 	url = ../../platform/external/xmp_toolkit
+[submodule "platform/external/xz-embedded"]
+	branch = master
+	path = platform/external/xz-embedded
+	url = ../../platform/external/xz-embedded
 [submodule "platform/external/yaffs2"]
 	branch = master
 	path = platform/external/yaffs2
