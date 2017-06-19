@@ -4322,6 +4322,10 @@
 	branch = master
 	path = toolchain/jack
 	url = ../../toolchain/jack
+[submodule "toolchain/jdk/build"]
+	branch = master
+	path = toolchain/jdk/build
+	url = ../../toolchain/jdk/build
 [submodule "toolchain/jill"]
 	branch = master
 	path = toolchain/jill
