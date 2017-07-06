@@ -3710,6 +3710,10 @@
 	branch = master
 	path = platform/prebuilts/gradle-plugin
 	url = ../../platform/prebuilts/gradle-plugin
+[submodule "platform/prebuilts/jdk/jdk8"]
+	branch = master
+	path = platform/prebuilts/jdk/jdk8
+	url = ../../platform/prebuilts/jdk/jdk8
 [submodule "platform/prebuilts/libedit/darwin-x86"]
 	branch = master
 	path = platform/prebuilts/libedit/darwin-x86
