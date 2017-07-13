@@ -4354,6 +4354,10 @@
 	branch = master
 	path = toolchain/libcxxabi
 	url = ../../toolchain/libcxxabi
+[submodule "toolchain/lld"]
+	branch = master
+	path = toolchain/lld
+	url = ../../toolchain/lld
 [submodule "toolchain/llvm"]
 	branch = master
 	path = toolchain/llvm
