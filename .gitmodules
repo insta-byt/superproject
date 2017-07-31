@@ -4118,6 +4118,10 @@
 	branch = master
 	path = platform/tools/apksig
 	url = ../../platform/tools/apksig
+[submodule "platform/tools/appbundle"]
+	branch = master
+	path = platform/tools/appbundle
+	url = ../../platform/tools/appbundle
 [submodule "platform/tools/base"]
 	branch = master
 	path = platform/tools/base
