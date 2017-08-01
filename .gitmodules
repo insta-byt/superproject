@@ -2142,6 +2142,10 @@
 	branch = master
 	path = platform/external/tremor
 	url = ../../platform/external/tremor
+[submodule "platform/external/turbine"]
+	branch = master
+	path = platform/external/turbine
+	url = ../../platform/external/turbine
 [submodule "platform/external/u-boot"]
 	branch = master
 	path = platform/external/u-boot
