@@ -3938,6 +3938,10 @@
 	branch = master
 	path = platform/system/hwservicemanager
 	url = ../../platform/system/hwservicemanager
+[submodule "platform/system/iot/attestation"]
+	branch = master
+	path = platform/system/iot/attestation
+	url = ../../platform/system/iot/attestation
 [submodule "platform/system/iot/mtdutils"]
 	branch = master
 	path = platform/system/iot/mtdutils
