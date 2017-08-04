@@ -3866,6 +3866,10 @@
 	branch = master
 	path = platform/superproject
 	url = ../../platform/superproject
+[submodule "platform/system/adb"]
+	branch = master
+	path = platform/system/adb
+	url = ../../platform/system/adb
 [submodule "platform/system/attestation"]
 	branch = master
 	path = platform/system/attestation
