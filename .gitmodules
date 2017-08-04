@@ -4070,6 +4070,10 @@
 	branch = master
 	path = platform/test/AfwTestHarness
 	url = ../../platform/test/AfwTestHarness
+[submodule "platform/test/gots"]
+	branch = master
+	path = platform/test/gots
+	url = ../../platform/test/gots
 [submodule "platform/test/vti/alert"]
 	branch = master
 	path = platform/test/vti/alert
