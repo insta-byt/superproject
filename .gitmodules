@@ -4294,6 +4294,10 @@
 	branch = master
 	path = product/google/example-ledflasher
 	url = ../../product/google/example-ledflasher
+[submodule "third-party-review"]
+	branch = master
+	path = third-party-review
+	url = ../../third-party-review
 [submodule "toolchain/avr-libc"]
 	branch = master
 	path = toolchain/avr-libc
