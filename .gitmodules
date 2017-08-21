@@ -2866,6 +2866,10 @@
 	branch = master
 	path = platform/packages/apps/Camera2
 	url = ../../platform/packages/apps/Camera2
+[submodule "platform/packages/apps/Car/Dialer"]
+	branch = master
+	path = platform/packages/apps/Car/Dialer
+	url = ../../platform/packages/apps/Car/Dialer
 [submodule "platform/packages/apps/CarrierConfig"]
 	branch = master
 	path = platform/packages/apps/CarrierConfig
