@@ -2734,6 +2734,10 @@
 	branch = master
 	path = platform/hardware/qcom/msm8996
 	url = ../../platform/hardware/qcom/msm8996
+[submodule "platform/hardware/qcom/msm8x09"]
+	branch = master
+	path = platform/hardware/qcom/msm8x09
+	url = ../../platform/hardware/qcom/msm8x09
 [submodule "platform/hardware/qcom/msm8x26"]
 	branch = master
 	path = platform/hardware/qcom/msm8x26
