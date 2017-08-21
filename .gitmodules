@@ -2954,6 +2954,10 @@
 	branch = master
 	path = platform/packages/apps/Dialer
 	url = ../../platform/packages/apps/Dialer
+[submodule "platform/packages/apps/DocumentsUI"]
+	branch = master
+	path = platform/packages/apps/DocumentsUI
+	url = ../../platform/packages/apps/DocumentsUI
 [submodule "platform/packages/apps/Email"]
 	branch = master
 	path = platform/packages/apps/Email
