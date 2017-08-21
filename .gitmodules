@@ -1550,6 +1550,10 @@
 	branch = master
 	path = platform/external/libssh2
 	url = ../../platform/external/libssh2
+[submodule "platform/external/libtextclassifier"]
+	branch = master
+	path = platform/external/libtextclassifier
+	url = ../../platform/external/libtextclassifier
 [submodule "platform/external/libunwind"]
 	branch = master
 	path = platform/external/libunwind
