@@ -634,6 +634,10 @@
 	branch = master
 	path = platform/external/arduino
 	url = ../../platform/external/arduino
+[submodule "platform/external/arm-neon-tests"]
+	branch = master
+	path = platform/external/arm-neon-tests
+	url = ../../platform/external/arm-neon-tests
 [submodule "platform/external/astl"]
 	branch = master
 	path = platform/external/astl
