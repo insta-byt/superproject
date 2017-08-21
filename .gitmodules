@@ -2910,6 +2910,10 @@
 	branch = master
 	path = platform/packages/apps/Car/Stream
 	url = ../../platform/packages/apps/Car/Stream
+[submodule "platform/packages/apps/Car/SystemUpdater"]
+	branch = master
+	path = platform/packages/apps/Car/SystemUpdater
+	url = ../../platform/packages/apps/Car/SystemUpdater
 [submodule "platform/packages/apps/Car/libs"]
 	branch = master
 	path = platform/packages/apps/Car/libs
