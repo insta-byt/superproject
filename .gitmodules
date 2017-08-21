@@ -1930,6 +1930,10 @@
 	branch = master
 	path = platform/external/r8
 	url = ../../platform/external/r8
+[submodule "platform/external/rappor"]
+	branch = master
+	path = platform/external/rappor
+	url = ../../platform/external/rappor
 [submodule "platform/external/regex-re2"]
 	branch = master
 	path = platform/external/regex-re2
