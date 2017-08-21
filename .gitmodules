@@ -2874,6 +2874,10 @@
 	branch = master
 	path = platform/packages/apps/Car/Hvac
 	url = ../../platform/packages/apps/Car/Hvac
+[submodule "platform/packages/apps/Car/LatinIME"]
+	branch = master
+	path = platform/packages/apps/Car/LatinIME
+	url = ../../platform/packages/apps/Car/LatinIME
 [submodule "platform/packages/apps/CarrierConfig"]
 	branch = master
 	path = platform/packages/apps/CarrierConfig
