@@ -66,6 +66,10 @@
 	branch = master
 	path = device/generic/brillo
 	url = ../../device/generic/brillo
+[submodule "device/generic/car"]
+	branch = master
+	path = device/generic/car
+	url = ../../device/generic/car
 [submodule "device/generic/common"]
 	branch = master
 	path = device/generic/common
