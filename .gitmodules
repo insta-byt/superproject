@@ -178,6 +178,10 @@
 	branch = master
 	path = device/google/phantasm
 	url = ../../device/google/phantasm
+[submodule "device/google/vrservices"]
+	branch = master
+	path = device/google/vrservices
+	url = ../../device/google/vrservices
 [submodule "device/htc/common"]
 	branch = master
 	path = device/htc/common
