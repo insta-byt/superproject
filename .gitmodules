@@ -3854,6 +3854,10 @@
 	branch = master
 	path = platform/prebuilts/maven_repo/android
 	url = ../../platform/prebuilts/maven_repo/android
+[submodule "platform/prebuilts/maven_repo/bumptech"]
+	branch = master
+	path = platform/prebuilts/maven_repo/bumptech
+	url = ../../platform/prebuilts/maven_repo/bumptech
 [submodule "platform/prebuilts/misc"]
 	branch = master
 	path = platform/prebuilts/misc
