@@ -2878,6 +2878,10 @@
 	branch = master
 	path = platform/packages/apps/Car/LatinIME
 	url = ../../platform/packages/apps/Car/LatinIME
+[submodule "platform/packages/apps/Car/LensPicker"]
+	branch = master
+	path = platform/packages/apps/Car/LensPicker
+	url = ../../platform/packages/apps/Car/LensPicker
 [submodule "platform/packages/apps/CarrierConfig"]
 	branch = master
 	path = platform/packages/apps/CarrierConfig
