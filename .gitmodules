@@ -2882,6 +2882,10 @@
 	branch = master
 	path = platform/packages/apps/Car/LensPicker
 	url = ../../platform/packages/apps/Car/LensPicker
+[submodule "platform/packages/apps/Car/libs"]
+	branch = master
+	path = platform/packages/apps/Car/libs
+	url = ../../platform/packages/apps/Car/libs
 [submodule "platform/packages/apps/CarrierConfig"]
 	branch = master
 	path = platform/packages/apps/CarrierConfig
