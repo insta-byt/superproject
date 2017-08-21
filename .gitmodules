@@ -2870,6 +2870,10 @@
 	branch = master
 	path = platform/packages/apps/Car/Dialer
 	url = ../../platform/packages/apps/Car/Dialer
+[submodule "platform/packages/apps/Car/Hvac"]
+	branch = master
+	path = platform/packages/apps/Car/Hvac
+	url = ../../platform/packages/apps/Car/Hvac
 [submodule "platform/packages/apps/CarrierConfig"]
 	branch = master
 	path = platform/packages/apps/CarrierConfig
