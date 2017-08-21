@@ -2898,6 +2898,10 @@
 	branch = master
 	path = platform/packages/apps/Car/Overview
 	url = ../../platform/packages/apps/Car/Overview
+[submodule "platform/packages/apps/Car/Radio"]
+	branch = master
+	path = platform/packages/apps/Car/Radio
+	url = ../../platform/packages/apps/Car/Radio
 [submodule "platform/packages/apps/Car/libs"]
 	branch = master
 	path = platform/packages/apps/Car/libs
