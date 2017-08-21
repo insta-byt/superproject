@@ -2914,6 +2914,10 @@
 	branch = master
 	path = platform/packages/apps/Car/SystemUpdater
 	url = ../../platform/packages/apps/Car/SystemUpdater
+[submodule "platform/packages/apps/Car/UserManagement"]
+	branch = master
+	path = platform/packages/apps/Car/UserManagement
+	url = ../../platform/packages/apps/Car/UserManagement
 [submodule "platform/packages/apps/Car/libs"]
 	branch = master
 	path = platform/packages/apps/Car/libs
