@@ -4258,6 +4258,10 @@
 	branch = master
 	path = platform/tools/cmake-utils
 	url = ../../platform/tools/cmake-utils
+[submodule "platform/tools/dexter"]
+	branch = master
+	path = platform/tools/dexter
+	url = ../../platform/tools/dexter
 [submodule "platform/tools/emulator"]
 	branch = master
 	path = platform/tools/emulator
