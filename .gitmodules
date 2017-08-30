@@ -1342,6 +1342,10 @@
 	branch = master
 	path = platform/external/kmod
 	url = ../../platform/external/kmod
+[submodule "platform/external/kotlinc"]
+	branch = master
+	path = platform/external/kotlinc
+	url = ../../platform/external/kotlinc
 [submodule "platform/external/ksoap2"]
 	branch = master
 	path = platform/external/ksoap2
