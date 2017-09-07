@@ -370,6 +370,10 @@
 	branch = master
 	path = kernel/common
 	url = ../../kernel/common
+[submodule "kernel/configs"]
+	branch = master
+	path = kernel/configs
+	url = ../../kernel/configs
 [submodule "kernel/exynos"]
 	branch = master
 	path = kernel/exynos
