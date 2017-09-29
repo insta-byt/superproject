@@ -722,6 +722,10 @@
 	branch = master
 	path = platform/external/caliper
 	url = ../../platform/external/caliper
+[submodule "platform/external/capstone"]
+	branch = master
+	path = platform/external/capstone
+	url = ../../platform/external/capstone
 [submodule "platform/external/cblas"]
 	branch = master
 	path = platform/external/cblas
@@ -1614,6 +1618,10 @@
 	branch = master
 	path = platform/external/libweave
 	url = ../../platform/external/libweave
+[submodule "platform/external/libxcam"]
+	branch = master
+	path = platform/external/libxcam
+	url = ../../platform/external/libxcam
 [submodule "platform/external/libxml2"]
 	branch = master
 	path = platform/external/libxml2
@@ -1882,6 +1890,10 @@
 	branch = master
 	path = platform/external/pdfium
 	url = ../../platform/external/pdfium
+[submodule "platform/external/perfetto"]
+	branch = master
+	path = platform/external/perfetto
+	url = ../../platform/external/perfetto
 [submodule "platform/external/piex"]
 	branch = master
 	path = platform/external/piex
