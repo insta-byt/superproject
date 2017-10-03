@@ -4198,6 +4198,10 @@
 	branch = master
 	path = platform/test/gots
 	url = ../../platform/test/gots
+[submodule "platform/test/p2pts"]
+	branch = master
+	path = platform/test/p2pts
+	url = ../../platform/test/p2pts
 [submodule "platform/test/sts"]
 	branch = master
 	path = platform/test/sts
