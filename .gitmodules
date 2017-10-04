@@ -4530,6 +4530,10 @@
 	branch = master
 	path = toolchain/jdk/jdk9_langtools
 	url = ../../toolchain/jdk/jdk9_langtools
+[submodule "toolchain/jdk/jdk9_nashorn"]
+	branch = master
+	path = toolchain/jdk/jdk9_nashorn
+	url = ../../toolchain/jdk/jdk9_nashorn
 [submodule "toolchain/jill"]
 	branch = master
 	path = toolchain/jill
