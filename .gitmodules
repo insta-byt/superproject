@@ -4514,6 +4514,10 @@
 	branch = master
 	path = toolchain/jdk/jdk9_hotspot
 	url = ../../toolchain/jdk/jdk9_hotspot
+[submodule "toolchain/jdk/jdk9_jaxp"]
+	branch = master
+	path = toolchain/jdk/jdk9_jaxp
+	url = ../../toolchain/jdk/jdk9_jaxp
 [submodule "toolchain/jill"]
 	branch = master
 	path = toolchain/jill
