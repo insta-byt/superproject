@@ -4510,6 +4510,10 @@
 	branch = master
 	path = toolchain/jdk/jdk9
 	url = ../../toolchain/jdk/jdk9
+[submodule "toolchain/jdk/jdk9_corba"]
+	branch = master
+	path = toolchain/jdk/jdk9_corba
+	url = ../../toolchain/jdk/jdk9_corba
 [submodule "toolchain/jdk/jdk9_hotspot"]
 	branch = master
 	path = toolchain/jdk/jdk9_hotspot
