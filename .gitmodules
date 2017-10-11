@@ -1294,6 +1294,10 @@
 	branch = master
 	path = platform/external/jetbrains/jdk8u_nashorn
 	url = ../../platform/external/jetbrains/jdk8u_nashorn
+[submodule "platform/external/jetbrains/kotlin"]
+	branch = master
+	path = platform/external/jetbrains/kotlin
+	url = ../../platform/external/jetbrains/kotlin
 [submodule "platform/external/jetty"]
 	branch = master
 	path = platform/external/jetty
