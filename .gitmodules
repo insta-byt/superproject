@@ -4202,10 +4202,6 @@
 	branch = master
 	path = platform/test/framework
 	url = ../../platform/test/framework
-[submodule "platform/test/gots"]
-	branch = master
-	path = platform/test/gots
-	url = ../../platform/test/gots
 [submodule "platform/test/p2pts"]
 	branch = master
 	path = platform/test/p2pts
