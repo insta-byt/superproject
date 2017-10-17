@@ -1066,6 +1066,10 @@
 	branch = master
 	path = platform/external/gentoo/portage
 	url = ../../platform/external/gentoo/portage
+[submodule "platform/external/gflags"]
+	branch = master
+	path = platform/external/gflags
+	url = ../../platform/external/gflags
 [submodule "platform/external/giflib"]
 	branch = master
 	path = platform/external/giflib
