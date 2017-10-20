@@ -3942,6 +3942,10 @@
 	branch = master
 	path = platform/prebuilts/qemu-kernel
 	url = ../../platform/prebuilts/qemu-kernel
+[submodule "platform/prebuilts/r8"]
+	branch = master
+	path = platform/prebuilts/r8
+	url = ../../platform/prebuilts/r8
 [submodule "platform/prebuilts/renderscript/host/darwin-x86"]
 	branch = master
 	path = platform/prebuilts/renderscript/host/darwin-x86
