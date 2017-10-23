@@ -182,6 +182,10 @@
 	branch = master
 	path = device/google/vrservices
 	url = ../../device/google/vrservices
+[submodule "device/google/wahoo-kernel"]
+	branch = master
+	path = device/google/wahoo-kernel
+	url = ../../device/google/wahoo-kernel
 [submodule "device/google/wahoo"]
 	branch = master
 	path = device/google/wahoo
