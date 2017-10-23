@@ -182,6 +182,10 @@
 	branch = master
 	path = device/google/vrservices
 	url = ../../device/google/vrservices
+[submodule "device/google/wahoo"]
+	branch = master
+	path = device/google/wahoo
+	url = ../../device/google/wahoo
 [submodule "device/htc/common"]
 	branch = master
 	path = device/htc/common
