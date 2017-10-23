@@ -870,6 +870,10 @@
 	branch = master
 	path = platform/external/desugar
 	url = ../../platform/external/desugar
+[submodule "platform/external/devlib"]
+	branch = master
+	path = platform/external/devlib
+	url = ../../platform/external/devlib
 [submodule "platform/external/dexmaker"]
 	branch = master
 	path = platform/external/dexmaker
