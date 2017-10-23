@@ -1950,6 +1950,10 @@
 	branch = master
 	path = platform/external/pixman
 	url = ../../platform/external/pixman
+[submodule "platform/external/ply"]
+	branch = master
+	path = platform/external/ply
+	url = ../../platform/external/ply
 [submodule "platform/external/ppp"]
 	branch = master
 	path = platform/external/ppp
