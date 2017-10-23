@@ -2258,6 +2258,10 @@
 	branch = master
 	path = platform/external/utf8proc
 	url = ../../platform/external/utf8proc
+[submodule "platform/external/v4l2_codec2"]
+	branch = master
+	path = platform/external/v4l2_codec2
+	url = ../../platform/external/v4l2_codec2
 [submodule "platform/external/v8"]
 	branch = master
 	path = platform/external/v8
