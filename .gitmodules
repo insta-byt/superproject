@@ -1702,6 +1702,10 @@
 	branch = master
 	path = platform/external/llvm_35a
 	url = ../../platform/external/llvm_35a
+[submodule "platform/external/lmfit"]
+	branch = master
+	path = platform/external/lmfit
+	url = ../../platform/external/lmfit
 [submodule "platform/external/login-items-ae"]
 	branch = master
 	path = platform/external/login-items-ae
