@@ -2290,6 +2290,10 @@
 	branch = master
 	path = platform/external/vulkan-validation-layers
 	url = ../../platform/external/vulkan-validation-layers
+[submodule "platform/external/walt"]
+	branch = master
+	path = platform/external/walt
+	url = ../../platform/external/walt
 [submodule "platform/external/weave-common"]
 	branch = master
 	path = platform/external/weave-common
