@@ -370,6 +370,10 @@
 	branch = master
 	path = device/ti/panda
 	url = ../../device/ti/panda
+[submodule "kernel/arm64"]
+	branch = master
+	path = kernel/arm64
+	url = ../../kernel/arm64
 [submodule "kernel/build"]
 	branch = master
 	path = kernel/build
