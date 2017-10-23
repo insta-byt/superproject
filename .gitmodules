@@ -670,6 +670,10 @@
 	branch = master
 	path = platform/external/avb
 	url = ../../platform/external/avb
+[submodule "platform/external/bart"]
+	branch = master
+	path = platform/external/bart
+	url = ../../platform/external/bart
 [submodule "platform/external/bison"]
 	branch = master
 	path = platform/external/bison
