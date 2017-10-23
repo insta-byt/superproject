@@ -1674,6 +1674,10 @@
 	branch = master
 	path = platform/external/linux-tools-perf
 	url = ../../platform/external/linux-tools-perf
+[submodule "platform/external/lisa"]
+	branch = master
+	path = platform/external/lisa
+	url = ../../platform/external/lisa
 [submodule "platform/external/littlemock"]
 	branch = master
 	path = platform/external/littlemock
