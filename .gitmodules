@@ -174,10 +174,18 @@
 	branch = master
 	path = device/google/marlin
 	url = ../../device/google/marlin
+[submodule "device/google/muskie"]
+	branch = master
+	path = device/google/muskie
+	url = ../../device/google/muskie
 [submodule "device/google/phantasm"]
 	branch = master
 	path = device/google/phantasm
 	url = ../../device/google/phantasm
+[submodule "device/google/taimen"]
+	branch = master
+	path = device/google/taimen
+	url = ../../device/google/taimen
 [submodule "device/google/vrservices"]
 	branch = master
 	path = device/google/vrservices
