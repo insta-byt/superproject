@@ -2,6 +2,10 @@
 	branch = master
 	path = accessories/manifest
 	url = ../../accessories/manifest
+[submodule "assets/android-studio-ux-assets"]
+	branch = master
+	path = assets/android-studio-ux-assets
+	url = ../../assets/android-studio-ux-assets
 [submodule "brillo/manifest"]
 	branch = master
 	path = brillo/manifest
