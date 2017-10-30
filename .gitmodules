@@ -1298,6 +1298,10 @@
 	branch = master
 	path = platform/external/jemalloc
 	url = ../../platform/external/jemalloc
+[submodule "platform/external/jemalloc_new"]
+	branch = master
+	path = platform/external/jemalloc_new
+	url = ../../platform/external/jemalloc_new
 [submodule "platform/external/jenkins-hash"]
 	branch = master
 	path = platform/external/jenkins-hash
