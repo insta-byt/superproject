@@ -3266,6 +3266,10 @@
 	branch = master
 	path = platform/packages/apps/TimeZoneUpdater
 	url = ../../platform/packages/apps/TimeZoneUpdater
+[submodule "platform/packages/apps/Traceur"]
+	branch = master
+	path = platform/packages/apps/Traceur
+	url = ../../platform/packages/apps/Traceur
 [submodule "platform/packages/apps/TvSettings"]
 	branch = master
 	path = platform/packages/apps/TvSettings
