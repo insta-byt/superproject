@@ -1406,6 +1406,10 @@
 	branch = master
 	path = platform/external/ksoap2
 	url = ../../platform/external/ksoap2
+[submodule "platform/external/ktlint"]
+	branch = master
+	path = platform/external/ktlint
+	url = ../../platform/external/ktlint
 [submodule "platform/external/lame"]
 	branch = master
 	path = platform/external/lame
