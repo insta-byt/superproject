@@ -1150,6 +1150,10 @@
 	branch = master
 	path = platform/external/google-fonts/dancing-script
 	url = ../../platform/external/google-fonts/dancing-script
+[submodule "platform/external/google-styleguide"]
+	branch = master
+	path = platform/external/google-styleguide
+	url = ../../platform/external/google-styleguide
 [submodule "platform/external/google-tv-pairing-protocol"]
 	branch = master
 	path = platform/external/google-tv-pairing-protocol
