@@ -2234,6 +2234,10 @@
 	branch = master
 	path = platform/external/tinycompress
 	url = ../../platform/external/tinycompress
+[submodule "platform/external/tinyobjloader"]
+	branch = master
+	path = platform/external/tinyobjloader
+	url = ../../platform/external/tinyobjloader
 [submodule "platform/external/tinyxml"]
 	branch = master
 	path = platform/external/tinyxml
