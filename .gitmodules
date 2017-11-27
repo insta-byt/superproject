@@ -3222,6 +3222,10 @@
 	branch = master
 	path = platform/packages/apps/SafetyRegulatoryInfo
 	url = ../../platform/packages/apps/SafetyRegulatoryInfo
+[submodule "platform/packages/apps/SecureElement"]
+	branch = master
+	path = platform/packages/apps/SecureElement
+	url = ../../platform/packages/apps/SecureElement
 [submodule "platform/packages/apps/Settings"]
 	branch = master
 	path = platform/packages/apps/Settings
