@@ -1902,6 +1902,10 @@
 	branch = master
 	path = platform/external/okhttp
 	url = ../../platform/external/okhttp
+[submodule "platform/external/one-true-awk"]
+	branch = master
+	path = platform/external/one-true-awk
+	url = ../../platform/external/one-true-awk
 [submodule "platform/external/open-vcdiff"]
 	branch = master
 	path = platform/external/open-vcdiff
