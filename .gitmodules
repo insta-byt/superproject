@@ -1282,6 +1282,10 @@
 	branch = master
 	path = platform/external/jarjar
 	url = ../../platform/external/jarjar
+[submodule "platform/external/javaparser"]
+	branch = master
+	path = platform/external/javaparser
+	url = ../../platform/external/javaparser
 [submodule "platform/external/javasqlite"]
 	branch = master
 	path = platform/external/javasqlite
