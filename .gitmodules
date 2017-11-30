@@ -4014,6 +4014,10 @@
 	branch = master
 	path = platform/prebuilts/maven_repo/bumptech
 	url = ../../platform/prebuilts/maven_repo/bumptech
+[submodule "platform/prebuilts/maven_repo/google-play-service-client-libraries-3p"]
+	branch = master
+	path = platform/prebuilts/maven_repo/google-play-service-client-libraries-3p
+	url = ../../platform/prebuilts/maven_repo/google-play-service-client-libraries-3p
 [submodule "platform/prebuilts/misc"]
 	branch = master
 	path = platform/prebuilts/misc
