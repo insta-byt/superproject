@@ -2222,6 +2222,10 @@
 	branch = master
 	path = platform/external/tcpdump
 	url = ../../platform/external/tcpdump
+[submodule "platform/external/tensorflow"]
+	branch = master
+	path = platform/external/tensorflow
+	url = ../../platform/external/tensorflow
 [submodule "platform/external/tesseract"]
 	branch = master
 	path = platform/external/tesseract
