@@ -158,6 +158,10 @@
 	branch = master
 	path = device/google/contexthub
 	url = ../../device/google/contexthub
+[submodule "device/google/cuttlefish"]
+	branch = master
+	path = device/google/cuttlefish
+	url = ../../device/google/cuttlefish
 [submodule "device/google/debugcable"]
 	branch = master
 	path = device/google/debugcable
