@@ -4398,6 +4398,10 @@
 	branch = master
 	path = platform/test/vts
 	url = ../../platform/test/vts
+[submodule "platform/tools/acloud"]
+	branch = master
+	path = platform/tools/acloud
+	url = ../../platform/tools/acloud
 [submodule "platform/tools/adt/eclipse"]
 	branch = master
 	path = platform/tools/adt/eclipse
