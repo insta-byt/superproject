@@ -2838,6 +2838,10 @@
 	branch = master
 	path = platform/hardware/nvidia/tegra124
 	url = ../../platform/hardware/nvidia/tegra124
+[submodule "platform/hardware/nxp/nfc"]
+	branch = master
+	path = platform/hardware/nxp/nfc
+	url = ../../platform/hardware/nxp/nfc
 [submodule "platform/hardware/qcom/audio"]
 	branch = master
 	path = platform/hardware/qcom/audio
