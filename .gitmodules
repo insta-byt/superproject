@@ -2714,6 +2714,10 @@
 	branch = master
 	path = platform/hardware/bsp/kernel/nxp/imx-v4.1
 	url = ../../platform/hardware/bsp/kernel/nxp/imx-v4.1
+[submodule "platform/hardware/bsp/kernel/nxp/imx-v4.9"]
+	branch = master
+	path = platform/hardware/bsp/kernel/nxp/imx-v4.9
+	url = ../../platform/hardware/bsp/kernel/nxp/imx-v4.9
 [submodule "platform/hardware/bsp/kernel/qcom"]
 	branch = master
 	path = platform/hardware/bsp/kernel/qcom
