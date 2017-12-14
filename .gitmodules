@@ -2026,6 +2026,10 @@
 	branch = master
 	path = platform/external/pthreads
 	url = ../../platform/external/pthreads
+[submodule "platform/external/puffin"]
+	branch = master
+	path = platform/external/puffin
+	url = ../../platform/external/puffin
 [submodule "platform/external/python"]
 	branch = master
 	path = platform/external/python
