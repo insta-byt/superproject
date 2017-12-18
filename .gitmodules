@@ -2374,6 +2374,10 @@
 	branch = master
 	path = platform/external/webrtc
 	url = ../../platform/external/webrtc
+[submodule "platform/external/webview_support_interfaces"]
+	branch = master
+	path = platform/external/webview_support_interfaces
+	url = ../../platform/external/webview_support_interfaces
 [submodule "platform/external/wpa_supplicant"]
 	branch = master
 	path = platform/external/wpa_supplicant
