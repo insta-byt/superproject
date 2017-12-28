@@ -3586,6 +3586,10 @@
 	branch = master
 	path = platform/prebuilts/checkstyle
 	url = ../../platform/prebuilts/checkstyle
+[submodule "platform/prebuilts/clack"]
+	branch = master
+	path = platform/prebuilts/clack
+	url = ../../platform/prebuilts/clack
 [submodule "platform/prebuilts/clang/darwin-x86/3.1"]
 	branch = master
 	path = platform/prebuilts/clang/darwin-x86/3.1
