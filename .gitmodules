@@ -4442,6 +4442,10 @@
 	branch = master
 	path = platform/tools/apksig
 	url = ../../platform/tools/apksig
+[submodule "platform/tools/apkzlib"]
+	branch = master
+	path = platform/tools/apkzlib
+	url = ../../platform/tools/apkzlib
 [submodule "platform/tools/appbundle"]
 	branch = master
 	path = platform/tools/appbundle
