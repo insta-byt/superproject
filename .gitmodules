@@ -4770,6 +4770,10 @@
 	branch = master
 	path = toolchain/perl
 	url = ../../toolchain/perl
+[submodule "toolchain/pgo-profiles"]
+	branch = master
+	path = toolchain/pgo-profiles
+	url = ../../toolchain/pgo-profiles
 [submodule "toolchain/polly"]
 	branch = master
 	path = toolchain/polly
