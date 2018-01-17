@@ -842,6 +842,10 @@
 	branch = master
 	path = platform/external/cmockery
 	url = ../../platform/external/cmockery
+[submodule "platform/external/cn-cbor"]
+	branch = master
+	path = platform/external/cn-cbor
+	url = ../../platform/external/cn-cbor
 [submodule "platform/external/codesourcery"]
 	branch = master
 	path = platform/external/codesourcery
