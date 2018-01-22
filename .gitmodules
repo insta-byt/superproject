@@ -4530,6 +4530,10 @@
 	branch = master
 	path = platform/tools/loganalysis
 	url = ../../platform/tools/loganalysis
+[submodule "platform/tools/metalava"]
+	branch = master
+	path = platform/tools/metalava
+	url = ../../platform/tools/metalava
 [submodule "platform/tools/motodev"]
 	branch = master
 	path = platform/tools/motodev
