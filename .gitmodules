@@ -4242,6 +4242,10 @@
 	branch = master
 	path = platform/system/hwservicemanager
 	url = ../../platform/system/hwservicemanager
+[submodule "platform/system/iorap"]
+	branch = master
+	path = platform/system/iorap
+	url = ../../platform/system/iorap
 [submodule "platform/system/iot/attestation"]
 	branch = master
 	path = platform/system/iot/attestation
