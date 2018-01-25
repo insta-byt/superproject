@@ -2218,6 +2218,10 @@
 	branch = master
 	path = platform/external/stressapptest
 	url = ../../platform/external/stressapptest
+[submodule "platform/external/subsampling-scale-image-view"]
+	branch = master
+	path = platform/external/subsampling-scale-image-view
+	url = ../../platform/external/subsampling-scale-image-view
 [submodule "platform/external/svox"]
 	branch = master
 	path = platform/external/svox
