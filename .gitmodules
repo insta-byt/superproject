@@ -2542,6 +2542,10 @@
 	branch = master
 	path = platform/frameworks/opt/calendar
 	url = ../../platform/frameworks/opt/calendar
+[submodule "platform/frameworks/opt/car/services"]
+	branch = master
+	path = platform/frameworks/opt/car/services
+	url = ../../platform/frameworks/opt/car/services
 [submodule "platform/frameworks/opt/carddav"]
 	branch = master
 	path = platform/frameworks/opt/carddav
@@ -2942,6 +2946,10 @@
 	branch = master
 	path = platform/hardware/qcom/msm8x84
 	url = ../../platform/hardware/qcom/msm8x84
+[submodule "platform/hardware/qcom/neuralnetworks/hvxservice"]
+	branch = master
+	path = platform/hardware/qcom/neuralnetworks/hvxservice
+	url = ../../platform/hardware/qcom/neuralnetworks/hvxservice
 [submodule "platform/hardware/qcom/power"]
 	branch = master
 	path = platform/hardware/qcom/power
