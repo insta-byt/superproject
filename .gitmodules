@@ -934,6 +934,10 @@
 	branch = master
 	path = platform/external/doclava
 	url = ../../platform/external/doclava
+[submodule "platform/external/dokka"]
+	branch = master
+	path = platform/external/dokka
+	url = ../../platform/external/dokka
 [submodule "platform/external/donuts"]
 	branch = master
 	path = platform/external/donuts
