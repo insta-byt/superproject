@@ -3078,6 +3078,10 @@
 	branch = master
 	path = platform/packages/apps/Car/LatinIME
 	url = ../../platform/packages/apps/Car/LatinIME
+[submodule "platform/packages/apps/Car/Launcher"]
+	branch = master
+	path = platform/packages/apps/Car/Launcher
+	url = ../../platform/packages/apps/Car/Launcher
 [submodule "platform/packages/apps/Car/LensPicker"]
 	branch = master
 	path = platform/packages/apps/Car/LensPicker
@@ -3602,6 +3606,10 @@
 	branch = master
 	path = platform/prebuilts/au-generator
 	url = ../../platform/prebuilts/au-generator
+[submodule "platform/prebuilts/build-artifacts"]
+	branch = master
+	path = platform/prebuilts/build-artifacts
+	url = ../../platform/prebuilts/build-artifacts
 [submodule "platform/prebuilts/build-tools"]
 	branch = master
 	path = platform/prebuilts/build-tools
