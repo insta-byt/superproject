@@ -2162,6 +2162,10 @@
 	branch = master
 	path = platform/external/skia
 	url = ../../platform/external/skia
+[submodule "platform/external/skqp"]
+	branch = master
+	path = platform/external/skqp
+	url = ../../platform/external/skqp
 [submodule "platform/external/sl4a"]
 	branch = master
 	path = platform/external/sl4a
