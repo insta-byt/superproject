@@ -1994,6 +1994,10 @@
 	branch = master
 	path = platform/external/pdfium
 	url = ../../platform/external/pdfium
+[submodule "platform/external/perf_data_converter"]
+	branch = master
+	path = platform/external/perf_data_converter
+	url = ../../platform/external/perf_data_converter
 [submodule "platform/external/perfetto"]
 	branch = master
 	path = platform/external/perfetto
