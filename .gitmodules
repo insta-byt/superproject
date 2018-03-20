@@ -4646,6 +4646,10 @@
 	branch = master
 	path = platform/tools/test/connectivity
 	url = ../../platform/tools/test/connectivity
+[submodule "platform/tools/test/graphicsbenchmark"]
+	branch = master
+	path = platform/tools/test/graphicsbenchmark
+	url = ../../platform/tools/test/graphicsbenchmark
 [submodule "platform/tools/tradefederation"]
 	branch = master
 	path = platform/tools/tradefederation
