@@ -4598,6 +4598,10 @@
 	branch = master
 	path = platform/tools/repohooks
 	url = ../../platform/tools/repohooks
+[submodule "platform/tools/security"]
+	branch = master
+	path = platform/tools/security
+	url = ../../platform/tools/security
 [submodule "platform/tools/studio/cloud"]
 	branch = master
 	path = platform/tools/studio/cloud
