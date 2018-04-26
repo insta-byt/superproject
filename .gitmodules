@@ -834,6 +834,10 @@
 	branch = master
 	path = platform/external/clang_35a
 	url = ../../platform/external/clang_35a
+[submodule "platform/external/cldr"]
+	branch = master
+	path = platform/external/cldr
+	url = ../../platform/external/cldr
 [submodule "platform/external/clearsilver"]
 	branch = master
 	path = platform/external/clearsilver
