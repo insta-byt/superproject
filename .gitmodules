@@ -4434,6 +4434,10 @@
 	branch = master
 	path = platform/test/mlts/benchmark
 	url = ../../platform/test/mlts/benchmark
+[submodule "platform/test/mlts/models"]
+	branch = master
+	path = platform/test/mlts/models
+	url = ../../platform/test/mlts/models
 [submodule "platform/test/p2pts"]
 	branch = master
 	path = platform/test/p2pts
