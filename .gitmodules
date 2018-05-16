@@ -4430,6 +4430,10 @@
 	branch = master
 	path = platform/test/framework
 	url = ../../platform/test/framework
+[submodule "platform/test/mlts/benchmark"]
+	branch = master
+	path = platform/test/mlts/benchmark
+	url = ../../platform/test/mlts/benchmark
 [submodule "platform/test/p2pts"]
 	branch = master
 	path = platform/test/p2pts
