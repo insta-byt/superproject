@@ -4582,6 +4582,10 @@
 	branch = master
 	path = platform/tools/external/gradle
 	url = ../../platform/tools/external/gradle
+[submodule "platform/tools/external_updater"]
+	branch = master
+	path = platform/tools/external_updater
+	url = ../../platform/tools/external_updater
 [submodule "platform/tools/gpu"]
 	branch = master
 	path = platform/tools/gpu
