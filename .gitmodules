@@ -2626,6 +2626,10 @@
 	branch = master
 	path = platform/frameworks/opt/net/ethernet
 	url = ../../platform/frameworks/opt/net/ethernet
+[submodule "platform/frameworks/opt/net/ike"]
+	branch = master
+	path = platform/frameworks/opt/net/ike
+	url = ../../platform/frameworks/opt/net/ike
 [submodule "platform/frameworks/opt/net/ims"]
 	branch = master
 	path = platform/frameworks/opt/net/ims
