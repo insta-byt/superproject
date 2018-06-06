@@ -2294,6 +2294,10 @@
 	branch = master
 	path = platform/external/timezonepicker-support
 	url = ../../platform/external/timezonepicker-support
+[submodule "platform/external/tink"]
+	branch = master
+	path = platform/external/tink
+	url = ../../platform/external/tink
 [submodule "platform/external/tinyalsa"]
 	branch = master
 	path = platform/external/tinyalsa
