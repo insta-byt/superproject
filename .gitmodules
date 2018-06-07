@@ -2770,6 +2770,10 @@
 	branch = master
 	path = platform/hardware/bsp/kernel/marvell/pxa-v3.14
 	url = ../../platform/hardware/bsp/kernel/marvell/pxa-v3.14
+[submodule "platform/hardware/bsp/kernel/mediatek/mt8516-v4.4"]
+	branch = master
+	path = platform/hardware/bsp/kernel/mediatek/mt8516-v4.4
+	url = ../../platform/hardware/bsp/kernel/mediatek/mt8516-v4.4
 [submodule "platform/hardware/bsp/kernel/nxp/imx-v4.1"]
 	branch = master
 	path = platform/hardware/bsp/kernel/nxp/imx-v4.1
