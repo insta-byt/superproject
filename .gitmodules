@@ -1906,6 +1906,10 @@
 	branch = master
 	path = platform/external/neven
 	url = ../../platform/external/neven
+[submodule "platform/external/newfs_msdos"]
+	branch = master
+	path = platform/external/newfs_msdos
+	url = ../../platform/external/newfs_msdos
 [submodule "platform/external/nfacct"]
 	branch = master
 	path = platform/external/nfacct
