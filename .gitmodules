@@ -3138,6 +3138,10 @@
 	branch = master
 	path = platform/packages/apps/Car/Messenger
 	url = ../../platform/packages/apps/Car/Messenger
+[submodule "platform/packages/apps/Car/Notification"]
+	branch = master
+	path = platform/packages/apps/Car/Notification
+	url = ../../platform/packages/apps/Car/Notification
 [submodule "platform/packages/apps/Car/Overview"]
 	branch = master
 	path = platform/packages/apps/Car/Overview
