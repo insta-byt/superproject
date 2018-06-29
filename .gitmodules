@@ -4990,6 +4990,10 @@
 	branch = master
 	path = trusty/device/nxp/imx7d
 	url = ../../trusty/device/nxp/imx7d
+[submodule "trusty/device/nxp/imx8m"]
+	branch = master
+	path = trusty/device/nxp/imx8m
+	url = ../../trusty/device/nxp/imx8m
 [submodule "trusty/external/headers"]
 	branch = master
 	path = trusty/external/headers
