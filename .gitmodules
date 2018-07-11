@@ -4090,6 +4090,10 @@
 	branch = master
 	path = platform/prebuilts/jdk/jdk9
 	url = ../../platform/prebuilts/jdk/jdk9
+[submodule "platform/prebuilts/ktlint"]
+	branch = master
+	path = platform/prebuilts/ktlint
+	url = ../../platform/prebuilts/ktlint
 [submodule "platform/prebuilts/libedit/darwin-x86"]
 	branch = master
 	path = platform/prebuilts/libedit/darwin-x86
