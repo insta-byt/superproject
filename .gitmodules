@@ -394,6 +394,10 @@
 	branch = master
 	path = device/sony/lt26
 	url = ../../device/sony/lt26
+[submodule "device/ti/beagle-x15-kernel"]
+	branch = master
+	path = device/ti/beagle-x15-kernel
+	url = ../../device/ti/beagle-x15-kernel
 [submodule "device/ti/beagle-x15"]
 	branch = master
 	path = device/ti/beagle-x15
