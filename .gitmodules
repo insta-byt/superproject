@@ -3670,6 +3670,10 @@
 	branch = master
 	path = platform/prebuilts/android-emulator
 	url = ../../platform/prebuilts/android-emulator
+[submodule "platform/prebuilts/androidx/external"]
+	branch = master
+	path = platform/prebuilts/androidx/external
+	url = ../../platform/prebuilts/androidx/external
 [submodule "platform/prebuilts/androidx/internal"]
 	branch = master
 	path = platform/prebuilts/androidx/internal
