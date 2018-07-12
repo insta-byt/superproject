@@ -3034,6 +3034,10 @@
 	branch = master
 	path = platform/hardware/st/nfc
 	url = ../../platform/hardware/st/nfc
+[submodule "platform/hardware/ti/am57x"]
+	branch = master
+	path = platform/hardware/ti/am57x
+	url = ../../platform/hardware/ti/am57x
 [submodule "platform/hardware/ti/omap3"]
 	branch = master
 	path = platform/hardware/ti/omap3
