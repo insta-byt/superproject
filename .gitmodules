@@ -2398,6 +2398,10 @@
 	branch = master
 	path = platform/external/vboot_reference
 	url = ../../platform/external/vboot_reference
+[submodule "platform/external/virglrenderer"]
+	branch = master
+	path = platform/external/virglrenderer
+	url = ../../platform/external/virglrenderer
 [submodule "platform/external/vixl"]
 	branch = master
 	path = platform/external/vixl
