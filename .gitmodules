@@ -3842,6 +3842,10 @@
 	branch = master
 	path = platform/prebuilts/fullsdk-darwin/platform-tools
 	url = ../../platform/prebuilts/fullsdk-darwin/platform-tools
+[submodule "platform/prebuilts/fullsdk-darwin/tools"]
+	branch = master
+	path = platform/prebuilts/fullsdk-darwin/tools
+	url = ../../platform/prebuilts/fullsdk-darwin/tools
 [submodule "platform/prebuilts/fullsdk/build-tools/21-darwin"]
 	branch = master
 	path = platform/prebuilts/fullsdk/build-tools/21-darwin
