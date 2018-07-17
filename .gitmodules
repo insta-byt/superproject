@@ -2498,6 +2498,10 @@
 	branch = master
 	path = platform/external/yaffs2
 	url = ../../platform/external/yaffs2
+[submodule "platform/external/yapf"]
+	branch = master
+	path = platform/external/yapf
+	url = ../../platform/external/yapf
 [submodule "platform/external/zlib"]
 	branch = master
 	path = platform/external/zlib
