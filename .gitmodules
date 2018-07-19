@@ -706,6 +706,10 @@
 	branch = master
 	path = platform/external/arm-neon-tests
 	url = ../../platform/external/arm-neon-tests
+[submodule "platform/external/arm-optimized-routines"]
+	branch = master
+	path = platform/external/arm-optimized-routines
+	url = ../../platform/external/arm-optimized-routines
 [submodule "platform/external/astl"]
 	branch = master
 	path = platform/external/astl
