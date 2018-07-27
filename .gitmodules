@@ -710,6 +710,10 @@
 	branch = master
 	path = platform/external/arm-optimized-routines
 	url = ../../platform/external/arm-optimized-routines
+[submodule "platform/external/astc-codec"]
+	branch = master
+	path = platform/external/astc-codec
+	url = ../../platform/external/astc-codec
 [submodule "platform/external/astl"]
 	branch = master
 	path = platform/external/astl

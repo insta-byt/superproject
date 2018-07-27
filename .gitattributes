@@ -176,6 +176,7 @@
 /platform/external/arduino
 /platform/external/arm-neon-tests
 /platform/external/arm-optimized-routines
+/platform/external/astc-codec
 /platform/external/astl
 /platform/external/autotest
 /platform/external/avahi
