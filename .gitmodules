@@ -4626,6 +4626,10 @@
 	branch = master
 	path = platform/tools/appbundle
 	url = ../../platform/tools/appbundle
+[submodule "platform/tools/asuite"]
+	branch = master
+	path = platform/tools/asuite
+	url = ../../platform/tools/asuite
 [submodule "platform/tools/base"]
 	branch = master
 	path = platform/tools/base
