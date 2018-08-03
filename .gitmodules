@@ -898,6 +898,10 @@
 	branch = master
 	path = toolchain/ccache
 	url = ../../toolchain/ccache
+[submodule "platform/external/jetbrains/jdk8u_jfx"]
+	branch = master
+	path = platform/external/jetbrains/jdk8u_jfx
+	url = ../../platform/external/jetbrains/jdk8u_jfx
 [submodule "platform/external/gentoo/integration"]
 	branch = master
 	path = platform/external/gentoo/integration
