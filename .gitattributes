@@ -148,6 +148,7 @@
 /platform/prebuilts/clang/darwin-x86/host/3.3
 /platform/external/tinyxml2
 /platform/external/google-breakpad
+/platform/external/catch2
 /platform/external/sdl2
 /platform/system/tpm
 /platform/external/libffi

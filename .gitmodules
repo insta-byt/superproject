@@ -598,6 +598,10 @@
 	branch = master
 	path = platform/external/google-breakpad
 	url = ../../platform/external/google-breakpad
+[submodule "platform/external/catch2"]
+	branch = master
+	path = platform/external/catch2
+	url = ../../platform/external/catch2
 [submodule "platform/external/sdl2"]
 	branch = master
 	path = platform/external/sdl2
