@@ -710,6 +710,10 @@
 	branch = master
 	path = platform/prebuilts/ninja/linux-x86
 	url = ../../platform/prebuilts/ninja/linux-x86
+[submodule "platform/external/adhd"]
+	branch = master
+	path = platform/external/adhd
+	url = ../../platform/external/adhd
 [submodule "platform/external/google-fonts/carrois-gothic-sc"]
 	branch = master
 	path = platform/external/google-fonts/carrois-gothic-sc

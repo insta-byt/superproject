@@ -176,6 +176,7 @@
 /platform/libnativehelper
 /platform/packages/apps/Phone
 /platform/prebuilts/ninja/linux-x86
+/platform/external/adhd
 /platform/external/google-fonts/carrois-gothic-sc
 /platform/external/mksh
 /platform/external/rappor
