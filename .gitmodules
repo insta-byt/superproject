@@ -2262,6 +2262,10 @@
 	branch = master
 	path = kernel/x86_64
 	url = ../../kernel/x86_64
+[submodule "platform/frameworks/opt/car/setupwizard"]
+	branch = master
+	path = platform/frameworks/opt/car/setupwizard
+	url = ../../platform/frameworks/opt/car/setupwizard
 [submodule "platform/hardware/bsp/broadcom"]
 	branch = master
 	path = platform/hardware/bsp/broadcom

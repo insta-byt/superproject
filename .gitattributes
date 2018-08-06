@@ -564,6 +564,7 @@
 /platform/prebuilts/clang/darwin-x86/3.1
 /device/lge/hammerhead-kernel
 /kernel/x86_64
+/platform/frameworks/opt/car/setupwizard
 /platform/hardware/bsp/broadcom
 /toolchain/jdk/jdk9_langtools
 /platform/packages/apps/AlarmClock
