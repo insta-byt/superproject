@@ -3498,6 +3498,10 @@
 	branch = master
 	path = platform/external/dhcpcd-6.8.2
 	url = ../../platform/external/dhcpcd-6.8.2
+[submodule "platform/external/honggfuzz"]
+	branch = master
+	path = platform/external/honggfuzz
+	url = ../../platform/external/honggfuzz
 [submodule "device/ti/beagle-x15"]
 	branch = master
 	path = device/ti/beagle-x15

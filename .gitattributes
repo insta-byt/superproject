@@ -873,6 +873,7 @@
 /device/samsung/maguro
 /platform/packages/providers/CalendarProvider
 /platform/external/dhcpcd-6.8.2
+/platform/external/honggfuzz
 /device/ti/beagle-x15
 /platform/external/libvpx
 /platform/external/smali
