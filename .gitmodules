@@ -514,6 +514,10 @@
 	branch = master
 	path = platform/prebuilts/libs/libedit
 	url = ../../platform/prebuilts/libs/libedit
+[submodule "platform/test/suite_harness"]
+	branch = master
+	path = platform/test/suite_harness
+	url = ../../platform/test/suite_harness
 [submodule "platform/hardware/nvidia/tegra124"]
 	branch = master
 	path = platform/hardware/nvidia/tegra124

@@ -127,6 +127,7 @@
 /platform/system/nfc
 /toolchain/jdk/jdk9
 /platform/prebuilts/libs/libedit
+/platform/test/suite_harness
 /platform/hardware/nvidia/tegra124
 /platform/external/grpc-grpc
 /platform/frameworks/compile/linkloader
