@@ -1870,6 +1870,10 @@
 	branch = master
 	path = device/generic/x86
 	url = ../../device/generic/x86
+[submodule "platform/external/libxaac"]
+	branch = master
+	path = platform/external/libxaac
+	url = ../../platform/external/libxaac
 [submodule "device/linaro/poplar"]
 	branch = master
 	path = device/linaro/poplar

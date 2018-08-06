@@ -466,6 +466,7 @@
 /device/samsung/crespo
 /platform/external/libogg
 /device/generic/x86
+/platform/external/libxaac
 /device/linaro/poplar
 /platform/frameworks/ml
 /toolchain/libcxx
