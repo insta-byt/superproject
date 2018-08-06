@@ -266,6 +266,10 @@
 	branch = master
 	path = platform/manifest
 	url = ../../platform/manifest
+[submodule "platform/external/nos/test/system-test-harness"]
+	branch = master
+	path = platform/external/nos/test/system-test-harness
+	url = ../../platform/external/nos/test/system-test-harness
 [submodule "platform/external/protobuf2.5"]
 	branch = master
 	path = platform/external/protobuf2.5

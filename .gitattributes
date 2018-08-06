@@ -65,6 +65,7 @@
 /device/common
 /platform/external/drm_hwcomposer
 /platform/manifest
+/platform/external/nos/test/system-test-harness
 /platform/external/protobuf2.5
 /toolchain/mingw
 /platform/packages/apps/DevCamera
