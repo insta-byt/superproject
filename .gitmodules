@@ -1542,6 +1542,10 @@
 	branch = master
 	path = platform/external/subsampling-scale-image-view
 	url = ../../platform/external/subsampling-scale-image-view
+[submodule "platform/prebuilts/vndk/v27"]
+	branch = master
+	path = platform/prebuilts/vndk/v27
+	url = ../../platform/prebuilts/vndk/v27
 [submodule "platform/external/valgrind"]
 	branch = master
 	path = platform/external/valgrind

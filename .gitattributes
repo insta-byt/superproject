@@ -384,6 +384,7 @@
 /platform/external/ant-glob
 /platform/system/connectivity/shill
 /platform/external/subsampling-scale-image-view
+/platform/prebuilts/vndk/v27
 /platform/external/valgrind
 /toolchain/polly
 /platform/external/libvorbis
