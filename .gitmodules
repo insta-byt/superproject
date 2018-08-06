@@ -5030,6 +5030,10 @@
 	branch = master
 	path = platform/external/dlmalloc
 	url = ../../platform/external/dlmalloc
+[submodule "platform/packages/apps/SettingsIntelligence"]
+	branch = master
+	path = platform/packages/apps/SettingsIntelligence
+	url = ../../platform/packages/apps/SettingsIntelligence
 [submodule "platform/packages/providers/ApplicationsProvider"]
 	branch = master
 	path = platform/packages/providers/ApplicationsProvider

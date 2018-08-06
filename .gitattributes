@@ -1256,6 +1256,7 @@
 /platform/external/e2fsprogs
 /platform/frameworks/mff
 /platform/external/dlmalloc
+/platform/packages/apps/SettingsIntelligence
 /platform/packages/providers/ApplicationsProvider
 /platform/external/libnl
 /platform/external/libxslt
