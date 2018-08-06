@@ -2150,6 +2150,10 @@
 	branch = master
 	path = platform/packages/apps/VideoEditor
 	url = ../../platform/packages/apps/VideoEditor
+[submodule "platform/external/libxkbcommon"]
+	branch = master
+	path = platform/external/libxkbcommon
+	url = ../../platform/external/libxkbcommon
 [submodule "platform/external/AntennaPod/AntennaPod"]
 	branch = master
 	path = platform/external/AntennaPod/AntennaPod

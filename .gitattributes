@@ -536,6 +536,7 @@
 /platform/packages/wallpapers/MusicVisualization
 /platform/tools/studio/google/appindexing
 /platform/packages/apps/VideoEditor
+/platform/external/libxkbcommon
 /platform/external/AntennaPod/AntennaPod
 /platform/packages/providers/WebSearchProvider
 /platform/external/iptables
