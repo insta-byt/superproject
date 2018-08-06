@@ -759,6 +759,7 @@
 /platform/system/wifi
 /platform/test/vts-testcase/security
 /platform/external/libjpeg-turbo
+/trusty/external/qemu-keycodemapdb
 /platform/external/sqlite
 /platform/prebuilts/eclipse
 /device/google/accessory/adk2012

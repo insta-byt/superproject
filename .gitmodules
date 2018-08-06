@@ -3042,6 +3042,10 @@
 	branch = master
 	path = platform/external/libjpeg-turbo
 	url = ../../platform/external/libjpeg-turbo
+[submodule "trusty/external/qemu-keycodemapdb"]
+	branch = master
+	path = trusty/external/qemu-keycodemapdb
+	url = ../../trusty/external/qemu-keycodemapdb
 [submodule "platform/external/sqlite"]
 	branch = master
 	path = platform/external/sqlite
