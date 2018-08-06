@@ -33,6 +33,7 @@
 /platform/packages/apps/Car/libs
 /platform/prebuilts/checkstyle
 /platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
+/system/tools/xsdc
 /platform/packages/apps/VoiceDialer
 /platform/system/hwservicemanager
 /platform/packages/apps/Car/Overview

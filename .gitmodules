@@ -138,6 +138,10 @@
 	branch = master
 	path = platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
 	url = ../../platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
+[submodule "system/tools/xsdc"]
+	branch = master
+	path = system/tools/xsdc
+	url = ../../system/tools/xsdc
 [submodule "platform/packages/apps/VoiceDialer"]
 	branch = master
 	path = platform/packages/apps/VoiceDialer
