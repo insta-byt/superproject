@@ -100,6 +100,7 @@
 /platform/abi/cpp
 /platform/external/google-benchmark
 /platform/external/testng
+/platform/external/robolectric-shadows
 /platform/developers/demos
 /platform/external/android-cmake
 /platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8
