@@ -3234,6 +3234,10 @@
 	branch = master
 	path = platform/frameworks/opt/mailcommon
 	url = ../../platform/frameworks/opt/mailcommon
+[submodule "platform/external/wayland-protocols"]
+	branch = master
+	path = platform/external/wayland-protocols
+	url = ../../platform/external/wayland-protocols
 [submodule "platform/external/pdfium"]
 	branch = master
 	path = platform/external/pdfium

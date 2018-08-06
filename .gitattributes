@@ -807,6 +807,7 @@
 /platform/external/jetbrains/jdk8u_hotspot
 /platform/external/webrtc
 /platform/frameworks/opt/mailcommon
+/platform/external/wayland-protocols
 /platform/external/pdfium
 /platform/tools/asuite
 /platform/test/framework
