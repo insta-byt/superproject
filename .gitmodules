@@ -2138,6 +2138,10 @@
 	branch = master
 	path = platform/external/oauth
 	url = ../../platform/external/oauth
+[submodule "platform/external/nos/host/android"]
+	branch = master
+	path = platform/external/nos/host/android
+	url = ../../platform/external/nos/host/android
 [submodule "platform/packages/wallpapers/MusicVisualization"]
 	branch = master
 	path = platform/packages/wallpapers/MusicVisualization
