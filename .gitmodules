@@ -1478,6 +1478,10 @@
 	branch = master
 	path = platform/external/checkpolicy
 	url = ../../platform/external/checkpolicy
+[submodule "platform/external/nos/host/generic"]
+	branch = master
+	path = platform/external/nos/host/generic
+	url = ../../platform/external/nos/host/generic
 [submodule "platform/hardware/bsp/kernel/common/v4.4"]
 	branch = master
 	path = platform/hardware/bsp/kernel/common/v4.4

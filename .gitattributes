@@ -368,6 +368,7 @@
 /platform/packages/apps/CertInstaller
 /platform/prebuilts/android-emulator-build/mesa-deps
 /platform/external/checkpolicy
+/platform/external/nos/host/generic
 /platform/hardware/bsp/kernel/common/v4.4
 /platform/external/bluetooth/glib
 /platform/external/jarjar
