@@ -1902,6 +1902,10 @@
 	branch = master
 	path = platform/packages/apps/Camera
 	url = ../../platform/packages/apps/Camera
+[submodule "platform/external/wayland"]
+	branch = master
+	path = platform/external/wayland
+	url = ../../platform/external/wayland
 [submodule "platform/external/srtp"]
 	branch = master
 	path = platform/external/srtp

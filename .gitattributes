@@ -474,6 +474,7 @@
 /platform/frameworks/ml
 /toolchain/libcxx
 /platform/packages/apps/Camera
+/platform/external/wayland
 /platform/external/srtp
 /device/moto/common
 /platform/external/shaderc/shaderc
