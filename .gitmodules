@@ -138,10 +138,6 @@
 	branch = master
 	path = platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
 	url = ../../platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
-[submodule "system/tools/xsdc"]
-	branch = master
-	path = system/tools/xsdc
-	url = ../../system/tools/xsdc
 [submodule "platform/packages/apps/VoiceDialer"]
 	branch = master
 	path = platform/packages/apps/VoiceDialer
@@ -890,6 +886,10 @@
 	branch = master
 	path = platform/tools/analytics-library
 	url = ../../platform/tools/analytics-library
+[submodule "platform/system/tools/xsdc"]
+	branch = master
+	path = platform/system/tools/xsdc
+	url = ../../platform/system/tools/xsdc
 [submodule "platform/frameworks/opt/net/wifi"]
 	branch = master
 	path = platform/frameworks/opt/net/wifi
@@ -4998,6 +4998,10 @@
 	branch = master
 	path = platform/prebuilts/tools
 	url = ../../platform/prebuilts/tools
+[submodule "platform/prebuilts/androidx/exoplayer"]
+	branch = master
+	path = platform/prebuilts/androidx/exoplayer
+	url = ../../platform/prebuilts/androidx/exoplayer
 [submodule "toolchain/libcxxabi"]
 	branch = master
 	path = toolchain/libcxxabi

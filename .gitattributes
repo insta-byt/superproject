@@ -33,7 +33,6 @@
 /platform/packages/apps/Car/libs
 /platform/prebuilts/checkstyle
 /platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3
-/system/tools/xsdc
 /platform/packages/apps/VoiceDialer
 /platform/system/hwservicemanager
 /platform/packages/apps/Car/Overview
@@ -221,6 +220,7 @@
 /toolchain/prebuilts/ndk/r14
 /toolchain/prebuilts/ndk/r15
 /platform/tools/analytics-library
+/platform/system/tools/xsdc
 /platform/frameworks/opt/net/wifi
 /platform/external/eclipse-basebuilder
 /platform/external/cros/system_api
@@ -1248,6 +1248,7 @@
 /platform/packages/wallpapers/NoiseField
 /platform/prebuilts/clang/linux-x86/mips/3.3
 /platform/prebuilts/tools
+/platform/prebuilts/androidx/exoplayer
 /toolchain/libcxxabi
 /device/generic/mips64
 /platform/external/ipsec-tools
