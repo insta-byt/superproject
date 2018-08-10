@@ -4542,6 +4542,10 @@
 	branch = master
 	path = device/asus/grouper
 	url = ../../device/asus/grouper
+[submodule "platform/tools/ndkports"]
+	branch = master
+	path = platform/tools/ndkports
+	url = ../../platform/tools/ndkports
 [submodule "platform/external/collada"]
 	branch = master
 	path = platform/external/collada
