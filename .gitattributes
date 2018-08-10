@@ -246,6 +246,7 @@
 /platform/packages/apps/ManagedProvisioning
 /platform/prebuilts/clang/darwin-x86/sdk/3.5
 /platform/external/openthread
+/platform/external/libprotobuf-mutator
 /platform/external/rootdev
 /platform/prebuilts/fullsdk-darwin/build-tools/27.0.3
 /platform/hardware/intel/common/wrs_omxil_core

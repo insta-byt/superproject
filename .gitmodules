@@ -990,6 +990,10 @@
 	branch = master
 	path = platform/external/openthread
 	url = ../../platform/external/openthread
+[submodule "platform/external/libprotobuf-mutator"]
+	branch = master
+	path = platform/external/libprotobuf-mutator
+	url = ../../platform/external/libprotobuf-mutator
 [submodule "platform/external/rootdev"]
 	branch = master
 	path = platform/external/rootdev
