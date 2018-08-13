@@ -738,6 +738,7 @@
 /platform/external/wycheproof
 /platform/external/linux-kselftest
 /platform/external/lzma
+/platform/external/syzkaller
 /platform/prebuilts/go/darwin-x86
 /platform/external/jacoco
 /platform/tools/dexter

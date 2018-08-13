@@ -2958,6 +2958,10 @@
 	branch = master
 	path = platform/external/lzma
 	url = ../../platform/external/lzma
+[submodule "platform/external/syzkaller"]
+	branch = master
+	path = platform/external/syzkaller
+	url = ../../platform/external/syzkaller
 [submodule "platform/prebuilts/go/darwin-x86"]
 	branch = master
 	path = platform/prebuilts/go/darwin-x86
