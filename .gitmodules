@@ -1134,6 +1134,10 @@
 	branch = master
 	path = platform/tools/apkzlib
 	url = ../../platform/tools/apkzlib
+[submodule "platform/external/adeb"]
+	branch = master
+	path = platform/external/adeb
+	url = ../../platform/external/adeb
 [submodule "platform/external/seccomp-tests"]
 	branch = master
 	path = platform/external/seccomp-tests

@@ -282,6 +282,7 @@
 /platform/external/cn-cbor
 /platform/prebuilts/deqp
 /platform/tools/apkzlib
+/platform/external/adeb
 /platform/external/seccomp-tests
 /platform/packages/apps/InCallUI
 /platform/frameworks/testing
