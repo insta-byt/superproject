@@ -1141,6 +1141,7 @@
 /platform/system/tools/aidl
 /platform/system/tools/bpt
 /platform/system/tools/hidl
+/platform/system/tools/sysprop
 /platform/system/tools/xsdc
 /platform/system/tpm
 /platform/system/tpm_manager

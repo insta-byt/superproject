@@ -4570,6 +4570,10 @@
 	branch = master
 	path = platform/system/tools/hidl
 	url = ../../platform/system/tools/hidl
+[submodule "platform/system/tools/sysprop"]
+	branch = master
+	path = platform/system/tools/sysprop
+	url = ../../platform/system/tools/sysprop
 [submodule "platform/system/tools/xsdc"]
 	branch = master
 	path = platform/system/tools/xsdc
