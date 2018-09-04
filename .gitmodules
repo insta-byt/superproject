@@ -5182,6 +5182,10 @@
 	branch = master
 	path = trusty/device/nxp/imx8m
 	url = ../../trusty/device/nxp/imx8m
+[submodule "trusty/device/x86/generic-x86_64"]
+	branch = master
+	path = trusty/device/x86/generic-x86_64
+	url = ../../trusty/device/x86/generic-x86_64
 [submodule "trusty/external/headers"]
 	branch = master
 	path = trusty/external/headers
