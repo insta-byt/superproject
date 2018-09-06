@@ -4922,6 +4922,10 @@
 	branch = master
 	path = platform/vendor/aosp/linaro/hikey960
 	url = ../../platform/vendor/aosp/linaro/hikey960
+[submodule "platform/vendor/aosp/qcom/marlin"]
+	branch = master
+	path = platform/vendor/aosp/qcom/marlin
+	url = ../../platform/vendor/aosp/qcom/marlin
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
