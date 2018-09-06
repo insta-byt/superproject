@@ -4934,6 +4934,10 @@
 	branch = master
 	path = platform/vendor/aosp/qcom/taimen
 	url = ../../platform/vendor/aosp/qcom/taimen
+[submodule "platform/vendor/aosp/qcom/walleye"]
+	branch = master
+	path = platform/vendor/aosp/qcom/walleye
+	url = ../../platform/vendor/aosp/qcom/walleye
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
