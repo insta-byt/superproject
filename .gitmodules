@@ -4918,6 +4918,10 @@
 	branch = master
 	path = platform/vendor/aosp/google_devices/walleye
 	url = ../../platform/vendor/aosp/google_devices/walleye
+[submodule "platform/vendor/aosp/linaro/hikey960"]
+	branch = master
+	path = platform/vendor/aosp/linaro/hikey960
+	url = ../../platform/vendor/aosp/linaro/hikey960
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
