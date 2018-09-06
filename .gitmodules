@@ -4926,6 +4926,10 @@
 	branch = master
 	path = platform/vendor/aosp/qcom/marlin
 	url = ../../platform/vendor/aosp/qcom/marlin
+[submodule "platform/vendor/aosp/qcom/sailfish"]
+	branch = master
+	path = platform/vendor/aosp/qcom/sailfish
+	url = ../../platform/vendor/aosp/qcom/sailfish
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
