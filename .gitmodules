@@ -4910,6 +4910,10 @@
 	branch = master
 	path = platform/vendor/aosp/google_devices/sailfish
 	url = ../../platform/vendor/aosp/google_devices/sailfish
+[submodule "platform/vendor/aosp/google_devices/taimen"]
+	branch = master
+	path = platform/vendor/aosp/google_devices/taimen
+	url = ../../platform/vendor/aosp/google_devices/taimen
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
