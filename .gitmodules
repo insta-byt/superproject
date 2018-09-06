@@ -4902,6 +4902,10 @@
 	branch = master
 	path = platform/vendor/aosp/google_devices/marlin
 	url = ../../platform/vendor/aosp/google_devices/marlin
+[submodule "platform/vendor/aosp/google_devices/muskie"]
+	branch = master
+	path = platform/vendor/aosp/google_devices/muskie
+	url = ../../platform/vendor/aosp/google_devices/muskie
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
