@@ -4914,6 +4914,10 @@
 	branch = master
 	path = platform/vendor/aosp/google_devices/taimen
 	url = ../../platform/vendor/aosp/google_devices/taimen
+[submodule "platform/vendor/aosp/google_devices/walleye"]
+	branch = master
+	path = platform/vendor/aosp/google_devices/walleye
+	url = ../../platform/vendor/aosp/google_devices/walleye
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
