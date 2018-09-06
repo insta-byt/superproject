@@ -4898,6 +4898,10 @@
 	branch = master
 	path = platform/tools/trebuchet
 	url = ../../platform/tools/trebuchet
+[submodule "platform/vendor/aosp/google_devices/marlin"]
+	branch = master
+	path = platform/vendor/aosp/google_devices/marlin
+	url = ../../platform/vendor/aosp/google_devices/marlin
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
