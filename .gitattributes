@@ -1097,6 +1097,7 @@
 /platform/prebuilts/swig/windows-x86
 /platform/prebuilts/tools
 /platform/prebuilts/vndk/v27
+/platform/prebuilts/vndk/v28
 /platform/sdk
 /platform/superproject
 /platform/system/adb
