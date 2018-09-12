@@ -315,6 +315,7 @@
 /platform/external/gradle-perf-android-large
 /platform/external/gradle-perf-android-medium
 /platform/external/grpc-grpc
+/platform/external/grpc-grpc-java
 /platform/external/grub
 /platform/external/gsoap
 /platform/external/gtest

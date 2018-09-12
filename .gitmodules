@@ -1266,6 +1266,10 @@
 	branch = master
 	path = platform/external/grpc-grpc
 	url = ../../platform/external/grpc-grpc
+[submodule "platform/external/grpc-grpc-java"]
+	branch = master
+	path = platform/external/grpc-grpc-java
+	url = ../../platform/external/grpc-grpc-java
 [submodule "platform/external/grub"]
 	branch = master
 	path = platform/external/grub
