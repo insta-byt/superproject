@@ -118,6 +118,10 @@
 	branch = master
 	path = device/generic/mips64
 	url = ../../device/generic/mips64
+[submodule "device/generic/opengl-transport"]
+	branch = master
+	path = device/generic/opengl-transport
+	url = ../../device/generic/opengl-transport
 [submodule "device/generic/qemu"]
 	branch = master
 	path = device/generic/qemu
