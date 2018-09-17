@@ -1146,6 +1146,10 @@
 	branch = master
 	path = platform/external/fsck_msdos
 	url = ../../platform/external/fsck_msdos
+[submodule "platform/external/fsverity-utils"]
+	branch = master
+	path = platform/external/fsverity-utils
+	url = ../../platform/external/fsverity-utils
 [submodule "platform/external/ganymed-ssh2"]
 	branch = master
 	path = platform/external/ganymed-ssh2

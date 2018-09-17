@@ -285,6 +285,7 @@
 /platform/external/free-image
 /platform/external/freetype
 /platform/external/fsck_msdos
+/platform/external/fsverity-utils
 /platform/external/ganymed-ssh2
 /platform/external/gcc-demangle
 /platform/external/gdata
