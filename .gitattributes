@@ -1128,6 +1128,7 @@
 /platform/system/iorap
 /platform/system/iot/attestation
 /platform/system/iot/mtdutils
+/platform/system/iot/tools
 /platform/system/keyguard
 /platform/system/keymaster
 /platform/system/libfmq

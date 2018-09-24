@@ -4518,6 +4518,10 @@
 	branch = master
 	path = platform/system/iot/mtdutils
 	url = ../../platform/system/iot/mtdutils
+[submodule "platform/system/iot/tools"]
+	branch = master
+	path = platform/system/iot/tools
+	url = ../../platform/system/iot/tools
 [submodule "platform/system/keyguard"]
 	branch = master
 	path = platform/system/keyguard
