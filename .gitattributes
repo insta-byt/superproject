@@ -167,6 +167,7 @@
 /platform/external/apache-apr
 /platform/external/apache-apr-util
 /platform/external/apache-commons-bcel
+/platform/external/apache-commons-compress
 /platform/external/apache-commons-math
 /platform/external/apache-harmony
 /platform/external/apache-http
