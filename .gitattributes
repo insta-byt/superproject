@@ -409,6 +409,7 @@
 /platform/external/libhevc
 /platform/external/libiota
 /platform/external/libjpeg-turbo
+/platform/external/libkmsxx
 /platform/external/libldac
 /platform/external/liblzf
 /platform/external/libmicrohttpd

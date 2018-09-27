@@ -1642,6 +1642,10 @@
 	branch = master
 	path = platform/external/libjpeg-turbo
 	url = ../../platform/external/libjpeg-turbo
+[submodule "platform/external/libkmsxx"]
+	branch = master
+	path = platform/external/libkmsxx
+	url = ../../platform/external/libkmsxx
 [submodule "platform/external/libldac"]
 	branch = master
 	path = platform/external/libldac
