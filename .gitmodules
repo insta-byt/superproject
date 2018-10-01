@@ -4642,6 +4642,10 @@
 	branch = master
 	path = platform/system/trunks
 	url = ../../platform/system/trunks
+[submodule "platform/system/ucontainer"]
+	branch = master
+	path = platform/system/ucontainer
+	url = ../../platform/system/ucontainer
 [submodule "platform/system/update_engine"]
 	branch = master
 	path = platform/system/update_engine

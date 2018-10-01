@@ -1159,6 +1159,7 @@
 /platform/system/tpm
 /platform/system/tpm_manager
 /platform/system/trunks
+/platform/system/ucontainer
 /platform/system/update_engine
 /platform/system/vold
 /platform/system/weaved
