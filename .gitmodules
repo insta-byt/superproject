@@ -3798,6 +3798,10 @@
 	branch = master
 	path = platform/prebuilts/androidx/internal
 	url = ../../platform/prebuilts/androidx/internal
+[submodule "platform/prebuilts/asuite"]
+	branch = master
+	path = platform/prebuilts/asuite
+	url = ../../platform/prebuilts/asuite
 [submodule "platform/prebuilts/au-generator"]
 	branch = master
 	path = platform/prebuilts/au-generator
