@@ -638,6 +638,10 @@
 	branch = master
 	path = platform/external/android-cmake
 	url = ../../platform/external/android-cmake
+[submodule "platform/external/android-kotlin-demo"]
+	branch = master
+	path = platform/external/android-kotlin-demo
+	url = ../../platform/external/android-kotlin-demo
 [submodule "platform/external/android-mock"]
 	branch = master
 	path = platform/external/android-mock

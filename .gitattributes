@@ -158,6 +158,7 @@
 /platform/external/alsa-lib
 /platform/external/android-clat
 /platform/external/android-cmake
+/platform/external/android-kotlin-demo
 /platform/external/android-mock
 /platform/external/android-studio-gradle-test
 /platform/external/androidplot
