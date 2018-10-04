@@ -5158,6 +5158,10 @@
 	branch = master
 	path = toolchain/llvm_android
 	url = ../../toolchain/llvm_android
+[submodule "toolchain/m4"]
+	branch = master
+	path = toolchain/m4
+	url = ../../toolchain/m4
 [submodule "toolchain/manifest"]
 	branch = master
 	path = toolchain/manifest
