@@ -1117,6 +1117,7 @@
 /platform/system/apex
 /platform/system/attestation
 /platform/system/bluetooth
+/platform/system/bpf
 /platform/system/bt
 /platform/system/bvb
 /platform/system/ca-certificates

@@ -4474,6 +4474,10 @@
 	branch = master
 	path = platform/system/bluetooth
 	url = ../../platform/system/bluetooth
+[submodule "platform/system/bpf"]
+	branch = master
+	path = platform/system/bpf
+	url = ../../platform/system/bpf
 [submodule "platform/system/bt"]
 	branch = master
 	path = platform/system/bt
