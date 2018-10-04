@@ -4446,6 +4446,10 @@
 	branch = master
 	path = platform/sdk
 	url = ../../platform/sdk
+[submodule "platform/smaratorg"]
+	branch = master
+	path = platform/smaratorg
+	url = ../../platform/smaratorg
 [submodule "platform/superproject"]
 	branch = master
 	path = platform/superproject
