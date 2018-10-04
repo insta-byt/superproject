@@ -2306,6 +2306,10 @@
 	branch = master
 	path = platform/external/smali
 	url = ../../platform/external/smali
+[submodule "platform/external/smaratorg"]
+	branch = master
+	path = platform/external/smaratorg
+	url = ../../platform/external/smaratorg
 [submodule "platform/external/snakeyaml"]
 	branch = master
 	path = platform/external/snakeyaml
