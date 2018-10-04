@@ -2074,6 +2074,10 @@
 	branch = master
 	path = platform/external/openmp_llvm
 	url = ../../platform/external/openmp_llvm
+[submodule "platform/external/opensensus-java"]
+	branch = master
+	path = platform/external/opensensus-java
+	url = ../../platform/external/opensensus-java
 [submodule "platform/external/openssh"]
 	branch = master
 	path = platform/external/openssh
