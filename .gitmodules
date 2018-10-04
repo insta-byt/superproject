@@ -5162,6 +5162,10 @@
 	branch = master
 	path = toolchain/m4
 	url = ../../toolchain/m4
+[submodule "toolchain/make"]
+	branch = master
+	path = toolchain/make
+	url = ../../toolchain/make
 [submodule "toolchain/manifest"]
 	branch = master
 	path = toolchain/manifest

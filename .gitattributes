@@ -1289,6 +1289,7 @@
 /toolchain/llvm
 /toolchain/llvm_android
 /toolchain/m4
+/toolchain/make
 /toolchain/manifest
 /toolchain/mclinker
 /toolchain/mingw
