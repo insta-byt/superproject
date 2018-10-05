@@ -1119,6 +1119,7 @@
 /platform/system/attestation
 /platform/system/bluetooth
 /platform/system/bpf
+/platform/system/bpfprogs
 /platform/system/bt
 /platform/system/bvb
 /platform/system/ca-certificates

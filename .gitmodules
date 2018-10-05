@@ -4482,6 +4482,10 @@
 	branch = master
 	path = platform/system/bpf
 	url = ../../platform/system/bpf
+[submodule "platform/system/bpfprogs"]
+	branch = master
+	path = platform/system/bpfprogs
+	url = ../../platform/system/bpfprogs
 [submodule "platform/system/bt"]
 	branch = master
 	path = platform/system/bt
