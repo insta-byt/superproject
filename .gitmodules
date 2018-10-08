@@ -3678,6 +3678,10 @@
 	branch = master
 	path = platform/packages/screensavers/WebView
 	url = ../../platform/packages/screensavers/WebView
+[submodule "platform/packages/services/AlternativeNetworkAccess"]
+	branch = master
+	path = platform/packages/services/AlternativeNetworkAccess
+	url = ../../platform/packages/services/AlternativeNetworkAccess
 [submodule "platform/packages/services/BuiltInPrintService"]
 	branch = master
 	path = platform/packages/services/BuiltInPrintService

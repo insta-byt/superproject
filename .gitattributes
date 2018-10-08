@@ -918,6 +918,7 @@
 /platform/packages/screensavers/Basic
 /platform/packages/screensavers/PhotoTable
 /platform/packages/screensavers/WebView
+/platform/packages/services/AlternativeNetworkAccess
 /platform/packages/services/BuiltInPrintService
 /platform/packages/services/Car
 /platform/packages/services/EasService
