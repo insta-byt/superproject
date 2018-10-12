@@ -1245,16 +1245,6 @@
 /platform/tools/tradefederation
 /platform/tools/treble
 /platform/tools/trebuchet
-/platform/vendor/aosp/google_devices/marlin
-/platform/vendor/aosp/google_devices/muskie
-/platform/vendor/aosp/google_devices/sailfish
-/platform/vendor/aosp/google_devices/taimen
-/platform/vendor/aosp/google_devices/walleye
-/platform/vendor/aosp/linaro/hikey960
-/platform/vendor/aosp/qcom/marlin
-/platform/vendor/aosp/qcom/sailfish
-/platform/vendor/aosp/qcom/taimen
-/platform/vendor/aosp/qcom/walleye
 /platform/vendor/htc/dream-open
 /platform/vendor/invensense
 /platform/vendor/sample

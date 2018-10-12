@@ -4986,46 +4986,6 @@
 	branch = master
 	path = platform/tools/trebuchet
 	url = ../../platform/tools/trebuchet
-[submodule "platform/vendor/aosp/google_devices/marlin"]
-	branch = master
-	path = platform/vendor/aosp/google_devices/marlin
-	url = ../../platform/vendor/aosp/google_devices/marlin
-[submodule "platform/vendor/aosp/google_devices/muskie"]
-	branch = master
-	path = platform/vendor/aosp/google_devices/muskie
-	url = ../../platform/vendor/aosp/google_devices/muskie
-[submodule "platform/vendor/aosp/google_devices/sailfish"]
-	branch = master
-	path = platform/vendor/aosp/google_devices/sailfish
-	url = ../../platform/vendor/aosp/google_devices/sailfish
-[submodule "platform/vendor/aosp/google_devices/taimen"]
-	branch = master
-	path = platform/vendor/aosp/google_devices/taimen
-	url = ../../platform/vendor/aosp/google_devices/taimen
-[submodule "platform/vendor/aosp/google_devices/walleye"]
-	branch = master
-	path = platform/vendor/aosp/google_devices/walleye
-	url = ../../platform/vendor/aosp/google_devices/walleye
-[submodule "platform/vendor/aosp/linaro/hikey960"]
-	branch = master
-	path = platform/vendor/aosp/linaro/hikey960
-	url = ../../platform/vendor/aosp/linaro/hikey960
-[submodule "platform/vendor/aosp/qcom/marlin"]
-	branch = master
-	path = platform/vendor/aosp/qcom/marlin
-	url = ../../platform/vendor/aosp/qcom/marlin
-[submodule "platform/vendor/aosp/qcom/sailfish"]
-	branch = master
-	path = platform/vendor/aosp/qcom/sailfish
-	url = ../../platform/vendor/aosp/qcom/sailfish
-[submodule "platform/vendor/aosp/qcom/taimen"]
-	branch = master
-	path = platform/vendor/aosp/qcom/taimen
-	url = ../../platform/vendor/aosp/qcom/taimen
-[submodule "platform/vendor/aosp/qcom/walleye"]
-	branch = master
-	path = platform/vendor/aosp/qcom/walleye
-	url = ../../platform/vendor/aosp/qcom/walleye
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
