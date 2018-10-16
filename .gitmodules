@@ -2054,6 +2054,10 @@
 	branch = master
 	path = platform/external/open-vcdiff
 	url = ../../platform/external/open-vcdiff
+[submodule "platform/external/opencensus-java"]
+	branch = master
+	path = platform/external/opencensus-java
+	url = ../../platform/external/opencensus-java
 [submodule "platform/external/opencore"]
 	branch = master
 	path = platform/external/opencore
