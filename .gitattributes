@@ -116,6 +116,7 @@
 /kernel/manifest
 /kernel/mediatek
 /kernel/msm
+/kernel/msm-extra
 /kernel/omap
 /kernel/samsung
 /kernel/tegra
