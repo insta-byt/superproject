@@ -3162,6 +3162,10 @@
 	branch = master
 	path = platform/hardware/qcom/sdm845/thermal
 	url = ../../platform/hardware/qcom/sdm845/thermal
+[submodule "platform/hardware/qcom/sdm845/vr"]
+	branch = master
+	path = platform/hardware/qcom/sdm845/vr
+	url = ../../platform/hardware/qcom/sdm845/vr
 [submodule "platform/hardware/qcom/sensors"]
 	branch = master
 	path = platform/hardware/qcom/sensors
