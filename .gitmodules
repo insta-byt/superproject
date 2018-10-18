@@ -162,6 +162,18 @@
 	branch = master
 	path = device/google/contexthub
 	url = ../../device/google/contexthub
+[submodule "device/google/crosshatch"]
+	branch = master
+	path = device/google/crosshatch
+	url = ../../device/google/crosshatch
+[submodule "device/google/crosshatch-kernel"]
+	branch = master
+	path = device/google/crosshatch-kernel
+	url = ../../device/google/crosshatch-kernel
+[submodule "device/google/crosshatch-sepolicy"]
+	branch = master
+	path = device/google/crosshatch-sepolicy
+	url = ../../device/google/crosshatch-sepolicy
 [submodule "device/google/cuttlefish"]
 	branch = master
 	path = device/google/cuttlefish

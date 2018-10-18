@@ -39,6 +39,9 @@
 /device/google/accessory/demokit
 /device/google/atv
 /device/google/contexthub
+/device/google/crosshatch
+/device/google/crosshatch-kernel
+/device/google/crosshatch-sepolicy
 /device/google/cuttlefish
 /device/google/cuttlefish_common
 /device/google/cuttlefish_kernel
