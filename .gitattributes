@@ -788,6 +788,7 @@
 /platform/hardware/qcom/sdm845/display
 /platform/hardware/qcom/sdm845/gps
 /platform/hardware/qcom/sdm845/media
+/platform/hardware/qcom/sdm845/thermal
 /platform/hardware/qcom/sensors
 /platform/hardware/qcom/wlan
 /platform/hardware/ril
