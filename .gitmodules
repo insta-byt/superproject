@@ -474,6 +474,10 @@
 	branch = master
 	path = kernel/msm-extra
 	url = ../../kernel/msm-extra
+[submodule "kernel/msm-modules"]
+	branch = master
+	path = kernel/msm-modules
+	url = ../../kernel/msm-modules
 [submodule "kernel/omap"]
 	branch = master
 	path = kernel/omap
