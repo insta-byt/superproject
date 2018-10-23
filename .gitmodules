@@ -4690,6 +4690,10 @@
 	branch = master
 	path = platform/system/sepolicy
 	url = ../../platform/system/sepolicy
+[submodule "platform/system/server_configurable_flags"]
+	branch = master
+	path = platform/system/server_configurable_flags
+	url = ../../platform/system/server_configurable_flags
 [submodule "platform/system/testing/gtest_extras"]
 	branch = master
 	path = platform/system/testing/gtest_extras
