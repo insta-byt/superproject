@@ -2174,6 +2174,10 @@
 	branch = master
 	path = platform/external/protobuf
 	url = ../../platform/external/protobuf
+[submodule "platform/external/protobuf-javalite"]
+	branch = master
+	path = platform/external/protobuf-javalite
+	url = ../../platform/external/protobuf-javalite
 [submodule "platform/external/protobuf2.5"]
 	branch = master
 	path = platform/external/protobuf2.5

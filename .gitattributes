@@ -542,6 +542,7 @@
 /platform/external/ppp
 /platform/external/proguard
 /platform/external/protobuf
+/platform/external/protobuf-javalite
 /platform/external/protobuf2.5
 /platform/external/pthreads
 /platform/external/puffin
