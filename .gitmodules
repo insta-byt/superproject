@@ -1130,6 +1130,10 @@
 	branch = master
 	path = platform/external/fec
 	url = ../../platform/external/fec
+[submodule "platform/external/fff"]
+	branch = master
+	path = platform/external/fff
+	url = ../../platform/external/fff
 [submodule "platform/external/ffmpeg"]
 	branch = master
 	path = platform/external/ffmpeg

@@ -281,6 +281,7 @@
 /platform/external/fat32lib
 /platform/external/fdlibm
 /platform/external/fec
+/platform/external/fff
 /platform/external/ffmpeg
 /platform/external/fio
 /platform/external/flac
