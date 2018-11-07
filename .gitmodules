@@ -3654,6 +3654,10 @@
 	branch = master
 	path = platform/packages/inputmethods/PinyinIME
 	url = ../../platform/packages/inputmethods/PinyinIME
+[submodule "platform/packages/modules/Sharesheet"]
+	branch = master
+	path = platform/packages/modules/Sharesheet
+	url = ../../platform/packages/modules/Sharesheet
 [submodule "platform/packages/providers/ApplicationsProvider"]
 	branch = master
 	path = platform/packages/providers/ApplicationsProvider
