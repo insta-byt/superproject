@@ -2286,6 +2286,10 @@
 	branch = master
 	path = platform/external/sepolicy
 	url = ../../platform/external/sepolicy
+[submodule "platform/external/setupcompat"]
+	branch = master
+	path = platform/external/setupcompat
+	url = ../../platform/external/setupcompat
 [submodule "platform/external/sfntly"]
 	branch = master
 	path = platform/external/sfntly
