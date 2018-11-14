@@ -3898,6 +3898,10 @@
 	branch = master
 	path = platform/prebuilts/build-tools
 	url = ../../platform/prebuilts/build-tools
+[submodule "platform/prebuilts/bundletool"]
+	branch = master
+	path = platform/prebuilts/bundletool
+	url = ../../platform/prebuilts/bundletool
 [submodule "platform/prebuilts/checkcolor"]
 	branch = master
 	path = platform/prebuilts/checkcolor

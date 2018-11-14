@@ -973,6 +973,7 @@
 /platform/prebuilts/au-generator
 /platform/prebuilts/build-artifacts
 /platform/prebuilts/build-tools
+/platform/prebuilts/bundletool
 /platform/prebuilts/checkcolor
 /platform/prebuilts/checkstyle
 /platform/prebuilts/clack
