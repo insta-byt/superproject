@@ -774,6 +774,10 @@
 	branch = master
 	path = platform/external/bart
 	url = ../../platform/external/bart
+[submodule "platform/external/bcc"]
+	branch = master
+	path = platform/external/bcc
+	url = ../../platform/external/bcc
 [submodule "platform/external/bison"]
 	branch = master
 	path = platform/external/bison
