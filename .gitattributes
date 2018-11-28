@@ -1167,6 +1167,7 @@
 /platform/system/libfmq
 /platform/system/libhidl
 /platform/system/libhwbinder
+/platform/system/libsysprop
 /platform/system/libufdt
 /platform/system/libvintf
 /platform/system/media

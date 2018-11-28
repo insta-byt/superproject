@@ -4674,6 +4674,10 @@
 	branch = master
 	path = platform/system/libhwbinder
 	url = ../../platform/system/libhwbinder
+[submodule "platform/system/libsysprop"]
+	branch = master
+	path = platform/system/libsysprop
+	url = ../../platform/system/libsysprop
 [submodule "platform/system/libufdt"]
 	branch = master
 	path = platform/system/libufdt
