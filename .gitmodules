@@ -2910,6 +2910,10 @@
 	branch = master
 	path = platform/hardware/bsp/bootloader/nxp/uboot-imx
 	url = ../../platform/hardware/bsp/bootloader/nxp/uboot-imx
+[submodule "platform/hardware/bsp/bootloader/rockchip/rk-u-boot"]
+	branch = master
+	path = platform/hardware/bsp/bootloader/rockchip/rk-u-boot
+	url = ../../platform/hardware/bsp/bootloader/rockchip/rk-u-boot
 [submodule "platform/hardware/bsp/broadcom"]
 	branch = master
 	path = platform/hardware/bsp/broadcom

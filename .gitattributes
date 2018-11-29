@@ -726,6 +726,7 @@
 /platform/hardware/broadcom/wlan
 /platform/hardware/bsp/bootloader/intel/edison-u-boot
 /platform/hardware/bsp/bootloader/nxp/uboot-imx
+/platform/hardware/bsp/bootloader/rockchip/rk-u-boot
 /platform/hardware/bsp/broadcom
 /platform/hardware/bsp/freescale
 /platform/hardware/bsp/imagination
