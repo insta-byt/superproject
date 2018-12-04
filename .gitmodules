@@ -1070,6 +1070,10 @@
 	branch = master
 	path = platform/external/eclipse-windowbuilder
 	url = ../../platform/external/eclipse-windowbuilder
+[submodule "platform/external/effcee"]
+	branch = master
+	path = platform/external/effcee
+	url = ../../platform/external/effcee
 [submodule "platform/external/eglib"]
 	branch = master
 	path = platform/external/eglib
