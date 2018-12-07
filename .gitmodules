@@ -198,6 +198,10 @@
 	branch = master
 	path = device/google/dragon-kernel
 	url = ../../device/google/dragon-kernel
+[submodule "device/google/fuchsia"]
+	branch = master
+	path = device/google/fuchsia
+	url = ../../device/google/fuchsia
 [submodule "device/google/marlin"]
 	branch = master
 	path = device/google/marlin

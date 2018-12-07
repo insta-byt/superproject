@@ -48,6 +48,7 @@
 /device/google/debugcable
 /device/google/dragon
 /device/google/dragon-kernel
+/device/google/fuchsia
 /device/google/marlin
 /device/google/marlin-kernel
 /device/google/muskie
