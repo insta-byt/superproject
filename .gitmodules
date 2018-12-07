@@ -4054,6 +4054,10 @@
 	branch = master
 	path = platform/prebuilts/eclipse-build-deps-sources
 	url = ../../platform/prebuilts/eclipse-build-deps-sources
+[submodule "platform/prebuilts/fuchsia_sdk"]
+	branch = master
+	path = platform/prebuilts/fuchsia_sdk
+	url = ../../platform/prebuilts/fuchsia_sdk
 [submodule "platform/prebuilts/fullsdk-darwin/build-tools/27.0.3"]
 	branch = master
 	path = platform/prebuilts/fullsdk-darwin/build-tools/27.0.3
