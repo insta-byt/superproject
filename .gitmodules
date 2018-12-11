@@ -1914,6 +1914,10 @@
 	branch = master
 	path = platform/external/ltrace
 	url = ../../platform/external/ltrace
+[submodule "platform/external/lua"]
+	branch = master
+	path = platform/external/lua
+	url = ../../platform/external/lua
 [submodule "platform/external/lvm2"]
 	branch = master
 	path = platform/external/lvm2
