@@ -586,6 +586,10 @@
 	branch = master
 	path = platform/docs/source.android.com
 	url = ../../platform/docs/source.android.com
+[submodule "platform/external/ARMComputeLibrary"]
+	branch = master
+	path = platform/external/ARMComputeLibrary
+	url = ../../platform/external/ARMComputeLibrary
 [submodule "platform/external/AntennaPod/AntennaPod"]
 	branch = master
 	path = platform/external/AntennaPod/AntennaPod
