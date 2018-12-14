@@ -3686,6 +3686,10 @@
 	branch = master
 	path = platform/packages/inputmethods/PinyinIME
 	url = ../../platform/packages/inputmethods/PinyinIME
+[submodule "platform/packages/modules/ModuleMetadata"]
+	branch = master
+	path = platform/packages/modules/ModuleMetadata
+	url = ../../platform/packages/modules/ModuleMetadata
 [submodule "platform/packages/modules/Sharesheet"]
 	branch = master
 	path = platform/packages/modules/Sharesheet

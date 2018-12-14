@@ -920,6 +920,7 @@
 /platform/packages/inputmethods/LatinIME
 /platform/packages/inputmethods/OpenWnn
 /platform/packages/inputmethods/PinyinIME
+/platform/packages/modules/ModuleMetadata
 /platform/packages/modules/Sharesheet
 /platform/packages/providers/ApplicationsProvider
 /platform/packages/providers/BlockedNumberProvider
