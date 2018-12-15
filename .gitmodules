@@ -634,6 +634,10 @@
 	branch = master
 	path = platform/external/abi-dumper
 	url = ../../platform/external/abi-dumper
+[submodule "platform/external/abseil-cpp"]
+	branch = master
+	path = platform/external/abseil-cpp
+	url = ../../platform/external/abseil-cpp
 [submodule "platform/external/actionbarsherlock"]
 	branch = master
 	path = platform/external/actionbarsherlock
