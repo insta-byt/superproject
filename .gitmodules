@@ -1270,6 +1270,10 @@
 	branch = master
 	path = platform/external/google-diff-match-patch
 	url = ../../platform/external/google-diff-match-patch
+[submodule "platform/external/google-fonts/arbutus-slab"]
+	branch = master
+	path = platform/external/google-fonts/arbutus-slab
+	url = ../../platform/external/google-fonts/arbutus-slab
 [submodule "platform/external/google-fonts/carrois-gothic-sc"]
 	branch = master
 	path = platform/external/google-fonts/carrois-gothic-sc
