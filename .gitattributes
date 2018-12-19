@@ -247,6 +247,7 @@
 /platform/external/dbus
 /platform/external/dbus-binding-generator
 /platform/external/deqp
+/platform/external/deqp-deps/SPIRV-Headers
 /platform/external/deqp-deps/SPIRV-Tools
 /platform/external/desugar
 /platform/external/devlib
