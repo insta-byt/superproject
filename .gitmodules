@@ -994,6 +994,10 @@
 	branch = master
 	path = platform/external/deqp
 	url = ../../platform/external/deqp
+[submodule "platform/external/deqp-deps/SPIRV-Tools"]
+	branch = master
+	path = platform/external/deqp-deps/SPIRV-Tools
+	url = ../../platform/external/deqp-deps/SPIRV-Tools
 [submodule "platform/external/desugar"]
 	branch = master
 	path = platform/external/desugar
