@@ -249,6 +249,7 @@
 /platform/external/deqp
 /platform/external/deqp-deps/SPIRV-Headers
 /platform/external/deqp-deps/SPIRV-Tools
+/platform/external/deqp-deps/glslang
 /platform/external/desugar
 /platform/external/devlib
 /platform/external/dexmaker

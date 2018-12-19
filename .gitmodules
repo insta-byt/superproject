@@ -1002,6 +1002,10 @@
 	branch = master
 	path = platform/external/deqp-deps/SPIRV-Tools
 	url = ../../platform/external/deqp-deps/SPIRV-Tools
+[submodule "platform/external/deqp-deps/glslang"]
+	branch = master
+	path = platform/external/deqp-deps/glslang
+	url = ../../platform/external/deqp-deps/glslang
 [submodule "platform/external/desugar"]
 	branch = master
 	path = platform/external/desugar
