@@ -1306,6 +1306,10 @@
 	branch = master
 	path = platform/external/google-fonts/dancing-script
 	url = ../../platform/external/google-fonts/dancing-script
+[submodule "platform/external/google-fonts/rubik"]
+	branch = master
+	path = platform/external/google-fonts/rubik
+	url = ../../platform/external/google-fonts/rubik
 [submodule "platform/external/google-fruit"]
 	branch = master
 	path = platform/external/google-fruit
