@@ -1290,6 +1290,10 @@
 	branch = master
 	path = platform/external/google-fonts/arbutus-slab
 	url = ../../platform/external/google-fonts/arbutus-slab
+[submodule "platform/external/google-fonts/arvo"]
+	branch = master
+	path = platform/external/google-fonts/arvo
+	url = ../../platform/external/google-fonts/arvo
 [submodule "platform/external/google-fonts/carrois-gothic-sc"]
 	branch = master
 	path = platform/external/google-fonts/carrois-gothic-sc
