@@ -1314,6 +1314,10 @@
 	branch = master
 	path = platform/external/google-fonts/rubik
 	url = ../../platform/external/google-fonts/rubik
+[submodule "platform/external/google-fonts/source-sans-pro"]
+	branch = master
+	path = platform/external/google-fonts/source-sans-pro
+	url = ../../platform/external/google-fonts/source-sans-pro
 [submodule "platform/external/google-fruit"]
 	branch = master
 	path = platform/external/google-fruit
