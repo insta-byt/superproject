@@ -10,6 +10,10 @@
 	branch = master
 	path = brillo/manifest
 	url = ../../brillo/manifest
+[submodule "device/amlogic/yukawa"]
+	branch = master
+	path = device/amlogic/yukawa
+	url = ../../device/amlogic/yukawa
 [submodule "device/asus/deb"]
 	branch = master
 	path = device/asus/deb
