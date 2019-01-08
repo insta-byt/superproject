@@ -2,6 +2,7 @@
 /assets/android-studio-ux-assets
 /brillo/manifest
 /device/amlogic/yukawa
+/device/amlogic/yukawa-kernel
 /device/asus/deb
 /device/asus/flo
 /device/asus/flo-kernel
