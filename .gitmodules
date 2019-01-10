@@ -2126,6 +2126,10 @@
 	branch = master
 	path = platform/external/noto-fonts
 	url = ../../platform/external/noto-fonts
+[submodule "platform/external/nsjail"]
+	branch = master
+	path = platform/external/nsjail
+	url = ../../platform/external/nsjail
 [submodule "platform/external/oauth"]
 	branch = master
 	path = platform/external/oauth

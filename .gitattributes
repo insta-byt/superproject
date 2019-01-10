@@ -530,6 +530,7 @@
 /platform/external/nos/host/generic
 /platform/external/nos/test/system-test-harness
 /platform/external/noto-fonts
+/platform/external/nsjail
 /platform/external/oauth
 /platform/external/objenesis
 /platform/external/oj-libjdwp
