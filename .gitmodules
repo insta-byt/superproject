@@ -2298,6 +2298,10 @@
 	branch = master
 	path = platform/external/r8
 	url = ../../platform/external/r8
+[submodule "platform/external/rapidjson"]
+	branch = master
+	path = platform/external/rapidjson
+	url = ../../platform/external/rapidjson
 [submodule "platform/external/rappor"]
 	branch = master
 	path = platform/external/rappor
