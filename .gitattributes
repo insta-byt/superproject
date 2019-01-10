@@ -48,6 +48,7 @@
 /device/google/cuttlefish
 /device/google/cuttlefish_common
 /device/google/cuttlefish_kernel
+/device/google/cuttlefish_vmm
 /device/google/debugcable
 /device/google/dragon
 /device/google/dragon-kernel
