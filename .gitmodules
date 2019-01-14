@@ -2718,6 +2718,10 @@
 	branch = master
 	path = platform/external/xz-embedded
 	url = ../../platform/external/xz-embedded
+[submodule "platform/external/xz-java"]
+	branch = master
+	path = platform/external/xz-java
+	url = ../../platform/external/xz-java
 [submodule "platform/external/yaffs2"]
 	branch = master
 	path = platform/external/yaffs2
