@@ -702,6 +702,10 @@
 	branch = master
 	path = platform/external/androidplot
 	url = ../../platform/external/androidplot
+[submodule "platform/external/angle"]
+	branch = master
+	path = platform/external/angle
+	url = ../../platform/external/angle
 [submodule "platform/external/annotation-tools"]
 	branch = master
 	path = platform/external/annotation-tools
