@@ -4730,6 +4730,10 @@
 	branch = master
 	path = platform/system/gatekeeper
 	url = ../../platform/system/gatekeeper
+[submodule "platform/system/gsid"]
+	branch = master
+	path = platform/system/gsid
+	url = ../../platform/system/gsid
 [submodule "platform/system/hardware/interfaces"]
 	branch = master
 	path = platform/system/hardware/interfaces

@@ -1181,6 +1181,7 @@
 /platform/system/extras
 /platform/system/firewalld
 /platform/system/gatekeeper
+/platform/system/gsid
 /platform/system/hardware/interfaces
 /platform/system/hwservicemanager
 /platform/system/iorap
