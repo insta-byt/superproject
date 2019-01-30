@@ -1165,6 +1165,7 @@
 /platform/superproject
 /platform/system/adb
 /platform/system/apex
+/platform/system/ashmemd
 /platform/system/attestation
 /platform/system/bluetooth
 /platform/system/bpf

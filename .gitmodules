@@ -4666,6 +4666,10 @@
 	branch = master
 	path = platform/system/apex
 	url = ../../platform/system/apex
+[submodule "platform/system/ashmemd"]
+	branch = master
+	path = platform/system/ashmemd
+	url = ../../platform/system/ashmemd
 [submodule "platform/system/attestation"]
 	branch = master
 	path = platform/system/attestation
