@@ -5522,6 +5522,10 @@
 	branch = master
 	path = trusty/manifest
 	url = ../../trusty/manifest
+[submodule "trusty/prebuilts/aosp"]
+	branch = master
+	path = trusty/prebuilts/aosp
+	url = ../../trusty/prebuilts/aosp
 [submodule "trusty/vendor/google/aosp"]
 	branch = master
 	path = trusty/vendor/google/aosp
