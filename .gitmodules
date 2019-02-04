@@ -4214,6 +4214,10 @@
 	branch = master
 	path = platform/prebuilts/fullsdk/platforms/android-21
 	url = ../../platform/prebuilts/fullsdk/platforms/android-21
+[submodule "platform/prebuilts/fullsdk/platforms/android-26"]
+	branch = master
+	path = platform/prebuilts/fullsdk/platforms/android-26
+	url = ../../platform/prebuilts/fullsdk/platforms/android-26
 [submodule "platform/prebuilts/fullsdk/platforms/android-28"]
 	branch = master
 	path = platform/prebuilts/fullsdk/platforms/android-28
