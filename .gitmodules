@@ -4546,6 +4546,10 @@
 	branch = master
 	path = platform/prebuilts/libs/libedit
 	url = ../../platform/prebuilts/libs/libedit
+[submodule "platform/prebuilts/manifest-merger"]
+	branch = master
+	path = platform/prebuilts/manifest-merger
+	url = ../../platform/prebuilts/manifest-merger
 [submodule "platform/prebuilts/maven_repo/android"]
 	branch = master
 	path = platform/prebuilts/maven_repo/android
