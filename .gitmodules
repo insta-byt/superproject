@@ -1966,6 +1966,10 @@
 	branch = master
 	path = platform/external/lohit-fonts
 	url = ../../platform/external/lohit-fonts
+[submodule "platform/external/lottie"]
+	branch = master
+	path = platform/external/lottie
+	url = ../../platform/external/lottie
 [submodule "platform/external/ltp"]
 	branch = master
 	path = platform/external/ltp
