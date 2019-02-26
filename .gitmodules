@@ -4814,6 +4814,10 @@
 	branch = master
 	path = platform/system/libvintf
 	url = ../../platform/system/libvintf
+[submodule "platform/system/linkerconfig"]
+	branch = master
+	path = platform/system/linkerconfig
+	url = ../../platform/system/linkerconfig
 [submodule "platform/system/media"]
 	branch = master
 	path = platform/system/media

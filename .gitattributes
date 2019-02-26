@@ -1202,6 +1202,7 @@
 /platform/system/libsysprop
 /platform/system/libufdt
 /platform/system/libvintf
+/platform/system/linkerconfig
 /platform/system/media
 /platform/system/metricsd
 /platform/system/nativepower
