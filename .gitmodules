@@ -5062,6 +5062,10 @@
 	branch = master
 	path = platform/tools/cmake-utils
 	url = ../../platform/tools/cmake-utils
+[submodule "platform/tools/currysrc"]
+	branch = master
+	path = platform/tools/currysrc
+	url = ../../platform/tools/currysrc
 [submodule "platform/tools/dexter"]
 	branch = master
 	path = platform/tools/dexter
