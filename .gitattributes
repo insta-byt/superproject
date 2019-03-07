@@ -1379,6 +1379,7 @@
 /trusty/external/headers
 /trusty/external/qemu
 /trusty/external/qemu-keycodemapdb
+/trusty/external/trusted-firmware-a
 /trusty/external/trusty
 /trusty/lib
 /trusty/lk/common
