@@ -34,6 +34,7 @@
 /device/generic/qemu
 /device/generic/trusty
 /device/generic/uml
+/device/generic/vulkan-cereal
 /device/generic/x86
 /device/generic/x86_64
 /device/google/accessory/adk2012

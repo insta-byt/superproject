@@ -142,6 +142,10 @@
 	branch = master
 	path = device/generic/uml
 	url = ../../device/generic/uml
+[submodule "device/generic/vulkan-cereal"]
+	branch = master
+	path = device/generic/vulkan-cereal
+	url = ../../device/generic/vulkan-cereal
 [submodule "device/generic/x86"]
 	branch = master
 	path = device/generic/x86
