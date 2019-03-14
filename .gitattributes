@@ -245,6 +245,7 @@
 /platform/external/compiler-rt
 /platform/external/compiler-rt_35a
 /platform/external/conscrypt
+/platform/external/cpu_features
 /platform/external/crcalc
 /platform/external/cros/system_api
 /platform/external/cryptsetup
