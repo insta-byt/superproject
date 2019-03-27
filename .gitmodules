@@ -1718,6 +1718,10 @@
 	branch = master
 	path = platform/external/libedit
 	url = ../../platform/external/libedit
+[submodule "platform/external/libepoxy"]
+	branch = master
+	path = platform/external/libepoxy
+	url = ../../platform/external/libepoxy
 [submodule "platform/external/libese"]
 	branch = master
 	path = platform/external/libese
