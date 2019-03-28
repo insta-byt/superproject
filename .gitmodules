@@ -1458,6 +1458,10 @@
 	branch = master
 	path = platform/external/iosched
 	url = ../../platform/external/iosched
+[submodule "platform/external/iperf3"]
+	branch = master
+	path = platform/external/iperf3
+	url = ../../platform/external/iperf3
 [submodule "platform/external/iproute2"]
 	branch = master
 	path = platform/external/iproute2

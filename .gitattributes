@@ -363,6 +363,7 @@
 /platform/external/id3lib
 /platform/external/ims
 /platform/external/iosched
+/platform/external/iperf3
 /platform/external/iproute2
 /platform/external/ipsec-tools
 /platform/external/iptables
