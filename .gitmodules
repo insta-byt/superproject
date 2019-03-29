@@ -998,6 +998,10 @@
 	branch = master
 	path = platform/external/cros/system_api
 	url = ../../platform/external/cros/system_api
+[submodule "platform/external/crosvm"]
+	branch = master
+	path = platform/external/crosvm
+	url = ../../platform/external/crosvm
 [submodule "platform/external/cryptsetup"]
 	branch = master
 	path = platform/external/cryptsetup
