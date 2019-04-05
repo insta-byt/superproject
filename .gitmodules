@@ -3674,6 +3674,10 @@
 	branch = master
 	path = platform/packages/apps/SafetyRegulatoryInfo
 	url = ../../platform/packages/apps/SafetyRegulatoryInfo
+[submodule "platform/packages/apps/SampleLocationAttribution"]
+	branch = master
+	path = platform/packages/apps/SampleLocationAttribution
+	url = ../../platform/packages/apps/SampleLocationAttribution
 [submodule "platform/packages/apps/SecureElement"]
 	branch = master
 	path = platform/packages/apps/SecureElement
