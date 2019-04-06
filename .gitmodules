@@ -1366,6 +1366,10 @@
 	branch = master
 	path = platform/external/google-tv-pairing-protocol
 	url = ../../platform/external/google-tv-pairing-protocol
+[submodule "platform/external/googleapis"]
+	branch = master
+	path = platform/external/googleapis
+	url = ../../platform/external/googleapis
 [submodule "platform/external/googleclient"]
 	branch = master
 	path = platform/external/googleclient
