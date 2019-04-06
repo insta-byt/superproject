@@ -201,6 +201,7 @@
 /platform/external/avahi
 /platform/external/avb
 /platform/external/bart
+/platform/external/bazelbuild-remote-apis
 /platform/external/bcc
 /platform/external/bison
 /platform/external/blktrace

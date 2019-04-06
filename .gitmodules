@@ -810,6 +810,10 @@
 	branch = master
 	path = platform/external/bart
 	url = ../../platform/external/bart
+[submodule "platform/external/bazelbuild-remote-apis"]
+	branch = master
+	path = platform/external/bazelbuild-remote-apis
+	url = ../../platform/external/bazelbuild-remote-apis
 [submodule "platform/external/bcc"]
 	branch = master
 	path = platform/external/bcc
