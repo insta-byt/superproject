@@ -2674,6 +2674,10 @@
 	branch = master
 	path = platform/external/vulkan-headers
 	url = ../../platform/external/vulkan-headers
+[submodule "platform/external/vulkan-tools"]
+	branch = master
+	path = platform/external/vulkan-tools
+	url = ../../platform/external/vulkan-tools
 [submodule "platform/external/vulkan-validation-layers"]
 	branch = master
 	path = platform/external/vulkan-validation-layers
