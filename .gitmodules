@@ -622,6 +622,10 @@
 	branch = master
 	path = platform/external/AntennaPod/afollestad
 	url = ../../platform/external/AntennaPod/afollestad
+[submodule "platform/external/GhostAWT"]
+	branch = master
+	path = platform/external/GhostAWT
+	url = ../../platform/external/GhostAWT
 [submodule "platform/external/ImageMagick"]
 	branch = master
 	path = platform/external/ImageMagick
