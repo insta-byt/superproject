@@ -1514,6 +1514,10 @@
 	branch = master
 	path = platform/external/javaparser
 	url = ../../platform/external/javaparser
+[submodule "platform/external/javapoet"]
+	branch = master
+	path = platform/external/javapoet
+	url = ../../platform/external/javapoet
 [submodule "platform/external/javasqlite"]
 	branch = master
 	path = platform/external/javasqlite

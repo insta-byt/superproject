@@ -377,6 +377,7 @@
 /platform/external/jacoco
 /platform/external/jarjar
 /platform/external/javaparser
+/platform/external/javapoet
 /platform/external/javasqlite
 /platform/external/javassist
 /platform/external/jcommander
