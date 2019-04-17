@@ -5118,6 +5118,10 @@
 	branch = master
 	path = platform/tools/emulator
 	url = ../../platform/tools/emulator
+[submodule "platform/tools/external/bazelbuild-rules-kotlin"]
+	branch = master
+	path = platform/tools/external/bazelbuild-rules-kotlin
+	url = ../../platform/tools/external/bazelbuild-rules-kotlin
 [submodule "platform/tools/external/fat32lib"]
 	branch = master
 	path = platform/tools/external/fat32lib

@@ -1278,6 +1278,7 @@
 /platform/tools/currysrc
 /platform/tools/dexter
 /platform/tools/emulator
+/platform/tools/external/bazelbuild-rules-kotlin
 /platform/tools/external/fat32lib
 /platform/tools/external/go/src/github.com/go-gl-legacy/gl
 /platform/tools/external/go/src/github.com/go-gl/glfw
