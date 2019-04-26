@@ -3982,6 +3982,10 @@
 	branch = master
 	path = platform/prebuilts/abi-dumps/ndk
 	url = ../../platform/prebuilts/abi-dumps/ndk
+[submodule "platform/prebuilts/abi-dumps/platform"]
+	branch = master
+	path = platform/prebuilts/abi-dumps/platform
+	url = ../../platform/prebuilts/abi-dumps/platform
 [submodule "platform/prebuilts/abi-dumps/vndk"]
 	branch = master
 	path = platform/prebuilts/abi-dumps/vndk

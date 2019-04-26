@@ -994,6 +994,7 @@
 /platform/platform_testing
 /platform/prebuilt
 /platform/prebuilts/abi-dumps/ndk
+/platform/prebuilts/abi-dumps/platform
 /platform/prebuilts/abi-dumps/vndk
 /platform/prebuilts/android-emulator
 /platform/prebuilts/android-emulator-build/archive
