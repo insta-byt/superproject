@@ -4990,6 +4990,10 @@
 	branch = master
 	path = platform/test/mlts/models
 	url = ../../platform/test/mlts/models
+[submodule "platform/test/mts"]
+	branch = master
+	path = platform/test/mts
+	url = ../../platform/test/mts
 [submodule "platform/test/p2pts"]
 	branch = master
 	path = platform/test/p2pts

@@ -1246,6 +1246,7 @@
 /platform/test/framework
 /platform/test/mlts/benchmark
 /platform/test/mlts/models
+/platform/test/mts
 /platform/test/p2pts
 /platform/test/sts
 /platform/test/suite_harness
