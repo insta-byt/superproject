@@ -5570,6 +5570,10 @@
 	branch = master
 	path = trusty/external/headers
 	url = ../../trusty/external/headers
+[submodule "trusty/external/musl"]
+	branch = master
+	path = trusty/external/musl
+	url = ../../trusty/external/musl
 [submodule "trusty/external/qemu"]
 	branch = master
 	path = trusty/external/qemu
