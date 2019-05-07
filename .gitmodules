@@ -3330,6 +3330,10 @@
 	branch = master
 	path = platform/hardware/qcom/sdm710/display
 	url = ../../platform/hardware/qcom/sdm710/display
+[submodule "platform/hardware/qcom/sdm710/media"]
+	branch = master
+	path = platform/hardware/qcom/sdm710/media
+	url = ../../platform/hardware/qcom/sdm710/media
 [submodule "platform/hardware/qcom/sdm845/bt"]
 	branch = master
 	path = platform/hardware/qcom/sdm845/bt

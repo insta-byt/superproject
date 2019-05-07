@@ -831,6 +831,7 @@
 /platform/hardware/qcom/neuralnetworks/hvxservice
 /platform/hardware/qcom/power
 /platform/hardware/qcom/sdm710/display
+/platform/hardware/qcom/sdm710/media
 /platform/hardware/qcom/sdm845/bt
 /platform/hardware/qcom/sdm845/data/ipacfg-mgr
 /platform/hardware/qcom/sdm845/display
