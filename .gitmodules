@@ -182,6 +182,10 @@
 	branch = master
 	path = device/google/bonito-kernel
 	url = ../../device/google/bonito-kernel
+[submodule "device/google/bonito-sepolicy"]
+	branch = master
+	path = device/google/bonito-sepolicy
+	url = ../../device/google/bonito-sepolicy
 [submodule "device/google/contexthub"]
 	branch = master
 	path = device/google/contexthub
