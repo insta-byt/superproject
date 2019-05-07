@@ -178,6 +178,10 @@
 	branch = master
 	path = device/google/bonito
 	url = ../../device/google/bonito
+[submodule "device/google/bonito-kernel"]
+	branch = master
+	path = device/google/bonito-kernel
+	url = ../../device/google/bonito-kernel
 [submodule "device/google/contexthub"]
 	branch = master
 	path = device/google/contexthub
