@@ -1019,6 +1019,7 @@
 /platform/prebuilts/androidx/internal
 /platform/prebuilts/asuite
 /platform/prebuilts/au-generator
+/platform/prebuilts/boot-artifacts
 /platform/prebuilts/build-artifacts
 /platform/prebuilts/build-tools
 /platform/prebuilts/bundletool

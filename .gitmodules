@@ -4082,6 +4082,10 @@
 	branch = master
 	path = platform/prebuilts/au-generator
 	url = ../../platform/prebuilts/au-generator
+[submodule "platform/prebuilts/boot-artifacts"]
+	branch = master
+	path = platform/prebuilts/boot-artifacts
+	url = ../../platform/prebuilts/boot-artifacts
 [submodule "platform/prebuilts/build-artifacts"]
 	branch = master
 	path = platform/prebuilts/build-artifacts
