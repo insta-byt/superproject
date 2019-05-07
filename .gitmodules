@@ -3326,6 +3326,10 @@
 	branch = master
 	path = platform/hardware/qcom/power
 	url = ../../platform/hardware/qcom/power
+[submodule "platform/hardware/qcom/sdm710/data/ipacfg-mgr"]
+	branch = master
+	path = platform/hardware/qcom/sdm710/data/ipacfg-mgr
+	url = ../../platform/hardware/qcom/sdm710/data/ipacfg-mgr
 [submodule "platform/hardware/qcom/sdm710/display"]
 	branch = master
 	path = platform/hardware/qcom/sdm710/display
