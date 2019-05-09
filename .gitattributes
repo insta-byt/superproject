@@ -388,6 +388,7 @@
 /platform/external/jemalloc
 /platform/external/jemalloc_new
 /platform/external/jenkins-hash
+/platform/external/jetbrains/JetBrainsRuntime
 /platform/external/jetbrains/jdk8u
 /platform/external/jetbrains/jdk8u_corba
 /platform/external/jetbrains/jdk8u_hotspot

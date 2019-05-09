@@ -1558,6 +1558,10 @@
 	branch = master
 	path = platform/external/jenkins-hash
 	url = ../../platform/external/jenkins-hash
+[submodule "platform/external/jetbrains/JetBrainsRuntime"]
+	branch = master
+	path = platform/external/jetbrains/JetBrainsRuntime
+	url = ../../platform/external/jetbrains/JetBrainsRuntime
 [submodule "platform/external/jetbrains/jdk8u"]
 	branch = master
 	path = platform/external/jetbrains/jdk8u
