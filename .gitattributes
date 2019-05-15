@@ -890,6 +890,7 @@
 /platform/packages/apps/Car/SystemUpdater
 /platform/packages/apps/Car/UserManagement
 /platform/packages/apps/Car/libs
+/platform/packages/apps/Car/tests
 /platform/packages/apps/CarrierConfig
 /platform/packages/apps/CellBroadcastReceiver
 /platform/packages/apps/CertInstaller
