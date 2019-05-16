@@ -368,6 +368,7 @@
 /platform/external/icu
 /platform/external/icu4c
 /platform/external/id3lib
+/platform/external/igt-gpu-tools
 /platform/external/ims
 /platform/external/iosched
 /platform/external/iperf3
@@ -874,6 +875,7 @@
 /platform/packages/apps/Calendar
 /platform/packages/apps/Camera
 /platform/packages/apps/Camera2
+/platform/packages/apps/Car/Cluster
 /platform/packages/apps/Car/Dialer
 /platform/packages/apps/Car/Hvac
 /platform/packages/apps/Car/LatinIME

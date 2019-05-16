@@ -1478,6 +1478,10 @@
 	branch = master
 	path = platform/external/id3lib
 	url = ../../platform/external/id3lib
+[submodule "platform/external/igt-gpu-tools"]
+	branch = master
+	path = platform/external/igt-gpu-tools
+	url = ../../platform/external/igt-gpu-tools
 [submodule "platform/external/ims"]
 	branch = master
 	path = platform/external/ims
@@ -3502,6 +3506,10 @@
 	branch = master
 	path = platform/packages/apps/Camera2
 	url = ../../platform/packages/apps/Camera2
+[submodule "platform/packages/apps/Car/Cluster"]
+	branch = master
+	path = platform/packages/apps/Car/Cluster
+	url = ../../platform/packages/apps/Car/Cluster
 [submodule "platform/packages/apps/Car/Dialer"]
 	branch = master
 	path = platform/packages/apps/Car/Dialer
