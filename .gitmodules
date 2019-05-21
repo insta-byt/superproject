@@ -3874,6 +3874,10 @@
 	branch = master
 	path = platform/packages/modules/NetworkPermissionConfig
 	url = ../../platform/packages/modules/NetworkPermissionConfig
+[submodule "platform/packages/modules/NetworkStack"]
+	branch = master
+	path = platform/packages/modules/NetworkStack
+	url = ../../platform/packages/modules/NetworkStack
 [submodule "platform/packages/modules/Sharesheet"]
 	branch = master
 	path = platform/packages/modules/Sharesheet
