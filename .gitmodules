@@ -3862,6 +3862,10 @@
 	branch = master
 	path = platform/packages/modules/CaptivePortalLogin
 	url = ../../platform/packages/modules/CaptivePortalLogin
+[submodule "platform/packages/modules/ExtServices"]
+	branch = master
+	path = platform/packages/modules/ExtServices
+	url = ../../platform/packages/modules/ExtServices
 [submodule "platform/packages/modules/ModuleMetadata"]
 	branch = master
 	path = platform/packages/modules/ModuleMetadata

@@ -964,6 +964,7 @@
 /platform/packages/inputmethods/OpenWnn
 /platform/packages/inputmethods/PinyinIME
 /platform/packages/modules/CaptivePortalLogin
+/platform/packages/modules/ExtServices
 /platform/packages/modules/ModuleMetadata
 /platform/packages/modules/Sharesheet
 /platform/packages/providers/ApplicationsProvider
