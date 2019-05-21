@@ -3858,6 +3858,10 @@
 	branch = master
 	path = platform/packages/inputmethods/PinyinIME
 	url = ../../platform/packages/inputmethods/PinyinIME
+[submodule "platform/packages/modules/CaptivePortalLogin"]
+	branch = master
+	path = platform/packages/modules/CaptivePortalLogin
+	url = ../../platform/packages/modules/CaptivePortalLogin
 [submodule "platform/packages/modules/ModuleMetadata"]
 	branch = master
 	path = platform/packages/modules/ModuleMetadata
