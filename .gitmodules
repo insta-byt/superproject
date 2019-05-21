@@ -3662,6 +3662,10 @@
 	branch = master
 	path = platform/packages/apps/IM
 	url = ../../platform/packages/apps/IM
+[submodule "platform/packages/apps/IdentityCredentialSupport"]
+	branch = master
+	path = platform/packages/apps/IdentityCredentialSupport
+	url = ../../platform/packages/apps/IdentityCredentialSupport
 [submodule "platform/packages/apps/InCallUI"]
 	branch = master
 	path = platform/packages/apps/InCallUI
