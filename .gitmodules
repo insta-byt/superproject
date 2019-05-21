@@ -3870,6 +3870,10 @@
 	branch = master
 	path = platform/packages/modules/ModuleMetadata
 	url = ../../platform/packages/modules/ModuleMetadata
+[submodule "platform/packages/modules/NetworkPermissionConfig"]
+	branch = master
+	path = platform/packages/modules/NetworkPermissionConfig
+	url = ../../platform/packages/modules/NetworkPermissionConfig
 [submodule "platform/packages/modules/Sharesheet"]
 	branch = master
 	path = platform/packages/modules/Sharesheet
