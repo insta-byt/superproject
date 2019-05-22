@@ -5006,6 +5006,10 @@
 	branch = master
 	path = platform/system/tools/hidl
 	url = ../../platform/system/tools/hidl
+[submodule "platform/system/tools/mkbootimg"]
+	branch = master
+	path = platform/system/tools/mkbootimg
+	url = ../../platform/system/tools/mkbootimg
 [submodule "platform/system/tools/sysprop"]
 	branch = master
 	path = platform/system/tools/sysprop

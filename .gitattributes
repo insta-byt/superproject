@@ -1250,6 +1250,7 @@
 /platform/system/tools/aidl
 /platform/system/tools/bpt
 /platform/system/tools/hidl
+/platform/system/tools/mkbootimg
 /platform/system/tools/sysprop
 /platform/system/tools/xsdc
 /platform/system/tpm
