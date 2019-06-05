@@ -4126,6 +4126,10 @@
 	branch = master
 	path = platform/prebuilts/build-artifacts
 	url = ../../platform/prebuilts/build-artifacts
+[submodule "platform/prebuilts/build-artifacts2"]
+	branch = master
+	path = platform/prebuilts/build-artifacts2
+	url = ../../platform/prebuilts/build-artifacts2
 [submodule "platform/prebuilts/build-tools"]
 	branch = master
 	path = platform/prebuilts/build-tools

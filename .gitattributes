@@ -1030,6 +1030,7 @@
 /platform/prebuilts/au-generator
 /platform/prebuilts/boot-artifacts
 /platform/prebuilts/build-artifacts
+/platform/prebuilts/build-artifacts2
 /platform/prebuilts/build-tools
 /platform/prebuilts/bundletool
 /platform/prebuilts/checkcolor
