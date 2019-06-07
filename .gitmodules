@@ -5590,6 +5590,10 @@
 	branch = master
 	path = toolchain/prebuilts/ndk/r18
 	url = ../../toolchain/prebuilts/ndk/r18
+[submodule "toolchain/prebuilts/ndk/r19"]
+	branch = master
+	path = toolchain/prebuilts/ndk/r19
+	url = ../../toolchain/prebuilts/ndk/r19
 [submodule "toolchain/python"]
 	branch = master
 	path = toolchain/python
