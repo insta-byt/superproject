@@ -5210,6 +5210,10 @@
 	branch = master
 	path = platform/tools/currysrc
 	url = ../../platform/tools/currysrc
+[submodule "platform/tools/dctv-tracedb"]
+	branch = master
+	path = platform/tools/dctv-tracedb
+	url = ../../platform/tools/dctv-tracedb
 [submodule "platform/tools/dexter"]
 	branch = master
 	path = platform/tools/dexter

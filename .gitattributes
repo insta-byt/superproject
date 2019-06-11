@@ -1301,6 +1301,7 @@
 /platform/tools/buildSrc
 /platform/tools/cmake-utils
 /platform/tools/currysrc
+/platform/tools/dctv-tracedb
 /platform/tools/dexter
 /platform/tools/emulator
 /platform/tools/external/bazelbuild-rules-kotlin
