@@ -5170,6 +5170,10 @@
 	branch = master
 	path = platform/tools/analytics-library
 	url = ../../platform/tools/analytics-library
+[submodule "platform/tools/apifinder"]
+	branch = master
+	path = platform/tools/apifinder
+	url = ../../platform/tools/apifinder
 [submodule "platform/tools/apksig"]
 	branch = master
 	path = platform/tools/apksig
