@@ -5610,6 +5610,10 @@
 	branch = master
 	path = toolchain/python
 	url = ../../toolchain/python
+[submodule "toolchain/rustc"]
+	branch = master
+	path = toolchain/rustc
+	url = ../../toolchain/rustc
 [submodule "toolchain/sed"]
 	branch = master
 	path = toolchain/sed

@@ -1401,6 +1401,7 @@
 /toolchain/prebuilts/ndk/r18
 /toolchain/prebuilts/ndk/r19
 /toolchain/python
+/toolchain/rustc
 /toolchain/sed
 /toolchain/valgrind
 /toolchain/xz
