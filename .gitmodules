@@ -2402,6 +2402,10 @@
 	branch = master
 	path = platform/external/rootdev
 	url = ../../platform/external/rootdev
+[submodule "platform/external/rust/crates/byteorder"]
+	branch = master
+	path = platform/external/rust/crates/byteorder
+	url = ../../platform/external/rust/crates/byteorder
 [submodule "platform/external/rust/crates/libc"]
 	branch = master
 	path = platform/external/rust/crates/libc
