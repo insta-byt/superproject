@@ -4766,6 +4766,10 @@
 	branch = master
 	path = platform/prebuilts/runtime
 	url = ../../platform/prebuilts/runtime
+[submodule "platform/prebuilts/rust"]
+	branch = master
+	path = platform/prebuilts/rust
+	url = ../../platform/prebuilts/rust
 [submodule "platform/prebuilts/sdk"]
 	branch = master
 	path = platform/prebuilts/sdk

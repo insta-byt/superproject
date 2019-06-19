@@ -1190,6 +1190,7 @@
 /platform/prebuilts/renderscript/host/linux-x86
 /platform/prebuilts/renderscript/host/windows-x86
 /platform/prebuilts/runtime
+/platform/prebuilts/rust
 /platform/prebuilts/sdk
 /platform/prebuilts/simpleperf
 /platform/prebuilts/studio/jdk
