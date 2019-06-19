@@ -600,6 +600,7 @@
 /platform/external/roboto-fonts
 /platform/external/rootdev
 /platform/external/rust/crates/libc
+/platform/external/rust/crates/remain
 /platform/external/safe-iop
 /platform/external/scapy
 /platform/external/scrypt
