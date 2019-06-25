@@ -1678,6 +1678,10 @@
 	branch = master
 	path = platform/external/ktlint
 	url = ../../platform/external/ktlint
+[submodule "platform/external/kythe"]
+	branch = master
+	path = platform/external/kythe
+	url = ../../platform/external/kythe
 [submodule "platform/external/lame"]
 	branch = master
 	path = platform/external/lame

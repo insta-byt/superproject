@@ -418,6 +418,7 @@
 /platform/external/kotlinc
 /platform/external/ksoap2
 /platform/external/ktlint
+/platform/external/kythe
 /platform/external/lame
 /platform/external/lcc
 /platform/external/libavc
