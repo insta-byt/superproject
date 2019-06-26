@@ -5174,6 +5174,10 @@
 	branch = master
 	path = platform/test/vts-testcase/vndk
 	url = ../../platform/test/vts-testcase/vndk
+[submodule "platform/toolchain/android_rust"]
+	branch = master
+	path = platform/toolchain/android_rust
+	url = ../../platform/toolchain/android_rust
 [submodule "platform/tools/acloud"]
 	branch = master
 	path = platform/tools/acloud

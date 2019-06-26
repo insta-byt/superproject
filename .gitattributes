@@ -1292,6 +1292,7 @@
 /platform/test/vts-testcase/performance
 /platform/test/vts-testcase/security
 /platform/test/vts-testcase/vndk
+/platform/toolchain/android_rust
 /platform/tools/acloud
 /platform/tools/adt/eclipse
 /platform/tools/adt/idea
