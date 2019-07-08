@@ -1382,6 +1382,10 @@
 	branch = master
 	path = platform/external/google-tv-pairing-protocol
 	url = ../../platform/external/google-tv-pairing-protocol
+[submodule "platform/external/google-uuid"]
+	branch = master
+	path = platform/external/google-uuid
+	url = ../../platform/external/google-uuid
 [submodule "platform/external/googleapis"]
 	branch = master
 	path = platform/external/googleapis
