@@ -1293,7 +1293,6 @@
 /platform/test/vts-testcase/performance
 /platform/test/vts-testcase/security
 /platform/test/vts-testcase/vndk
-/platform/toolchain/android_rust
 /platform/tools/acloud
 /platform/tools/adt/eclipse
 /platform/tools/adt/idea
@@ -1353,6 +1352,7 @@
 /product/google/common
 /product/google/example-ledflasher
 /third-party-review
+/toolchain/android_rust
 /toolchain/avr-libc
 /toolchain/benchmark
 /toolchain/binutils

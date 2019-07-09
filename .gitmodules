@@ -5178,10 +5178,6 @@
 	branch = master
 	path = platform/test/vts-testcase/vndk
 	url = ../../platform/test/vts-testcase/vndk
-[submodule "platform/toolchain/android_rust"]
-	branch = master
-	path = platform/toolchain/android_rust
-	url = ../../platform/toolchain/android_rust
 [submodule "platform/tools/acloud"]
 	branch = master
 	path = platform/tools/acloud
@@ -5418,6 +5414,10 @@
 	branch = master
 	path = third-party-review
 	url = ../../third-party-review
+[submodule "toolchain/android_rust"]
+	branch = master
+	path = toolchain/android_rust
+	url = ../../toolchain/android_rust
 [submodule "toolchain/avr-libc"]
 	branch = master
 	path = toolchain/avr-libc
