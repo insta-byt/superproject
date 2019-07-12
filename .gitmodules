@@ -5662,6 +5662,10 @@
 	branch = master
 	path = tools/aospstats
 	url = ../../tools/aospstats
+[submodule "tools/appcompat"]
+	branch = master
+	path = tools/appcompat
+	url = ../../tools/appcompat
 [submodule "tools/repo"]
 	branch = master
 	path = tools/repo

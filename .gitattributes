@@ -1414,6 +1414,7 @@
 /toolchain/xz
 /toolchain/yasm
 /tools/aospstats
+/tools/appcompat
 /tools/repo
 /trusty/app/avb
 /trusty/app/gatekeeper
