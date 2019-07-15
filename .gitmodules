@@ -4130,6 +4130,10 @@
 	branch = master
 	path = platform/prebuilts/androidx/internal
 	url = ../../platform/prebuilts/androidx/internal
+[submodule "platform/prebuilts/androidx/studio"]
+	branch = master
+	path = platform/prebuilts/androidx/studio
+	url = ../../platform/prebuilts/androidx/studio
 [submodule "platform/prebuilts/asuite"]
 	branch = master
 	path = platform/prebuilts/asuite

@@ -1031,6 +1031,7 @@
 /platform/prebuilts/androidx/exoplayer
 /platform/prebuilts/androidx/external
 /platform/prebuilts/androidx/internal
+/platform/prebuilts/androidx/studio
 /platform/prebuilts/asuite
 /platform/prebuilts/au-generator
 /platform/prebuilts/boot-artifacts
