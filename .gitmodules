@@ -1186,6 +1186,10 @@
 	branch = master
 	path = platform/external/esd
 	url = ../../platform/external/esd
+[submodule "platform/external/ethtool"]
+	branch = master
+	path = platform/external/ethtool
+	url = ../../platform/external/ethtool
 [submodule "platform/external/expat"]
 	branch = master
 	path = platform/external/expat
