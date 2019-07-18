@@ -5502,6 +5502,10 @@
 	branch = master
 	path = toolchain/jdk/build
 	url = ../../toolchain/jdk/build
+[submodule "toolchain/jdk/jdk11"]
+	branch = master
+	path = toolchain/jdk/jdk11
+	url = ../../toolchain/jdk/jdk11
 [submodule "toolchain/jdk/jdk9"]
 	branch = master
 	path = toolchain/jdk/jdk9
@@ -5674,10 +5678,10 @@
 	branch = master
 	path = tools/aospstats
 	url = ../../tools/aospstats
-[submodule "tools/appcompat"]
+[submodule "tools/platform-compat"]
 	branch = master
-	path = tools/appcompat
-	url = ../../tools/appcompat
+	path = tools/platform-compat
+	url = ../../tools/platform-compat
 [submodule "tools/repo"]
 	branch = master
 	path = tools/repo

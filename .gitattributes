@@ -1374,6 +1374,7 @@
 /toolchain/jack
 /toolchain/jack-server
 /toolchain/jdk/build
+/toolchain/jdk/jdk11
 /toolchain/jdk/jdk9
 /toolchain/jdk/jdk9_corba
 /toolchain/jdk/jdk9_hotspot
@@ -1417,7 +1418,7 @@
 /toolchain/xz
 /toolchain/yasm
 /tools/aospstats
-/tools/appcompat
+/tools/platform-compat
 /tools/repo
 /trusty/app/avb
 /trusty/app/gatekeeper
