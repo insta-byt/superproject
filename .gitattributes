@@ -162,6 +162,7 @@
 /platform/external/Mako
 /platform/external/Microsoft-GSL
 /platform/external/Microsoft-unittest-cpp
+/platform/external/OpenCSD
 /platform/external/Reactive-Extensions/RxCpp
 /platform/external/aac
 /platform/external/abi-compliance-checker

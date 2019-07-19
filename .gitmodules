@@ -654,6 +654,10 @@
 	branch = master
 	path = platform/external/Microsoft-unittest-cpp
 	url = ../../platform/external/Microsoft-unittest-cpp
+[submodule "platform/external/OpenCSD"]
+	branch = master
+	path = platform/external/OpenCSD
+	url = ../../platform/external/OpenCSD
 [submodule "platform/external/Reactive-Extensions/RxCpp"]
 	branch = master
 	path = platform/external/Reactive-Extensions/RxCpp
