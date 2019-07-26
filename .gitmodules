@@ -2090,6 +2090,10 @@
 	branch = master
 	path = platform/external/messageformat
 	url = ../../platform/external/messageformat
+[submodule "platform/external/mime-support"]
+	branch = master
+	path = platform/external/mime-support
+	url = ../../platform/external/mime-support
 [submodule "platform/external/minigbm"]
 	branch = master
 	path = platform/external/minigbm

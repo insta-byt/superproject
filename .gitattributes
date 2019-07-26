@@ -521,6 +521,7 @@
 /platform/external/mdnsresponder
 /platform/external/mesa3d
 /platform/external/messageformat
+/platform/external/mime-support
 /platform/external/minigbm
 /platform/external/minijail
 /platform/external/mksh
