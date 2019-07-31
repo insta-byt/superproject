@@ -2430,6 +2430,10 @@
 	branch = master
 	path = platform/external/rust/crates/libc
 	url = ../../platform/external/rust/crates/libc
+[submodule "platform/external/rust/crates/quote"]
+	branch = master
+	path = platform/external/rust/crates/quote
+	url = ../../platform/external/rust/crates/quote
 [submodule "platform/external/rust/crates/remain"]
 	branch = master
 	path = platform/external/rust/crates/remain

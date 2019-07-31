@@ -606,6 +606,7 @@
 /platform/external/rootdev
 /platform/external/rust/crates/byteorder
 /platform/external/rust/crates/libc
+/platform/external/rust/crates/quote
 /platform/external/rust/crates/remain
 /platform/external/safe-iop
 /platform/external/scapy
