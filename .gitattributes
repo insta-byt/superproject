@@ -608,6 +608,7 @@
 /platform/external/rust/crates/libc
 /platform/external/rust/crates/quote
 /platform/external/rust/crates/remain
+/platform/external/rust/crates/syn
 /platform/external/safe-iop
 /platform/external/scapy
 /platform/external/scrypt

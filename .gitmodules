@@ -2438,6 +2438,10 @@
 	branch = master
 	path = platform/external/rust/crates/remain
 	url = ../../platform/external/rust/crates/remain
+[submodule "platform/external/rust/crates/syn"]
+	branch = master
+	path = platform/external/rust/crates/syn
+	url = ../../platform/external/rust/crates/syn
 [submodule "platform/external/safe-iop"]
 	branch = master
 	path = platform/external/safe-iop
