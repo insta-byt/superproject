@@ -448,6 +448,7 @@
 /platform/external/libevent
 /platform/external/libexif
 /platform/external/libffi
+/platform/external/libfuse
 /platform/external/libgdx
 /platform/external/libgsm
 /platform/external/libhevc
