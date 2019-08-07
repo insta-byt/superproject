@@ -2446,6 +2446,10 @@
 	branch = master
 	path = platform/external/rust/crates/syn
 	url = ../../platform/external/rust/crates/syn
+[submodule "platform/external/rust/crates/unicode-xid"]
+	branch = master
+	path = platform/external/rust/crates/unicode-xid
+	url = ../../platform/external/rust/crates/unicode-xid
 [submodule "platform/external/safe-iop"]
 	branch = master
 	path = platform/external/safe-iop

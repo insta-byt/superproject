@@ -610,6 +610,7 @@
 /platform/external/rust/crates/quote
 /platform/external/rust/crates/remain
 /platform/external/rust/crates/syn
+/platform/external/rust/crates/unicode-xid
 /platform/external/safe-iop
 /platform/external/scapy
 /platform/external/scrypt
