@@ -571,6 +571,7 @@
 /platform/external/openthread
 /platform/external/openvpn
 /platform/external/oprofile
+/platform/external/optee/apps
 /platform/external/owasp/sanitizer
 /platform/external/parameter-framework
 /platform/external/pcre

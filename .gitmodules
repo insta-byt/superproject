@@ -2290,6 +2290,10 @@
 	branch = master
 	path = platform/external/oprofile
 	url = ../../platform/external/oprofile
+[submodule "platform/external/optee/apps"]
+	branch = master
+	path = platform/external/optee/apps
+	url = ../../platform/external/optee/apps
 [submodule "platform/external/owasp/sanitizer"]
 	branch = master
 	path = platform/external/owasp/sanitizer
