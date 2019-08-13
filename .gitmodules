@@ -5298,6 +5298,10 @@
 	branch = master
 	path = platform/tools/dexter
 	url = ../../platform/tools/dexter
+[submodule "platform/tools/doc_generation"]
+	branch = master
+	path = platform/tools/doc_generation
+	url = ../../platform/tools/doc_generation
 [submodule "platform/tools/emulator"]
 	branch = master
 	path = platform/tools/emulator
