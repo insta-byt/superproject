@@ -360,6 +360,7 @@
 /platform/external/gtest
 /platform/external/guava
 /platform/external/guice
+/platform/external/gwp_asan
 /platform/external/hamcrest
 /platform/external/harfbuzz
 /platform/external/harfbuzz_ng
