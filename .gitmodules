@@ -1686,6 +1686,10 @@
 	branch = master
 	path = platform/external/kotlinc
 	url = ../../platform/external/kotlinc
+[submodule "platform/external/kotlinx.coroutines"]
+	branch = master
+	path = platform/external/kotlinx.coroutines
+	url = ../../platform/external/kotlinx.coroutines
 [submodule "platform/external/ksoap2"]
 	branch = master
 	path = platform/external/ksoap2

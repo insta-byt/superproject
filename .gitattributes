@@ -420,6 +420,7 @@
 /platform/external/kernel-headers
 /platform/external/kmod
 /platform/external/kotlinc
+/platform/external/kotlinx.coroutines
 /platform/external/ksoap2
 /platform/external/ktlint
 /platform/external/kythe
