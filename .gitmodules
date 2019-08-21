@@ -266,6 +266,10 @@
 	branch = master
 	path = device/google/wahoo-kernel
 	url = ../../device/google/wahoo-kernel
+[submodule "device/google_car"]
+	branch = master
+	path = device/google_car
+	url = ../../device/google_car
 [submodule "device/htc/common"]
 	branch = master
 	path = device/htc/common
