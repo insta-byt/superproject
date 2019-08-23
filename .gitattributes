@@ -1270,6 +1270,7 @@
 /platform/system/security
 /platform/system/sepolicy
 /platform/system/server_configurable_flags
+/platform/system/teeui
 /platform/system/testing/gtest_extras
 /platform/system/timezone
 /platform/system/tools/aidl
