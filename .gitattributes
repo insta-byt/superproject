@@ -89,6 +89,7 @@
 /device/linaro/bootloader/arm-trusted-firmware
 /device/linaro/bootloader/edk2
 /device/linaro/dragonboard
+/device/linaro/dragonboard-kernel
 /device/linaro/hikey
 /device/linaro/hikey-kernel
 /device/linaro/poplar
