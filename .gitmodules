@@ -358,6 +358,10 @@
 	branch = master
 	path = device/linaro/bootloader/edk2
 	url = ../../device/linaro/bootloader/edk2
+[submodule "device/linaro/dragonboard"]
+	branch = master
+	path = device/linaro/dragonboard
+	url = ../../device/linaro/dragonboard
 [submodule "device/linaro/hikey"]
 	branch = master
 	path = device/linaro/hikey
