@@ -1000,6 +1000,7 @@
 /platform/packages/modules/NetworkPermissionConfig
 /platform/packages/modules/NetworkStack
 /platform/packages/modules/Sharesheet
+/platform/packages/modules/TestModule
 /platform/packages/providers/ApplicationsProvider
 /platform/packages/providers/BlockedNumberProvider
 /platform/packages/providers/BookmarkProvider

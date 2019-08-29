@@ -4006,6 +4006,10 @@
 	branch = master
 	path = platform/packages/modules/Sharesheet
 	url = ../../platform/packages/modules/Sharesheet
+[submodule "platform/packages/modules/TestModule"]
+	branch = master
+	path = platform/packages/modules/TestModule
+	url = ../../platform/packages/modules/TestModule
 [submodule "platform/packages/providers/ApplicationsProvider"]
 	branch = master
 	path = platform/packages/providers/ApplicationsProvider
