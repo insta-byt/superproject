@@ -3938,6 +3938,10 @@
 	branch = master
 	path = platform/packages/apps/UnifiedEmail
 	url = ../../platform/packages/apps/UnifiedEmail
+[submodule "platform/packages/apps/UniversalMediaPlayer"]
+	branch = master
+	path = platform/packages/apps/UniversalMediaPlayer
+	url = ../../platform/packages/apps/UniversalMediaPlayer
 [submodule "platform/packages/apps/Updater"]
 	branch = master
 	path = platform/packages/apps/Updater
