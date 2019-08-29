@@ -1394,6 +1394,10 @@
 	branch = master
 	path = platform/external/google-fonts/source-sans-pro
 	url = ../../platform/external/google-fonts/source-sans-pro
+[submodule "platform/external/google-fonts/zilla-slab"]
+	branch = master
+	path = platform/external/google-fonts/zilla-slab
+	url = ../../platform/external/google-fonts/zilla-slab
 [submodule "platform/external/google-fruit"]
 	branch = master
 	path = platform/external/google-fruit
