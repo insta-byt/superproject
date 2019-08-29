@@ -3914,6 +3914,10 @@
 	branch = master
 	path = platform/packages/apps/Test/connectivity
 	url = ../../platform/packages/apps/Test/connectivity
+[submodule "platform/packages/apps/ThemePicker"]
+	branch = master
+	path = platform/packages/apps/ThemePicker
+	url = ../../platform/packages/apps/ThemePicker
 [submodule "platform/packages/apps/TimeZoneData"]
 	branch = master
 	path = platform/packages/apps/TimeZoneData
