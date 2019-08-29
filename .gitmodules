@@ -3626,6 +3626,10 @@
 	branch = master
 	path = platform/packages/apps/Car/LensPicker
 	url = ../../platform/packages/apps/Car/LensPicker
+[submodule "platform/packages/apps/Car/LinkViewer"]
+	branch = master
+	path = platform/packages/apps/Car/LinkViewer
+	url = ../../platform/packages/apps/Car/LinkViewer
 [submodule "platform/packages/apps/Car/LocalMediaPlayer"]
 	branch = master
 	path = platform/packages/apps/Car/LocalMediaPlayer
