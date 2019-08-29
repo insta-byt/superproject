@@ -1146,6 +1146,10 @@
 	branch = master
 	path = platform/external/dtc
 	url = ../../platform/external/dtc
+[submodule "platform/external/dynamic_depth"]
+	branch = master
+	path = platform/external/dynamic_depth
+	url = ../../platform/external/dynamic_depth
 [submodule "platform/external/e2fsprogs"]
 	branch = master
 	path = platform/external/e2fsprogs
