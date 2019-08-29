@@ -2530,6 +2530,10 @@
 	branch = master
 	path = platform/external/setupcompat
 	url = ../../platform/external/setupcompat
+[submodule "platform/external/setupdesign"]
+	branch = master
+	path = platform/external/setupdesign
+	url = ../../platform/external/setupdesign
 [submodule "platform/external/sfntly"]
 	branch = master
 	path = platform/external/sfntly

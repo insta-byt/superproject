@@ -631,6 +631,7 @@
 /platform/external/selinux
 /platform/external/sepolicy
 /platform/external/setupcompat
+/platform/external/setupdesign
 /platform/external/sfntly
 /platform/external/shaderc/glslang
 /platform/external/shaderc/shaderc
