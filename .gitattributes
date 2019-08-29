@@ -378,6 +378,7 @@
 /platform/external/icu4c
 /platform/external/id3lib
 /platform/external/igt-gpu-tools
+/platform/external/image_io
 /platform/external/ims
 /platform/external/iosched
 /platform/external/iperf3

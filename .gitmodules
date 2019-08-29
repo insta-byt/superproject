@@ -1518,6 +1518,10 @@
 	branch = master
 	path = platform/external/igt-gpu-tools
 	url = ../../platform/external/igt-gpu-tools
+[submodule "platform/external/image_io"]
+	branch = master
+	path = platform/external/image_io
+	url = ../../platform/external/image_io
 [submodule "platform/external/ims"]
 	branch = master
 	path = platform/external/ims
