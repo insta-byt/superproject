@@ -3958,6 +3958,10 @@
 	branch = master
 	path = platform/packages/apps/WallpaperPicker
 	url = ../../platform/packages/apps/WallpaperPicker
+[submodule "platform/packages/apps/WallpaperPicker2"]
+	branch = master
+	path = platform/packages/apps/WallpaperPicker2
+	url = ../../platform/packages/apps/WallpaperPicker2
 [submodule "platform/packages/experimental"]
 	branch = master
 	path = platform/packages/experimental
