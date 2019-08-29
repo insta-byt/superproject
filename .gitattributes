@@ -432,6 +432,7 @@
 /platform/external/kythe
 /platform/external/lame
 /platform/external/lcc
+/platform/external/libaom
 /platform/external/libavc
 /platform/external/libbackup
 /platform/external/libbrillo

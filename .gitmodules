@@ -1734,6 +1734,10 @@
 	branch = master
 	path = platform/external/lcc
 	url = ../../platform/external/lcc
+[submodule "platform/external/libaom"]
+	branch = master
+	path = platform/external/libaom
+	url = ../../platform/external/libaom
 [submodule "platform/external/libavc"]
 	branch = master
 	path = platform/external/libavc
