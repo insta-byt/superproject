@@ -5522,6 +5522,10 @@
 	branch = master
 	path = platform/vendor/invensense
 	url = ../../platform/vendor/invensense
+[submodule "platform/vendor/partner_testing/app_compat"]
+	branch = master
+	path = platform/vendor/partner_testing/app_compat
+	url = ../../platform/vendor/partner_testing/app_compat
 [submodule "platform/vendor/sample"]
 	branch = master
 	path = platform/vendor/sample

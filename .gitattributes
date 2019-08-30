@@ -1379,6 +1379,7 @@
 /platform/tools/trebuchet
 /platform/vendor/htc/dream-open
 /platform/vendor/invensense
+/platform/vendor/partner_testing/app_compat
 /platform/vendor/sample
 /product/google/common
 /product/google/example-ledflasher
