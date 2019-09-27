@@ -2330,6 +2330,10 @@
 	branch = master
 	path = platform/external/optee/apps
 	url = ../../platform/external/optee/apps
+[submodule "platform/external/oss-fuzz"]
+	branch = master
+	path = platform/external/oss-fuzz
+	url = ../../platform/external/oss-fuzz
 [submodule "platform/external/owasp/sanitizer"]
 	branch = master
 	path = platform/external/owasp/sanitizer
@@ -2506,6 +2510,10 @@
 	branch = master
 	path = platform/external/scrypt
 	url = ../../platform/external/scrypt
+[submodule "platform/external/scudo"]
+	branch = master
+	path = platform/external/scudo
+	url = ../../platform/external/scudo
 [submodule "platform/external/sdl2"]
 	branch = master
 	path = platform/external/sdl2
@@ -3982,6 +3990,10 @@
 	branch = master
 	path = platform/packages/modules/CaptivePortalLogin
 	url = ../../platform/packages/modules/CaptivePortalLogin
+[submodule "platform/packages/modules/CellBroadcastService"]
+	branch = master
+	path = platform/packages/modules/CellBroadcastService
+	url = ../../platform/packages/modules/CellBroadcastService
 [submodule "platform/packages/modules/DnsResolver"]
 	branch = master
 	path = platform/packages/modules/DnsResolver
@@ -4010,6 +4022,10 @@
 	branch = master
 	path = platform/packages/modules/TestModule
 	url = ../../platform/packages/modules/TestModule
+[submodule "platform/packages/modules/vndk"]
+	branch = master
+	path = platform/packages/modules/vndk
+	url = ../../platform/packages/modules/vndk
 [submodule "platform/packages/providers/ApplicationsProvider"]
 	branch = master
 	path = platform/packages/providers/ApplicationsProvider
@@ -4762,6 +4778,10 @@
 	branch = master
 	path = platform/prebuilts/gradle-plugin
 	url = ../../platform/prebuilts/gradle-plugin
+[submodule "platform/prebuilts/jdk/jdk11"]
+	branch = master
+	path = platform/prebuilts/jdk/jdk11
+	url = ../../platform/prebuilts/jdk/jdk11
 [submodule "platform/prebuilts/jdk/jdk8"]
 	branch = master
 	path = platform/prebuilts/jdk/jdk8
@@ -4938,6 +4958,10 @@
 	branch = master
 	path = platform/prebuilts/vndk/v28
 	url = ../../platform/prebuilts/vndk/v28
+[submodule "platform/prebuilts/vndk/v29"]
+	branch = master
+	path = platform/prebuilts/vndk/v29
+	url = ../../platform/prebuilts/vndk/v29
 [submodule "platform/sdk"]
 	branch = master
 	path = platform/sdk
@@ -5218,6 +5242,10 @@
 	branch = master
 	path = platform/test/AfwTestHarness
 	url = ../../platform/test/AfwTestHarness
+[submodule "platform/test/app_compat/csuite"]
+	branch = master
+	path = platform/test/app_compat/csuite
+	url = ../../platform/test/app_compat/csuite
 [submodule "platform/test/framework"]
 	branch = master
 	path = platform/test/framework
@@ -5522,10 +5550,6 @@
 	branch = master
 	path = platform/vendor/invensense
 	url = ../../platform/vendor/invensense
-[submodule "platform/vendor/partner_testing/app_compat"]
-	branch = master
-	path = platform/vendor/partner_testing/app_compat
-	url = ../../platform/vendor/partner_testing/app_compat
 [submodule "platform/vendor/sample"]
 	branch = master
 	path = platform/vendor/sample

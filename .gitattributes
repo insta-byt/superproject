@@ -581,6 +581,7 @@
 /platform/external/openvpn
 /platform/external/oprofile
 /platform/external/optee/apps
+/platform/external/oss-fuzz
 /platform/external/owasp/sanitizer
 /platform/external/parameter-framework
 /platform/external/pcre
@@ -625,6 +626,7 @@
 /platform/external/safe-iop
 /platform/external/scapy
 /platform/external/scrypt
+/platform/external/scudo
 /platform/external/sdl2
 /platform/external/sdl2_ttf
 /platform/external/seccomp-tests
@@ -994,6 +996,7 @@
 /platform/packages/inputmethods/OpenWnn
 /platform/packages/inputmethods/PinyinIME
 /platform/packages/modules/CaptivePortalLogin
+/platform/packages/modules/CellBroadcastService
 /platform/packages/modules/DnsResolver
 /platform/packages/modules/ExtServices
 /platform/packages/modules/ModuleMetadata
@@ -1001,6 +1004,7 @@
 /platform/packages/modules/NetworkStack
 /platform/packages/modules/Sharesheet
 /platform/packages/modules/TestModule
+/platform/packages/modules/vndk
 /platform/packages/providers/ApplicationsProvider
 /platform/packages/providers/BlockedNumberProvider
 /platform/packages/providers/BookmarkProvider
@@ -1189,6 +1193,7 @@
 /platform/prebuilts/google-breakpad/linux-x86
 /platform/prebuilts/google-breakpad/windows-x86
 /platform/prebuilts/gradle-plugin
+/platform/prebuilts/jdk/jdk11
 /platform/prebuilts/jdk/jdk8
 /platform/prebuilts/jdk/jdk9
 /platform/prebuilts/ktlint
@@ -1233,6 +1238,7 @@
 /platform/prebuilts/tools
 /platform/prebuilts/vndk/v27
 /platform/prebuilts/vndk/v28
+/platform/prebuilts/vndk/v29
 /platform/sdk
 /platform/smaratorg
 /platform/superproject
@@ -1303,6 +1309,7 @@
 /platform/system/wifi
 /platform/system/wlan/ti
 /platform/test/AfwTestHarness
+/platform/test/app_compat/csuite
 /platform/test/framework
 /platform/test/mlts/benchmark
 /platform/test/mlts/models
@@ -1379,7 +1386,6 @@
 /platform/tools/trebuchet
 /platform/vendor/htc/dream-open
 /platform/vendor/invensense
-/platform/vendor/partner_testing/app_compat
 /platform/vendor/sample
 /product/google/common
 /product/google/example-ledflasher
