@@ -490,6 +490,10 @@
 	branch = master
 	path = kernel/configs
 	url = ../../kernel/configs
+[submodule "kernel/cuttlefish-modules"]
+	branch = master
+	path = kernel/cuttlefish-modules
+	url = ../../kernel/cuttlefish-modules
 [submodule "kernel/exynos"]
 	branch = master
 	path = kernel/exynos
@@ -818,6 +822,10 @@
 	branch = master
 	path = platform/external/arm-optimized-routines
 	url = ../../platform/external/arm-optimized-routines
+[submodule "platform/external/arm-trusted-firmware"]
+	branch = master
+	path = platform/external/arm-trusted-firmware
+	url = ../../platform/external/arm-trusted-firmware
 [submodule "platform/external/astc-codec"]
 	branch = master
 	path = platform/external/astc-codec

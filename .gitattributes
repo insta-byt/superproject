@@ -121,6 +121,7 @@
 /kernel/build
 /kernel/common
 /kernel/configs
+/kernel/cuttlefish-modules
 /kernel/exynos
 /kernel/goldfish
 /kernel/hikey-linaro
@@ -203,6 +204,7 @@
 /platform/external/arduino-ide
 /platform/external/arm-neon-tests
 /platform/external/arm-optimized-routines
+/platform/external/arm-trusted-firmware
 /platform/external/astc-codec
 /platform/external/astl
 /platform/external/autotest
