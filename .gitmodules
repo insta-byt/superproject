@@ -4450,6 +4450,10 @@
 	branch = master
 	path = platform/prebuilts/fullsdk-darwin/build-tools/28.0.3
 	url = ../../platform/prebuilts/fullsdk-darwin/build-tools/28.0.3
+[submodule "platform/prebuilts/fullsdk-darwin/build-tools/29.0.0"]
+	branch = master
+	path = platform/prebuilts/fullsdk-darwin/build-tools/29.0.0
+	url = ../../platform/prebuilts/fullsdk-darwin/build-tools/29.0.0
 [submodule "platform/prebuilts/fullsdk-darwin/platform-tools"]
 	branch = master
 	path = platform/prebuilts/fullsdk-darwin/platform-tools
