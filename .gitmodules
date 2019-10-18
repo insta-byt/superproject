@@ -4914,6 +4914,10 @@
 	branch = master
 	path = platform/prebuilts/r8
 	url = ../../platform/prebuilts/r8
+[submodule "platform/prebuilts/remoteexecution-client"]
+	branch = master
+	path = platform/prebuilts/remoteexecution-client
+	url = ../../platform/prebuilts/remoteexecution-client
 [submodule "platform/prebuilts/renderscript/host/darwin-x86"]
 	branch = master
 	path = platform/prebuilts/renderscript/host/darwin-x86
