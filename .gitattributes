@@ -120,6 +120,7 @@
 /kernel/arm64
 /kernel/build
 /kernel/common
+/kernel/common-patches
 /kernel/configs
 /kernel/cuttlefish-modules
 /kernel/exynos

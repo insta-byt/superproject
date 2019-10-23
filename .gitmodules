@@ -486,6 +486,10 @@
 	branch = master
 	path = kernel/common
 	url = ../../kernel/common
+[submodule "kernel/common-patches"]
+	branch = master
+	path = kernel/common-patches
+	url = ../../kernel/common-patches
 [submodule "kernel/configs"]
 	branch = master
 	path = kernel/configs
