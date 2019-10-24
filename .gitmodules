@@ -194,6 +194,10 @@
 	branch = master
 	path = device/google/coral
 	url = ../../device/google/coral
+[submodule "device/google/coral-kernel"]
+	branch = master
+	path = device/google/coral-kernel
+	url = ../../device/google/coral-kernel
 [submodule "device/google/coral-sepolicy"]
 	branch = master
 	path = device/google/coral-sepolicy
