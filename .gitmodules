@@ -3522,6 +3522,10 @@
 	branch = master
 	path = platform/hardware/qcom/sm8150/data/ipacfg-mgr
 	url = ../../platform/hardware/qcom/sm8150/data/ipacfg-mgr
+[submodule "platform/hardware/qcom/sm8150/thermal"]
+	branch = master
+	path = platform/hardware/qcom/sm8150/thermal
+	url = ../../platform/hardware/qcom/sm8150/thermal
 [submodule "platform/hardware/qcom/wlan"]
 	branch = master
 	path = platform/hardware/qcom/wlan
