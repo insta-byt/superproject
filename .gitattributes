@@ -880,6 +880,7 @@
 /platform/hardware/qcom/sensors
 /platform/hardware/qcom/sm8150/data/ipacfg-mgr
 /platform/hardware/qcom/sm8150/display
+/platform/hardware/qcom/sm8150/gps
 /platform/hardware/qcom/sm8150/thermal
 /platform/hardware/qcom/sm8150/vr
 /platform/hardware/qcom/wlan

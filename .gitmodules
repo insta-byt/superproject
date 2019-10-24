@@ -3526,6 +3526,10 @@
 	branch = master
 	path = platform/hardware/qcom/sm8150/display
 	url = ../../platform/hardware/qcom/sm8150/display
+[submodule "platform/hardware/qcom/sm8150/gps"]
+	branch = master
+	path = platform/hardware/qcom/sm8150/gps
+	url = ../../platform/hardware/qcom/sm8150/gps
 [submodule "platform/hardware/qcom/sm8150/thermal"]
 	branch = master
 	path = platform/hardware/qcom/sm8150/thermal
