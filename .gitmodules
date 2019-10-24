@@ -3526,6 +3526,10 @@
 	branch = master
 	path = platform/hardware/qcom/sm8150/thermal
 	url = ../../platform/hardware/qcom/sm8150/thermal
+[submodule "platform/hardware/qcom/sm8150/vr"]
+	branch = master
+	path = platform/hardware/qcom/sm8150/vr
+	url = ../../platform/hardware/qcom/sm8150/vr
 [submodule "platform/hardware/qcom/wlan"]
 	branch = master
 	path = platform/hardware/qcom/wlan
