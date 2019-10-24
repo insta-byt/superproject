@@ -46,6 +46,7 @@
 /device/google/bonito-kernel
 /device/google/bonito-sepolicy
 /device/google/contexthub
+/device/google/coral
 /device/google/crosshatch
 /device/google/crosshatch-kernel
 /device/google/crosshatch-sepolicy
