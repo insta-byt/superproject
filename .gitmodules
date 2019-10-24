@@ -3342,6 +3342,10 @@
 	branch = master
 	path = platform/hardware/invensense
 	url = ../../platform/hardware/invensense
+[submodule "platform/hardware/knowles/athletico/sound_trigger_hal"]
+	branch = master
+	path = platform/hardware/knowles/athletico/sound_trigger_hal
+	url = ../../platform/hardware/knowles/athletico/sound_trigger_hal
 [submodule "platform/hardware/libhardware"]
 	branch = master
 	path = platform/hardware/libhardware

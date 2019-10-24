@@ -834,6 +834,7 @@
 /platform/hardware/intel/sensors
 /platform/hardware/interfaces
 /platform/hardware/invensense
+/platform/hardware/knowles/athletico/sound_trigger_hal
 /platform/hardware/libhardware
 /platform/hardware/libhardware_legacy
 /platform/hardware/marvell/bt
