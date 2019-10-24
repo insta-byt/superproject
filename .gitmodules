@@ -3518,6 +3518,10 @@
 	branch = master
 	path = platform/hardware/qcom/sensors
 	url = ../../platform/hardware/qcom/sensors
+[submodule "platform/hardware/qcom/sm8150/data/ipacfg-mgr"]
+	branch = master
+	path = platform/hardware/qcom/sm8150/data/ipacfg-mgr
+	url = ../../platform/hardware/qcom/sm8150/data/ipacfg-mgr
 [submodule "platform/hardware/qcom/wlan"]
 	branch = master
 	path = platform/hardware/qcom/wlan

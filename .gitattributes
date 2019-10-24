@@ -878,6 +878,7 @@
 /platform/hardware/qcom/sdm845/thermal
 /platform/hardware/qcom/sdm845/vr
 /platform/hardware/qcom/sensors
+/platform/hardware/qcom/sm8150/data/ipacfg-mgr
 /platform/hardware/qcom/wlan
 /platform/hardware/ril
 /platform/hardware/samsung_slsi/exynos5
