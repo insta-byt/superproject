@@ -194,6 +194,10 @@
 	branch = master
 	path = device/google/coral
 	url = ../../device/google/coral
+[submodule "device/google/coral-sepolicy"]
+	branch = master
+	path = device/google/coral-sepolicy
+	url = ../../device/google/coral-sepolicy
 [submodule "device/google/crosshatch"]
 	branch = master
 	path = device/google/crosshatch
