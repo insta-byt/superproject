@@ -1974,6 +1974,10 @@
 	branch = master
 	path = platform/external/libsepol
 	url = ../../platform/external/libsepol
+[submodule "platform/external/libsrtp2"]
+	branch = master
+	path = platform/external/libsrtp2
+	url = ../../platform/external/libsrtp2
 [submodule "platform/external/libssh2"]
 	branch = master
 	path = platform/external/libssh2
