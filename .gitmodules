@@ -544,8 +544,28 @@
 	url = ../../kernel/msm-extra
 [submodule "kernel/msm-modules"]
 	branch = master
-	path = kernel/msm-modules
+	path = kernel/msm-modules.git
 	url = ../../kernel/msm-modules
+[submodule "kernel/msm-modules/data-kernel"]
+	branch = master
+	path = kernel/msm-modules/data-kernel
+	url = ../../kernel/msm-modules/data-kernel
+[submodule "kernel/msm-modules/fts_touch"]
+	branch = master
+	path = kernel/msm-modules/fts_touch
+	url = ../../kernel/msm-modules/fts_touch
+[submodule "kernel/msm-modules/qca-wfi-host-cmn"]
+	branch = master
+	path = kernel/msm-modules/qca-wfi-host-cmn
+	url = ../../kernel/msm-modules/qca-wfi-host-cmn
+[submodule "kernel/msm-modules/qcacld"]
+	branch = master
+	path = kernel/msm-modules/qcacld
+	url = ../../kernel/msm-modules/qcacld
+[submodule "kernel/msm-modules/wlan-fw-api"]
+	branch = master
+	path = kernel/msm-modules/wlan-fw-api
+	url = ../../kernel/msm-modules/wlan-fw-api
 [submodule "kernel/omap"]
 	branch = master
 	path = kernel/omap
@@ -604,8 +624,20 @@
 	url = ../../platform/bootable/recovery
 [submodule "platform/build"]
 	branch = master
-	path = platform/build
+	path = platform/build.git
 	url = ../../platform/build
+[submodule "platform/build/blueprint"]
+	branch = master
+	path = platform/build/blueprint
+	url = ../../platform/build/blueprint
+[submodule "platform/build/kati"]
+	branch = master
+	path = platform/build/kati
+	url = ../../platform/build/kati
+[submodule "platform/build/soong"]
+	branch = master
+	path = platform/build/soong
+	url = ../../platform/build/soong
 [submodule "platform/compatibility/cdd"]
 	branch = master
 	path = platform/compatibility/cdd
@@ -988,8 +1020,152 @@
 	url = ../../platform/external/chromium-webview
 [submodule "platform/external/chromium_org"]
 	branch = master
-	path = platform/external/chromium_org
+	path = platform/external/chromium_org.git
 	url = ../../platform/external/chromium_org
+[submodule "platform/external/chromium_org/sdch/open-vcdiff"]
+	branch = master
+	path = platform/external/chromium_org/sdch/open-vcdiff
+	url = ../../platform/external/chromium_org/sdch/open-vcdiff
+[submodule "platform/external/chromium_org/testing/gtest"]
+	branch = master
+	path = platform/external/chromium_org/testing/gtest
+	url = ../../platform/external/chromium_org/testing/gtest
+[submodule "platform/external/chromium_org/third_party/WebKit"]
+	branch = master
+	path = platform/external/chromium_org/third_party/WebKit
+	url = ../../platform/external/chromium_org/third_party/WebKit
+[submodule "platform/external/chromium_org/third_party/angle"]
+	branch = master
+	path = platform/external/chromium_org/third_party/angle
+	url = ../../platform/external/chromium_org/third_party/angle
+[submodule "platform/external/chromium_org/third_party/angle_dx11"]
+	branch = master
+	path = platform/external/chromium_org/third_party/angle_dx11
+	url = ../../platform/external/chromium_org/third_party/angle_dx11
+[submodule "platform/external/chromium_org/third_party/boringssl/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/boringssl/src
+	url = ../../platform/external/chromium_org/third_party/boringssl/src
+[submodule "platform/external/chromium_org/third_party/brotli/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/brotli/src
+	url = ../../platform/external/chromium_org/third_party/brotli/src
+[submodule "platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille"]
+	branch = master
+	path = platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille
+	url = ../../platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille
+[submodule "platform/external/chromium_org/third_party/freetype"]
+	branch = master
+	path = platform/external/chromium_org/third_party/freetype
+	url = ../../platform/external/chromium_org/third_party/freetype
+[submodule "platform/external/chromium_org/third_party/icu"]
+	branch = master
+	path = platform/external/chromium_org/third_party/icu
+	url = ../../platform/external/chromium_org/third_party/icu
+[submodule "platform/external/chromium_org/third_party/leveldatabase/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/leveldatabase/src
+	url = ../../platform/external/chromium_org/third_party/leveldatabase/src
+[submodule "platform/external/chromium_org/third_party/libaddressinput/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libaddressinput/src
+	url = ../../platform/external/chromium_org/third_party/libaddressinput/src
+[submodule "platform/external/chromium_org/third_party/libjingle/source/talk"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libjingle/source/talk
+	url = ../../platform/external/chromium_org/third_party/libjingle/source/talk
+[submodule "platform/external/chromium_org/third_party/libjpeg_turbo"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libjpeg_turbo
+	url = ../../platform/external/chromium_org/third_party/libjpeg_turbo
+[submodule "platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers
+	url = ../../platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers
+[submodule "platform/external/chromium_org/third_party/libphonenumber/src/resources"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libphonenumber/src/resources
+	url = ../../platform/external/chromium_org/third_party/libphonenumber/src/resources
+[submodule "platform/external/chromium_org/third_party/libsrtp"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libsrtp
+	url = ../../platform/external/chromium_org/third_party/libsrtp
+[submodule "platform/external/chromium_org/third_party/libvpx"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libvpx
+	url = ../../platform/external/chromium_org/third_party/libvpx
+[submodule "platform/external/chromium_org/third_party/libyuv"]
+	branch = master
+	path = platform/external/chromium_org/third_party/libyuv
+	url = ../../platform/external/chromium_org/third_party/libyuv
+[submodule "platform/external/chromium_org/third_party/mesa/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/mesa/src
+	url = ../../platform/external/chromium_org/third_party/mesa/src
+[submodule "platform/external/chromium_org/third_party/openmax_dl"]
+	branch = master
+	path = platform/external/chromium_org/third_party/openmax_dl
+	url = ../../platform/external/chromium_org/third_party/openmax_dl
+[submodule "platform/external/chromium_org/third_party/openssl"]
+	branch = master
+	path = platform/external/chromium_org/third_party/openssl
+	url = ../../platform/external/chromium_org/third_party/openssl
+[submodule "platform/external/chromium_org/third_party/opus/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/opus/src
+	url = ../../platform/external/chromium_org/third_party/opus/src
+[submodule "platform/external/chromium_org/third_party/ots"]
+	branch = master
+	path = platform/external/chromium_org/third_party/ots
+	url = ../../platform/external/chromium_org/third_party/ots
+[submodule "platform/external/chromium_org/third_party/sfntly/cpp/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/sfntly/cpp/src
+	url = ../../platform/external/chromium_org/third_party/sfntly/cpp/src
+[submodule "platform/external/chromium_org/third_party/skia"]
+	branch = master
+	path = platform/external/chromium_org/third_party/skia.git
+	url = ../../platform/external/chromium_org/third_party/skia
+[submodule "platform/external/chromium_org/third_party/skia/gyp"]
+	branch = master
+	path = platform/external/chromium_org/third_party/skia/gyp
+	url = ../../platform/external/chromium_org/third_party/skia/gyp
+[submodule "platform/external/chromium_org/third_party/skia/include"]
+	branch = master
+	path = platform/external/chromium_org/third_party/skia/include
+	url = ../../platform/external/chromium_org/third_party/skia/include
+[submodule "platform/external/chromium_org/third_party/skia/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/skia/src
+	url = ../../platform/external/chromium_org/third_party/skia/src
+[submodule "platform/external/chromium_org/third_party/smhasher/src"]
+	branch = master
+	path = platform/external/chromium_org/third_party/smhasher/src
+	url = ../../platform/external/chromium_org/third_party/smhasher/src
+[submodule "platform/external/chromium_org/third_party/usrsctp/usrsctplib"]
+	branch = master
+	path = platform/external/chromium_org/third_party/usrsctp/usrsctplib
+	url = ../../platform/external/chromium_org/third_party/usrsctp/usrsctplib
+[submodule "platform/external/chromium_org/third_party/webrtc"]
+	branch = master
+	path = platform/external/chromium_org/third_party/webrtc
+	url = ../../platform/external/chromium_org/third_party/webrtc
+[submodule "platform/external/chromium_org/third_party/yasm/source/patched-yasm"]
+	branch = master
+	path = platform/external/chromium_org/third_party/yasm/source/patched-yasm
+	url = ../../platform/external/chromium_org/third_party/yasm/source/patched-yasm
+[submodule "platform/external/chromium_org/tools/grit"]
+	branch = master
+	path = platform/external/chromium_org/tools/grit
+	url = ../../platform/external/chromium_org/tools/grit
+[submodule "platform/external/chromium_org/tools/gyp"]
+	branch = master
+	path = platform/external/chromium_org/tools/gyp
+	url = ../../platform/external/chromium_org/tools/gyp
+[submodule "platform/external/chromium_org/v8"]
+	branch = master
+	path = platform/external/chromium_org/v8
+	url = ../../platform/external/chromium_org/v8
 [submodule "platform/external/cibu-fonts"]
 	branch = master
 	path = platform/external/cibu-fonts
@@ -2436,8 +2612,228 @@
 	url = ../../platform/external/puffin
 [submodule "platform/external/python"]
 	branch = master
-	path = platform/external/python
+	path = platform/external/python.git
 	url = ../../platform/external/python
+[submodule "platform/external/python/Pillow"]
+	branch = master
+	path = platform/external/python/Pillow
+	url = ../../platform/external/python/Pillow
+[submodule "platform/external/python/apitools"]
+	branch = master
+	path = platform/external/python/apitools
+	url = ../../platform/external/python/apitools
+[submodule "platform/external/python/appdirs"]
+	branch = master
+	path = platform/external/python/appdirs
+	url = ../../platform/external/python/appdirs
+[submodule "platform/external/python/asn1crypto"]
+	branch = master
+	path = platform/external/python/asn1crypto
+	url = ../../platform/external/python/asn1crypto
+[submodule "platform/external/python/atomicwrites"]
+	branch = master
+	path = platform/external/python/atomicwrites
+	url = ../../platform/external/python/atomicwrites
+[submodule "platform/external/python/attrs"]
+	branch = master
+	path = platform/external/python/attrs
+	url = ../../platform/external/python/attrs
+[submodule "platform/external/python/cachetools"]
+	branch = master
+	path = platform/external/python/cachetools
+	url = ../../platform/external/python/cachetools
+[submodule "platform/external/python/cffi"]
+	branch = master
+	path = platform/external/python/cffi
+	url = ../../platform/external/python/cffi
+[submodule "platform/external/python/cpython2"]
+	branch = master
+	path = platform/external/python/cpython2
+	url = ../../platform/external/python/cpython2
+[submodule "platform/external/python/cpython3"]
+	branch = master
+	path = platform/external/python/cpython3
+	url = ../../platform/external/python/cpython3
+[submodule "platform/external/python/cryptography"]
+	branch = master
+	path = platform/external/python/cryptography
+	url = ../../platform/external/python/cryptography
+[submodule "platform/external/python/dateutil"]
+	branch = master
+	path = platform/external/python/dateutil
+	url = ../../platform/external/python/dateutil
+[submodule "platform/external/python/dill"]
+	branch = master
+	path = platform/external/python/dill
+	url = ../../platform/external/python/dill
+[submodule "platform/external/python/enum"]
+	branch = master
+	path = platform/external/python/enum
+	url = ../../platform/external/python/enum
+[submodule "platform/external/python/enum34"]
+	branch = master
+	path = platform/external/python/enum34
+	url = ../../platform/external/python/enum34
+[submodule "platform/external/python/funcsigs"]
+	branch = master
+	path = platform/external/python/funcsigs
+	url = ../../platform/external/python/funcsigs
+[submodule "platform/external/python/future"]
+	branch = master
+	path = platform/external/python/future
+	url = ../../platform/external/python/future
+[submodule "platform/external/python/futures"]
+	branch = master
+	path = platform/external/python/futures
+	url = ../../platform/external/python/futures
+[submodule "platform/external/python/gapic-google-cloud-pubsub-v1"]
+	branch = master
+	path = platform/external/python/gapic-google-cloud-pubsub-v1
+	url = ../../platform/external/python/gapic-google-cloud-pubsub-v1
+[submodule "platform/external/python/google-api-python-client"]
+	branch = master
+	path = platform/external/python/google-api-python-client
+	url = ../../platform/external/python/google-api-python-client
+[submodule "platform/external/python/google-auth"]
+	branch = master
+	path = platform/external/python/google-auth
+	url = ../../platform/external/python/google-auth
+[submodule "platform/external/python/google-auth-httplib2"]
+	branch = master
+	path = platform/external/python/google-auth-httplib2
+	url = ../../platform/external/python/google-auth-httplib2
+[submodule "platform/external/python/google-cloud-core"]
+	branch = master
+	path = platform/external/python/google-cloud-core
+	url = ../../platform/external/python/google-cloud-core
+[submodule "platform/external/python/google-cloud-pubsub"]
+	branch = master
+	path = platform/external/python/google-cloud-pubsub
+	url = ../../platform/external/python/google-cloud-pubsub
+[submodule "platform/external/python/google-gax"]
+	branch = master
+	path = platform/external/python/google-gax
+	url = ../../platform/external/python/google-gax
+[submodule "platform/external/python/googleapis"]
+	branch = master
+	path = platform/external/python/googleapis
+	url = ../../platform/external/python/googleapis
+[submodule "platform/external/python/grpc-google-iam-v1"]
+	branch = master
+	path = platform/external/python/grpc-google-iam-v1
+	url = ../../platform/external/python/grpc-google-iam-v1
+[submodule "platform/external/python/grpcio"]
+	branch = master
+	path = platform/external/python/grpcio
+	url = ../../platform/external/python/grpcio
+[submodule "platform/external/python/httplib2"]
+	branch = master
+	path = platform/external/python/httplib2
+	url = ../../platform/external/python/httplib2
+[submodule "platform/external/python/ipaddress"]
+	branch = master
+	path = platform/external/python/ipaddress
+	url = ../../platform/external/python/ipaddress
+[submodule "platform/external/python/matplotlib"]
+	branch = master
+	path = platform/external/python/matplotlib
+	url = ../../platform/external/python/matplotlib
+[submodule "platform/external/python/mock"]
+	branch = master
+	path = platform/external/python/mock
+	url = ../../platform/external/python/mock
+[submodule "platform/external/python/more-itertools"]
+	branch = master
+	path = platform/external/python/more-itertools
+	url = ../../platform/external/python/more-itertools
+[submodule "platform/external/python/numpy"]
+	branch = master
+	path = platform/external/python/numpy
+	url = ../../platform/external/python/numpy
+[submodule "platform/external/python/oauth2client"]
+	branch = master
+	path = platform/external/python/oauth2client
+	url = ../../platform/external/python/oauth2client
+[submodule "platform/external/python/olefile"]
+	branch = master
+	path = platform/external/python/olefile
+	url = ../../platform/external/python/olefile
+[submodule "platform/external/python/packaging"]
+	branch = master
+	path = platform/external/python/packaging
+	url = ../../platform/external/python/packaging
+[submodule "platform/external/python/parse"]
+	branch = master
+	path = platform/external/python/parse
+	url = ../../platform/external/python/parse
+[submodule "platform/external/python/pluggy"]
+	branch = master
+	path = platform/external/python/pluggy
+	url = ../../platform/external/python/pluggy
+[submodule "platform/external/python/ply"]
+	branch = master
+	path = platform/external/python/ply
+	url = ../../platform/external/python/ply
+[submodule "platform/external/python/proto-google-cloud-pubsub-v1"]
+	branch = master
+	path = platform/external/python/proto-google-cloud-pubsub-v1
+	url = ../../platform/external/python/proto-google-cloud-pubsub-v1
+[submodule "platform/external/python/protobuf"]
+	branch = master
+	path = platform/external/python/protobuf
+	url = ../../platform/external/python/protobuf
+[submodule "platform/external/python/py"]
+	branch = master
+	path = platform/external/python/py
+	url = ../../platform/external/python/py
+[submodule "platform/external/python/pyasn1"]
+	branch = master
+	path = platform/external/python/pyasn1
+	url = ../../platform/external/python/pyasn1
+[submodule "platform/external/python/pyasn1-modules"]
+	branch = master
+	path = platform/external/python/pyasn1-modules
+	url = ../../platform/external/python/pyasn1-modules
+[submodule "platform/external/python/pycparser"]
+	branch = master
+	path = platform/external/python/pycparser
+	url = ../../platform/external/python/pycparser
+[submodule "platform/external/python/pyopenssl"]
+	branch = master
+	path = platform/external/python/pyopenssl
+	url = ../../platform/external/python/pyopenssl
+[submodule "platform/external/python/pyparsing"]
+	branch = master
+	path = platform/external/python/pyparsing
+	url = ../../platform/external/python/pyparsing
+[submodule "platform/external/python/pytest"]
+	branch = master
+	path = platform/external/python/pytest
+	url = ../../platform/external/python/pytest
+[submodule "platform/external/python/requests"]
+	branch = master
+	path = platform/external/python/requests
+	url = ../../platform/external/python/requests
+[submodule "platform/external/python/rsa"]
+	branch = master
+	path = platform/external/python/rsa
+	url = ../../platform/external/python/rsa
+[submodule "platform/external/python/scipy"]
+	branch = master
+	path = platform/external/python/scipy
+	url = ../../platform/external/python/scipy
+[submodule "platform/external/python/setuptools"]
+	branch = master
+	path = platform/external/python/setuptools
+	url = ../../platform/external/python/setuptools
+[submodule "platform/external/python/six"]
+	branch = master
+	path = platform/external/python/six
+	url = ../../platform/external/python/six
+[submodule "platform/external/python/uritemplates"]
+	branch = master
+	path = platform/external/python/uritemplates
+	url = ../../platform/external/python/uritemplates
 [submodule "platform/external/qemu"]
 	branch = master
 	path = platform/external/qemu
@@ -3236,8 +3632,24 @@
 	url = ../../platform/hardware/bsp/kernel/imagination/v4.1
 [submodule "platform/hardware/bsp/kernel/intel"]
 	branch = master
-	path = platform/hardware/bsp/kernel/intel
+	path = platform/hardware/bsp/kernel/intel.git
 	url = ../../platform/hardware/bsp/kernel/intel
+[submodule "platform/hardware/bsp/kernel/intel/broxton-v4.4"]
+	branch = master
+	path = platform/hardware/bsp/kernel/intel/broxton-v4.4
+	url = ../../platform/hardware/bsp/kernel/intel/broxton-v4.4
+[submodule "platform/hardware/bsp/kernel/intel/edison-v3.10"]
+	branch = master
+	path = platform/hardware/bsp/kernel/intel/edison-v3.10
+	url = ../../platform/hardware/bsp/kernel/intel/edison-v3.10
+[submodule "platform/hardware/bsp/kernel/intel/edison-v4.4"]
+	branch = master
+	path = platform/hardware/bsp/kernel/intel/edison-v4.4
+	url = ../../platform/hardware/bsp/kernel/intel/edison-v4.4
+[submodule "platform/hardware/bsp/kernel/intel/minnowboard-v3.14"]
+	branch = master
+	path = platform/hardware/bsp/kernel/intel/minnowboard-v3.14
+	url = ../../platform/hardware/bsp/kernel/intel/minnowboard-v3.14
 [submodule "platform/hardware/bsp/kernel/marvell/pxa-v3.14"]
 	branch = master
 	path = platform/hardware/bsp/kernel/marvell/pxa-v3.14
@@ -3256,8 +3668,24 @@
 	url = ../../platform/hardware/bsp/kernel/nxp/imx-v4.9
 [submodule "platform/hardware/bsp/kernel/qcom"]
 	branch = master
-	path = platform/hardware/bsp/kernel/qcom
+	path = platform/hardware/bsp/kernel/qcom.git
 	url = ../../platform/hardware/bsp/kernel/qcom
+[submodule "platform/hardware/bsp/kernel/qcom/qcom-msm-v3.10"]
+	branch = master
+	path = platform/hardware/bsp/kernel/qcom/qcom-msm-v3.10
+	url = ../../platform/hardware/bsp/kernel/qcom/qcom-msm-v3.10
+[submodule "platform/hardware/bsp/kernel/qcom/qcom-msm-v4.9"]
+	branch = master
+	path = platform/hardware/bsp/kernel/qcom/qcom-msm-v4.9
+	url = ../../platform/hardware/bsp/kernel/qcom/qcom-msm-v4.9
+[submodule "platform/hardware/bsp/kernel/qcom/qcom-msm8x09-v3.10"]
+	branch = master
+	path = platform/hardware/bsp/kernel/qcom/qcom-msm8x09-v3.10
+	url = ../../platform/hardware/bsp/kernel/qcom/qcom-msm8x09-v3.10
+[submodule "platform/hardware/bsp/kernel/qcom/qcom-msm8x53-v3.18"]
+	branch = master
+	path = platform/hardware/bsp/kernel/qcom/qcom-msm8x53-v3.18
+	url = ../../platform/hardware/bsp/kernel/qcom/qcom-msm8x53-v3.18
 [submodule "platform/hardware/bsp/kernel/raspberrypi/pi-v4.1"]
 	branch = master
 	path = platform/hardware/bsp/kernel/raspberrypi/pi-v4.1
@@ -3280,8 +3708,28 @@
 	url = ../../platform/hardware/bsp/rockchip
 [submodule "platform/hardware/google"]
 	branch = master
-	path = platform/hardware/google
+	path = platform/hardware/google.git
 	url = ../../platform/hardware/google
+[submodule "platform/hardware/google/apf"]
+	branch = master
+	path = platform/hardware/google/apf
+	url = ../../platform/hardware/google/apf
+[submodule "platform/hardware/google/av"]
+	branch = master
+	path = platform/hardware/google/av
+	url = ../../platform/hardware/google/av
+[submodule "platform/hardware/google/easel"]
+	branch = master
+	path = platform/hardware/google/easel
+	url = ../../platform/hardware/google/easel
+[submodule "platform/hardware/google/interfaces"]
+	branch = master
+	path = platform/hardware/google/interfaces
+	url = ../../platform/hardware/google/interfaces
+[submodule "platform/hardware/google/pixel"]
+	branch = master
+	path = platform/hardware/google/pixel
+	url = ../../platform/hardware/google/pixel
 [submodule "platform/hardware/intel/audio_media"]
 	branch = master
 	path = platform/hardware/intel/audio_media
