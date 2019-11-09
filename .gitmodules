@@ -3624,8 +3624,12 @@
 	url = ../../platform/hardware/bsp/kernel/common/v4.4
 [submodule "platform/hardware/bsp/kernel/freescale"]
 	branch = master
-	path = platform/hardware/bsp/kernel/freescale
+	path = platform/hardware/bsp/kernel/freescale.git
 	url = ../../platform/hardware/bsp/kernel/freescale
+[submodule "platform/hardware/bsp/kernel/freescale/picoimx-3.14"]
+	branch = master
+	path = platform/hardware/bsp/kernel/freescale/picoimx-3.14
+	url = ../../platform/hardware/bsp/kernel/freescale/picoimx-3.14
 [submodule "platform/hardware/bsp/kernel/imagination/v4.1"]
 	branch = master
 	path = platform/hardware/bsp/kernel/imagination/v4.1
@@ -3696,8 +3700,12 @@
 	url = ../../platform/hardware/bsp/kernel/raspberrypi/pi-v4.4
 [submodule "platform/hardware/bsp/kernel/rockchip"]
 	branch = master
-	path = platform/hardware/bsp/kernel/rockchip
+	path = platform/hardware/bsp/kernel/rockchip.git
 	url = ../../platform/hardware/bsp/kernel/rockchip
+[submodule "platform/hardware/bsp/kernel/rockchip/rk-v4.4"]
+	branch = master
+	path = platform/hardware/bsp/kernel/rockchip/rk-v4.4
+	url = ../../platform/hardware/bsp/kernel/rockchip/rk-v4.4
 [submodule "platform/hardware/bsp/qcom"]
 	branch = master
 	path = platform/hardware/bsp/qcom
@@ -5392,12 +5400,20 @@
 	url = ../../platform/prebuilts/ninja/windows-x86
 [submodule "platform/prebuilts/python/darwin-x86"]
 	branch = master
-	path = platform/prebuilts/python/darwin-x86
+	path = platform/prebuilts/python/darwin-x86.git
 	url = ../../platform/prebuilts/python/darwin-x86
+[submodule "platform/prebuilts/python/darwin-x86/2.7.5"]
+	branch = master
+	path = platform/prebuilts/python/darwin-x86/2.7.5
+	url = ../../platform/prebuilts/python/darwin-x86/2.7.5
 [submodule "platform/prebuilts/python/linux-x86"]
 	branch = master
-	path = platform/prebuilts/python/linux-x86
+	path = platform/prebuilts/python/linux-x86.git
 	url = ../../platform/prebuilts/python/linux-x86
+[submodule "platform/prebuilts/python/linux-x86/2.7.5"]
+	branch = master
+	path = platform/prebuilts/python/linux-x86/2.7.5
+	url = ../../platform/prebuilts/python/linux-x86/2.7.5
 [submodule "platform/prebuilts/python/windows-x86"]
 	branch = master
 	path = platform/prebuilts/python/windows-x86
@@ -6048,8 +6064,12 @@
 	url = ../../platform/tools/test/graphicsbenchmark
 [submodule "platform/tools/tradefederation"]
 	branch = master
-	path = platform/tools/tradefederation
+	path = platform/tools/tradefederation.git
 	url = ../../platform/tools/tradefederation
+[submodule "platform/tools/tradefederation/contrib"]
+	branch = master
+	path = platform/tools/tradefederation/contrib
+	url = ../../platform/tools/tradefederation/contrib
 [submodule "platform/tools/treble"]
 	branch = master
 	path = platform/tools/treble
@@ -6078,10 +6098,6 @@
 	branch = master
 	path = product/google/example-ledflasher
 	url = ../../product/google/example-ledflasher
-[submodule "third-party-review"]
-	branch = master
-	path = third-party-review
-	url = ../../third-party-review
 [submodule "toolchain/android_rust"]
 	branch = master
 	path = toolchain/android_rust

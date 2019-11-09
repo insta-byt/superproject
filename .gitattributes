@@ -904,7 +904,8 @@
 /platform/hardware/bsp/intel
 /platform/hardware/bsp/kernel/common/v4.1
 /platform/hardware/bsp/kernel/common/v4.4
-/platform/hardware/bsp/kernel/freescale
+/platform/hardware/bsp/kernel/freescale.git
+/platform/hardware/bsp/kernel/freescale/picoimx-3.14
 /platform/hardware/bsp/kernel/imagination/v4.1
 /platform/hardware/bsp/kernel/intel.git
 /platform/hardware/bsp/kernel/intel/broxton-v4.4
@@ -922,7 +923,8 @@
 /platform/hardware/bsp/kernel/qcom/qcom-msm8x53-v3.18
 /platform/hardware/bsp/kernel/raspberrypi/pi-v4.1
 /platform/hardware/bsp/kernel/raspberrypi/pi-v4.4
-/platform/hardware/bsp/kernel/rockchip
+/platform/hardware/bsp/kernel/rockchip.git
+/platform/hardware/bsp/kernel/rockchip/rk-v4.4
 /platform/hardware/bsp/qcom
 /platform/hardware/bsp/rockchip
 /platform/hardware/google.git
@@ -1346,8 +1348,10 @@
 /platform/prebuilts/ninja/darwin-x86
 /platform/prebuilts/ninja/linux-x86
 /platform/prebuilts/ninja/windows-x86
-/platform/prebuilts/python/darwin-x86
-/platform/prebuilts/python/linux-x86
+/platform/prebuilts/python/darwin-x86.git
+/platform/prebuilts/python/darwin-x86/2.7.5
+/platform/prebuilts/python/linux-x86.git
+/platform/prebuilts/python/linux-x86/2.7.5
 /platform/prebuilts/python/windows-x86
 /platform/prebuilts/qemu-kernel
 /platform/prebuilts/r8
@@ -1510,7 +1514,8 @@
 /platform/tools/swt
 /platform/tools/test/connectivity
 /platform/tools/test/graphicsbenchmark
-/platform/tools/tradefederation
+/platform/tools/tradefederation.git
+/platform/tools/tradefederation/contrib
 /platform/tools/treble
 /platform/tools/trebuchet
 /platform/vendor/htc/dream-open
@@ -1518,7 +1523,6 @@
 /platform/vendor/sample
 /product/google/common
 /product/google/example-ledflasher
-/third-party-review
 /toolchain/android_rust
 /toolchain/avr-libc
 /toolchain/benchmark
