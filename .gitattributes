@@ -1129,6 +1129,7 @@
 /platform/packages/modules/CellBroadcastService
 /platform/packages/modules/DnsResolver
 /platform/packages/modules/ExtServices
+/platform/packages/modules/IPsec
 /platform/packages/modules/ModuleMetadata
 /platform/packages/modules/NetworkPermissionConfig
 /platform/packages/modules/NetworkStack

@@ -4522,6 +4522,10 @@
 	branch = master
 	path = platform/packages/modules/ExtServices
 	url = ../../platform/packages/modules/ExtServices
+[submodule "platform/packages/modules/IPsec"]
+	branch = master
+	path = platform/packages/modules/IPsec
+	url = ../../platform/packages/modules/IPsec
 [submodule "platform/packages/modules/ModuleMetadata"]
 	branch = master
 	path = platform/packages/modules/ModuleMetadata
