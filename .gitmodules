@@ -1426,6 +1426,10 @@
 	branch = master
 	path = platform/external/faad
 	url = ../../platform/external/faad
+[submodule "platform/external/fastrpc"]
+	branch = master
+	path = platform/external/fastrpc
+	url = ../../platform/external/fastrpc
 [submodule "platform/external/fat32lib"]
 	branch = master
 	path = platform/external/fat32lib
