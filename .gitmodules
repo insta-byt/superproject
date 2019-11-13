@@ -2798,6 +2798,10 @@
 	branch = master
 	path = platform/external/python/pyasn1-modules
 	url = ../../platform/external/python/pyasn1-modules
+[submodule "platform/external/python/pybind11"]
+	branch = master
+	path = platform/external/python/pybind11
+	url = ../../platform/external/python/pybind11
 [submodule "platform/external/python/pycparser"]
 	branch = master
 	path = platform/external/python/pycparser

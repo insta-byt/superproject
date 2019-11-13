@@ -698,6 +698,7 @@
 /platform/external/python/py
 /platform/external/python/pyasn1
 /platform/external/python/pyasn1-modules
+/platform/external/python/pybind11
 /platform/external/python/pycparser
 /platform/external/python/pyopenssl
 /platform/external/python/pyparsing
