@@ -5678,6 +5678,10 @@
 	branch = master
 	path = platform/system/media
 	url = ../../platform/system/media
+[submodule "platform/system/memory/libion"]
+	branch = master
+	path = platform/system/memory/libion
+	url = ../../platform/system/memory/libion
 [submodule "platform/system/metricsd"]
 	branch = master
 	path = platform/system/metricsd
