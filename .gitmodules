@@ -5682,6 +5682,10 @@
 	branch = master
 	path = platform/system/memory/libion
 	url = ../../platform/system/memory/libion
+[submodule "platform/system/memory/libmeminfo"]
+	branch = master
+	path = platform/system/memory/libmeminfo
+	url = ../../platform/system/memory/libmeminfo
 [submodule "platform/system/metricsd"]
 	branch = master
 	path = platform/system/metricsd
