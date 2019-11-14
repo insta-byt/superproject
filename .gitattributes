@@ -1420,6 +1420,7 @@
 /platform/system/media
 /platform/system/memory/libion
 /platform/system/memory/libmeminfo
+/platform/system/memory/libmemtrack
 /platform/system/metricsd
 /platform/system/nativepower
 /platform/system/netd
