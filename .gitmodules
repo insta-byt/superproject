@@ -5690,6 +5690,10 @@
 	branch = master
 	path = platform/system/memory/libmemtrack
 	url = ../../platform/system/memory/libmemtrack
+[submodule "platform/system/memory/lmkd"]
+	branch = master
+	path = platform/system/memory/lmkd
+	url = ../../platform/system/memory/lmkd
 [submodule "platform/system/metricsd"]
 	branch = master
 	path = platform/system/metricsd
