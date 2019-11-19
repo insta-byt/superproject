@@ -224,6 +224,7 @@
 /platform/external/avb
 /platform/external/bart
 /platform/external/bazelbuild-remote-apis
+/platform/external/bc
 /platform/external/bcc
 /platform/external/bison
 /platform/external/blktrace
