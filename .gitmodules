@@ -4518,6 +4518,10 @@
 	branch = master
 	path = platform/packages/inputmethods/PinyinIME
 	url = ../../platform/packages/inputmethods/PinyinIME
+[submodule "platform/packages/modules/ANGLE"]
+	branch = master
+	path = platform/packages/modules/ANGLE
+	url = ../../platform/packages/modules/ANGLE
 [submodule "platform/packages/modules/CaptivePortalLogin"]
 	branch = master
 	path = platform/packages/modules/CaptivePortalLogin

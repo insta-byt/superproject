@@ -1128,6 +1128,7 @@
 /platform/packages/inputmethods/LatinIME
 /platform/packages/inputmethods/OpenWnn
 /platform/packages/inputmethods/PinyinIME
+/platform/packages/modules/ANGLE
 /platform/packages/modules/CaptivePortalLogin
 /platform/packages/modules/CellBroadcastService
 /platform/packages/modules/DnsResolver
