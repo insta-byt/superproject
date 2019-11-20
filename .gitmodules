@@ -5650,6 +5650,10 @@
 	branch = master
 	path = platform/system/keymaster
 	url = ../../platform/system/keymaster
+[submodule "platform/system/libartpalette"]
+	branch = master
+	path = platform/system/libartpalette
+	url = ../../platform/system/libartpalette
 [submodule "platform/system/libfmq"]
 	branch = master
 	path = platform/system/libfmq

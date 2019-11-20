@@ -1411,6 +1411,7 @@
 /platform/system/iot/tools
 /platform/system/keyguard
 /platform/system/keymaster
+/platform/system/libartpalette
 /platform/system/libfmq
 /platform/system/libhidl
 /platform/system/libhwbinder
