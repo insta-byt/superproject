@@ -5410,6 +5410,10 @@
 	branch = master
 	path = platform/prebuilts/misc
 	url = ../../platform/prebuilts/misc
+[submodule "platform/prebuilts/module_sdk/art"]
+	branch = master
+	path = platform/prebuilts/module_sdk/art
+	url = ../../platform/prebuilts/module_sdk/art
 [submodule "platform/prebuilts/ndk"]
 	branch = master
 	path = platform/prebuilts/ndk
