@@ -3762,6 +3762,10 @@
 	branch = master
 	path = platform/hardware/google/pixel
 	url = ../../platform/hardware/google/pixel
+[submodule "platform/hardware/google/pixel-sepolicy"]
+	branch = master
+	path = platform/hardware/google/pixel-sepolicy
+	url = ../../platform/hardware/google/pixel-sepolicy
 [submodule "platform/hardware/intel/audio_media"]
 	branch = master
 	path = platform/hardware/intel/audio_media

@@ -939,6 +939,7 @@
 /platform/hardware/google/easel
 /platform/hardware/google/interfaces
 /platform/hardware/google/pixel
+/platform/hardware/google/pixel-sepolicy
 /platform/hardware/intel/audio_media
 /platform/hardware/intel/bootstub
 /platform/hardware/intel/common/bd_prov
