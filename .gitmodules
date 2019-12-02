@@ -2046,6 +2046,10 @@
 	branch = master
 	path = platform/external/libfuse
 	url = ../../platform/external/libfuse
+[submodule "platform/external/libgav1"]
+	branch = master
+	path = platform/external/libgav1
+	url = ../../platform/external/libgav1
 [submodule "platform/external/libgdx"]
 	branch = master
 	path = platform/external/libgdx

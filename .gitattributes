@@ -510,6 +510,7 @@
 /platform/external/libexif
 /platform/external/libffi
 /platform/external/libfuse
+/platform/external/libgav1
 /platform/external/libgdx
 /platform/external/libgsm
 /platform/external/libhevc
