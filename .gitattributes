@@ -1133,6 +1133,7 @@
 /platform/packages/modules/ANGLE
 /platform/packages/modules/CaptivePortalLogin
 /platform/packages/modules/CellBroadcastService
+/platform/packages/modules/Cronet
 /platform/packages/modules/DnsResolver
 /platform/packages/modules/ExtServices
 /platform/packages/modules/IPsec
