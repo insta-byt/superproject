@@ -1411,6 +1411,7 @@
 /platform/system/gsid
 /platform/system/hardware/interfaces
 /platform/system/hwservicemanager
+/platform/system/incremental_delivery
 /platform/system/iorap
 /platform/system/iot/attestation
 /platform/system/iot/mtdutils
