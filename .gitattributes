@@ -1355,6 +1355,7 @@
 /platform/prebuilts/maven_repo/google-play-service-client-libraries-3p
 /platform/prebuilts/misc
 /platform/prebuilts/module_sdk/art
+/platform/prebuilts/module_sdk/conscrypt
 /platform/prebuilts/ndk
 /platform/prebuilts/ninja/darwin-x86
 /platform/prebuilts/ninja/linux-x86

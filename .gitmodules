@@ -5426,6 +5426,10 @@
 	branch = master
 	path = platform/prebuilts/module_sdk/art
 	url = ../../platform/prebuilts/module_sdk/art
+[submodule "platform/prebuilts/module_sdk/conscrypt"]
+	branch = master
+	path = platform/prebuilts/module_sdk/conscrypt
+	url = ../../platform/prebuilts/module_sdk/conscrypt
 [submodule "platform/prebuilts/ndk"]
 	branch = master
 	path = platform/prebuilts/ndk
