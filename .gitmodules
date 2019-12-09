@@ -1554,6 +1554,10 @@
 	branch = master
 	path = platform/external/golang-protobuf
 	url = ../../platform/external/golang-protobuf
+[submodule "platform/external/golang-x-sync"]
+	branch = master
+	path = platform/external/golang-x-sync
+	url = ../../platform/external/golang-x-sync
 [submodule "platform/external/golang-x-tools"]
 	branch = master
 	path = platform/external/golang-x-tools
