@@ -1546,6 +1546,10 @@
 	branch = master
 	path = platform/external/gmock
 	url = ../../platform/external/gmock
+[submodule "platform/external/go-creachadair-stringset"]
+	branch = master
+	path = platform/external/go-creachadair-stringset
+	url = ../../platform/external/go-creachadair-stringset
 [submodule "platform/external/golang-protobuf"]
 	branch = master
 	path = platform/external/golang-protobuf

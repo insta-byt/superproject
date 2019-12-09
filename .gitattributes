@@ -385,6 +385,7 @@
 /platform/external/giflib
 /platform/external/glide
 /platform/external/gmock
+/platform/external/go-creachadair-stringset
 /platform/external/golang-protobuf
 /platform/external/golang-x-tools
 /platform/external/google-api-services-storage
