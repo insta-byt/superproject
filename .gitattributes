@@ -386,6 +386,7 @@
 /platform/external/glide
 /platform/external/gmock
 /platform/external/golang-protobuf
+/platform/external/golang-x-tools
 /platform/external/google-api-services-storage
 /platform/external/google-benchmark
 /platform/external/google-breakpad

@@ -1550,6 +1550,10 @@
 	branch = master
 	path = platform/external/golang-protobuf
 	url = ../../platform/external/golang-protobuf
+[submodule "platform/external/golang-x-tools"]
+	branch = master
+	path = platform/external/golang-x-tools
+	url = ../../platform/external/golang-x-tools
 [submodule "platform/external/google-api-services-storage"]
 	branch = master
 	path = platform/external/google-api-services-storage
