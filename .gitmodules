@@ -6450,6 +6450,10 @@
 	branch = master
 	path = trusty/app/avb
 	url = ../../trusty/app/avb
+[submodule "trusty/app/confirmationui"]
+	branch = master
+	path = trusty/app/confirmationui
+	url = ../../trusty/app/confirmationui
 [submodule "trusty/app/gatekeeper"]
 	branch = master
 	path = trusty/app/gatekeeper

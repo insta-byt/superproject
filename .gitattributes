@@ -1611,6 +1611,7 @@
 /tools/platform-compat
 /tools/repo
 /trusty/app/avb
+/trusty/app/confirmationui
 /trusty/app/gatekeeper
 /trusty/app/keymaster
 /trusty/app/nvram
