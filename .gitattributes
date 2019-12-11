@@ -1135,6 +1135,7 @@
 /platform/packages/inputmethods/OpenWnn
 /platform/packages/inputmethods/PinyinIME
 /platform/packages/modules/ANGLE
+/platform/packages/modules/ArtPrebuilt
 /platform/packages/modules/CaptivePortalLogin
 /platform/packages/modules/CellBroadcastService
 /platform/packages/modules/Cronet

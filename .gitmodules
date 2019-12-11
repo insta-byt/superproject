@@ -4546,6 +4546,10 @@
 	branch = master
 	path = platform/packages/modules/ANGLE
 	url = ../../platform/packages/modules/ANGLE
+[submodule "platform/packages/modules/ArtPrebuilt"]
+	branch = master
+	path = platform/packages/modules/ArtPrebuilt
+	url = ../../platform/packages/modules/ArtPrebuilt
 [submodule "platform/packages/modules/CaptivePortalLogin"]
 	branch = master
 	path = platform/packages/modules/CaptivePortalLogin
