@@ -4530,6 +4530,10 @@
 	branch = master
 	path = platform/packages/inputmethods/LatinIME
 	url = ../../platform/packages/inputmethods/LatinIME
+[submodule "platform/packages/inputmethods/LeanbackIME"]
+	branch = master
+	path = platform/packages/inputmethods/LeanbackIME
+	url = ../../platform/packages/inputmethods/LeanbackIME
 [submodule "platform/packages/inputmethods/OpenWnn"]
 	branch = master
 	path = platform/packages/inputmethods/OpenWnn
