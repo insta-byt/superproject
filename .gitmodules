@@ -986,6 +986,10 @@
 	branch = master
 	path = platform/external/cblas
 	url = ../../platform/external/cblas
+[submodule "platform/external/cbor-java"]
+	branch = master
+	path = platform/external/cbor-java
+	url = ../../platform/external/cbor-java
 [submodule "platform/external/ceres-solver"]
 	branch = master
 	path = platform/external/ceres-solver

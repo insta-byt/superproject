@@ -245,6 +245,7 @@
 /platform/external/capstone
 /platform/external/catch2
 /platform/external/cblas
+/platform/external/cbor-java
 /platform/external/ceres-solver
 /platform/external/checkpolicy
 /platform/external/checkstyle
