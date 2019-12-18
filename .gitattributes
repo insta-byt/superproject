@@ -1540,6 +1540,7 @@
 /platform/tools/swt
 /platform/tools/test/connectivity
 /platform/tools/test/graphicsbenchmark
+/platform/tools/tradefed_cluster
 /platform/tools/tradefederation.git
 /platform/tools/tradefederation/contrib
 /platform/tools/treble

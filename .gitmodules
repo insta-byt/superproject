@@ -6166,6 +6166,10 @@
 	branch = master
 	path = platform/tools/test/graphicsbenchmark
 	url = ../../platform/tools/test/graphicsbenchmark
+[submodule "platform/tools/tradefed_cluster"]
+	branch = master
+	path = platform/tools/tradefed_cluster
+	url = ../../platform/tools/tradefed_cluster
 [submodule "platform/tools/tradefederation"]
 	branch = master
 	path = platform/tools/tradefederation.git
