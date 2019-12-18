@@ -6094,6 +6094,10 @@
 	branch = master
 	path = platform/tools/motodev
 	url = ../../platform/tools/motodev
+[submodule "platform/tools/multitest_transport"]
+	branch = master
+	path = platform/tools/multitest_transport
+	url = ../../platform/tools/multitest_transport
 [submodule "platform/tools/ndkports"]
 	branch = master
 	path = platform/tools/ndkports

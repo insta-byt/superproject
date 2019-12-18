@@ -1522,6 +1522,7 @@
 /platform/tools/loganalysis
 /platform/tools/metalava
 /platform/tools/motodev
+/platform/tools/multitest_transport
 /platform/tools/ndkports
 /platform/tools/repohooks
 /platform/tools/repohooks-trampoline
