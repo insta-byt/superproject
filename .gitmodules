@@ -2926,6 +2926,10 @@
 	branch = master
 	path = platform/external/rootdev
 	url = ../../platform/external/rootdev
+[submodule "platform/external/rust/crates/bitflags"]
+	branch = master
+	path = platform/external/rust/crates/bitflags
+	url = ../../platform/external/rust/crates/bitflags
 [submodule "platform/external/rust/crates/byteorder"]
 	branch = master
 	path = platform/external/rust/crates/byteorder
