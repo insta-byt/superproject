@@ -4554,6 +4554,10 @@
 	branch = master
 	path = platform/packages/modules/ANGLE
 	url = ../../platform/packages/modules/ANGLE
+[submodule "platform/packages/modules/ApiExtensions"]
+	branch = master
+	path = platform/packages/modules/ApiExtensions
+	url = ../../platform/packages/modules/ApiExtensions
 [submodule "platform/packages/modules/ArtPrebuilt"]
 	branch = master
 	path = platform/packages/modules/ArtPrebuilt
