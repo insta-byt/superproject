@@ -4410,6 +4410,10 @@
 	branch = master
 	path = platform/packages/apps/Provision
 	url = ../../platform/packages/apps/Provision
+[submodule "platform/packages/apps/QuickAccessWallet"]
+	branch = master
+	path = platform/packages/apps/QuickAccessWallet
+	url = ../../platform/packages/apps/QuickAccessWallet
 [submodule "platform/packages/apps/QuickSearchBox"]
 	branch = master
 	path = platform/packages/apps/QuickSearchBox
