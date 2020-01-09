@@ -4602,6 +4602,10 @@
 	branch = master
 	path = platform/packages/modules/NetworkStack
 	url = ../../platform/packages/modules/NetworkStack
+[submodule "platform/packages/modules/SdkExtensions"]
+	branch = master
+	path = platform/packages/modules/SdkExtensions
+	url = ../../platform/packages/modules/SdkExtensions
 [submodule "platform/packages/modules/Sharesheet"]
 	branch = master
 	path = platform/packages/modules/Sharesheet
