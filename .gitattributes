@@ -128,6 +128,7 @@
 /kernel/cuttlefish-modules
 /kernel/exynos
 /kernel/goldfish
+/kernel/goldfish-modules
 /kernel/hikey-linaro
 /kernel/lk
 /kernel/manifest

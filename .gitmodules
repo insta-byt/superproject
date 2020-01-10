@@ -518,6 +518,10 @@
 	branch = master
 	path = kernel/goldfish
 	url = ../../kernel/goldfish
+[submodule "kernel/goldfish-modules"]
+	branch = master
+	path = kernel/goldfish-modules
+	url = ../../kernel/goldfish-modules
 [submodule "kernel/hikey-linaro"]
 	branch = master
 	path = kernel/hikey-linaro
