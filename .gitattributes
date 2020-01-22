@@ -499,6 +499,7 @@
 /platform/external/libchrome
 /platform/external/libchromeos
 /platform/external/libconstrainedcrypto
+/platform/external/libcppbor
 /platform/external/libcups
 /platform/external/libcxx
 /platform/external/libcxx_35a

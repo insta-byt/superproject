@@ -2002,6 +2002,10 @@
 	branch = master
 	path = platform/external/libconstrainedcrypto
 	url = ../../platform/external/libconstrainedcrypto
+[submodule "platform/external/libcppbor"]
+	branch = master
+	path = platform/external/libcppbor
+	url = ../../platform/external/libcppbor
 [submodule "platform/external/libcups"]
 	branch = master
 	path = platform/external/libcups
