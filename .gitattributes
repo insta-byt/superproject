@@ -130,6 +130,7 @@
 /kernel/goldfish
 /kernel/goldfish-modules
 /kernel/hikey-linaro
+/kernel/hikey-modules
 /kernel/lk
 /kernel/manifest
 /kernel/mediatek

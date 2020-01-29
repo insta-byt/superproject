@@ -526,6 +526,10 @@
 	branch = master
 	path = kernel/hikey-linaro
 	url = ../../kernel/hikey-linaro
+[submodule "kernel/hikey-modules"]
+	branch = master
+	path = kernel/hikey-modules
+	url = ../../kernel/hikey-modules
 [submodule "kernel/lk"]
 	branch = master
 	path = kernel/lk
