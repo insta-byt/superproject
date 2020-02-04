@@ -859,6 +859,7 @@
 /platform/frameworks/hardware/interfaces
 /platform/frameworks/janktesthelper
 /platform/frameworks/layoutlib
+/platform/frameworks/libs/native_bridge_support
 /platform/frameworks/libs/net
 /platform/frameworks/libs/systemui
 /platform/frameworks/media/libvideoeditor
