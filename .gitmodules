@@ -2650,6 +2650,10 @@
 	branch = master
 	path = platform/external/psimd
 	url = ../../platform/external/psimd
+[submodule "platform/external/pthreadpool"]
+	branch = master
+	path = platform/external/pthreadpool
+	url = ../../platform/external/pthreadpool
 [submodule "platform/external/pthreads"]
 	branch = master
 	path = platform/external/pthreads

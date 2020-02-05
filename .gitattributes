@@ -661,6 +661,7 @@
 /platform/external/protobuf-javalite
 /platform/external/protobuf2.5
 /platform/external/psimd
+/platform/external/pthreadpool
 /platform/external/pthreads
 /platform/external/puffin
 /platform/external/python.git
