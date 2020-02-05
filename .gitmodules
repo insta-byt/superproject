@@ -2646,6 +2646,10 @@
 	branch = master
 	path = platform/external/protobuf2.5
 	url = ../../platform/external/protobuf2.5
+[submodule "platform/external/psimd"]
+	branch = master
+	path = platform/external/psimd
+	url = ../../platform/external/psimd
 [submodule "platform/external/pthreads"]
 	branch = master
 	path = platform/external/pthreads
