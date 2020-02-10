@@ -184,6 +184,7 @@
 /platform/external/Microsoft-unittest-cpp
 /platform/external/OpenCSD
 /platform/external/Reactive-Extensions/RxCpp
+/platform/external/XNNPACK
 /platform/external/aac
 /platform/external/abi-compliance-checker
 /platform/external/abi-dumper
