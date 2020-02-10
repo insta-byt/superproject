@@ -1254,6 +1254,10 @@
 	branch = master
 	path = platform/external/cpu_features
 	url = ../../platform/external/cpu_features
+[submodule "platform/external/cpuinfo"]
+	branch = master
+	path = platform/external/cpuinfo
+	url = ../../platform/external/cpuinfo
 [submodule "platform/external/crcalc"]
 	branch = master
 	path = platform/external/crcalc

@@ -312,6 +312,7 @@
 /platform/external/compiler-rt_35a
 /platform/external/conscrypt
 /platform/external/cpu_features
+/platform/external/cpuinfo
 /platform/external/crcalc
 /platform/external/cros/system_api
 /platform/external/crosvm
