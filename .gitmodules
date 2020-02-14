@@ -1750,6 +1750,10 @@
 	branch = master
 	path = platform/external/hyphenation-patterns
 	url = ../../platform/external/hyphenation-patterns
+[submodule "platform/external/icing"]
+	branch = master
+	path = platform/external/icing
+	url = ../../platform/external/icing
 [submodule "platform/external/icu"]
 	branch = master
 	path = platform/external/icu
