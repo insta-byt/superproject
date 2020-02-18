@@ -1449,6 +1449,7 @@
 /platform/system/libsysprop
 /platform/system/libufdt
 /platform/system/libvintf
+/platform/system/libziparchive
 /platform/system/linkerconfig
 /platform/system/media
 /platform/system/memory/libion

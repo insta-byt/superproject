@@ -5802,6 +5802,10 @@
 	branch = master
 	path = platform/system/libvintf
 	url = ../../platform/system/libvintf
+[submodule "platform/system/libziparchive"]
+	branch = master
+	path = platform/system/libziparchive
+	url = ../../platform/system/libziparchive
 [submodule "platform/system/linkerconfig"]
 	branch = master
 	path = platform/system/linkerconfig
