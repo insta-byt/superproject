@@ -3554,6 +3554,10 @@
 	branch = master
 	path = platform/frameworks/opt/emoji
 	url = ../../platform/frameworks/opt/emoji
+[submodule "platform/frameworks/opt/gamedevicets"]
+	branch = master
+	path = platform/frameworks/opt/gamedevicets
+	url = ../../platform/frameworks/opt/gamedevicets
 [submodule "platform/frameworks/opt/gamesdk"]
 	branch = master
 	path = platform/frameworks/opt/gamesdk
