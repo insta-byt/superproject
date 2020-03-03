@@ -807,6 +807,7 @@
 /platform/external/toolchain-utils
 /platform/external/toybox
 /platform/external/tpm2
+/platform/external/tpm2-tss
 /platform/external/trappy
 /platform/external/tremolo
 /platform/external/tremor

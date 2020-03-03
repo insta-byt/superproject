@@ -3234,6 +3234,10 @@
 	branch = master
 	path = platform/external/tpm2
 	url = ../../platform/external/tpm2
+[submodule "platform/external/tpm2-tss"]
+	branch = master
+	path = platform/external/tpm2-tss
+	url = ../../platform/external/tpm2-tss
 [submodule "platform/external/trappy"]
 	branch = master
 	path = platform/external/trappy
