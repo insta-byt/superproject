@@ -3194,6 +3194,10 @@
 	branch = master
 	path = platform/external/testng
 	url = ../../platform/external/testng
+[submodule "platform/external/timezone-boundary-builder"]
+	branch = master
+	path = platform/external/timezone-boundary-builder
+	url = ../../platform/external/timezone-boundary-builder
 [submodule "platform/external/timezonepicker-support"]
 	branch = master
 	path = platform/external/timezonepicker-support
