@@ -716,6 +716,7 @@
 /platform/external/python/pyasn1-modules
 /platform/external/python/pybind11
 /platform/external/python/pycparser
+/platform/external/python/pyfakefs
 /platform/external/python/pyopenssl
 /platform/external/python/pyparsing
 /platform/external/python/pytest

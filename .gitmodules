@@ -2870,6 +2870,10 @@
 	branch = master
 	path = platform/external/python/pycparser
 	url = ../../platform/external/python/pycparser
+[submodule "platform/external/python/pyfakefs"]
+	branch = master
+	path = platform/external/python/pyfakefs
+	url = ../../platform/external/python/pyfakefs
 [submodule "platform/external/python/pyopenssl"]
 	branch = master
 	path = platform/external/python/pyopenssl
