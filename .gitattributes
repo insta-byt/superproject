@@ -475,6 +475,7 @@
 /platform/external/jetbrains/kotlin
 /platform/external/jetty
 /platform/external/jhead
+/platform/external/jimfs
 /platform/external/jline
 /platform/external/jmdns
 /platform/external/jmonkeyengine

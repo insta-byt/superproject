@@ -1906,6 +1906,10 @@
 	branch = master
 	path = platform/external/jhead
 	url = ../../platform/external/jhead
+[submodule "platform/external/jimfs"]
+	branch = master
+	path = platform/external/jimfs
+	url = ../../platform/external/jimfs
 [submodule "platform/external/jline"]
 	branch = master
 	path = platform/external/jline
