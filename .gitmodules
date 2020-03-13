@@ -3658,6 +3658,10 @@
 	branch = master
 	path = platform/frameworks/support
 	url = ../../platform/frameworks/support
+[submodule "platform/frameworks/support-golden"]
+	branch = master
+	path = platform/frameworks/support-golden
+	url = ../../platform/frameworks/support-golden
 [submodule "platform/frameworks/testing"]
 	branch = master
 	path = platform/frameworks/testing
