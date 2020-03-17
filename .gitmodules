@@ -2450,6 +2450,10 @@
 	branch = master
 	path = platform/external/mpg123
 	url = ../../platform/external/mpg123
+[submodule "platform/external/ms-tpm-20-ref"]
+	branch = master
+	path = platform/external/ms-tpm-20-ref
+	url = ../../platform/external/ms-tpm-20-ref
 [submodule "platform/external/mtpd"]
 	branch = master
 	path = platform/external/mtpd
