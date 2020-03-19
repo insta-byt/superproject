@@ -6566,6 +6566,10 @@
 	branch = master
 	path = tools/platform-compat
 	url = ../../tools/platform-compat
+[submodule "tools/presubmit-automerger/test1"]
+	branch = master
+	path = tools/presubmit-automerger/test1
+	url = ../../tools/presubmit-automerger/test1
 [submodule "tools/repo"]
 	branch = master
 	path = tools/repo

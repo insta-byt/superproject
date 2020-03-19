@@ -1640,6 +1640,7 @@
 /toolchain/yasm
 /tools/aospstats
 /tools/platform-compat
+/tools/presubmit-automerger/test1
 /tools/repo
 /trusty/app/avb
 /trusty/app/confirmationui
