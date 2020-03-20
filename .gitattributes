@@ -633,6 +633,7 @@
 /platform/external/nsjail
 /platform/external/oauth
 /platform/external/objenesis
+/platform/external/oboe
 /platform/external/oj-libjdwp
 /platform/external/okhttp
 /platform/external/one-true-awk
