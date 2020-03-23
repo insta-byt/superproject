@@ -1638,6 +1638,10 @@
 	branch = master
 	path = platform/external/google-fonts/fraunces
 	url = ../../platform/external/google-fonts/fraunces
+[submodule "platform/external/google-fonts/karla"]
+	branch = master
+	path = platform/external/google-fonts/karla
+	url = ../../platform/external/google-fonts/karla
 [submodule "platform/external/google-fonts/lato"]
 	branch = master
 	path = platform/external/google-fonts/lato
