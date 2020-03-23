@@ -1614,6 +1614,10 @@
 	branch = master
 	path = platform/external/google-fonts/arvo
 	url = ../../platform/external/google-fonts/arvo
+[submodule "platform/external/google-fonts/big-shoulders-text"]
+	branch = master
+	path = platform/external/google-fonts/big-shoulders-text
+	url = ../../platform/external/google-fonts/big-shoulders-text
 [submodule "platform/external/google-fonts/carrois-gothic-sc"]
 	branch = master
 	path = platform/external/google-fonts/carrois-gothic-sc
