@@ -1634,6 +1634,10 @@
 	branch = master
 	path = platform/external/google-fonts/dancing-script
 	url = ../../platform/external/google-fonts/dancing-script
+[submodule "platform/external/google-fonts/fraunces"]
+	branch = master
+	path = platform/external/google-fonts/fraunces
+	url = ../../platform/external/google-fonts/fraunces
 [submodule "platform/external/google-fonts/lato"]
 	branch = master
 	path = platform/external/google-fonts/lato
