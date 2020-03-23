@@ -1642,6 +1642,10 @@
 	branch = master
 	path = platform/external/google-fonts/lato
 	url = ../../platform/external/google-fonts/lato
+[submodule "platform/external/google-fonts/lustria"]
+	branch = master
+	path = platform/external/google-fonts/lustria
+	url = ../../platform/external/google-fonts/lustria
 [submodule "platform/external/google-fonts/rubik"]
 	branch = master
 	path = platform/external/google-fonts/rubik
