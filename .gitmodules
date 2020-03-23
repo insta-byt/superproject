@@ -1614,6 +1614,10 @@
 	branch = master
 	path = platform/external/google-fonts/arvo
 	url = ../../platform/external/google-fonts/arvo
+[submodule "platform/external/google-fonts/barlow"]
+	branch = master
+	path = platform/external/google-fonts/barlow
+	url = ../../platform/external/google-fonts/barlow
 [submodule "platform/external/google-fonts/big-shoulders-text"]
 	branch = master
 	path = platform/external/google-fonts/big-shoulders-text
