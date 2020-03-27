@@ -2294,6 +2294,10 @@
 	branch = master
 	path = platform/external/libweave
 	url = ../../platform/external/libweave
+[submodule "platform/external/libwebsockets"]
+	branch = master
+	path = platform/external/libwebsockets
+	url = ../../platform/external/libwebsockets
 [submodule "platform/external/libxaac"]
 	branch = master
 	path = platform/external/libxaac
