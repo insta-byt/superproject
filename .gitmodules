@@ -2606,6 +2606,10 @@
 	branch = master
 	path = platform/external/openmp_llvm
 	url = ../../platform/external/openmp_llvm
+[submodule "platform/external/openocd"]
+	branch = master
+	path = platform/external/openocd
+	url = ../../platform/external/openocd
 [submodule "platform/external/openssh"]
 	branch = master
 	path = platform/external/openssh

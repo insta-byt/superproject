@@ -650,6 +650,7 @@
 /platform/external/opencv3
 /platform/external/openfst
 /platform/external/openmp_llvm
+/platform/external/openocd
 /platform/external/openssh
 /platform/external/openssl
 /platform/external/openthread
