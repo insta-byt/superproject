@@ -3026,6 +3026,10 @@
 	branch = master
 	path = platform/external/rust/crates/futures-channel
 	url = ../../platform/external/rust/crates/futures-channel
+[submodule "platform/external/rust/crates/futures-task"]
+	branch = master
+	path = platform/external/rust/crates/futures-task
+	url = ../../platform/external/rust/crates/futures-task
 [submodule "platform/external/rust/crates/libc"]
 	branch = master
 	path = platform/external/rust/crates/libc
