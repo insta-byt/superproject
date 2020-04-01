@@ -3050,6 +3050,10 @@
 	branch = master
 	path = platform/external/rust/crates/paste-impl
 	url = ../../platform/external/rust/crates/paste-impl
+[submodule "platform/external/rust/crates/pin-utils"]
+	branch = master
+	path = platform/external/rust/crates/pin-utils
+	url = ../../platform/external/rust/crates/pin-utils
 [submodule "platform/external/rust/crates/proc-macro-hack"]
 	branch = master
 	path = platform/external/rust/crates/proc-macro-hack
