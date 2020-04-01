@@ -3034,6 +3034,10 @@
 	branch = master
 	path = platform/external/rust/crates/futures-executor
 	url = ../../platform/external/rust/crates/futures-executor
+[submodule "platform/external/rust/crates/futures-macro"]
+	branch = master
+	path = platform/external/rust/crates/futures-macro
+	url = ../../platform/external/rust/crates/futures-macro
 [submodule "platform/external/rust/crates/futures-sink"]
 	branch = master
 	path = platform/external/rust/crates/futures-sink
