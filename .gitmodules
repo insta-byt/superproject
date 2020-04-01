@@ -3026,6 +3026,10 @@
 	branch = master
 	path = platform/external/rust/crates/libc
 	url = ../../platform/external/rust/crates/libc
+[submodule "platform/external/rust/crates/paste"]
+	branch = master
+	path = platform/external/rust/crates/paste
+	url = ../../platform/external/rust/crates/paste
 [submodule "platform/external/rust/crates/proc-macro2"]
 	branch = master
 	path = platform/external/rust/crates/proc-macro2

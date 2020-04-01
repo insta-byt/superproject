@@ -755,6 +755,7 @@
 /platform/external/rust/crates/byteorder
 /platform/external/rust/crates/futures-channel
 /platform/external/rust/crates/libc
+/platform/external/rust/crates/paste
 /platform/external/rust/crates/proc-macro2
 /platform/external/rust/crates/quote
 /platform/external/rust/crates/remain
