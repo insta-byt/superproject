@@ -753,6 +753,7 @@
 /platform/external/rootdev
 /platform/external/rust/crates/bitflags
 /platform/external/rust/crates/byteorder
+/platform/external/rust/crates/futures
 /platform/external/rust/crates/futures-channel
 /platform/external/rust/crates/libc
 /platform/external/rust/crates/paste
