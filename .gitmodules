@@ -3018,6 +3018,10 @@
 	branch = master
 	path = platform/external/rust/crates/byteorder
 	url = ../../platform/external/rust/crates/byteorder
+[submodule "platform/external/rust/crates/futures-channel"]
+	branch = master
+	path = platform/external/rust/crates/futures-channel
+	url = ../../platform/external/rust/crates/futures-channel
 [submodule "platform/external/rust/crates/libc"]
 	branch = master
 	path = platform/external/rust/crates/libc
