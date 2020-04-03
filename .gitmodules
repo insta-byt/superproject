@@ -6210,6 +6210,10 @@
 	branch = master
 	path = platform/tools/doc_generation
 	url = ../../platform/tools/doc_generation
+[submodule "platform/tools/dokka-devsite-plugin"]
+	branch = master
+	path = platform/tools/dokka-devsite-plugin
+	url = ../../platform/tools/dokka-devsite-plugin
 [submodule "platform/tools/emulator"]
 	branch = master
 	path = platform/tools/emulator

@@ -1551,6 +1551,7 @@
 /platform/tools/dctv-tracedb
 /platform/tools/dexter
 /platform/tools/doc_generation
+/platform/tools/dokka-devsite-plugin
 /platform/tools/emulator
 /platform/tools/external/bazelbuild-rules-kotlin
 /platform/tools/external/fat32lib
