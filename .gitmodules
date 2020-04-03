@@ -3082,6 +3082,10 @@
 	branch = master
 	path = platform/external/rust/crates/syn
 	url = ../../platform/external/rust/crates/syn
+[submodule "platform/external/rust/crates/thread_local"]
+	branch = master
+	path = platform/external/rust/crates/thread_local
+	url = ../../platform/external/rust/crates/thread_local
 [submodule "platform/external/rust/crates/unicode-xid"]
 	branch = master
 	path = platform/external/rust/crates/unicode-xid
