@@ -3078,6 +3078,10 @@
 	branch = master
 	path = platform/external/rust/crates/log
 	url = ../../platform/external/rust/crates/log
+[submodule "platform/external/rust/crates/memchr"]
+	branch = master
+	path = platform/external/rust/crates/memchr
+	url = ../../platform/external/rust/crates/memchr
 [submodule "platform/external/rust/crates/nom"]
 	branch = master
 	path = platform/external/rust/crates/nom
