@@ -3074,6 +3074,10 @@
 	branch = master
 	path = platform/external/rust/crates/proc-macro-hack
 	url = ../../platform/external/rust/crates/proc-macro-hack
+[submodule "platform/external/rust/crates/proc-macro-nested"]
+	branch = master
+	path = platform/external/rust/crates/proc-macro-nested
+	url = ../../platform/external/rust/crates/proc-macro-nested
 [submodule "platform/external/rust/crates/proc-macro2"]
 	branch = master
 	path = platform/external/rust/crates/proc-macro2
