@@ -764,6 +764,7 @@
 /platform/external/rust/crates/futures-macro
 /platform/external/rust/crates/futures-sink
 /platform/external/rust/crates/futures-task
+/platform/external/rust/crates/futures-util
 /platform/external/rust/crates/glob
 /platform/external/rust/crates/lazycell
 /platform/external/rust/crates/libc
