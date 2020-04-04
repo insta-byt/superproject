@@ -3126,6 +3126,10 @@
 	branch = master
 	path = platform/external/rust/crates/rustc-hash
 	url = ../../platform/external/rust/crates/rustc-hash
+[submodule "platform/external/rust/crates/slab"]
+	branch = master
+	path = platform/external/rust/crates/slab
+	url = ../../platform/external/rust/crates/slab
 [submodule "platform/external/rust/crates/syn"]
 	branch = master
 	path = platform/external/rust/crates/syn
