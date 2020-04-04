@@ -765,6 +765,7 @@
 /platform/external/rust/crates/glob
 /platform/external/rust/crates/lazycell
 /platform/external/rust/crates/libc
+/platform/external/rust/crates/log
 /platform/external/rust/crates/nom
 /platform/external/rust/crates/paste
 /platform/external/rust/crates/paste-impl
