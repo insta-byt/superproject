@@ -760,6 +760,7 @@
 /platform/external/rust/crates/futures-channel
 /platform/external/rust/crates/futures-core
 /platform/external/rust/crates/futures-executor
+/platform/external/rust/crates/futures-io
 /platform/external/rust/crates/futures-macro
 /platform/external/rust/crates/futures-sink
 /platform/external/rust/crates/futures-task
