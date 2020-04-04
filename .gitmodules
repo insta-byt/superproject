@@ -3050,6 +3050,10 @@
 	branch = master
 	path = platform/external/rust/crates/futures-task
 	url = ../../platform/external/rust/crates/futures-task
+[submodule "platform/external/rust/crates/glob"]
+	branch = master
+	path = platform/external/rust/crates/glob
+	url = ../../platform/external/rust/crates/glob
 [submodule "platform/external/rust/crates/lazycell"]
 	branch = master
 	path = platform/external/rust/crates/lazycell
