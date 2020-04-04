@@ -3010,6 +3010,10 @@
 	branch = master
 	path = platform/external/rootdev
 	url = ../../platform/external/rootdev
+[submodule "platform/external/rust/crates/aho-corasick"]
+	branch = master
+	path = platform/external/rust/crates/aho-corasick
+	url = ../../platform/external/rust/crates/aho-corasick
 [submodule "platform/external/rust/crates/bitflags"]
 	branch = master
 	path = platform/external/rust/crates/bitflags
