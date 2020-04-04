@@ -763,6 +763,7 @@
 /platform/external/rust/crates/futures-task
 /platform/external/rust/crates/lazycell
 /platform/external/rust/crates/libc
+/platform/external/rust/crates/nom
 /platform/external/rust/crates/paste
 /platform/external/rust/crates/paste-impl
 /platform/external/rust/crates/pin-utils
