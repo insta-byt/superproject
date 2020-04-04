@@ -776,6 +776,7 @@
 /platform/external/rust/crates/syn
 /platform/external/rust/crates/thread_local
 /platform/external/rust/crates/unicode-xid
+/platform/external/rust/crates/which
 /platform/external/safe-iop
 /platform/external/scapy
 /platform/external/scrypt

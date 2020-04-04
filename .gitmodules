@@ -3110,6 +3110,10 @@
 	branch = master
 	path = platform/external/rust/crates/unicode-xid
 	url = ../../platform/external/rust/crates/unicode-xid
+[submodule "platform/external/rust/crates/which"]
+	branch = master
+	path = platform/external/rust/crates/which
+	url = ../../platform/external/rust/crates/which
 [submodule "platform/external/safe-iop"]
 	branch = master
 	path = platform/external/safe-iop
