@@ -3098,6 +3098,10 @@
 	branch = master
 	path = platform/external/rust/crates/paste-impl
 	url = ../../platform/external/rust/crates/paste-impl
+[submodule "platform/external/rust/crates/peeking_take_while"]
+	branch = master
+	path = platform/external/rust/crates/peeking_take_while
+	url = ../../platform/external/rust/crates/peeking_take_while
 [submodule "platform/external/rust/crates/pin-utils"]
 	branch = master
 	path = platform/external/rust/crates/pin-utils
