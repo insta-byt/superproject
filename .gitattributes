@@ -770,6 +770,7 @@
 /platform/external/rust/crates/lazy_static
 /platform/external/rust/crates/lazycell
 /platform/external/rust/crates/libc
+/platform/external/rust/crates/libloading
 /platform/external/rust/crates/log
 /platform/external/rust/crates/memchr
 /platform/external/rust/crates/nom

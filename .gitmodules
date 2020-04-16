@@ -3086,6 +3086,10 @@
 	branch = master
 	path = platform/external/rust/crates/libc
 	url = ../../platform/external/rust/crates/libc
+[submodule "platform/external/rust/crates/libloading"]
+	branch = master
+	path = platform/external/rust/crates/libloading
+	url = ../../platform/external/rust/crates/libloading
 [submodule "platform/external/rust/crates/log"]
 	branch = master
 	path = platform/external/rust/crates/log
