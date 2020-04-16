@@ -3026,6 +3026,10 @@
 	branch = master
 	path = platform/external/rust/crates/byteorder
 	url = ../../platform/external/rust/crates/byteorder
+[submodule "platform/external/rust/crates/cfg-if"]
+	branch = master
+	path = platform/external/rust/crates/cfg-if
+	url = ../../platform/external/rust/crates/cfg-if
 [submodule "platform/external/rust/crates/clang-sys"]
 	branch = master
 	path = platform/external/rust/crates/clang-sys
