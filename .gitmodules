@@ -3122,6 +3122,10 @@
 	branch = master
 	path = platform/external/rust/crates/quote
 	url = ../../platform/external/rust/crates/quote
+[submodule "platform/external/rust/crates/regex-syntax"]
+	branch = master
+	path = platform/external/rust/crates/regex-syntax
+	url = ../../platform/external/rust/crates/regex-syntax
 [submodule "platform/external/rust/crates/remain"]
 	branch = master
 	path = platform/external/rust/crates/remain
