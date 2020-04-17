@@ -787,6 +787,7 @@
 /platform/external/rust/crates/regex-syntax
 /platform/external/rust/crates/remain
 /platform/external/rust/crates/rustc-hash
+/platform/external/rust/crates/shlex
 /platform/external/rust/crates/slab
 /platform/external/rust/crates/syn
 /platform/external/rust/crates/thread_local
