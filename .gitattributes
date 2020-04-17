@@ -755,6 +755,7 @@
 /platform/external/rust/crates/bindgen
 /platform/external/rust/crates/bitflags
 /platform/external/rust/crates/byteorder
+/platform/external/rust/crates/cexpr
 /platform/external/rust/crates/cfg-if
 /platform/external/rust/crates/clang-sys
 /platform/external/rust/crates/futures
