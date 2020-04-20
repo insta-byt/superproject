@@ -3602,6 +3602,10 @@
 	branch = master
 	path = platform/external/zopfli
 	url = ../../platform/external/zopfli
+[submodule "platform/external/zstd"]
+	branch = master
+	path = platform/external/zstd
+	url = ../../platform/external/zstd
 [submodule "platform/external/zxing"]
 	branch = master
 	path = platform/external/zxing
