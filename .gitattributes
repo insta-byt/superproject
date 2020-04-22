@@ -1079,6 +1079,7 @@
 /platform/hardware/st/nfc
 /platform/hardware/st/secure_element
 /platform/hardware/st/secure_element2
+/platform/hardware/telink/atv/refDesignRcu
 /platform/hardware/ti/am57x
 /platform/hardware/ti/omap3
 /platform/hardware/ti/omap4-aah

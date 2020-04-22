@@ -4322,6 +4322,10 @@
 	branch = master
 	path = platform/hardware/st/secure_element2
 	url = ../../platform/hardware/st/secure_element2
+[submodule "platform/hardware/telink/atv/refDesignRcu"]
+	branch = master
+	path = platform/hardware/telink/atv/refDesignRcu
+	url = ../../platform/hardware/telink/atv/refDesignRcu
 [submodule "platform/hardware/ti/am57x"]
 	branch = master
 	path = platform/hardware/ti/am57x
