@@ -3662,6 +3662,10 @@
 	branch = master
 	path = platform/frameworks/layoutlib
 	url = ../../platform/frameworks/layoutlib
+[submodule "platform/frameworks/libs/modules-utils"]
+	branch = master
+	path = platform/frameworks/libs/modules-utils
+	url = ../../platform/frameworks/libs/modules-utils
 [submodule "platform/frameworks/libs/native_bridge_support"]
 	branch = master
 	path = platform/frameworks/libs/native_bridge_support
