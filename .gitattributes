@@ -1213,6 +1213,7 @@
 /platform/packages/modules/ModuleMetadata
 /platform/packages/modules/NetworkPermissionConfig
 /platform/packages/modules/NetworkStack
+/platform/packages/modules/RuntimeI18n
 /platform/packages/modules/SdkExtensions
 /platform/packages/modules/Sharesheet
 /platform/packages/modules/TestModule

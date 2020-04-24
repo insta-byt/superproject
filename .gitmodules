@@ -4858,6 +4858,10 @@
 	branch = master
 	path = platform/packages/modules/NetworkStack
 	url = ../../platform/packages/modules/NetworkStack
+[submodule "platform/packages/modules/RuntimeI18n"]
+	branch = master
+	path = platform/packages/modules/RuntimeI18n
+	url = ../../platform/packages/modules/RuntimeI18n
 [submodule "platform/packages/modules/SdkExtensions"]
 	branch = master
 	path = platform/packages/modules/SdkExtensions
