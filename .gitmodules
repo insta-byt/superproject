@@ -6478,10 +6478,6 @@
 	branch = master
 	path = platform/tools/trebuchet
 	url = ../../platform/tools/trebuchet
-[submodule "platform/vendor/google/modules/RuntimeI18n"]
-	branch = master
-	path = platform/vendor/google/modules/RuntimeI18n
-	url = ../../platform/vendor/google/modules/RuntimeI18n
 [submodule "platform/vendor/htc/dream-open"]
 	branch = master
 	path = platform/vendor/htc/dream-open
