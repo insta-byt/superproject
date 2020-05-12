@@ -2874,6 +2874,10 @@
 	branch = master
 	path = platform/external/python/parse
 	url = ../../platform/external/python/parse
+[submodule "platform/external/python/parse_type"]
+	branch = master
+	path = platform/external/python/parse_type
+	url = ../../platform/external/python/parse_type
 [submodule "platform/external/python/pluggy"]
 	branch = master
 	path = platform/external/python/pluggy

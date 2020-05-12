@@ -717,6 +717,7 @@
 /platform/external/python/olefile
 /platform/external/python/packaging
 /platform/external/python/parse
+/platform/external/python/parse_type
 /platform/external/python/pluggy
 /platform/external/python/ply
 /platform/external/python/proto-google-cloud-pubsub-v1
