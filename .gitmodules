@@ -5990,6 +5990,10 @@
 	branch = master
 	path = platform/system/libartpalette
 	url = ../../platform/system/libartpalette
+[submodule "platform/system/libbase"]
+	branch = master
+	path = platform/system/libbase
+	url = ../../platform/system/libbase
 [submodule "platform/system/libfmq"]
 	branch = master
 	path = platform/system/libfmq
