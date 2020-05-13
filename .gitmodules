@@ -3130,6 +3130,10 @@
 	branch = master
 	path = platform/external/rust/crates/peeking_take_while
 	url = ../../platform/external/rust/crates/peeking_take_while
+[submodule "platform/external/rust/crates/pin-project"]
+	branch = master
+	path = platform/external/rust/crates/pin-project
+	url = ../../platform/external/rust/crates/pin-project
 [submodule "platform/external/rust/crates/pin-project-internal"]
 	branch = master
 	path = platform/external/rust/crates/pin-project-internal

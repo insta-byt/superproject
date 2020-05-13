@@ -781,6 +781,7 @@
 /platform/external/rust/crates/paste
 /platform/external/rust/crates/paste-impl
 /platform/external/rust/crates/peeking_take_while
+/platform/external/rust/crates/pin-project
 /platform/external/rust/crates/pin-project-internal
 /platform/external/rust/crates/pin-utils
 /platform/external/rust/crates/proc-macro-error-attr
