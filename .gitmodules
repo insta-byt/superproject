@@ -5854,6 +5854,10 @@
 	branch = master
 	path = platform/prebuilts/vndk/v29
 	url = ../../platform/prebuilts/vndk/v29
+[submodule "platform/prebuilts/vndk/v30"]
+	branch = master
+	path = platform/prebuilts/vndk/v30
+	url = ../../platform/prebuilts/vndk/v30
 [submodule "platform/sdk"]
 	branch = master
 	path = platform/sdk
