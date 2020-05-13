@@ -3190,6 +3190,10 @@
 	branch = master
 	path = platform/external/rust/crates/which
 	url = ../../platform/external/rust/crates/which
+[submodule "platform/external/rust/cxx"]
+	branch = master
+	path = platform/external/rust/cxx
+	url = ../../platform/external/rust/cxx
 [submodule "platform/external/safe-iop"]
 	branch = master
 	path = platform/external/safe-iop
