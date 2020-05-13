@@ -753,6 +753,7 @@
 /platform/external/roboto-fonts
 /platform/external/rootdev
 /platform/external/rust/crates/aho-corasick
+/platform/external/rust/crates/anyhow
 /platform/external/rust/crates/bindgen
 /platform/external/rust/crates/bitflags
 /platform/external/rust/crates/byteorder

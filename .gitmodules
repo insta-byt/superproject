@@ -3018,6 +3018,10 @@
 	branch = master
 	path = platform/external/rust/crates/aho-corasick
 	url = ../../platform/external/rust/crates/aho-corasick
+[submodule "platform/external/rust/crates/anyhow"]
+	branch = master
+	path = platform/external/rust/crates/anyhow
+	url = ../../platform/external/rust/crates/anyhow
 [submodule "platform/external/rust/crates/bindgen"]
 	branch = master
 	path = platform/external/rust/crates/bindgen
