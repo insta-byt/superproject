@@ -760,6 +760,7 @@
 /platform/external/rust/crates/cexpr
 /platform/external/rust/crates/cfg-if
 /platform/external/rust/crates/clang-sys
+/platform/external/rust/crates/codespan-reporting
 /platform/external/rust/crates/futures
 /platform/external/rust/crates/futures-channel
 /platform/external/rust/crates/futures-core

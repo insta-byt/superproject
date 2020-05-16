@@ -3046,6 +3046,10 @@
 	branch = master
 	path = platform/external/rust/crates/clang-sys
 	url = ../../platform/external/rust/crates/clang-sys
+[submodule "platform/external/rust/crates/codespan-reporting"]
+	branch = master
+	path = platform/external/rust/crates/codespan-reporting
+	url = ../../platform/external/rust/crates/codespan-reporting
 [submodule "platform/external/rust/crates/futures"]
 	branch = master
 	path = platform/external/rust/crates/futures
