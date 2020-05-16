@@ -770,6 +770,7 @@
 /platform/external/rust/crates/futures-task
 /platform/external/rust/crates/futures-util
 /platform/external/rust/crates/glob
+/platform/external/rust/crates/heck
 /platform/external/rust/crates/lazy_static
 /platform/external/rust/crates/lazycell
 /platform/external/rust/crates/libc

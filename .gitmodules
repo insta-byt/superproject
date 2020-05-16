@@ -3086,6 +3086,10 @@
 	branch = master
 	path = platform/external/rust/crates/glob
 	url = ../../platform/external/rust/crates/glob
+[submodule "platform/external/rust/crates/heck"]
+	branch = master
+	path = platform/external/rust/crates/heck
+	url = ../../platform/external/rust/crates/heck
 [submodule "platform/external/rust/crates/lazy_static"]
 	branch = master
 	path = platform/external/rust/crates/lazy_static
