@@ -797,6 +797,7 @@
 /platform/external/rust/crates/rustc-hash
 /platform/external/rust/crates/shlex
 /platform/external/rust/crates/slab
+/platform/external/rust/crates/structopt
 /platform/external/rust/crates/structopt-derive
 /platform/external/rust/crates/syn
 /platform/external/rust/crates/thread_local

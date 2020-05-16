@@ -3194,6 +3194,10 @@
 	branch = master
 	path = platform/external/rust/crates/slab
 	url = ../../platform/external/rust/crates/slab
+[submodule "platform/external/rust/crates/structopt"]
+	branch = master
+	path = platform/external/rust/crates/structopt
+	url = ../../platform/external/rust/crates/structopt
 [submodule "platform/external/rust/crates/structopt-derive"]
 	branch = master
 	path = platform/external/rust/crates/structopt-derive
