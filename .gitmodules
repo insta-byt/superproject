@@ -3150,6 +3150,10 @@
 	branch = master
 	path = platform/external/rust/crates/pin-utils
 	url = ../../platform/external/rust/crates/pin-utils
+[submodule "platform/external/rust/crates/proc-macro-error"]
+	branch = master
+	path = platform/external/rust/crates/proc-macro-error
+	url = ../../platform/external/rust/crates/proc-macro-error
 [submodule "platform/external/rust/crates/proc-macro-error-attr"]
 	branch = master
 	path = platform/external/rust/crates/proc-macro-error-attr

@@ -786,6 +786,7 @@
 /platform/external/rust/crates/pin-project
 /platform/external/rust/crates/pin-project-internal
 /platform/external/rust/crates/pin-utils
+/platform/external/rust/crates/proc-macro-error
 /platform/external/rust/crates/proc-macro-error-attr
 /platform/external/rust/crates/proc-macro-hack
 /platform/external/rust/crates/proc-macro-nested
