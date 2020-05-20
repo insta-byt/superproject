@@ -6518,6 +6518,10 @@
 	branch = master
 	path = platform/tools/test/graphicsbenchmark
 	url = ../../platform/tools/test/graphicsbenchmark
+[submodule "platform/tools/test/openhst"]
+	branch = master
+	path = platform/tools/test/openhst
+	url = ../../platform/tools/test/openhst
 [submodule "platform/tools/tradefed_cluster"]
 	branch = master
 	path = platform/tools/tradefed_cluster
