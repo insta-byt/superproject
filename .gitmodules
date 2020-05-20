@@ -6430,6 +6430,10 @@
 	branch = master
 	path = platform/tools/gradle
 	url = ../../platform/tools/gradle
+[submodule "platform/tools/gradle-recipes"]
+	branch = master
+	path = platform/tools/gradle-recipes
+	url = ../../platform/tools/gradle-recipes
 [submodule "platform/tools/idea"]
 	branch = master
 	path = platform/tools/idea

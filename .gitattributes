@@ -1606,6 +1606,7 @@
 /platform/tools/external_updater
 /platform/tools/gpu
 /platform/tools/gradle
+/platform/tools/gradle-recipes
 /platform/tools/idea
 /platform/tools/loganalysis
 /platform/tools/metalava
