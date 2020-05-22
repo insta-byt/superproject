@@ -3210,6 +3210,10 @@
 	branch = master
 	path = platform/external/rust/crates/syn
 	url = ../../platform/external/rust/crates/syn
+[submodule "platform/external/rust/crates/thiserror-impl"]
+	branch = master
+	path = platform/external/rust/crates/thiserror-impl
+	url = ../../platform/external/rust/crates/thiserror-impl
 [submodule "platform/external/rust/crates/thread_local"]
 	branch = master
 	path = platform/external/rust/crates/thread_local
