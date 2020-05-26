@@ -3222,6 +3222,10 @@
 	branch = master
 	path = platform/external/rust/crates/thread_local
 	url = ../../platform/external/rust/crates/thread_local
+[submodule "platform/external/rust/crates/unicode-segmentation"]
+	branch = master
+	path = platform/external/rust/crates/unicode-segmentation
+	url = ../../platform/external/rust/crates/unicode-segmentation
 [submodule "platform/external/rust/crates/unicode-xid"]
 	branch = master
 	path = platform/external/rust/crates/unicode-xid
