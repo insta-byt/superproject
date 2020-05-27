@@ -3214,6 +3214,10 @@
 	branch = master
 	path = platform/external/rust/crates/syn-mid
 	url = ../../platform/external/rust/crates/syn-mid
+[submodule "platform/external/rust/crates/termcolor"]
+	branch = master
+	path = platform/external/rust/crates/termcolor
+	url = ../../platform/external/rust/crates/termcolor
 [submodule "platform/external/rust/crates/textwrap"]
 	branch = master
 	path = platform/external/rust/crates/textwrap
