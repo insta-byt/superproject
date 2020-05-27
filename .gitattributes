@@ -807,6 +807,7 @@
 /platform/external/rust/crates/thiserror-impl
 /platform/external/rust/crates/thread_local
 /platform/external/rust/crates/unicode-segmentation
+/platform/external/rust/crates/unicode-width
 /platform/external/rust/crates/unicode-xid
 /platform/external/rust/crates/which
 /platform/external/rust/cxx
