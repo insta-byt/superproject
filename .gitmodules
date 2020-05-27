@@ -3218,6 +3218,10 @@
 	branch = master
 	path = platform/external/rust/crates/textwrap
 	url = ../../platform/external/rust/crates/textwrap
+[submodule "platform/external/rust/crates/thiserror"]
+	branch = master
+	path = platform/external/rust/crates/thiserror
+	url = ../../platform/external/rust/crates/thiserror
 [submodule "platform/external/rust/crates/thiserror-impl"]
 	branch = master
 	path = platform/external/rust/crates/thiserror-impl
