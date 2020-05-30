@@ -6454,6 +6454,10 @@
 	branch = master
 	path = platform/tools/external_updater
 	url = ../../platform/tools/external_updater
+[submodule "platform/tools/google_prebuilts/studio/sdk/remote"]
+	branch = master
+	path = platform/tools/google_prebuilts/studio/sdk/remote
+	url = ../../platform/tools/google_prebuilts/studio/sdk/remote
 [submodule "platform/tools/gpu"]
 	branch = master
 	path = platform/tools/gpu

@@ -1612,6 +1612,7 @@
 /platform/tools/external/go/src/golang.org/x/tools
 /platform/tools/external/gradle
 /platform/tools/external_updater
+/platform/tools/google_prebuilts/studio/sdk/remote
 /platform/tools/gpu
 /platform/tools/gradle
 /platform/tools/gradle-recipes
