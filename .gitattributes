@@ -1126,6 +1126,7 @@
 /platform/packages/apps/Camera
 /platform/packages/apps/Camera2
 /platform/packages/apps/Car/Cluster
+/platform/packages/apps/Car/CompanionDeviceSupport
 /platform/packages/apps/Car/Dialer
 /platform/packages/apps/Car/Hvac
 /platform/packages/apps/Car/LatinIME

@@ -4510,6 +4510,10 @@
 	branch = master
 	path = platform/packages/apps/Car/Cluster
 	url = ../../platform/packages/apps/Car/Cluster
+[submodule "platform/packages/apps/Car/CompanionDeviceSupport"]
+	branch = master
+	path = platform/packages/apps/Car/CompanionDeviceSupport
+	url = ../../platform/packages/apps/Car/CompanionDeviceSupport
 [submodule "platform/packages/apps/Car/Dialer"]
 	branch = master
 	path = platform/packages/apps/Car/Dialer
