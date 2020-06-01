@@ -393,6 +393,7 @@
 /platform/external/glide
 /platform/external/gmock
 /platform/external/go-creachadair-stringset
+/platform/external/go-etree
 /platform/external/golang-protobuf
 /platform/external/golang-x-sync
 /platform/external/golang-x-tools

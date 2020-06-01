@@ -1578,6 +1578,10 @@
 	branch = master
 	path = platform/external/go-creachadair-stringset
 	url = ../../platform/external/go-creachadair-stringset
+[submodule "platform/external/go-etree"]
+	branch = master
+	path = platform/external/go-etree
+	url = ../../platform/external/go-etree
 [submodule "platform/external/golang-protobuf"]
 	branch = master
 	path = platform/external/golang-protobuf
