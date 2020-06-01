@@ -5342,6 +5342,10 @@
 	branch = master
 	path = platform/prebuilts/cmake/windows-x86
 	url = ../../platform/prebuilts/cmake/windows-x86
+[submodule "platform/prebuilts/cmdline-tools"]
+	branch = master
+	path = platform/prebuilts/cmdline-tools
+	url = ../../platform/prebuilts/cmdline-tools
 [submodule "platform/prebuilts/deqp"]
 	branch = master
 	path = platform/prebuilts/deqp

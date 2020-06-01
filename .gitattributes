@@ -1334,6 +1334,7 @@
 /platform/prebuilts/cmake/darwin-x86
 /platform/prebuilts/cmake/linux-x86
 /platform/prebuilts/cmake/windows-x86
+/platform/prebuilts/cmdline-tools
 /platform/prebuilts/deqp
 /platform/prebuilts/devtools
 /platform/prebuilts/eclipse
