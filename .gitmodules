@@ -5846,6 +5846,10 @@
 	branch = master
 	path = platform/prebuilts/ninja/windows-x86
 	url = ../../platform/prebuilts/ninja/windows-x86
+[submodule "platform/prebuilts/protobuf"]
+	branch = master
+	path = platform/prebuilts/protobuf
+	url = ../../platform/prebuilts/protobuf
 [submodule "platform/prebuilts/python/darwin-x86"]
 	branch = master
 	path = platform/prebuilts/python/darwin-x86.git

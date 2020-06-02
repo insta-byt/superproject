@@ -1460,6 +1460,7 @@
 /platform/prebuilts/ninja/darwin-x86
 /platform/prebuilts/ninja/linux-x86
 /platform/prebuilts/ninja/windows-x86
+/platform/prebuilts/protobuf
 /platform/prebuilts/python/darwin-x86.git
 /platform/prebuilts/python/darwin-x86/2.7.5
 /platform/prebuilts/python/linux-x86.git
