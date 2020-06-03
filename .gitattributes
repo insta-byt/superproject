@@ -144,6 +144,7 @@
 /kernel/msm-modules/wlan-fw-api
 /kernel/omap
 /kernel/prebuilts/4.19/arm64
+/kernel/prebuilts/5.4/arm64
 /kernel/prebuilts/build-tools
 /kernel/samsung
 /kernel/tegra

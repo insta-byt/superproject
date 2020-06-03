@@ -582,6 +582,10 @@
 	branch = master
 	path = kernel/prebuilts/4.19/arm64
 	url = ../../kernel/prebuilts/4.19/arm64
+[submodule "kernel/prebuilts/5.4/arm64"]
+	branch = master
+	path = kernel/prebuilts/5.4/arm64
+	url = ../../kernel/prebuilts/5.4/arm64
 [submodule "kernel/prebuilts/build-tools"]
 	branch = master
 	path = kernel/prebuilts/build-tools
