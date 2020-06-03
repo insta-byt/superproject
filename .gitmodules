@@ -578,6 +578,10 @@
 	branch = master
 	path = kernel/omap
 	url = ../../kernel/omap
+[submodule "kernel/prebuilts/build-tools"]
+	branch = master
+	path = kernel/prebuilts/build-tools
+	url = ../../kernel/prebuilts/build-tools
 [submodule "kernel/samsung"]
 	branch = master
 	path = kernel/samsung

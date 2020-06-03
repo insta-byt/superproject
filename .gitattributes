@@ -143,6 +143,7 @@
 /kernel/msm-modules/qcacld
 /kernel/msm-modules/wlan-fw-api
 /kernel/omap
+/kernel/prebuilts/build-tools
 /kernel/samsung
 /kernel/tegra
 /kernel/tests
