@@ -578,6 +578,10 @@
 	branch = master
 	path = kernel/omap
 	url = ../../kernel/omap
+[submodule "kernel/prebuilts/4.19/arm64"]
+	branch = master
+	path = kernel/prebuilts/4.19/arm64
+	url = ../../kernel/prebuilts/4.19/arm64
 [submodule "kernel/prebuilts/build-tools"]
 	branch = master
 	path = kernel/prebuilts/build-tools
