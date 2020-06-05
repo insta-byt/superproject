@@ -2046,6 +2046,10 @@
 	branch = master
 	path = platform/external/libbackup
 	url = ../../platform/external/libbackup
+[submodule "platform/external/libbpf"]
+	branch = master
+	path = platform/external/libbpf
+	url = ../../platform/external/libbpf
 [submodule "platform/external/libbrillo"]
 	branch = master
 	path = platform/external/libbrillo

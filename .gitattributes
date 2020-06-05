@@ -510,6 +510,7 @@
 /platform/external/libaom
 /platform/external/libavc
 /platform/external/libbackup
+/platform/external/libbpf
 /platform/external/libbrillo
 /platform/external/libc-test
 /platform/external/libcap
