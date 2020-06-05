@@ -1394,6 +1394,10 @@
 	branch = master
 	path = platform/external/dtc
 	url = ../../platform/external/dtc
+[submodule "platform/external/dwarves"]
+	branch = master
+	path = platform/external/dwarves
+	url = ../../platform/external/dwarves
 [submodule "platform/external/dynamic_depth"]
 	branch = master
 	path = platform/external/dynamic_depth
