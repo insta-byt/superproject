@@ -578,6 +578,10 @@
 	branch = master
 	path = kernel/msm-modules/qcacld
 	url = ../../kernel/msm-modules/qcacld
+[submodule "kernel/msm-modules/wlan"]
+	branch = master
+	path = kernel/msm-modules/wlan
+	url = ../../kernel/msm-modules/wlan
 [submodule "kernel/msm-modules/wlan-fw-api"]
 	branch = master
 	path = kernel/msm-modules/wlan-fw-api

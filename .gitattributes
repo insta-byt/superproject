@@ -143,6 +143,7 @@
 /kernel/msm-modules/fts_touch
 /kernel/msm-modules/qca-wfi-host-cmn
 /kernel/msm-modules/qcacld
+/kernel/msm-modules/wlan
 /kernel/msm-modules/wlan-fw-api
 /kernel/omap
 /kernel/prebuilts/4.19/arm64
