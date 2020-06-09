@@ -400,6 +400,7 @@
 /platform/external/giflib
 /platform/external/glide
 /platform/external/gmock
+/platform/external/go-cmp
 /platform/external/go-creachadair-stringset
 /platform/external/go-etree
 /platform/external/golang-protobuf

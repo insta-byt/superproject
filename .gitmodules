@@ -1606,6 +1606,10 @@
 	branch = master
 	path = platform/external/gmock
 	url = ../../platform/external/gmock
+[submodule "platform/external/go-cmp"]
+	branch = master
+	path = platform/external/go-cmp
+	url = ../../platform/external/go-cmp
 [submodule "platform/external/go-creachadair-stringset"]
 	branch = master
 	path = platform/external/go-creachadair-stringset
