@@ -5522,6 +5522,10 @@
 	branch = master
 	path = platform/prebuilts/fullsdk/sources/android-29
 	url = ../../platform/prebuilts/fullsdk/sources/android-29
+[submodule "platform/prebuilts/fullsdk/sources/android-30"]
+	branch = master
+	path = platform/prebuilts/fullsdk/sources/android-30
+	url = ../../platform/prebuilts/fullsdk/sources/android-30
 [submodule "platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8"]
 	branch = master
 	path = platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8
