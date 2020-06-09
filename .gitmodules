@@ -548,8 +548,16 @@
 	url = ../../kernel/msm
 [submodule "kernel/msm-extra"]
 	branch = master
-	path = kernel/msm-extra
+	path = kernel/msm-extra.git
 	url = ../../kernel/msm-extra
+[submodule "kernel/msm-extra/devicetree"]
+	branch = master
+	path = kernel/msm-extra/devicetree
+	url = ../../kernel/msm-extra/devicetree
+[submodule "kernel/msm-extra/drivers"]
+	branch = master
+	path = kernel/msm-extra/drivers
+	url = ../../kernel/msm-extra/drivers
 [submodule "kernel/msm-modules"]
 	branch = master
 	path = kernel/msm-modules.git

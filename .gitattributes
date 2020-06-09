@@ -135,7 +135,9 @@
 /kernel/manifest
 /kernel/mediatek
 /kernel/msm
-/kernel/msm-extra
+/kernel/msm-extra.git
+/kernel/msm-extra/devicetree
+/kernel/msm-extra/drivers
 /kernel/msm-modules.git
 /kernel/msm-modules/data-kernel
 /kernel/msm-modules/fts_touch
