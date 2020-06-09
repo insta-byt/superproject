@@ -5506,6 +5506,10 @@
 	branch = master
 	path = platform/prebuilts/fullsdk/platforms/android-29
 	url = ../../platform/prebuilts/fullsdk/platforms/android-29
+[submodule "platform/prebuilts/fullsdk/platforms/android-30"]
+	branch = master
+	path = platform/prebuilts/fullsdk/platforms/android-30
+	url = ../../platform/prebuilts/fullsdk/platforms/android-30
 [submodule "platform/prebuilts/fullsdk/platforms/android-system-29"]
 	branch = master
 	path = platform/prebuilts/fullsdk/platforms/android-system-29
