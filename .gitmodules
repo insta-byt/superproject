@@ -3078,6 +3078,10 @@
 	branch = master
 	path = platform/external/rust/crates/byteorder
 	url = ../../platform/external/rust/crates/byteorder
+[submodule "platform/external/rust/crates/bytes"]
+	branch = master
+	path = platform/external/rust/crates/bytes
+	url = ../../platform/external/rust/crates/bytes
 [submodule "platform/external/rust/crates/cexpr"]
 	branch = master
 	path = platform/external/rust/crates/cexpr
