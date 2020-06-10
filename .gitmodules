@@ -3218,6 +3218,10 @@
 	branch = master
 	path = platform/external/rust/crates/proc-macro2
 	url = ../../platform/external/rust/crates/proc-macro2
+[submodule "platform/external/rust/crates/protobuf"]
+	branch = master
+	path = platform/external/rust/crates/protobuf
+	url = ../../platform/external/rust/crates/protobuf
 [submodule "platform/external/rust/crates/protobuf-codegen"]
 	branch = master
 	path = platform/external/rust/crates/protobuf-codegen
