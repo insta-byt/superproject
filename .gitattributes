@@ -803,6 +803,7 @@
 /platform/external/rust/crates/proc-macro-hack
 /platform/external/rust/crates/proc-macro-nested
 /platform/external/rust/crates/proc-macro2
+/platform/external/rust/crates/protobuf-codegen
 /platform/external/rust/crates/quote
 /platform/external/rust/crates/regex
 /platform/external/rust/crates/regex-syntax
