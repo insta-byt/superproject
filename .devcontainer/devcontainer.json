@@ -1,0 +1,1676 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}Update git submodules
+* Update platform/superproject from branch 'master'
+  to 053a87e40fb267e0c02aae034fbc404fcdf98ffd
+  + Update git submodules
+    
+    * Update external/doclava from branch 'main'
+      to 462a79f857eedba89aee7a5364df55f4ccf759f8
+      - Merge "Make doclava support baselining of lint issues" into main
+      - Make doclava support baselining of lint issues
+        
+        There are many existing issues in the docs. Before new errors can
+        be forbidden, make it possible to allow pre-existing errors.
+        
+        The baseline support is very crude -- any mention of a file will allow
+        all lint errors in that file. It's my hope to trim the baseline down
+        quickly so that this won't be an issue.
+        
+        Bug: 217734059
+        Test: in follow-up changes which enables errors and passes baselines
+        Change-Id: I78174f66f9d5cd59511951a481072f54339eba11
+        
+  - Merge "Added dependencies" into main
+  - Merge "Extend dump function to print db contents" into main
+  - Merge "assign labels to merged_txt modules with defs" into main
+  - Tradefed ()
+    
+    ** For tradefed version, open version.txt (go/tf-prebuilt-version) **
+    
+    Tradefed
+    This build IS suitable for public release.
+    
+    Bug: 178523691
+    Test: None
+    
+    Change-Id: I418b834dc80caa93cfaded5a3dc7aeb5ea1d15a5
+    
+  - Autoupdate of 2 submodules
+    
+    *frameworks/base updated to 90693766af2cf6ad057d0c8e08275c87022c6301
+    Merge "Add support to configure double line clock in lockscreen [1/2]" into main
+    *packages/apps/Settings updated to 3be411d513eea897df89bcbf7425b1b34eb06673
+    Merge "Add support to configure double line clock in lockscreen [2/2]" into main
+    
+  - Merge remote-tracking branch 'aosp/upstream-master' into mymerge
+    
+    Test: Treehugger
+    Change-Id: I76ce568a9a35676c4c62148f37bcc957c19af459
+    
+  - Merge "Fix broken @see/@link references controls" into main
+  - Merge "allow writes to /sys/power/sync_on_suspend from init" into main
+  - Compile libs for both archs
+    
+    Our test config says to run on both supported archs, so our APK
+    needs to include libs for both archs too.
+    
+    Bug: 303059650
+    Test: zipinfo CtsSdkExtensionsTestCases.apk | grep lib
+    Change-Id: I1ab29d68f14460635663a83a877c33c536887894
+    
+  - allowProtect/denyProtect only get called with a 1-elem vector
+    
+    Test: TreeHugger
+    Signed-off-by: Maciej Żenczykowski <maze@google.com>
+    Change-Id: Id180765c6f924e4b13f72312c757360b0434b185
+    
+  - Merge "cts: fix android.net.cts.VpnServiceTest#testProtect_int flake" into main
+  - Merge "Fix the broken links in javadoc" into main
+  - Floss: Refactor DBus intf and only expose after interal API is ready
+    
+    This does 2 things.
+    
+    1. refactor the work of DBus interface registration to a separated
+    struct, i.e. InterfaceManager.
+    
+    2. delay the DBus interface registration until the api is ready.
+    
+    The reason why (2) is needed is because in many implementations, our
+    APIs assume the underlying libbluetooth API is ready when the DBus
+    method is called. If we register the API to DBus before it is ready,
+    there is a tiny window that clients could poke the API and cause crash
+    or get an unexpected result of it.
+    
+    (1) is just to make implement (2) easier.
+    
+    Bug: 299431339
+    Test: mma -j 32
+    Test: verify adapter/media/battery interfaces are there via gdbus
+    Test: perform mouse, kbd, headset CUJ on brya/skolas
+    Tag: #floss
+    Change-Id: If532032bf29b796e4fc46a68b90fa9ebc6a0756e
+    
+  - Merge "Use pragma WAL in db connections" into main
+  - Merge "Ignore access to shell on adbd vsock_socket" into main
+  - Merge "Enable more asserts in LegacyLocalesTest." into main
+  - Merge "Refactoring recovery related code" into main
+  - GraphChecker/Arena container cleanups
+    
+    While working in aosp/2769298 I saw these opportunities
+    for cleanups.
+    
+    Change-Id: Ie6c95b5521c4a8cbd3963a034e210860fb0b4ef0
+    
+  - Merge "Update timestamp in Cronet Testing" into main
+  - Merge "tp: allow RewriteAll function to deal with rewritten SqlSources" into main
+  - Merge "tp: add support for SqlSource::Substr for rewritten SqlSources" into main
+  - traced_relay: implement the relay service
+    
+    This CL implements the relay service as a new binary, traced_relay, for
+    taking the place of traced in a guest VM and relaying the producer
+    connections to the host tracing service. The relay service listen to the
+    producer socket and connects to the "relay socket" to the host. Socket
+    connections are opened in pairs. Trace data and control commands are
+    relayed back and forth between the connection pair.
+    
+            tracing service
+                   ▲    PERFETTO_PRODUCER_SOCK_NAME
+     relay socket  │
+                   ▼   PERFETTO_RELAY_SOCK_NAME (tcp or vsock)
+            relay service
+                   ▲   PERFETTO_PRODUCER_SOCK_NAME
+    producer socket│
+                   ▼   PERFETTO_PRODUCER_SOCK_NAME
+              producers
+    
+    The relay socket is used only to connect to the host producer port. The
+    consumer port isn't supported. Peer credentials (PID and UID) is sent in
+    the wire_protocol proto by the relay service.
+    
+    Setup example:
+    * Start traced with producer endpoint on localhost:10001:
+      `PERFETTO_PRODUCER_SOCK_NAME=127.0.0.1:10001 traced`
+    * Start the relay service that uses unix socket for local producers and
+      localhost:10001 for relaying to the remote tracing service:
+      `PERFETTO_RELAY_SOCK_NAME=127.0.0.1:10001 traced_relay`
+    * Start traced_probes that connects to the unix socket to the relay
+      service:
+      `traced_probes`
+    * Collect a trace using the default consumer socket.
+    
+    The trace data provided by traced_probes will go over the unix socket to
+    the relay service, forwarded to localhost:10001 and then get to the
+    tracing service.
+    
+    Bug: 284258446
+    Test: Unit tests in a followup CL
+    
+    Change-Id: I3e13b5d69b0cb78b417ccd3cc1523901b2ebebdc
+    
+  - Fix broken @link/@see references in Cronet
+    
+    - Some symbols appear to have been renamed. Fix those
+    - Some public API docs were referencing @SystemApi, change that to @code
+    - ExperimentalHttpEngine doesn't appear to exist
+    
+    Bug: 303184203
+    Test: m docs
+    Change-Id: I28e9369989b0ecb597ebc0ec446017cb702d4bd8
+    
+  - Merge "Fix broken documentation in NfcAdapter" into main
+  - Merge "Fix broken documentation in view.translation" into main
+  - Merge "LeAudioTestApp: Split and present BIS, ENC, PA states" into main
+  - Merge "Fix broken @see/@link references in textclassifier" into main
+  - Merge "Fix broken @see/@link references in Bluetooth" into main
+  - Merge "Remove lint-baseline in staticlibs" into main
+  - Autoupdate of 2 submodules
+    
+    *build/make updated to f81405aab0972f62d9af44e682227a787da2e4e3
+    Merge "Remove PRODUCT_PRODUCT_VNDK_VERSION from soong_config" into main
+    *build/soong updated to ce12ea8f95257a18b693ae3205e63703eb577f89
+    Merge "Generate product variants by default" into main
+    
+  - Move APTX_ADAPTIVE_LE and APTX_ADAPTVIE_LEX to configurable
+    
+    We should bring the capabilities from the configure file that the device
+    could have its own capabilties.
+    
+    Bug: 302173270
+    Test: atest VtsHalBluetoothAudioTargetTest
+    Change-Id: I2cb5194acbe64d7d64cca9b245b26ca5fbac35d4
+    
+  - Merge "floss: Handle unaligned bt_property_t data" into main
+  - Merge "Floss: Fix invalid handle detection in SCO connection complete hack" into main
+  - Clean up unused param warnings cert facade
+    
+    Bug: 302317771
+    Test: m .
+    
+    Change-Id: I52c8dc731b278421958ac4bc566ca0616906b9c5
+    
+  - Merge "Fix pylint error in bazel_mode.py" into main
+  - Merge "Track denials from gmscore_app to read_policy" into main
+  - kselftests: Add component to OWNERS file
+    
+    Test: N/A
+    Change-Id: I670f44093d4a6b386f558ea8e368c469f99b6dd8
+    Signed-off-by: Edward Liaw <edliaw@google.com>
+    
+  - Avoid device reset via incremental flashing
+    
+    Test: presubmit
+    Bug: 302226963
+    Change-Id: I3cb159ff1dde89f057c9b0739725526ab4833653
+    
+  - Merge changes from topic "am-365a2cd5e8544d448c6a360a3a2a5bfa" into main
+    
+    * changes:
+      [automerger skipped] Merge "DO NOT MERGE: Remove DUN capability from VCN test networks" into android13-tests-dev am: c1726079d3 -s ours
+      [automerger skipped] DO NOT MERGE: Remove DUN capability from VCN test networks am: e41544b0d8 -s ours
+    
+  - Merge "Fix pylint warning line-too-long in atest_main" into main
+  - Merge "Allow searching captital package name" into main
+  - Merge "Cleanup existing firewall rule on myUid before the test" into main
+  - Merge "Find system and vendor images in target_files subdirectory" into main
+  - Test ffcsr, fflags and frmcsr, fflags and frm with Csrrwi and Csrrw
+    
+    Existing tests were enough for interpreter, but lite translator
+    introduces separate code path for immediates handling this we want to
+    test both register and immediate versions of instructions that write to
+    fcsr, fflags and frm.
+    
+    Bug: 301768414
+    
+    Test: m berberis_all
+    
+    Change-Id: I6e35f86fc88b8c6e81c5ea8f18d5ce2a6da335b0
+    
+  - sepolicy(apex): Create NFC apex
+    
+    Bug: 303286040
+    Test: Compiles
+    Change-Id: I6a0edcb29879880f18e96d7d7a9cb1b08be1dc1b
+    
+  - Temporarily disable RELEASE_EXPOSE_FLAGGED_API in next builds
+    
+    This change temporarily disables RELEASE_EXPOSE_FLAGGED_API in next
+    release builds. The flag will be enabled again once it is determined if
+    the culprit APIs are supposed to be flagged or the logic of the feature
+    is incomplete.
+    
+    Test: m nothing
+    Bug: 303318940
+    Change-Id: Ib040a956933fa296dff4ee6e2e8da866bfa2e7d5
+    
+  - Merge "Create a filegroup for versioner dependencies" into main
+  - Roll ANGLE from 2c0f9d20f699 to 1eccf863d302 (34 revisions)
+    
+    https://chromium.googlesource.com/angle/angle.git/+log/2c0f9d20f699..1eccf863d302
+    
+    Please enable autosubmit on changes if possible when approving them.
+    
+    If this roll has caused a breakage, revert this CL and stop the roller
+    using the controls here:
+    https://autoroll.skia.org/r/angle-android-autoroll
+    Please CC angle-team@google.com,rmistry@google.com,romanl@google.com on the revert to ensure that a human
+    is aware of the problem.
+    
+    To file a bug in ANGLE: https://bugs.chromium.org/p/angleproject/issues/entry
+    
+    To report a problem with the AutoRoller itself, please file a bug:
+    https://bugs.chromium.org/p/skia/issues/entry?template=Autoroller+Bug
+    
+    Documentation for the AutoRoller is here:
+    https://skia.googlesource.com/buildbot/+doc/main/autoroll/README.md
+    
+    Test: Presubmit checks will test this change.
+    Exempt-From-Owner-Approval: The autoroll bot does not require owner approval.
+    Bug: b/285613719
+    Bug: b/295208838
+    Bug: b/295394803
+    Bug: b/297901032
+    Bug: b/300672851
+    Bug: b/301999483
+    Bug: b/302112423
+    Bug: b/303065176
+    Bug: b/303079476
+    Bug: b/303089709
+    Bug: b/303138134
+    Bug: b/303276423
+    Change-Id: Ia01babface5fc384187a4760b1948310423c07fa
+    
+  - Increase max_files from 100 -> 200
+    
+    We have several instances of people hitting the limit.
+    200 is still reasonable.  Soon we should have metrics to let us
+    know what users are seeing in their builds and we can use the right
+    number.
+    
+    Test: adevice --help
+    Test: atest
+    Change-Id: I6bfac718023dc912cdecdeaa690514bbe0bdfb4c
+    
+  - Add missing <cassert> include
+    
+    Change-Id: Ic804a0cde9703105df5e930ee0a3c6e11666b79d
+    
+  - Merge changes Ib2667798,I9a1fa32b into main
+    
+    * changes:
+      Symlink to rules_testing in soong integration test.
+      Remove AconfigJavaHostTest from the allowlist.
+    
+  - Merge "BMS: Add active log in logcat" into main
+  - libavb_rs: add validate_vbmeta_public_key() op
+    
+    Add support for the user callback op `validate_vbmeta_public_key()`.
+    
+    Bug: b/290110273
+    Test: atest
+    Change-Id: I6278ecc730793abed89548e99b4d4a4bbfc23d00
+    
+  - Autoupdate of 2 submodules
+    
+    *build/make updated to 842d96dc40c15af6e0583d6ccab2a3abde529909
+    Merge "Clean out old rustc compiler intermediates" into main
+    *build/soong updated to 2d1bf53169d2c846be4b189e16c82f0ed4e2de87
+    Merge "Revert "Split Rust crate builds into compile and link phases."" into main
+    
+  - Merge "leaudio: Fix for invalid offloader behavior on localSink" into main
+  - [build] Switch to use rust prebuilt toolchain
+    
+    Switch to use android rust prebuilt toolchain. The following changes are
+    made:
+    
+    1. Fetch toolchain from android rust prebuilts instead of from rust
+       distribution during workspace setup.
+    2. Define dedicated toolchain targets for different platforms.
+    3. Add rule for building rust sysroot libraries.
+    
+    Test: Build and run UEFI application.
+    Bug: 302569430
+    
+    Change-Id: I199c226639b659f96a0909334907c680d6919c43
+    
+  - gfxstream: manually add debug logic
+    
+    It's hard to add via codegen.  Since it's just debug logic that's
+    only needed temporarily add it by hand.  Anyone who re-generates
+    the code will delete it, which is fine.
+    
+    BUG=298704840
+    TEST=compile
+    
+    Change-Id: I7a19772069c369a925e158dcf45503420eac8ae4
+    
+  - Merge "Allow installing fake vendor packages" into main
+  - Merge "IA2: Enum-ify bta::sys::tBTA_SYS_ID" into main
+  - Add support for FCsr and FFlags CSR registers (part 2).
+    
+    Bug: 301768414
+    
+    Test: m berberis_all
+    
+    Change-Id: I0c9935f2a52e0c39f4c24e3e5e09a11a73ae0601
+    
+  - Merge "dumpstate: call printflags instead of reading flag files explicitly" into main
+  - Merge "zip_artifacts to be called at last device removed from netsim" into main
+  - Merge changes I5c0bca34,Ib0f09bbd,I0c2b4d51,I6cb64c35,Id0154a46, ... into main
+    
+    * changes:
+      Clamp getRemainingFilterLft to fit in 2 bytes
+      Convert most lifetimes to ints instead of longs
+      Use secondsSinceBoot instead
+      Rename currentTimeSeconds -> secondsSinceBoot
+      Reducing log level so droidfood builds do not crash
+      Have Ra#generateFilterLocked return void
+      Remove mProgramBaseTime
+      Stop purging RAs when they are expired
+    
+  - Merge "PDL: Always check IsValid in FromView" into main
+  - Merge "Adding entry for 16k page developer option" into main
+  - Add clone_args for nsjail.
+    
+    Test: treehugger
+    Change-Id: I59239bfe7adf41b1081c6c2351695115519a552b
+    
+  - Merge "Import AndroidX from build 10881713" into main
+  - Merge "[openwrt_authentication] Skip creating RSA key if exists." into main
+  - Skip some WifiSoftAP tests if a DUT does not support Soft AP in the user UI.
+    
+    Add a new user param "softap_unsupported_models" in ACTS config.
+    
+    DONOT enable auto-submit, this CL has config dependency.
+    
+    Bug: 298142789
+    Change-Id: Ia6158e54c10338aaf84dcd8b9fd19ba317745ee0
+    
+  - Merge "16k: Get the page size dynamically" into main
+  - Merge "Fixed incorrect whitespaces in Android.bp" into main
+  - Merge "Don't delete withres-withoutdex jar from R8 rules" into main
+  - Merge changes I8f83d042,I3d6a6a07,If088188b,Ia0c1f55a into main
+    
+    * changes:
+      netbpfload: update date in copyright messages, LOG_TAGs, etc.
+      netbpfload: remove support for 'loader'
+      netbpfload: remove support for 'vendor'
+      netbpfload: remove support for 'platform'
+    
+  - [bssl] Make hkdf return Zeroizing type
+    
+    This cl modifies the output of hkdf to be of Zeroizing type,
+    ensuring that the key is zeroized when it is dropped.
+    
+    Test: atest rialto_test & m pvmfw_bin
+    Bug: 279425980
+    Change-Id: I903c0b0129cd388b9831d87ddf6d29978350c252
+    
+  - Merge "Avoid "android.media.mediacodec.log-session-id" print redundancy" into main
+  - Merge "Revert "Modify symlink_forest to rerun when soong_build has changed."" into main
+  - Merge "Revert "Throw an exception when using RenderScript ScriptC with an API level above 34"" into main
+  - Merge "libavb: add OWNERS file for Rust sub-dir" into main
+  - Autoupdate of 3 submodules
+    
+    *external/robolectric updated to 37c38c554896296fbd3f5f7cef78489d799f134a
+    Merge "Clean up obsolete aliases for Truth." into main
+    *external/robolectric-shadows updated to a3d3d8ec2d296cf6dd1607588497120ce88e21d6
+    Clean up obsolete aliases for Truth.
+    
+    Bug: 255714762
+    Test: presubmit
+    Change-Id: Iac6b1d66d95cd31ac80d680f53c715b8eac59377
+    
+    *test/robolectric-extensions updated to 0a22c64abb9cef27260e8a60c8715cd2ac73e0b1
+    Clean up obsolete aliases for Truth.
+    
+    Bug: 255714762
+    Test: presubmit
+    Change-Id: I9c17cd1bb399cde85999409bf1e02f9aee605e1a
+    
+    
+  - Merge "aconfig: change Map.of to Map.ofEntries in FakeFeatureFlagsImp" into main
+  - Autoupdate of 3 submodules
+    
+    *build/make updated to a65cdd502474e61e7d7582189a6524bdbc7d688e
+    Merge "Revert^2 "Add soong config variable Release_expose_flagged_api"" into main
+    *build/release updated to b007a65fc1b9293a1cd03acc7eee9ba9bf6624ca
+    Merge "Revert^2 "Add RELEASE_EXPOSE_FLAGGED_API release config flag"" into main
+    *build/soong updated to a7e5e29ec1fa27a230e65956d84c13b46f2a31b7
+    Merge changes from topic "expose_flagged_api_revert" into main
+    
+    * changes:
+      Revert^2 "Add flagged api hide conditional to droidstubs"
+      Revert^2 "Add soong config variable Release_expose_flagged_api"
+    
+    
+  - Merge "Handle symlinks in isPackageBoundary" into main
+  - Merge "riscv64: add vector stpcpy()." into main
+  - Merge "Add another testcase." into main
+  - Merge changes I226ea90a,I56bb4a29,If4ac928c,Ice193294,Ibb107092 into main
+    
+    * changes:
+      Add test-data config flag.
+      Add min_sdk_version config flag.
+      Add host_first_multilib config flag.
+      Add mode for converting cargo2android.json to cargo_embargo.json.
+      Add option to get information from cargo.metadata without building.
+    
+  - Autoupdate of 2 submodules
+    
+    *build/bazel updated to b8a3427250caf73e7f28d55905c9932c9c6e1b04
+    Merge "Convert java_aconfig_library to bazel." into main
+    *build/soong updated to 7a90fcfa455820063ac6eadcd1f5a218a24ba3d1
+    Merge "Convert java_aconfig_library to bazel." into main
+    
+  - Dismiss wizard explicitly if requested
+    
+    We used to rely on harness mode + reboot, which indirect. Instead if configured, explicitly dismiss the setup wizard.
+    
+    Test: presubmit
+    Bug: 303135953
+    Change-Id: I185cab2ee882ba034bb6f9a7959fcd3598f1b784
+    
+  - Casimir: Reduce log verbosity while polling
+    
+    Bug: 303241360
+    Test: m casimir
+    Change-Id: Icddc2dc29debe6f3bec666f8038c44531ef2d670
+    
+  - Merge "Reboot into the userspace after every fastboot reboot case" into main
+  - Merge "Add soong team to owners for soong plugin" into main
+  - Merge changes Ibadd782d,I8704dccf into main
+    
+    * changes:
+      bpf: add constants PRIVATE, SHARED, MANDATORY, OPTIONAL
+      switch from defines to static consts
+    
+  - Merge changes Idaeb9587,I85678818,Id8ebcbff,If6177b63 into main
+    
+    * changes:
+      add comments
+      network_stack_utils_jni.cpp - switch to classic bpf macros - part 6
+      fix race: attachRaFilter() before bind, and cloexec it
+      switch attachRaFilter() to ErrnoException
+    
+  - Lengthen timeout on declared slower devices
+    
+    If a device has set ro.hw_timeout_multiplier, use it
+    to lengthen the timeouts in these tests.
+    
+    Bug: 303106879
+    Test: Verified that the timeout is longer on a device declaring ro.hw_timeout_multiplier
+    
+    Change-Id: I482d8fafc91106921e9b31d4b5f3afa300a87a25
+    
+  - Add all the missing syscalls.
+    
+    Rather than keep doing these one-by-one, let's just add everything
+    that's in our current bionic uapi headers (from the 6.5 kernel).
+    
+    We should have switched to musl long before anyone's complaining about
+    missing 6.6 syscalls!
+    
+    Some code assumes that, if you have a syscall number defined, you also
+    have the corresponding constants. Drag in enough of those constants to
+    keep the build green (just the MFD_ constants).
+    
+    Test: treehugger
+    Change-Id: I5aa759b31948b5650f4121b979d59f52ff7db7d1
+    
+  - ui: tp: switch IMPORT -> INCLUDE PERFETTO MODULE
+    
+    Change-Id: Id8b948fad7a601cc0a841d3e6cb693155c4e4262
+  - Merge "[UWB HAL] Use AsyncFd to read the buffer only when it's readable." into main
+  - mockcify: Update mockcify 6.1 => 6.2
+    
+    Bug: 299365655
+    Test: m .
+    
+    Change-Id: Ib1d72862c833afed1e425056b8f3f1aaa766811b
+    
+  - Autoupdate of 2 submodules
+    
+    *cts updated to d0e373c80cec36f4d0001a9bba7bdea327c7f664
+    Merge "Don't run the VPN tests on watches." into main
+    *packages/modules/Connectivity updated to c8a42f6a39d852b7d9321ccbf778b2a8cef33a9c
+    Merge "Disable the remaining VPN CTS tests on watches." into main
+    
+  - Merge "Allowlist tradefed-common-util and some dependents for tradefed" into main
+  - Fix UnboundedSdkLevel on Q
+    
+    Set.of was introduced in API 30 and this code has min sdk version 29.
+    
+    Decided to still use Set.of in 30+ as it (probably) has some
+    optimizations.
+    
+    Test: presubmit
+    
+    Bug: 295776695
+    Change-Id: I744b1f582fd391f0d81b94ea5eee9b1822bac1f4
+    
+  - Support netsim_args in emulator
+    
+    - Add netsim_args field in NetsimdOptions struct
+    - Process netsim_args by spliting it by space and append flags to launch
+      command
+    - Update parameters of CreateChannel()
+    
+    Bug: 295949723
+    Test: objs/emulator @netsim -netsim-args "--hci-port=12345 --dev" -feature WiFiPacketStream
+    Change-Id: I2aa4ca3ca8eda273717eac74e4b3f4be98f10537
+    
+  - Merge "Revert "Fix pylint error in bazel_mode.py"" into main
+  - Merge "Revert "Add Overloads to Frame and Image Extract Functions"" into main
+  - Update bp2build tests to use stubbed defs
+    
+    bp2build tests should not use bp2build_available:false test deps,
+    because, with the "allowlist v2" feature, this will cause these modules
+    to stop being converted with bp2build. Instead, such test deps should be
+    "stubbed", which effectively treats them like targets in pre-existing
+    BUILD files on the filesystem.
+    
+    Bug: 301312260
+    Test: m nothing
+    Change-Id: I277b5d4a7bfc4162209523cc2cfb85950b0222f2
+    
+  - Fix compilation when using system dependencies.
+    
+    This was due to an incomplete renaming of aemu targets.
+    Also add missing `gfxstream-snapshot.headers` causing include failure.
+    
+    Change-Id: I25765ccbf4731d3e655f619a34de8316f08cdde3
+    
+  - Merge "Promote TEST_MAPPING to presubmit" into main
+  - Merge "Throw an exception when using RenderScript ScriptC with an API level above 34" into main
+  - Upgrade toybox to 0674deaed1dc59ee9c7c14ed147cd4c4c90abe09
+    
+    This project was upgraded with external_updater.
+    Usage: tools/external_updater/updater.sh update toybox
+    For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
+    
+    Test: TreeHugger
+    Change-Id: I7068d52856684912937d45b8270b2c3022e84090
+    
+  - Merge "Clean up prebuilt stub deps & add comment" into main
+  - Reapply "Update golden_test.sh to be aware of RELEASE_AIDL_USE_UNFROZEN"
+    
+    This reverts commit fc65b245e686ca7ede5c38582d4c8b4cec50658a.
+    
+    Now using $TARGET_RELEASE to know which release we are currently lunched
+    into instead of a file that only defines the value for non-next
+    releases.
+    
+    Also changed the "True" to "true" and "False" to "false" now that we
+    aren't reading from the build flag file.
+    
+    Test: ./tests/golden_test.sh update
+    Test: ./tests/golden_test.sh check
+    Test: previous tests internal with lunch cf_x86_64_phone-next-userdebug
+    Bug: 299364399
+    Change-Id: I5033b875986687595dd7a57c81cc0d877412e887
+    
+  - Autoupdate of 2 submodules
+    
+    *build/bazel updated to 7532b9ad1f8e6c763c9bd17efb295c0dea4db86f
+    Merge "Implement custom fdo_profile macro" into main
+    *build/soong updated to 85455887b70cfbc9a3d581618e818f40f48c768f
+    Merge "Change bp2build to switch to using custom fdo_profile macro" into main
+    
+  - Merge "Added  androix.privacysandbox.tools libraries" into main
+  - Merge "tp: simplify algorithms in SqlSource and make semantics more precise" into main
+  - tp: move QueryResultSerializer header to include/ext
+    
+    This CL moves the header for the QueryResultSerializer class from src to
+    include/ext. This is necessary to depend on this class in BigTrace in
+    G3.
+    
+    Change-Id: I5f37fc46498d4f7555de042f0280103552f5e576
+  - Merge "Refactor api.bzl to depend explicitly on product variables." into main
+  - Clean up CheckCast codegens.
+    
+    Remove comments from location builders which have the first
+    half unnecessary and the second half wrong, maybe outdated.
+    
+    Change a "TwoRegisters" reference load call to "OneRegister"
+    call because the arguments violate the documented API of the
+    "TwoRegisters" version.
+    
+    Test: m test-art-host-gtest
+    Test: testrunner.py --host --optimizing
+    Test: run-gtests.sh
+    Test: testrunner.py --target --optimizing
+    Change-Id: Ide0980deffcf970eb76a9ff1fbadae83d4fabf82
+    
+  - Merge "Prioritize non-slices over slices" into main
+  - Revert Reland "Add a small pattern matcher to JIT compilation."
+    
+    This reverts commit f221e75a1abbddef0bc319062db9953a44a2ada7.
+    
+    Reason for revert: still luci failures
+    
+    Change-Id: I4b3bd97305f6ef3dfd81becbb4fdad3f55e71029
+    
+  - [bssl] Implement AEAD BoringSSL wrapper
+    
+    AEAD will be used to encrypt the private key in the RKP HAL.
+    
+    Bug: 302286887
+    Test: atest libbssl_avf_nostd.test
+    Change-Id: I734cf5ecd8b938f2c47f439d6f51594ccafb4ff2
+    
+  - Autoupdate of 2 submodules
+    
+    *packages/modules/Connectivity updated to a675e966b2155fbde347a733c8946577c93bfd1e
+    Merge "Remove defaultEnabled arg from isNetworkStackFeatureEnabled" into main
+    *packages/modules/NetworkStack updated to f61986f9afeefad31f5cabc3d79c9f1348f7e922
+    Merge "Remove defaultEnable arg from isNetworkStackFeatureEnabled" into main
+    
+  - Merge "CS: Read local capability when module start" into main
+  - Merge "frameworks/av: Change url from google cloud to lorry" into main
+  - Merge "Add graph for chrome scrolling offsets." into main
+  - Merge "LeAudio: Minor variable rename" into main
+  - Merge "leaudio: Fix stopping group when in transition to ENABLE" into main
+  - Fix HIDL/AIDL status not checked
+    
+    Bug: 297486203
+    
+    Change-Id: I97d52115d4a59ec24f0b38437b27a4bd9c7df0f1
+    
+  - tp: fix iterator copy constructor deletion
+    
+    Copy constructor should be const and should not be noexcept
+    
+    Change-Id: Idc022be23fbc0ecaa8a1135b3c72a15bb665fc70
+  - Merge "Fix pylint error in bazel_mode.py" into main
+  - Merge "videocodec CTS: update max bframe test to not test av1 component" into main
+  - Update the apf_allocate_buffer() and apf_transmit_buffer() document.
+    
+    Update the apf_interpreter() and apf_transmit_buffer() document to
+    clearly document what is the expected behavior from the firmware.
+    
+    Bug: 293811969
+    Test: TH
+    Change-Id: Id1dfb7240f9169a2b2574770b744b1fddc1b347a
+    
+  - Autoupdate of 2 submodules
+    
+    *packages/modules/Connectivity updated to 0509e0da16020451a432f3c36734c0ecb684ecd3
+    Merge "Remove Ikev2VpnProfile related shims usage" into main
+    *packages/modules/NetworkStack updated to 263023229cd54b96d38ed7dc4ef8e7870cb18657
+    Merge "Remove Ikev2VpnProfile related shims" into main
+    
+  - Merge "media.c2 aidl: Add AHardwareBuffer based C2Allocator" into main
+  - Merge "le_scanning_manager: Pass handle for PAST to avoid address issues" into main
+  - Merge changes I153682a9,I8271338e into main
+    
+    * changes:
+      network_stack_utils_jni.cpp - switch to classic bpf macros - part 5
+      network_stack_utils_jni.cpp - switch to classic bpf macros - part 4
+    
+  - Merge "Consolidate the functions used to generate the java test filter" into main
+  - Merge "Minor refactor tools/releasetools/common.py" into main
+  - Merge "Add an example Parameterized test" into main
+  - Use Truth library built from source.
+    
+    Bug: 255714762
+    Test: presubmit
+    Change-Id: I8fdf4b6877808d321d3b4fb484c82fdf1b66220a
+    
+  - Autoupdate of 2 submodules
+    
+    *external/caliper updated to 7ddb89d3d873da009d3fb3fcfbb6fa67ea664628
+    Use Gson built from source.
+    
+    Deletes the prebuilt, which is also used from external/vogar
+    (see the other CL in this topic).
+    
+    Bug: 243950468
+    Test: presubmit
+    Change-Id: I4d6507c0e38dbf3ff7151f7ca1e0ff80019b5afd
+    
+    *external/vogar updated to de89c379921383d76812fb1f4f034480327b4b4a
+    Use Gson built from source.
+    
+    Bug: 243950468
+    Test: presubmit
+    Change-Id: I33e1af6a1e99293af2451e9976c4fbf8c1d94db1
+    
+    
+  - Use Truth library built from source.
+    
+    Bug: 255714762
+    Test: presubmit
+    Change-Id: I87020f4c6615b15887b3ef0afa676f5d007b1c14
+    
+  - Merge "Exclude --enable-device-preparer from the unsupported list" into main
+  - Merge "Fix IoPerfCollectionTest after GTest upgrade." into main
+  - Merge "Add convenience wrapper functions for the colorize method" into main
+  - Add a TODO for the removed flag
+    
+    Bug: 300882567
+    Test: atest-dev atest_unittests
+    Change-Id: I3f86c1b20d77ca6c28c1d4f8d539c842ba3a94f1
+    
+  - Add test implementation for APF allocate/transmit buffer APIs
+    
+    Add the test implementation for apf_allocate_buffer() and
+    apf_transmit_buffer() APIs. The implementation will only be used in unit
+    test.
+    
+    Bug: 293811969
+    Test: TH
+    Change-Id: Id3086aff338d5b39baaa3e31fc086d33bc557f44
+    
+  - Fix APFv6 API definition and description
+    
+    Update the APFv6 API definition and description to fix error and reduce
+    ambiguities.
+    
+    Bug: 293811969
+    Test: TH
+    Change-Id: I30da5adcb9964ebd833c180ce4a6563f5bfb0096
+    
+  - Merge "Convert gsi_skip_mount.cfg to soong" into main
+  - Merge "Mark mMinLifetime private final" into main
+  - getRemainingFilterLft should not rely on global state
+    
+    Pass currentTimeSeconds as an argument. This makes the method useful in
+    places where mProgramBaseTime may not be set / current.
+    
+    Test: TH
+    Change-Id: I4d35c407545fceb172b3646dc227cf9ac39745b0
+    
+  - Merge changes from topic "power_telemetry" into main
+    
+    * changes:
+      Power Telemetry Stage 2
+      Add logs for Battery Historian and feature flag and unittest
+      Adding Power Telemetry data into Dumpsys
+    
+  - Isolate ValidNameNativeBridge_test.
+    
+    The test depends on static state that cannot be reset and is
+    modified by other tests. Upstream googletest sorts the tests
+    before running them, so it's no longer possible to control the
+    order of tests via the order of the srcs attribute.
+    
+    Bug: 302771018
+    Test: art/libnativebridge/tests/runtests.sh
+    Change-Id: If6b96049f6ed7a276ca1dcd0d7a70966d7ffecbf
+    
+  - Merge "Truncate mCallbacks after removing a callback." into main
+  - Merge "import bpfloader into p/m/C" into main
+  - Merge "Remove unused --tf-early-device-release flag" into main
+  - BpfClassic.h - more helpers
+    
+    Test: TreeHugger
+    Signed-off-by: Maciej Żenczykowski <maze@google.com>
+    Change-Id: Ie0eb8895c2d887b71ba886735ad106c1118ebeac
+    
+  - audio: Set 'maxOpenStreamCount' to unlimited for input ports
+    
+    Since libaudiohal@aidl reports that the most current legacy C API
+    version is supported by the HAL, the audio server uses a different
+    logic for telephony scenarios than for the HIDL HAL. This involves
+    opening more streams on the same mix port. Allow opening
+    an unlimited number of streams. However, keep the number of active
+    streams to be `1`.
+    
+    Bug: 302132812
+    Test: atest CtsMediaAudioTestCases --test-filter=".*AudioNativeTest.*"
+    Test: atest CtsMediaAudioTestCases --test-filter=".*CallAudioInterceptionTest.*"
+    Change-Id: I896398fca73f28d28d9397d00751394c969531b4
+    
+  - Merge remote-tracking branch 'aosp/upstream-main' into merge
+    
+    * aosp/upstream-main: (40 commits)
+      seccomp: add clock_gettime to swap aarch64
+      Roll recipe dependencies (trivial).
+      devices: balloon: add suspendable_virtio_tests
+      cros_tracing_analyser: Remove average output
+      cros_tracing_analyser: Add histogram
+      devices: Make PciConfiguration not serializable
+      x86_64: Reserve MMCFG region in ACPI
+      x86_64: Add ACPI PCI routing table
+      acpi: Make aml::Package own its children
+      Roll recipe dependencies (trivial).
+      devices: pcie_host: simplify zerocopy usage
+      devices: vfio: replace expect() with error handling
+      devices: vhost: remove unused vhost_header functions
+      cmdline: allow key=value in --vhost-user-fs
+      Roll recipe dependencies (trivial).
+      devices: video: decoder: wait on output buffers that may be accessed by the guest CPU
+      devices: gpu/video: pass the CPU readable flag across the GPU bridge
+      devices: usb: Use DMA buffer for data transfer if possible
+      Roll recipe dependencies (trivial).
+      devices: vhost-user: frontend: add max-queue-size option
+      ...
+    
+    Bug: 303052865
+    Test: cf + test mapping
+    Change-Id: I726f464565ea101379dabb309110aee92da702c8
+    
+  - Autoupdate of 2 submodules
+    
+    *build/soong updated to 77b232da24f2570998e34cd0828c53673aba756e
+    Merge changes from topic "linter_integration_tests" into main
+    
+    * changes:
+      Add .lint tagged output to Java modules
+      Add lint.suppress_exit_code attribute
+    
+    *frameworks/base updated to 2768c06f7a8723505cea678706900cbd5f91e615
+    Merge "Add integration test for EnforcePermissionHelperDetector" into main
+    
+  - [scudo] Mark page status in getStats in secondary (#67588)
+    
+    Cache entry marked with [R] indicates that the pages have been released
+    by releaseToOS().
+    
+    GitOrigin-RevId: ce00dde80e5c2ac3bd34346c2c75511b4c96708b
+    Change-Id: I361d3d9977281078b4c2b7c1c0a585233750a423
+    
+  - Don't depend on String8 cast to C string
+    
+    Bug: 295394788
+    Test: m checkbuild
+    Change-Id: Idec78a8922beb4a5a4659c32f01086c929ac3eed
+    
+  - Merge "Remove -Wsign-promo." into main
+  - Merge "Add @RequiresPermission annotation to ACTION_MASTER_CLEAR_NOTIFICATION intent" into main
+  - Merge "More documentation for C++ global config." into main
+  - Merge remote-tracking branch 'aosp/upstream-main' into 'aosp/main'
+    
+    This merge includes https://github.com/bazelbuild/rules_rust/pull/2165 which unblocks aosp/2721473 for non-host rust toolchain.
+    
+    Test: N/A
+    Bug: 295918553
+    Change-Id: I19dbc09be2fd2c11ce7b77ec3d44e2b8aeb24ab3
+    
+  - Add support for FCsr and FFlags CSR registers (part 1).
+    
+    Bug: 301768414
+    
+    Test: m berberis_all
+    
+    Change-Id: Ib11794d152fcf25bd7fb03a8cdaa2d1a798116c7
+    
+  - Merge "Respect visibility on java_library" into main
+  - Merge changes from topic "revert-2646423-HDQXAAHWBW" into main
+    
+    * changes:
+      Revert "NDK library: enable feature flags for dumping ABI repres..."
+      Revert "NDK library: enable feature flags for diffing ABI repres..."
+    
+  - Merge "Removed 'androidx.room:room-common': {}," into main
+  - Merge "Move off test_per_src." into main
+  - Autoupdate of 3 submodules
+    
+    *prebuilts/bazel/common updated to b3bb783608db9652d54616acb113f55772529d74
+    Bazel release 9bf8f396db5c8b204c61b34638ca15ece0328fc0
+    
+    Test: verify script
+    Test: presubmits
+    Change-Id: I7427ed2b4835bd5f268a69de550d8cf3322458c6
+    
+    *prebuilts/bazel/darwin-x86_64 updated to 1f0e64472655fbbdef7166e227cffb7deb79b00e
+    Bazel release 9bf8f396db5c8b204c61b34638ca15ece0328fc0
+    
+    Test: verify script
+    Test: presubmits
+    Change-Id: I2230a0e15d56d149b8a60f34553a025e250350bb
+    
+    *prebuilts/bazel/linux-x86_64 updated to 79b8b6ff0f364bacd647b85a654c70d9e91aa438
+    Bazel release 9bf8f396db5c8b204c61b34638ca15ece0328fc0
+    
+    Test: verify script
+    Test: presubmits
+    Change-Id: If14482b18513c1f7e04f9ba2a4e115a75c435ef3
+    
+    
+  - Merge "Log the CowOperation when decompression failed" into main
+  - PTS: use extended advertising API
+    
+    Test: atest pts-bot
+    Bug: 302595208
+    Change-Id: I21448266dbfefc40722939a969ed9c586f584ae2
+    
+  - [toolchain] Uprev rustc and use lld for linking
+    
+    The CL makes the following changes:
+    
+    1. Uprev rustc version to 1.72.0.
+    2. Make linker flag optional for CC toolchain. Rustc can generate the
+       needed linker flags. In most caess there's no need to specify
+       ourselves.
+    3. Use lld directly for linking instead of clang/clang++ frontend. rustc
+       1.72.0 starts using windows style linker argument which does not get
+       recognized by clang/clang++ frontend.
+    
+    Bug: 302569430
+    Change-Id: I64368a526690c87fec6045bddfb8852287fcf6bc
+    
+  - Move rexhoffman to top of OWNERS priority list.
+    
+    Test: na
+    Change-Id: I07e66a0b095a9cc31681e380845dec332cb4253b
+    
+  - [BluetoothMetrics] Adding enums for le Audio device/group health status counter metrics
+    
+    Counter metrics mapping:
+    1. Device_status_good: valid DB, valid CSIS
+    2. Device_status_bad: invalid DB, invalid CSIS
+    3. Group_status_good: start stream succeed
+    4. Group_status_bad: Never succeed in stream creation, 3 consistent failure(create cis/signaling failure)
+    5. Group_status_trending_bad: Had some success, bug failing rate >
+       70%(create cis/signaling failure)
+    6. Others mapped to specific failure reasons
+    
+    Bug: 301448525
+    Test: manual check of enums
+    Change-Id: Ifd1b659e5ca3228850b7d86864a3326b2b0141be
+    
+  - Merge "inputflinger: add missing <functional> include" into main
+  - Merge "Condense impls of MacAddressToString, Ipv6ToString" into main
+  - Merge "Replace CHECKs in disk_flags.cc with CF_EXPECT" into main
+  - Merge "Merge "Revert "CTS-V: Skip Audio Descriptor Test if HDMI feature is not supported"" into android13-tests-dev am: 45144f3492" into main
+  - Merge "Added 'androidx.room:room-common-jvm': {}," into main
+  - Merge "[stdlib] Optimize critical path generation" into main
+  - Kill any test initiated perfetto process before test run.
+    
+    Bug: b/288396763
+    
+    Test: PerfettoListenerTest, PerfettoHelperTest
+    Change-Id: Ia9314c7ce066bc9e638bf2fbcc09ac0eace71e4d
+    
+  - Merge "Use Gson built from source." into main
+  - Autoupdate of 3 submodules
+    
+    *cts updated to 12149387f336109ead84d9884137346a18550f85
+    Merge "Use canonical Gson instead of a random prebuilt." into main
+    *external/android-key-attestation updated to 829619986f23190686e1929f7c30dde62f1c0d1f
+    Use Gson built from source.
+    
+    Bug: 243950468
+    Test: presubmit
+    Change-Id: I2ea07fad3c2c98d094c007557e94b00dd995c338
+    
+    *external/wycheproof updated to 27fe73361c98ff70f62621ca769b1530a22b8b5e
+    Use Gson built from source.
+    
+    Deletes the prebuilt JAR.
+    
+    Bug: 243950468
+    Test: presubmit
+    Change-Id: I3c37eb2e373c25ac4f97f410dec31afa550af3db
+    
+    
+  - Update min SDK for TS.43 auth library
+    
+    Also add self to owners
+    
+    Test: build
+    Bug: 284212452
+    Change-Id: I9392c65dc5798df35d8f4a0a7a168a47b671d06c
+    
+  - Merge "Change sbom_test.sh to take command line arguments for target product, release and build variant, which is for a corresponding change in CI." into main
+  - Merge changes I7df6e323,I0e3412b9 into main
+    
+    * changes:
+      audio: Fix notification of streams of the device change
+      audio: Fix update of an existing patch
+    
+  - rename BPF2_REJECT_IF_ANY_BITS_SET -> BPF2_REJECT_IF_ANY_MASKED_BITS_SET
+    
+    Test: TreeHugger
+    Signed-off-by: Maciej Żenczykowski <maze@google.com>
+    Change-Id: I54a189f0f7b73917aa3fd049fe2eca387aaca250
+    
+  - riscv64: [codegen] Implement Baker read barriers.
+    
+    Implement codegen changes and entrypoints for Baker read
+    barriers. Also implement resolution and initialization
+    entrypoints and enable codegen for certain instructions to
+    allow stress-testing the Baker read barrier implementation.
+    
+    Fix `CodeGeneratorRISCV64::Finalize()` to avoid finalizing
+    the code twice. This double finaization bug was exposed by
+    enabling compilation of some larger methods.
+    
+    Test: # Edit `run-test` to disable checker, then
+          testrunner.py --target --64 --ndebug --optimizing
+          # Ignore 7 pre-existing failures.
+    Bug: 283082089
+    Change-Id: I55a128921b388fae1bf818bfbda0bcb18f6dbfb3
+    
+  - glibc: define __NR_getrandom.
+    
+    Bug: http://b/303040212
+    Test: treehugger
+    Change-Id: I766c82bfd5a80819796e3a888c9e176b31becd78
+    
+  - Change RELEASE_ACONFIG_VALUE_SETS bazel labels from soong module names.
+    
+    Bug: 300669419
+    Test: CI
+    Change-Id: Ieec40f3d6c7011d0edf0c65ef019bf097db6d408
+    
+  - Merge "Add go module and workspace files" into main
+  - Merge "pts: Disable tests AVRCP/TG/MDI/BV-04-C, AVRCP/TG/MDI/BV-05-C" into main
+  - Merge "Treat src=name filegroups as handcrafted targets" into main
+  - Merge changes I59bbb506,I997eceaf into main
+    
+    * changes:
+      Parse SOL_MAX_RT option in DHCPv6 messages.
+      Take Option Request Option in DHCPv6 Solicit/Request messages.
+    
+  - Merge "libfdt: Add FdtNode::name()" into main
+  - Merge "Create and Start secure_env snapshot control server" into main
+  - Merge "Pin the SDK version of the RenderScript tests to 33" into main
+  - Add a check to confirm getFileSystem check
+    
+    Bug: 302743398
+    Test: presubmit
+    Change-Id: I95fbb6488ea6226cda4fb2c5d400ffa0d4a032d0
+    
+  - Merge changes Iaae9dabd,I70298ef6 into main
+    
+    * changes:
+      shared_lib: Tests for protozero serialization
+      shared_lib: Add helpers to serialize packed repeated fields
+    
+  - Merge "build framework: remove app-compat-annotations from test" into main
+  - Merge "Alternating packets queued in the audio buffer" into main
+  - riscv64: Fix stack map validation.
+    
+    Test: # Cherry-pick https://android-review.googlesource.com/2767026
+          . build/envsetup.sh
+          lunch aosp_cf_riscv64_phone-userdebug
+          m
+    Bug: 283082089
+    Change-Id: Ia48f3da1e98d35b7089b2fd333883519c5439d18
+    
+  - Add missing override specifier on generated header
+    
+    Change-Id: I29e771339a7a17860548bf4ae64d55935b9e581e
+    
+  - Merge "Add report module events sparsely option" into main
+  - Merge "Import AndroidX from build 10859964" into main
+  - Merge "Handle rootcanal configuration e2e from StreamPackets to bluetooth_facade" into main
+  - Merge "NdkMedia: fix android.mediav2.cts.CodecEncoderSurfaceTest failed." into main
+  - Merge "Modify symlink_forest to rerun when soong_build has changed." into main
+  - Set local.prop if it hasn't been in non persistent opti
+    
+    Test: presubmit
+    Bug: 302908241
+    Change-Id: Ie5a8fae0c2a6000c5a2afbfabb763f45d2a55025
+    
+  - Merge "Remove obsolete <linux/capabilities.h> workarounds." into main
+  - Add the support to control advertising, discovery and upgrade mediums
+    
+    1) Add the support to control advertising, discovery and upgrade mediums
+    2) Enable Aware if Aware medium if used.
+    3) Disable log redaction
+    
+    Bug: 302553748
+    Test: performance test
+    Change-Id: I2f66d898343611a0b9a45173f987f57b1821674a
+    
+  - Merge "Basic widget for text paragraphs, used in scroll jank plugin." into main
+  - Merge changes from topic "b/302677468" into main
+    
+    * changes:
+      Allow execution of code in extra APKs
+      Multi_tenant is the new payload_not_root
+    
+  - Autoupdate of 3 submodules
+    
+    *build/bazel updated to 365bd5c0904e2628000a99d2954b38064c5bc551
+    Merge "For host java versions < 9, use the same bootclasspath as Soong." into main
+    *build/soong updated to e2007bfd0ed933c245a5a5a42b8ad575135fc9ee
+    Merge "Use manual BUILD files in jdk8 and allowlist apache-commons-compress" into main
+    *prebuilts/jdk/jdk8 updated to 94bbc6ab3dcc1c6a65bbb708888e702544258ab4
+    Manual BUILD file in jdk8 to access custom host bootclasspath jars
+    
+    Bug: 302587886
+    Change-Id: I79d0b338261a095de28f510c6f5140504e0e300b
+    
+    
+  - Merge "Scroll Details panel to show all frame presentation delays." into main
+  - Merge "Add method to read trunk stable flag" into main
+  - Merge "Move away from mod.rs" into main
+  - [bssl] Retrieve error code from BoringSSL
+    
+    This cl retrieves the error code from BoringSSL when an operation
+    fails and returns it to the users.
+    
+    Test: atest rialto_test
+    Bug: 302527194
+    Change-Id: I36da67c2ff9e7f45aea8db659d400c347d9705ca
+    
+  - Merge changes I94a0e2de,I95ebfef6 into main
+    
+    * changes:
+      NDK library: enable feature flags for diffing ABI representations
+      NDK library: enable feature flags for dumping ABI representations
+    
+  - Optimize Select instructions regarding equality
+    
+      * Select[a, b, EQ(a,b)] / Select[a, b, EQ(b,a)] into a
+      * Select[a, b, NE(a,b)] / Select[a, b, NE(b,a)] into b
+    
+    Test: art/test/testrunner/testrunner.py --host --64 -b --optimizing
+    Change-Id: I5a32af63dc9fb27868d0ffb313324cb1772cff64
+    
+  - Autoupdate of 2 submodules
+    
+    *art updated to ee83f167e5041ea43439617e4b5985cad4a34210
+    Revert^2 "Use the same cache for MethodType-s created in native and managed code."
+    
+    This reverts commit 52d0ba769ae791c8eac5160e03de7ad369f07ade and
+    11b1b75c1b6e15500a10288834e299e673010165.
+    
+    Reason for revert: aosp/2768053 should break initialisation cycle.
+    
+    Bug: 297147201
+    Test: ./art/test/testrunner/testrunner.py --host --64 --optimizing -b
+    Test: ./art/test/testrunner/testrunner.py --jvm -b
+    Test: ./art/test.py --host -b
+    
+    Change-Id: I15b8c1d1014b912ab7e4e9b2adab73736fe2b09b
+    
+    *libcore updated to 42c915dbdf1fcb713d6ec20b63a07d8f294591ba
+    Merge "Lazily initialize ThreadLocalRandom.instance field." into main
+    
+  - Merge changes from topic "am-cbdb0d71365a4c25891c2a85f0309b5a" into main
+    
+    * changes:
+      Merge changes from topic "am-60cf3e87d9d4407399be4f8630d54cb7" into android13-tests-dev am: add86d3077 -s ours
+      [automerger skipped] Merge "Revert "Exclude CtsSecurityTestCases tests from cts-on-gsi"" into android12L-tests-dev am: fe89a6bb00 -s ours am: 1f8e44f20c -s ours
+    
+  - Merge "Run derive_sdk --dump from SdkExtensionsTest" into main
+  - Merge "[ui]: Augment the binder txn name with monitor contention" into main
+  - Merge "Comment tests which raise multiple choices" into main
+  - Reland "Add a small pattern matcher to JIT compilation.""
+    
+    This reverts commit 1017823d56e821f29606e5b08f4bf51078c257a9.
+    
+    Reason for revert: Fix included in aosp/2761728
+    
+    Change-Id: Ia59648bb27dc8bbb5659b1ee88b71a7647b9b158
+    
+  - Merge "Change test plan for RpcWire to TeeUIUtilsTest" into main
+  - v4l2_codec2: Add RGBA video pixel format
+    
+    The format is supported by RaspberryPI-4 AVC HW encoder.
+    
+    Change-Id: I580dd68913bf43b1f14c0bed17d6990d733b3977
+    Signed-off-by: Roman Stratiienko <r.stratiienko@gmail.com>
+    
+  - Merge changes I19b0a004,I0f7b0867 into main
+    
+    * changes:
+      Fix pylint warning in cli_translator
+      Fix pylint warning in atest_utils
+    
+  - riscv64: Implement `NullPointerHandler`.
+    
+    Test: # Edit `run-test` to disable checker, then
+          testrunner.py --target --64 --ndebug --optimizing
+          # Ignore 7 pre-existing failures.
+    Bug: 283082089
+    Change-Id: If7ca0546a4f2a3576002bc2586b1a8d4892bb6c2
+    
+  - Merge "bta_gattc_start_discover: trivial style fix" into main
+  - Merge changes from topic "revert-2765950-TTMWHDWWDL" into main
+    
+    * changes:
+      Revert "interpreter: Add FaultyLoad/Store with tests"
+      Revert "interpreter: Use FaultLoad/Store"
+      Revert "interpreter: Raise SIGILL on undefined instruction"
+      Revert "tests: Add riscv64 not executable handling test"
+    
+  - [ui] Fix Chrome extension link
+    
+    The whitespace within the href led to a failed navigation.
+    
+    Change-Id: If00a19872e12acce08ce19fc65dc7f28fe21f90f
+    
+  - Merge "Abort and display error if ninja command fails." into main
+  - Test: Enable verbose logging in doh_ffi_test
+    
+    Enable the verbose logging to debug doh_ffi_test.
+    This change will increase ~250 lines of log when running
+    doh_ffi_test.
+    
+    Bug: 300679076
+    Test: atest doh_ffi_test
+    Change-Id: Icc4e264af9587ce1e8fa9eba13c13a3f69e80bff
+    
+  - Merge "Decouple Ipv6UpstreamRule with Ipv6DownstreamRule" into main
+  - Revert "Add a check to confirm getFileSystem check"
+    
+    This reverts commit 69a8f7a00756eb84bbd8cb91f72503081f6618d9.
+    
+    Reason for revert: b/302989277
+    
+    Change-Id: I9c6384a0c5c1c0ecf4cb45bd1052c271bc8b3e05
+    
+  - Autoupdate of 3 submodules
+    
+    *external/avb updated to 2f1ad9dc7738bd7b88b67320f4e9f0991cecd727
+    Merge "libavb: support chain partition no ab" into main
+    *system/core updated to b90cd3b5ab07da2d09af576bebf21cb596986aee
+    Merge "Adjust unit tests for supporting chain partition with no ab" into main
+    *system/tools/mkbootimg updated to e41e464abbe37e4676f699136554c4cd1da4dac2
+    Adjust unit tests for supporting chain partition with no ab
+    
+    Test: certify_bootimg_test
+          mkbootimg_test
+    Signed-off-by: wuhaitao3 <wuhaitao3@xiaomi.corp-partner.google.com>
+    Change-Id: Ia8a1067e4fb3c07ad036976c17e09afc28015167
+    
+    
+  - Merge "Remove use of vsetvl instruction from tests." into main
+  - Merge "Copy reclient binaries into the out directory itself" into main
+  - Autoupdate of 4 submodules
+    
+    *external/rust/crates/protobuf-support updated to 61d0730f92f53edaf18c56a49c469d4677648e98
+    Adding autogenerated Trusty makefile rules
+    
+    Bug: 281857510
+    Change-Id: I4de073d54d62fa1280b7c1d2a637ffb58cc40515
+    
+    *external/rust/crates/thiserror updated to 755628330722a5f4b02aba792803f450e2b90464
+    Adding autogenerated Trusty makefile rules
+    
+    Bug: 281857510
+    Change-Id: I911c2a05e3d3fcb428c7f04750311be05056a49e
+    
+    *external/rust/crates/thiserror-impl updated to e71ac1b9c0807ecbda3d1568f20420335be48663
+    Adding autogenerated Trusty makefile rules
+    
+    Bug: 281857510
+    Change-Id: I724eb8c8e3361bdc21fcb5d8b29ea6fb2617c648
+    
+    *external/rust/crates/unicode-ident updated to 61b9a1d38c006c7233b01508601f0896fcf2d5a3
+    Adding autogenerated Trusty makefile rules
+    
+    Bug: 281857510
+    Change-Id: Iefa90cce86d503171878606a31269400b839e1bd
+    
+    
+  - Merge "Add mmap syscall benchmarks" into main
+  - Lower CLAT max MTU from 65536 to 1528.
+    
+    Android's clat is for reaching the internet, which in general
+    never has an ipv4 L3 mtu higher than 1500.
+    
+    (We could probably hit this on a jumboframe enabled IPv6-only
+    wifi network [ http://b/292057969#comment18 ] where RA claims
+    MTU of 9K [9170])
+    
+    Bug: 292057969
+    Test: TreeHugger
+    Signed-off-by: Maciej Żenczykowski <maze@google.com>
+    Change-Id: I7a32455571458b8a3f1121ad980d54323b2ef06b
+    
+  - Merge "Reland 'Apply uid of original caller when starting LE scan by PendingIntent'" into main
+  - Merge "Setup test case for APFv6" into main
+  - Merge "[pvmfw] Use hkdf from libbssl instead of bssl bindgen" into main
+  - Add a check to confirm getFileSystem check
+    
+    Bug: 302743398
+    Test: presubmit
+    Change-Id: I180e8e3e7f6557d789f395703cd1c36bdfe6f413
+    
+  - Delete file before hardlink to avoid errors of already existing
+    
+    Test: presubmit
+    Bug: 290951369
+    Change-Id: I4611be092ce60a6252149613f873bf3f857ccc7e
+    
+  - Refactor Android.bp file.
+    
+    Query Blaze for a list of source files and build a monolithic
+    module instead of trying to replicate the structure of the
+    upstream BUILD file.
+    
+    Bug: 266055490
+    Test: presubmit
+    Change-Id: I7cb26d39a53688af3f6f195b2206dde6f5d65c71
+    
+  - Merge "[uwb] Add countdown check after start ranging session" into main
+  - Merge changes I52fcfd3f,I6de4abdc,I1e8944de,I9525bfe0,Ife09fef8, ... into main
+    
+    * changes:
+      Use carrier service changed callbacks when flag is on
+      Delete slots as the listeners are unregistered.
+      Have a full class (not inline) for privilege listener
+      Update the carrier service UID when onCarrierServiceChanged
+      Pass the modem count to registerCarrierPrivilegeListeners
+      Reorder add/remove/register/unregister carrier listeners
+    
+  - Merge "Remove debug only restrictions to network tracing" into main
+  - Autoupdate of 2 submodules
+    
+    *device/google/cuttlefish updated to 333d31a08a297c4334c93595bd3b3d5acfb14d1b
+    Merge "Revert "Install bootcontrol HAL APEX"" into main
+    *hardware/interfaces updated to ac9f70ee2fdae67f8c44ce02ef6238b5d93314dc
+    Merge "Revert "Add bootcontrol HAL APEX"" into main
+    
+  - Merge "Update cmdline-tools to ab/10883828" into main
+  - Exclude the testcases which requires latest NetworkStack module from ConnectivityCoverageTests.
+    
+    Bug: 287798985
+    Test: TH
+    Change-Id: I414f51f5f4e3ce74acce86e3a69db74e30078b81
+    
+  - [uwb] Add null checks for callback and executor in oem extension
+    
+    Test: Compiles
+    Bug: 302259017
+    Change-Id: Ia0caaabb74728d666b4d0a5ad95b276d0f3657c4
+    
+  - Merge changes from topic "am-6e46dd0f76004cb5a2547f94ea3e40e5" into main
+    
+    * changes:
+      [automerger skipped] Merge "Add a generics test plan with multiple includes" into android13-tests-dev am: 4196509d22 -s ours
+      [automerger skipped] Add a generics test plan with multiple includes am: b5692ee611 -s ours
+    
+  - Merge "Add and change APNs in Hong Kong mcc454" into main
+  - Merge "Delete staging directory after creating module package zip" into main
+  - Merge "Address comments on aosp/2765367" into main
+  - Merge "cts: Increase file size to boost storage performance for SequentialWriteTest" into main
+  - Merge changes I167e70d6,If55154d1,I986bfb76,I53bef624 into main
+    
+    * changes:
+      tests: Add riscv64 not executable handling test
+      interpreter: Raise SIGILL on undefined instruction
+      interpreter: Use FaultLoad/Store
+      interpreter: Add FaultyLoad/Store with tests
+    
+  - Wait for process to exit before unmounting postinstall partition
+    
+    When postinstall action is cancelled, update_engine sends SIGKILL to
+    postinstall scripts and immediately unmounts postinstall partition.
+    However, if the subprocess hasn't exited yet when we attempt to
+    unmount, there might be open file descriptors preventing the unmount
+    
+    Test: th
+    Bug: 302336751
+    Change-Id: I2913957eb97a917e328609e801f8c1a944a5673b
+    
+  - Merge changes from topic "am-19a1407a0a354ffb856cfedf75426530" into main
+    
+    * changes:
+      Merge "[DO NOT MERGE] Fix testSpeakerphoneIntent for no speaker" into android13-tests-dev am: 79d876b5be
+      [DO NOT MERGE] Fix testSpeakerphoneIntent for no speaker am: 65613adbe8
+    
+  - Merge "Update libphonenumber to v8.13.22" into main
+  - Add snapshot feature server implementation
+    
+    Add the implementation for snapshotGce.
+    Add suspendGce/resumeGce/stopGce which are necessary calls to happen
+    before/after the snapshot call.
+    
+    Bug: 293357673
+    Test: tools/tradefederation/core/tradefed.sh run singleCommand host -n --console-result-reporter:suppress-passed-tests --class com.android.tradefed.device.connection.AdbSshConnectionTest
+    Change-Id: Id7d886d38d22e4be73b023df47b7a868910165bf
+    
+  - Merge "disallow 32-bit *system* userspace on 6.2+" into main
+  - Merge changes from topic "am-80d2cdf99d5845b7b94f983272344bf2" into main
+    
+    * changes:
+      [automerger skipped] Merge "enable telecom CTS on devices without Telephony" into android13-tests-dev am: bca8bd4217 -s ours
+      [automerger skipped] enable telecom CTS on devices without Telephony am: 510f4ee287 -s ours
+    
+  - Merge "Merge "Directly launch activity in secondary split root" into android13-tests-dev am: 4e6dfdf598" into main
+  - Broadening the fix for handling of zero-length descriptors.
+    
+    Usage of Corsair usb hubs results in zero-length descriptor
+    (thereby resulting in uninitialized type field). Widening the
+    conditions under which the loop-break is introduced, and also
+    logging the value of the type field.
+    
+    Bug: 302212871
+    Test: Manual test in the field
+    Change-Id: Id943c959cc925749b26230c429f23e3f68ef0b56
+    
+  - [automerger skipped] Allow for server-side configuration of libstagefright am: 74ced30a63 -s ours am: 6d6c375441 -s ours am: d9c3aec4f2 -s ours
+    
+    am skip reason: Merged-In I72670ee42c268dd5747c2411d25959d366dd972c with SHA-1 6d3e772828 is already in history
+    
+    Original change: https://android-review.googlesource.com/c/platform/system/sepolicy/+/2762385
+    
+    Change-Id: Iacb6a5a7d103fd7125a5bdf48e2438fd3aece40e
+    Signed-off-by: Automerger Merge Worker <android-build-automerger-merge-worker@system.gserviceaccount.com>
+    
+  - Merge "[ui] Add screenshot track" into main
+  - Merge "Remove unused btm_read_remote_features_complete" into main
+  - Merge "Don't memset() in the soinfo constructor." into main
+  - Merge "Import AndroidX from build 10877805" into main
+  - Merge changes from topic "am-fbacc3b9f9fb43448e622fc1354fc2cc" into main
+    
+    * changes:
+      Merge "RESTRICT AUTOMERGE Add scroll to show cancel button on smaller displays" into android13-tests-dev am: 6119b73ed4
+      RESTRICT AUTOMERGE Add scroll to show cancel button on smaller displays am: f29f49a533
+    
+  - Merge changes from topic "am-55ebae9f44ee4a74bd7deb82ff6a3e8c" into main
+    
+    * changes:
+      [automerger skipped] Merge "Merge "Merge "Ensure revocation time is in the past when testing OCSP." into android12-tests-dev am: a542e6a991" into android12L-tests-dev am: a83fa5f157" into android13-tests-dev am: 141677d8c2 -s ours
+      [automerger skipped] Merge "Merge "Ensure revocation time is in the past when testing OCSP." into android12-tests-dev am: a542e6a991" into android12L-tests-dev am: a83fa5f157 am: 83e7d554b9 -s ours
+    
+  - Merge "[uwb] Add countdown latch for oem extension callback" into main
+  - Ensure verity is enabled in incremental flashing
+    
+    Also fallback to full flashing when possible
+    
+    Test: presubmit
+    Bug: 290951369
+    Change-Id: I4b9bf4a129eee063a31a00a7738d9f23459562e2
+    
+  - IA2: Remove unused vars for gd code
+    
+    Bug: 302317771
+    Test: m .
+    
+    Change-Id: I65e7756ec7de1f5cccfb7f8c6957bcfbc8829128
+    
+  - Merge "Run java formatting on upload" into main
+  - Merge "Fix running device detection in CleanPriorFiles" into main
+  - Merge "Raise minSdkVersion to fix lint error" into main
+  - Merge "[bssl] Add HKDF wrapper to libbssl" into main
+  - Add Vrsub instructions.
+    
+    Bug: 300690740
+    
+    Test: m berberis_all
+    Change-Id: Ic7393a552adf76388be3b47e26f66e794127088c
+    
+  - Upgrade googletest to most recent upstream version.
+    
+    Changes needed to complete the upgrade:
+    
+    - Bump GMock C++ version to C++14.
+    - Set gmock_tests to C++14 to work around an issue with
+      ExpectCallTest.NonMoveableType, which fails to compile
+      with the current AOSP compiler.
+    - Disable -Wthread-safety-negative for the Notification type
+      (breaks code that enables -Werror).
+    - Disable -Wfloat-equal in AppropriateResolution (ditto).
+    - Disable -Wuser-defined-warnings for the pointer printer
+      to avoid errors in mock methods from the std namespace
+      manipulation in android-base/logging.h.
+    - Temporarily add an inclusion of <iomanip> to
+      gtest/internal/custom/gtest-port.h. This header was previously
+      included by gtest/internal/gtest-internal.h and many tests
+      do not include it explicitly.
+    - Remove the newline added in AddTestPartResult so that the
+      golden output tests in gtest_isolated_tests do not break.
+    
+    Bug: 271622675
+    Test: presubmit
+    Change-Id: Ic34a9add234dbbc5fc5162d0408c78844f2ae1e6
+    
+  - IA2: Change bta::dm::gatt_history_callback from a copy to a reference
+    
+    Bug: 298524037
+    Test: atest bt_host_test_bta
+    
+    Change-Id: I3c75513cacc639661cec1f3a82eb8870dda01151
+    
+  - Implement METADATA protobuf changes for go/tp-metadata-id
+    
+    Test: TreeHugger
+    Change-Id: Ib23685b35c961595e112c74c6f07cdf4e60e5342
+    
+  - Merge "Revert^3 "Make the target_files zip reflect the recent partition change"" into main
+  - Merge "Floss: set |a2dp_uipc| to nullptr after clean" into main
+  - Merge "avoid NullPointerException" into main
+  - Merge changes Iaf39e9e8,If725a3b0,Ia3eeeae6,I88eada64,I41ed2ada, ... into main
+    
+    * changes:
+      Rename PacketRetransmittingState to MessageExchangeState
+      s/Millis/Ms/ for brevity
+      Start transaction timer when the first message is sent
+      Move transaction-related fields to PacketRetransmittingState
+      Move packet validation to PacketRetransmittingState
+      Pass transId and elapsedTimeMs through build message functions
+      Pass transaction id and elapsed time to sendPacket
+      Every message exchange should start a new transaction
+      Only enforce t1 <= t2 and t2 <= preferred if t2 is not zero
+    
+  - Merge "Revert "Revert "[uwb] Add flagging support to uwb""" into main
+  - Merge "Add VDM team as owner of the companion Android.bp file" into main
+  - Merge "Add wifi connection info and increase tx timeout" into main
+  - ndk: add strerrorname_np to vic and current ABI
+    
+    Bug: 156513478
+    Change-Id: Iebace8061838632d21b66ccf51e38fafbd708b21
+    Signed-off-by: Aleksei Vetrov <vvvvvv@google.com>
+    
+  - Remove duplicate entries in expectation file.
+    
+    Entries are already in the libcore_gcstress_failures.txt.
+    
+    Test: run-libcore-tests
+    Change-Id: I0d024fdf7a1d91477be68c4eb883d95981d255dc
+    
+  - Update clang-tools to ab/10774124
+    
+    Needed to bring bindgen up to 0.65.1 for Rust-in-Linux
+    
+    Bug: 302590988
+    Test: TH
+    Change-Id: I9daedf3e2c4c6dbf951d7db5a18fe20a7fb3e147
+    
+  - Upgrade toybox to b3fd188e6e6ccc2af77412cd261feeedaab249a1
+    
+    This project was upgraded with external_updater.
+    Usage: tools/external_updater/updater.sh update toybox
+    For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
+    
+    Test: TreeHugger
+    Change-Id: I2e1d8421731db15c53d890b24960c3d50dab92bb
+    
+  - Adding Max Metrics Memory Check to Avoid Warning
+    
+    Currently, when max_metrics_memory_kb is not set, our code sets the
+    value to 0. This leads to a warning being printed. We want to avoid this
+    warning when the field is not set.
+    
+    Bug:292249544
+    Test: m -j
+    Test: statsd_test
+    Change-Id: I36e431ba6ec6eba6bfeb8a7fd91fb8505926105c
+    
+  - Merge "libaudiohal@aidl: Fix position and latency reporting" into main
+  - Merge "Bumping package version number for release: 34.0.5" into main
+  - Autoupdate of 4 submodules
+    
+    *cts updated to 12639ec0ee6afc506c6844c715e048e34cd0856d
+    Merge "Nfc: Check for hardware support in tearDown()" into main
+    *frameworks/base updated to b63e63a28055906e1b5c2295f967194e6524dac4
+    Merge "Nfc: Add CtsNfcTestCases as presubmit to the test mappings" into main
+    *packages/apps/Nfc updated to d7b41796c1015dfecacd7f48cfd108b8197055cc
+    Merge "Add CtsNfcTestCases as presubmit to the test mappings" into main
+    *system/nfc updated to 4f536f7c340039537f17914314b776d59ad57c66
+    Add CtsNfcTestCases as presubmit to the test mappings
+    
+    Bug: 302547310
+    Test: NA
+    Change-Id: I5929d6192f840d2e624124c2239483102b4a5467
+    
+    
+  - Upgrade bc to 6.6.1
+    
+    This project was upgraded with external_updater.
+    Usage: tools/external_updater/updater.sh update bc
+    For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
+    
+    Test: TreeHugger
+    Change-Id: I707fc138c7218abbe3a45a742622b4549302b493
+    
+  - Allow pass in multiple JVM args by env variable for sandbox subprocess
+    
+    Test: presubmit
+    
+    Bug: 300287652
+    Change-Id: I2778b2fa1027dd9f7ec4a054ade20a06c5036682
+    
+  - Update the unwinding code for C++20.
+    
+    I've just turned off the "please stop using volatile" warnings for now,
+    since someone should probably pay closer attention to what's actually
+    needed there.
+    
+    Test: treehugger
+    Change-Id: I8b5877196c4749b9a91a7cb5ecc5151af5ab72da
+    
+  - Merge "Merge "Revert "Exclude CtsSecurityTestCases tests from cts-on-gsi"" into android13-tests-dev am: 89e943379c" into main
+  - Merge "[Test][bssl] Test HMAC-SHA256 with test cases in RFC 4231" into main
+  - Merge "Use `cvdr` for remote instance management." into main
+  - Autoupdate of 4 submodules
+    
+    *build/soong updated to fc5ff341e85a8db63b2aa4f7f38541d549fc2a9a
+    Merge "Skip @bazel_tools// labels from ninja" into main
+    *prebuilts/bazel/common updated to 4f2c4c05a85c6ffe6943f9f1797ccf03db19ca78
+    Updates bazel to af426041
+    
+    Test: release_bazel.py
+    Test: m nothing
+    Change-Id: I3903e95f01c7ffb5d7c1379f2ce9858583619950
+    
+    *prebuilts/bazel/darwin-x86_64 updated …
+master
+1 parent 
+202b4dc
+ commit 
+660af17
+
+File tree
+Filter files…
+
+platform
+superproject
+
+1 file changed
++1
+-1
+lines changed
+Search within code
+ 
+‎platform/superproject
+
+Submodule superproject updated from 0328436 to 053a87e
+0 commit comments
+Comments
+0
+ (0)
+Comment
+Subscribe
+You're not receiving notifications from this thread.
